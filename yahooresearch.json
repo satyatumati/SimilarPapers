@@ -1,0 +1,4375 @@
+{
+	"Human-Computer Interaction": [{
+		"date": "Mar 1, 2016",
+		"authors": ["Dan Pelleg", "Oleg Rokhlenko", "Idan Szpektor", "Eugene Agichten", "Ido Guy"],
+		"venue": "The 19th ACM conference on Computer-Supported Cooperative Work and Social Computing (CSCW 2016)",
+		"name": "When the Crowd is Not Enough: Improving User Experience with Social Media through Automatic Quality Analysis",
+		"area": "Human-Computer Interaction"
+	}, {
+		"date": "Mar 17, 2015",
+		"authors": ["Iris Miliaraki", "Roi Blanco", "Mounia Lalmas"],
+		"venue": "24th International World Wide Web Conference (WWW 2015), Florence, Italy",
+		"name": "From Selena Gomez to Marlon Brando: Understanding Explorative Entity Search",
+		"area": "Human-Computer Interaction"
+	}],
+	"Machine Learning and Data Science": [{
+		"date": "Dec 12, 2015",
+		"authors": ["Wei Sun", "Zhaoran Wang", "Han Liu", "Guang Cheng"],
+		"venue": "Annual Conference on Neural Information Processing Systems (NIPS 2015)",
+		"name": "Non-convex Statistical Optimization for Sparse Tensor Graphical Model",
+		"area": "Machine Learning and Data Science"
+	}, {
+		"date": "Dec 7, 2015",
+		"authors": ["Masrour Zoghi", "Zohar Karnin", "Shimon Whiteson", "Maarten De Rijke"],
+		"venue": "Neural Information Processing Systems (NIPS 2015)",
+		"name": "Copeland Dueling Bandits",
+		"area": "Machine Learning and Data Science"
+	}, {
+		"date": "Dec 7, 2015",
+		"authors": ["Branislav Kveton", "Zheng Wen", "Azin Ashkan", "Csaba Szepesvri"],
+		"venue": "Annual Conference on Neural Information Processing Systems (NIPS 2015)",
+		"name": "Combinatorial Cascading Bandits",
+		"area": "Machine Learning and Data Science"
+	}, {
+		"date": "Nov 14, 2015",
+		"authors": ["Nikolay Laptev", "Rob Hyndman", "Earo Wang"],
+		"venue": "International Conference on Data Mining series (ICDM 2015)",
+		"name": "Large-Scale Unusual Time Series Detection",
+		"area": "Machine Learning and Data Science"
+	}, {
+		"date": "Aug 11, 2015",
+		"authors": ["Stergios Stergiou", "Kostas Tsioutsiouliklis"],
+		"venue": "ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD 2015)",
+		"name": "Set Cover at Web Scale",
+		"area": "Machine Learning and Data Science"
+	}, {
+		"date": "Aug 10, 2015",
+		"authors": ["Robin Devooght"],
+		"venue": "21st ACM SIGKDD Conference 2015 (KDD 2015)",
+		"name": "Dynamic Matrix Factorization with Priors on Unknown Values",
+		"area": "Machine Learning and Data Science"
+	}, {
+		"date": "Aug 10, 2015",
+		"authors": ["Robin Devooght"],
+		"venue": "21st ACM SIGKDD Conference 2015 (KDD 2015)",
+		"name": "Dynamic Matrix Factorization with Priors on Unknown Values",
+		"area": "Machine Learning and Data Science"
+	}, {
+		"date": "Jul 6, 2015",
+		"authors": ["Zheng Wen", "Branislav Kveton", "Azin Ashkan"],
+		"venue": "International Conference on Machine Learning (ICML 2015)",
+		"name": "Efficient Learning in Large-Scale Combinatorial Semi-Bandits",
+		"area": "Machine Learning and Data Science"
+	}, {
+		"date": "May 18, 2015",
+		"authors": ["Iftah Gamzu", "Yael Anava", "Noa Avigdor Elgrabli"],
+		"venue": "24th International World Wide Web Conference (WWW 2015)",
+		"name": "Improved Theoretical and Practical Guarantees for Chromatic Correlation Clustering",
+		"area": "Machine Learning and Data Science"
+	}, {
+		"date": "May 18, 2015",
+		"authors": ["Iftah Gamzu", "Zohar Karnin", "Yoelle Maarek", "David Wajc"],
+		"venue": "5th Temporal Web Analytics Workshop (TempWeb 2015)",
+		"name": "You Will Get Mail! Predicting the Arrival of Future Email",
+		"area": "Machine Learning and Data Science"
+	}, {
+		"date": "Feb 18, 2015",
+		"authors": ["Ran Wolff"],
+		"venue": "Journal of Philosophy",
+		"name": "Emergent Privacy",
+		"area": "Machine Learning and Data Science"
+	}, {
+		"date": "Dec 13, 2014",
+		"authors": ["Francesco Orabona"],
+		"venue": "Workshop &quot;Modern Nonparametrics 3: Automating the Learning Pipeline&quot; at NIPS 2014",
+		"name": "Are You Still Tuning Hyperparameters? Parameter-free Model Selection and Learning",
+		"area": "Machine Learning and Data Science"
+	}, {
+		"date": "Dec 7, 2014",
+		"authors": ["Francesco Orabona"],
+		"venue": "Advances in Neural Information Processing Systems (NIPS 2015)",
+		"name": "Simultaneous Model Selection and Optimization through Parameter-free Stochastic Learning",
+		"area": "Machine Learning and Data Science"
+	}, {
+		"date": "Aug 18, 2014",
+		"authors": ["Diego Marron", "Gianmarco De Francisci Morales", "Albert Bifet"],
+		"venue": "ECAI 2014",
+		"name": "Random Forests of Very Fast Decision Trees on GPU for Mining Evolving Big Data Streams",
+		"area": "Machine Learning and Data Science"
+	}],
+	"Personalization and Contextual Search": [{
+		"date": "Aug 10, 2015",
+		"authors": ["Amit Goyal", "Hongbo Deng", "Yi Chang"],
+		"venue": "38th Annual ACM Special Interest Group on Information Retrieval (SIGIR) Conference (SIGIR 2015)",
+		"name": "adaQAC: Adaptive Query Auto-Completion via Implicit Negative Feedback",
+		"area": "Personalization and Contextual Search"
+	}],
+	"Security and Privacy": [{
+		"date": "Oct 12, 2015",
+		"authors": ["Payman Mohassel", "Mike Rosulek"],
+		"venue": "The ACM Conference on Computer and Communications Security (CCS) (ACM CCS 2015)",
+		"name": "Fast and Secure Three-party Computation: The Garbled Circuit Approach",
+		"area": "Security and Privacy"
+	}, {
+		"date": "Aug 16, 2015",
+		"authors": ["Payman Mohassel", "Mike Rosulek", "Zhangxiang Hu"],
+		"venue": "Advances in Cryptology--CRYPTO 2015",
+		"name": "Efficient Zero-Knowledge Proofs of Non-Algebraic Statements with Sublinear Amortized Cost",
+		"area": "Security and Privacy"
+	}, {
+		"date": "Jul 21, 2015",
+		"authors": ["Juan A. Garay", "Jonathan Katz", "Bjoern Tackmann", "Vassilis Zikas"],
+		"venue": "34th Annual ACM Symposium on Principles of Distributed Computing -- PODC 2015",
+		"name": "How Fair is Your Protocol? A Utility-based Approach to Protocol Optimality",
+		"area": "Security and Privacy"
+	}, {
+		"date": "May 1, 2015",
+		"authors": ["Payman Mohassel", "Arash Afshar", "Zhangxiang Hu", "Mike Rosulek"],
+		"venue": "Advances in Cryptology--EUROCRYPT (EUROCRYPT 2015)",
+		"name": "How to Efficiently Evaluate RAM Programs with Malicious Security",
+		"area": "Security and Privacy"
+	}, {
+		"date": "Apr 26, 2015",
+		"authors": ["Juan A. Garay", "Aggelos Kiayias", "Nikos Leonardos"],
+		"venue": "Eurocrypt 2015",
+		"name": "The Bitcoin Backbone Protocol: Analysis and Applications",
+		"area": "Security and Privacy"
+	}, {
+		"date": "Mar 23, 2015",
+		"authors": ["Juan A. Garay", "Ran Gelles", "Aggelos Kiayias", "David Johnson", "Moti Yung"],
+		"venue": "The Twelfth Theory of Cryptography Conference -- TCC 2015",
+		"name": "A Little Honesty Goes a Long Way: The Two-Tier Model for Secure Multiparty Computation",
+		"area": "Security and Privacy"
+	}, {
+		"date": "Mar 1, 2015",
+		"authors": ["Payman Mohassel", "Vladimir Kolesnikov", "Ben Riva", "Mike Rosulek"],
+		"venue": "Theory of Cryptography Conference (TCC) (TCC 2015)",
+		"name": "Richer Efficiency/Security Trade-offs in 2PC.",
+		"area": "Security and Privacy"
+	}, {
+		"date": "Dec 1, 2014",
+		"authors": ["Payman Mohassel", "Saeed Sadeghian", "Nigel Smart"],
+		"venue": "Advances in Cryptology--ASIACRYPT 2014",
+		"name": "Actively Secure Private Function Evaluation",
+		"area": "Security and Privacy"
+	}, {
+		"date": "Aug 1, 2014",
+		"authors": ["Vladimir Kolesnikov", "Payman Mohassel", "Mike Rosulek"],
+		"venue": "Advances in Cryptology--CRYPTO 2014",
+		"name": "FleXOR: Flexible garbling for XOR gates that beats free-XOR",
+		"area": "Security and Privacy"
+	}, {
+		"date": "Jul 15, 2014",
+		"authors": ["Juan A. Garay", "Clint Givens", "Rafail Ostrovsky", "Pavel Raykov"],
+		"venue": "The 33th Annual ACM Symposium on Principles of Distributed Computing -- PODC 2014",
+		"name": "Fast and Unconditionally Secure Anonymous Channel",
+		"area": "Security and Privacy"
+	}, {
+		"date": "May 11, 2014",
+		"authors": ["Juan A. Garay", "Yuval Ishai", "Ranjit Kumaresan", "Hoeteck Wee"],
+		"venue": "The 33rd Annual International Conference on the Theory and Applications of Cryptographic Techniques (Eurocrypt 2014)",
+		"name": "On the Complexity of Universally Composable Commitments",
+		"area": "Security and Privacy"
+	}, {
+		"date": "May 1, 2014",
+		"authors": ["Arash Afshar", "Benny Pinkas", "Payman Mohassel", "Ben Riva"],
+		"venue": "Advances in Cryptology--EUROCRYPT (EUROCRYPT 2014)",
+		"name": "Non-Interactive Secure Computation Based on Cut-and-Choose",
+		"area": "Security and Privacy"
+	}, {
+		"date": "Mar 1, 2014",
+		"authors": ["Seny Kamara", "Payman Mohassel", "Mariana Raykova", "Saeed Sadeghian"],
+		"venue": "Financial Cryptography and Data Security 2014",
+		"name": "Scaling Private Set Intersection to Billion-Element Sets",
+		"area": "Security and Privacy"
+	}, {
+		"date": "Oct 27, 2013",
+		"authors": ["Juan Garay", "Jonathan Katz", "Ueli Maurer", "Bjoern Tackmann", "Vassilis Zikas"],
+		"venue": "The 54th Annual IEEE Symposium on the Foundations of Computer Science -- FOCS 2013",
+		"name": "Rational Protocol Design: Cryptography Against Incentive-driven Adversaries",
+		"area": "Security and Privacy"
+	}],
+	"Miscellaneous": [{
+		"date": "Aug 24, 2015",
+		"authors": ["Ali Sahami", "Florian Alt", "Stefan Schneegass", "Mariam Hassib", "Andreas Bulling"],
+		"venue": "MobileHCI 2015",
+		"name": "Graphical Passwords in the Wild Understanding How Users Choose Pictures and Passwords in Image-based Authentication Schemes",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Aug 9, 2015",
+		"authors": ["Hongbo Deng", "Yi Chang", "Ricardo Baeza-yates", "Liangda Li", "Anlei Dong", "Hongyuan Zha"],
+		"venue": "SIGIR 2015",
+		"name": "Analyzing User's Sequential Behavior in Query Auto-Completion via Markov Processes",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jul 6, 2015",
+		"authors": ["Alina Beygelzimer", "Satyen Kale", "Haipeng Luo"],
+		"venue": "ICML-2015",
+		"name": "Optimal and Adaptive Algorithms for Online Boosting",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jun 18, 2015",
+		"authors": ["Justin Thaler", "Amit Chakrabarti", "Grahamcormode", "Graham Cormode", "Suresh Venkatasubramanian"],
+		"venue": "Computational Complexity Conference",
+		"name": "Verifiable Stream Computation and Arthur-Merlin Communication",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jun 15, 2015",
+		"authors": ["Kim Hazelwood", "Svilen Kanev", "Juan Pablo Darago", "Parthasarathy Ranganathan", "Tipp Moseley", "Gu Yeon Wei", "David Brooks"],
+		"venue": "International Symposium on Computer Architecture",
+		"name": "Profiling a Warehouse-Scale Computer",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jun 8, 2015",
+		"authors": ["Yale Song", "Alejandro Jaimes", "Wen Sheng Chu"],
+		"venue": "CVPR 2015, IEEE International Conference on Computer Vision and Pattern Recognition",
+		"name": "Video Co-summarization: Video Summarization by Visual Co-occurrence",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jun 8, 2015",
+		"authors": ["Yale Song", "Jordi Vallmitjana", "Amanda Stent", "Alejandro Jaimes"],
+		"venue": "CVPR 2015, IEEE International Conference on Computer Vision and Pattern Recognition",
+		"name": "TVSum: Summarizing Web Videos Using Titles",
+		"area": "Miscellaneous"
+	}, {
+		"date": "May 26, 2015",
+		"authors": ["Miriam Redi", "Daniele Quercia", "Lindsay Graham", "Samuel Gosling"],
+		"venue": "THE 9TH INTERNATIONAL AAAI CONFERENCE ON WEB AND SOCIAL MEDIA (ICWSM-15)",
+		"name": "Like Partying? Your Face Says It All. Predicting the Ambiance of Places with Profile Pictures",
+		"area": "Miscellaneous"
+	}, {
+		"date": "May 25, 2015",
+		"authors": ["Saeideh Bakhshi", "David Ayman Shamma", "Lyndon Kennedy", "Eric Gilbert"],
+		"venue": "THE 9TH INTERNATIONAL AAAI CONFERENCE ON WEB AND SOCIAL MEDIA",
+		"name": "Why We Filter Our Photos and How It Impacts Engagement",
+		"area": "Miscellaneous"
+	}, {
+		"date": "May 25, 2015",
+		"authors": ["Nikolay Laptev", "Rob J Hyndman", "Earo Wang"],
+		"venue": "IASC 2015",
+		"name": "Detection of Anomalies in Large Collections of Time Series",
+		"area": "Miscellaneous"
+	}, {
+		"date": "May 25, 2015",
+		"authors": ["Miriam Redi", "Luca Maria Aiello", "Rossano Schifanella"],
+		"venue": "THE 9TH INTERNATIONAL AAAI CONFERENCE ON WEB AND SOCIAL MEDIA (ICWSM-15)",
+		"name": "An Image is Worth More than a Thousand Favorites: Surfacing the Hidden Beauty of Flickr Pictures",
+		"area": "Miscellaneous"
+	}, {
+		"date": "May 20, 2015",
+		"authors": ["Oren Somekh", "Nadav Golbandi", "Zohar Karnin", "Oleg Rokhlenko", "Shahar Golan", "Ronny Lempel", "Oren Anava"],
+		"venue": "WWW 2015",
+		"name": "Budget-Constrained Item Cold-Start Handling in Collaborative Filtering Recommenders via Optimal Design",
+		"area": "Miscellaneous"
+	}, {
+		"date": "May 18, 2015",
+		"authors": ["Ricardo Baeza-yates", "Paolo Boldi", "Flavio Chierichetti"],
+		"venue": "24th International World Wide Web Conference (WWW 2015)",
+		"name": "Essential Web Pages Are Easy to Find",
+		"area": "Miscellaneous"
+	}, {
+		"date": "May 18, 2015",
+		"authors": ["Nemanja Djuric", "Vladan Radosavljevic", "Mihajlo Grbovic", "Narayan Bhamidipati", "Hao Wu"],
+		"venue": "International World Wide Web Conference (WWW)",
+		"name": "Hierarchical Neural Language Models for Joint Representation of Streaming Documents and their Content",
+		"area": "Miscellaneous"
+	}, {
+		"date": "May 18, 2015",
+		"authors": ["Nemanja Djuric", "Mihajlo Grbovic", "Vladan Radosavljevic", "Narayan Bhamidipati", "Jing Zhou", "Robin Morris"],
+		"venue": "International World Wide Web Conference (WWW)",
+		"name": "Hate Speech Detection with Comment Embeddings",
+		"area": "Miscellaneous"
+	}, {
+		"date": "May 18, 2015",
+		"authors": ["Mihajlo Grbovic", "Nemanja Djuric", "Vladan Radosavljevic", "Narayan Bhamidipati", "Jordan Hawker", "Caleb Johnson"],
+		"venue": "International World Wide Web Conference (WWW) 2015",
+		"name": "queryCategorizr: A Large-Scale Semi-Supervised System for Categorization of Web Search Queries",
+		"area": "Miscellaneous"
+	}, {
+		"date": "May 18, 2015",
+		"authors": ["Nemanja Djuric", "Mihajlo Grbovic", "Vladan Radosavljevic", "Narayan Bhamidipati", "Jing Zhou", "Robin Morris"],
+		"venue": "International World Wide Web Conference (WWW)",
+		"name": "Hate Speech Detection with Comment Embeddings",
+		"area": "Miscellaneous"
+	}, {
+		"date": "May 18, 2015",
+		"authors": ["Luca Maria Aiello", "Mihajlo Grbovic", "Amin Mantrach", "Farshad Kooti", "Kristina Lerman"],
+		"venue": "International World Wide Web Conference",
+		"name": "Evolution of Conversations in the Age of Email Overload",
+		"area": "Miscellaneous"
+	}, {
+		"date": "May 18, 2015",
+		"authors": ["Stratis Ioannidis", "Kartik Nayak", "Xiao Shaun Wang", "Udi Weinsberg", "Nina Taft", "Elaine Runting Shi"],
+		"venue": "IEEE Security and Privacy",
+		"name": "GraphSC: Parallel Secure Computation Made Easy",
+		"area": "Miscellaneous"
+	}, {
+		"date": "May 9, 2015",
+		"authors": ["Makoto Yamada", "Dawei Yin", "Yi Chang", "Suriya Gunasekar"],
+		"venue": "The 18th International Conference on Artificial Intelligence and Statistics (AISTATS 2015)",
+		"name": "Consistent Collective Matrix Completion Under Joint Low Rank Structure",
+		"area": "Miscellaneous"
+	}, {
+		"date": "May 5, 2015",
+		"authors": ["Dan Pelleg", "Elad Yom Tov", "Egabrilovich"],
+		"venue": "arXiv.org",
+		"name": "On the Effect of Human-Computer Interfaces on Language Expression",
+		"area": "Miscellaneous"
+	}, {
+		"date": "May 4, 2015",
+		"authors": ["Miriam Redi", "Alejandro Jaimes", "Gaurav Aggarwal", "Gaurav Aggarwa"],
+		"venue": "IEEE International Conference on Face and Gesture Recognition, FG 2015",
+		"name": "The Beauty of Capturing Faces: Rating the Quality of Digital Portraits",
+		"area": "Miscellaneous"
+	}, {
+		"date": "May 4, 2015",
+		"authors": ["Yale Song", "Daniel Mcduff", "Deepak Vasisht", "Ashish Kapoor"],
+		"venue": "IEEE International Conference on Automatic Face and Gesture Recognition, FG 2015",
+		"name": "Exploiting Sparsity and Co-occurrence Structure for Action Unit Recognition",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Apr 22, 2015",
+		"authors": ["Edward Bortnikov", "Eshcar Hillel", "Guy Gueta", "Idit Keidar"],
+		"venue": "EuroSys 2015",
+		"name": "Scaling Concurrent Log-Structured Data Stores",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Apr 18, 2015",
+		"authors": ["Neil O'hare", "Alejandro Jaimes", "Jaimie Y Park", "Rossano Schifanella", "Chin Wan Chung"],
+		"venue": "CHI 2015",
+		"name": "A Large-Scale Study of User Image Search Behavior on the Web",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Apr 18, 2015",
+		"authors": ["Karen Church", "Juan Pablo Carrascal"],
+		"venue": "CHI 2015",
+		"name": "An In-Situ Study of Mobile App & Mobile Search Interactions",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Apr 15, 2015",
+		"authors": ["Sachin Sudhakar Farfade", "Mohammad (ehsan) Saberian", "Li Jia Li"],
+		"venue": "International Conference on Multimedia Retrieval (ICMR)",
+		"name": "Multi-view Face Detection Using Deep Convolutional Neural Networks",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Apr 7, 2015",
+		"authors": ["Eyal Zohar", "Yuval Cassuto"],
+		"venue": "DCC 2015",
+		"name": "Data Compression Cost Optimization",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Mar 24, 2015",
+		"authors": ["Joel Tetreault", "Mohammad Sadegh Rasooli"],
+		"venue": "",
+		"name": "Yara Parser: A Fast and Accurate Dependency Parser",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Mar 18, 2015",
+		"authors": ["Saeideh Bakhshi", "Partha Kanuparthy", "David Ayman Shamma"],
+		"venue": "CSCW'15",
+		"name": "Understanding Online Reviews: Funny, Cool or Useful?",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Mar 17, 2015",
+		"authors": ["Mounia Lalmas", "Georges Dupret"],
+		"venue": "Sixth ACM International Conference on Web Search and Data Mining (WSDM), Rome, Italy",
+		"name": "Absence time and user engagement: Evaluating Ranking Functions",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Mar 14, 2015",
+		"authors": ["Jofish Kaye", "Irina Shklovski", "Louise Barkhuus", "Nis Boernoe"],
+		"venue": "Proceedings of the 18th ACM Conference on Computer Supported Cooperative Work & Social Computing (Proc. CSCW '15)",
+		"name": "Friendship Maintenance in the Digital Age: Applying a Relational Lens to Online Social Interaction",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Feb 7, 2015",
+		"authors": ["Guy Gueta", "G Ramalingam", "Mooly Sagiv", "Eran Yahav"],
+		"venue": "20th ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming",
+		"name": "Automatic Scalable Atomicity via Semantic Locking",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Feb 6, 2015",
+		"authors": ["Saeideh Bakhshi", "Eric Gilbert"],
+		"venue": "PLOS ONE",
+		"name": "Red, Purple and Pink: The Colors of Diffusion on Pinterest",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Feb 3, 2015",
+		"authors": ["Pengyuan Wang", "Dawei Yin", "Jimmy Yang", "Yi Chang", "Wei Sun"],
+		"venue": "WSDM 2015",
+		"name": "Robust Tree-based Causal Inference for Complex Ad Effectiveness Analysis",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Feb 2, 2015",
+		"authors": ["Ricardo Baeza-yates", "Fabrizio Silvestri", "Di Jiang", "Beverly Harrison"],
+		"venue": "The Eighth ACM International Web Search and Data Mining Conference - WSDM 2015",
+		"name": "Predicting The Next App That You Are Going To Use",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Feb 2, 2015",
+		"authors": ["Francesco Bonchi", "Francesco Gullo", "Oana Balalau", "T H Hubert Chan", "Mauro Sozio"],
+		"venue": "Proceedings of the International Conference on Web Search and Data Mining (WSDM 15)",
+		"name": "Finding Subgraphs with Maximum Total Density and Limited Overlap",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 31, 2015",
+		"authors": ["Roi Blanco", "Edgar Meij", "Giuseppe Ottaviano"],
+		"venue": "WSDM 2015: Proceedings of the eighth ACM international conference on Web search and data mining",
+		"name": "Fast and Space-Efficient Entity Linking in Queries",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 25, 2015",
+		"authors": ["Pengyuan Wang", "Dawei Yin", "Jimmy Yang", "Yi Chang", "Wei Sun"],
+		"venue": "AAAI 2015",
+		"name": "Causal Inference via Sparse Additive Models with Application to Online Advertising",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 25, 2015",
+		"authors": ["Jianhui Chen", "Linli Xu", "Aiqing Huang", "Enhong Chen"],
+		"venue": "The Twenty-Ninth AAAI Conference on Artificial Intelligence (AAAI-15)",
+		"name": "Exploiting Task-Feature Co-Clusters in Multi-Task Learning",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 25, 2015",
+		"authors": ["Saeed Amizadeh", "Nikolay Laptev", "George D Montanez"],
+		"venue": "AAAI 2015",
+		"name": "Inertial Hidden Markov Models: Modeling Change in Multivariate Time Series",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 15, 2015",
+		"authors": ["Cheng Xu", "Kent Lyons"],
+		"venue": "TEI '15",
+		"name": "Shimmering Smartwatches: Exploring the Smartwatch Design Space",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2015",
+		"authors": ["Roi Blanco", "Gianmarco De Francisci Morales", "Fabrizio Silvestri"],
+		"venue": "Information Processing & Management",
+		"name": "INTONEWS: Online news retrieval using closed captions",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Dec 22, 2014",
+		"authors": ["Makoto Yamada", "Yi Chang", "Leonid Sigal", "Michalis Raptis", "Machiko Toyoda", "Masashi Sugiyama"],
+		"venue": "IEEE TRANSACTIONS ON PATTERN ANALYSIS AND MACHINE INTELLIGENCE",
+		"name": "Cross-Domain Matching with Squared-Loss Mutual Information",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Dec 15, 2014",
+		"authors": ["Yi Chang", "Makoto Yamada", "Antonio Ortega", "Yan Liu"],
+		"venue": "ICDM 2014",
+		"name": "Ups and Downs in Buzzes: Life Cycle Modeling for Temporal Pattern Discovery",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Dec 15, 2014",
+		"authors": ["Yasir Mehmood", "Nicola Barbieri", "Francesco Bonchi"],
+		"venue": "IEEE International Conference on Data Mining",
+		"name": "Modeling Adoptions and the Stages of the Diffusion of Innovations",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Dec 14, 2014",
+		"authors": ["Ruggiero Cavallo", "Chris Wilkens"],
+		"venue": "10th Conference on Web and Internet Economics, WINE 2014",
+		"name": "GSP with General Independent Click-Through-Rates",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Dec 14, 2014",
+		"authors": ["Nemanja Djuric", "Vladan Radosavljevic", "Mihajlo Grbovic", "Narayan Bhamidipati"],
+		"venue": "IEEE International Conference on Data Mining (ICDM)",
+		"name": "Hidden Conditional Random Fields with Distributed User Embeddings for Ad Targeting",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Dec 11, 2014",
+		"authors": ["Dean Foster", "Yichao Lu"],
+		"venue": "NIPS",
+		"name": "Large Scale Canonical Correlation Analysis with Iterative Least Squares",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Dec 8, 2014",
+		"authors": ["Alina Beygelzimer", "Alekh Agarwal", "Daniel Hsu", "John Langford", "Matus Telgarsky"],
+		"venue": "Neural Information Processing Systems (NIPS)",
+		"name": "Scalable Nonlinear Learning with Adaptive Polynomial Expansions",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Nov 19, 2014",
+		"authors": ["Mounia Lalmas"],
+		"venue": "",
+		"name": "How Big Data is Changing User Engagement",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Nov 13, 2014",
+		"authors": ["Eyal Zohar", "Yuval Cassuto"],
+		"venue": "LISA 2014",
+		"name": "Automatic and Dynamic Configuration of Data Compression for Web Servers",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Nov 13, 2014",
+		"authors": ["Mounia Lalmas"],
+		"venue": "",
+		"name": "Measuring User Engagement: The Do, The Do Not Do, and The We Do Not Know",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Nov 12, 2014",
+		"authors": ["Saeideh Bakhshi", "Partha Kanuparthy", "David Ayman Shamma"],
+		"venue": "ACM GROUP 2014",
+		"name": "If It Is Funny, It Is Mean Understanding Social Perceptions of Yelp Online Reviews",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Nov 11, 2014",
+		"authors": ["Nicolas Kourtellis", "Xiangzuo", "Jeremy Blackburn", "John Skvoretz", "Adriana Iamnitchi"],
+		"venue": "6th International Conference on Social Informatics",
+		"name": "The Influence of Indirect Ties on Social Network Dynamics",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Nov 10, 2014",
+		"authors": ["Jian Zhao", "Nan Cao", "Zhen Wen", "Yale Song", "Yu Ru Lin", "Christopher Collins"],
+		"venue": "IEEE Transactions on Visualization and Computer Graphics (Proceedings of VAST 2014)",
+		"name": "#FluxFlow: Visual Analysis of Anomalous Information Spreading on Social Media",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Nov 10, 2014",
+		"authors": ["Ioannis Arapakis", "B. Barla Cambazoglu", "Mounia Lalmas"],
+		"venue": "In Proceedings of the 6th International Conference on Social Informatics (SocInfo)",
+		"name": "On the Feasibility of Predicting News Popularity at Cold Start",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Nov 9, 2014",
+		"authors": ["Saeideh Bakhshi", "Partha Kanuparthy", "David Ayman Shamma"],
+		"venue": "ACM Group",
+		"name": "If It Is Funny, It Is Mean: Understanding Social Perceptions of Yelp Online Reviews",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Nov 7, 2014",
+		"authors": ["Bart Thomee", "Jaeyoung Choi", "Gerald Friedland", "Liangliang Cao", "Karl Ni", "Damian Borth", "Benjamin Elizalde", "Luke Gottlieb", "Carmen Carrano", "Robert Pearce", "Douglas Poland"],
+		"venue": "ACM International Workshop on Geotagging and Its Applications in Multimedia",
+		"name": "The Placing Task: a large-scale geo-estimation challenge for social-media videos and images",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Nov 6, 2014",
+		"authors": ["Amin Mantrach"],
+		"venue": "",
+		"name": "The Geography of Online News Engagement",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Nov 3, 2014",
+		"authors": ["Bart Thomee", "David Ayman Shamma", "Jose G Moreno"],
+		"venue": "ACM International Conference on Multimedia",
+		"name": "Who's time is it anyway?: investigating the accuracy of camera timestamps",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Nov 3, 2014",
+		"authors": ["Durga Deepthi Singh", "Ravi Kant"],
+		"venue": "Shanghai, China",
+		"name": "On Building Decision Trees from Large-scale Data in Applications of On-line Advertising",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Nov 3, 2014",
+		"authors": ["Durga Deepthi Singh", "Ravi Kant"],
+		"venue": "Shanghai, China",
+		"name": "On Building Decision Trees from Large-scale Data in Applications of On-line Advertising",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Nov 3, 2014",
+		"authors": ["Mihajlo Grbovic", "Guy Halawi", "Zohar Karnin", "Yoelle Maarek"],
+		"venue": "CIKM 2014: 23rd ACM Conference on Information and Knowledge Management",
+		"name": "How Many Folders Do You Really Need? Classifying Email into a Handful of Categories",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Nov 3, 2014",
+		"authors": ["David Carmel", "Avihai Mejer", "Yuval Pinter", "Idan Szpektor"],
+		"venue": "CIKM 2014",
+		"name": "Improving Term Weighting for Community Question Answering Search Using Syntactic Analysis",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Nov 3, 2014",
+		"authors": ["Edgar Meij", "Shangsong Liang", "Zhaochun Ren", "Wouter Weerkamp", "Maarten De Rijke"],
+		"venue": "CIKM 2014: 23rd ACM Conference on Information and Knowledge Management",
+		"name": "Time-aware Rank Aggregation for Microblog Search",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Oct 30, 2014",
+		"authors": ["Li Xu", "Zhenxin Zhan", "Shouhuai Xu", "Keyin Ye"],
+		"venue": "IEEE Conference on Communications and Network Security",
+		"name": "An Evasion and Counter-evasion Study in Malicious Websites Detection",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Oct 30, 2014",
+		"authors": ["Edgar Meij"],
+		"venue": "",
+		"name": "Web-scale Semantic Search",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Oct 29, 2014",
+		"authors": ["Jia Li", "Jenhao Hsiao"],
+		"venue": "IEEE International Conference of Image Processing 2014",
+		"name": "On Visual Similarity Based Interactive Product Recommendation for Online Shopping",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Oct 29, 2014",
+		"authors": ["Xuetao Ding", "Tianchun Wang", "Xiaoming Jin", "Xiaojun Ye"],
+		"venue": "Proceedings of the 22nd ACM international conference on Conference on information & knowledge management",
+		"name": "User Interests Imbalance Exploration in Social Recommendation: A Fitness Adaptation",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Oct 27, 2014",
+		"authors": ["Gianmarco De Francisci Morales", "Anh Thu Vu", "Joao Gama", "Albert Bifet"],
+		"venue": "BigData 14: 2014 IEEE International Conference on Big Data, Washington, 2014",
+		"name": "Distributed Adaptive Model Rules for Mining Big Data Streams",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Oct 25, 2014",
+		"authors": ["Uma Sawant", "Mandar Joshi", "Soumen Chakrabarti"],
+		"venue": "EMNLP 2014",
+		"name": "Knowledge Graph and Corpus Driven Segmentation and Answer Inference for Telegraphic Entity-seeking Queries",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Oct 15, 2014",
+		"authors": ["Ronen Brafman"],
+		"venue": "Journal of Artificial Intelligence Research",
+		"name": "Distributed Heuristic Forward Search for Multi-agent Planning",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Oct 8, 2014",
+		"authors": ["Xing Yi", "Liangjie Hong", "Erheng Zhong", "Nathan Liu", "Suju Rajan"],
+		"venue": "ACM RecSys 2014",
+		"name": "Beyond Clicks: Dwell Time for Personalization",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Oct 6, 2014",
+		"authors": ["Kent Lyons", "Seung Wook Kim", "Shigeyuki Seko", "David H Nguyen", "Audrey Dejardins", "Melodie Vidal", "David Dobbelstein", "Jeremy Rubin"],
+		"venue": "UIST",
+		"name": "Loupe: A Handheld Near-Eye Display",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Oct 6, 2014",
+		"authors": ["Amin Mantrach", "Martin Saveski"],
+		"venue": "RecSys 2014",
+		"name": "Item Cold-Start Recommendations: Learning Local Collective Embeddings",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Oct 6, 2014",
+		"authors": ["Suleyman Cetintas", "Kuang-chih Lee", "Donghyuk Shin"],
+		"venue": "Proceedings of the 8th ACM Conference on Recommender systems",
+		"name": "Recommending Tumblr Blogs to Follow with Inductive Matrix Completion",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Oct 5, 2014",
+		"authors": ["Bart Thomee", "Michele Trevisiol", "Martha Larson", "Pascal Kelm", "Adam Rae", "Claudia Hauff", "Jaeyoung Choi", "Olivier Van Laere", "Steven Schockaert", "Gareth Jones", "Pavel Serdyukov", "Vanessa Murdock", "Gerald Friedland"],
+		"venue": "Multimodal Location Estimation of Videos and Images",
+		"name": "The benchmark as a research catalyst: charting the progress of geo-prediction for social multimedia",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Sep 23, 2014",
+		"authors": ["Haojian Jin", "Tetsuya Sakai", "Koji Yatani"],
+		"venue": "Proceedings of the 16th international conference on Human-computer interaction with mobile devices and services",
+		"name": "ReviewCollage: A Mobile Interface for Direct Comparison Using Online Reviews",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Sep 23, 2014",
+		"authors": ["Martin Pielot", "Karen Church", "Rodrigo De Oliveira"],
+		"venue": "Mobile HCI 2014",
+		"name": "An In-Situ Study of Mobile Phone Notifications",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Sep 16, 2014",
+		"authors": ["Nikhil Rasiwasia", "Roland Kwitt", "Sebastian Hegenbart", "Andreas V Ecsei", "Andreas Uhl"],
+		"venue": "Medical Image Computing and Computer Assisted Intervention, MICCAI 2014",
+		"name": "Do We Need Annotation Experts? A Case Study in Celiac Disease Classification",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Sep 15, 2014",
+		"authors": ["Daniele Quercia", "Chloe Brown", "Christos Efstratiou", "Ilias Leontiadis", "Cecilia Mascolo", "James Scott", "Peter Key"],
+		"venue": "ACM Ubicomp",
+		"name": "The Architecture of Innovation: Tracking Face-to-Face Interactions with UbiComp Technologies",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Sep 15, 2014",
+		"authors": ["Francesco Gullo", "Giovanni Ponti", "Andrea Tagarelli"],
+		"venue": "European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML/PKDD 14) (Nectar Track)",
+		"name": "Be Certain of How-to Before Mining Uncertain Data",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Sep 8, 2014",
+		"authors": ["Ioannis Arapakis", "Mounia Lalmas", "George Valkanas"],
+		"venue": "23rd International Conference on Information and Knowledge Management (CIKM), Shanghai, China, November 3-7, 2014.",
+		"name": "Understanding Within-Content Engagement through Pattern Analysis of Mouse Gestures",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Sep 1, 2014",
+		"authors": ["Bart Thomee", "Gianmarco De Francisci Morales"],
+		"venue": "ACM International Conference on Hypertext and Social Media",
+		"name": "Automatic discovery of global and local equivalence relationships in labeled geo-spatial data",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Sep 1, 2014",
+		"authors": ["Janette Lehmann", "Mounia Lalmas", "Claudia Muller Birn", "David Laniado", "Andreas Kaltenbrunner"],
+		"venue": "25th ACM Conference on Hypertext and Social Media, 1-4 September 2014, Santiago, Chile",
+		"name": "Readers Preference and Behavior on Wikipedia",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Sep 1, 2014",
+		"authors": ["Daniele Quercia", "Luca Maria Aiello", "Rossano Schifanella"],
+		"venue": "Hypertext",
+		"name": "The Shortest Path to Happiness: Recommending Beautiful, Quiet, and Happy Routes in the City",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Aug 25, 2014",
+		"authors": ["Wei Lu", "Stratis Ioannidis", "Smriti Bhagat", "Laks V.s. Lakshmanan"],
+		"venue": "Knowledge Discovery and Data Mining (KDD)",
+		"name": "Optimal Recommendations under Attraction, Aversion, and Social Influence",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Aug 25, 2014",
+		"authors": ["Christos Boutsidis", "Dimitris Papailiopoulos", "Anastasios Kyrillidis"],
+		"venue": "20th ACM SIGKDD Conference on Knowledge Discovery and Data Mining",
+		"name": "Provable Deterministic Leverage Score Sampling",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Aug 25, 2014",
+		"authors": ["Hongbo Deng", "Anlei Dong", "Yi Chang", "Liangda Li", "Hongyuan Zha"],
+		"venue": "The 20th ACM SIGKDD Conference on Knowledge Discovery and Data Mining",
+		"name": "Identifying and Labeling Search Tasks via Query-based Hawkes Processes",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Aug 24, 2014",
+		"authors": ["Jia Li", "Jonathan Krause", "Timit Gebru", "Deng Jia", "Feifei"],
+		"venue": "22nd International Conference on Pattern Recognition",
+		"name": "Learning Features and Parts for Fine-Grained Recognition",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Aug 24, 2014",
+		"authors": ["Vladan Radosavljevic", "Mihajlo Grbovic", "Nemanja Djuric", "Narayan Bhamidipati"],
+		"venue": "Workshop on Large-Scale Sports Analytics at ACM SIGKDD Conference on Knowledge Discovery and Data Mining (SportsKDD), New York City, USA, 2014.",
+		"name": "Large-scale 2014 World Cup outcome analysis based on Tumblr posts",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Aug 24, 2014",
+		"authors": ["Vladan Radosavljevic", "Mihajlo Grbovic", "Nemanja Djuric", "Narayan Bhamidipati"],
+		"venue": "Workshop on Large-Scale Sports Analytics at ACM SIGKDD Conference on Knowledge Discovery and Data Mining (SportsKDD), New York City, USA, 2014.",
+		"name": "Large-scale 2014 World Cup outcome analysis based on Tumblr posts",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Aug 24, 2014",
+		"authors": ["Bin Wu", "Erheng Zhong", "Ben Tan", "Andrew Horner", "Qiang Yang"],
+		"venue": "Crowdsourced Time-sync Video Tagging using Temporal and Personalized Topic Modeling",
+		"name": "Crowdsourced Time-sync Video Tagging Using Temporal and Personalized Topic Modeling",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Aug 24, 2014",
+		"authors": ["Pengyuan Wang", "Jimmy Yang", "Marsha Meytlis", "Fei Yu"],
+		"venue": "The Second User Engagement Optimization Workshop",
+		"name": "A Unified Framework for Evaluating Online User Treatment Effectiveness, with Advertising Applications",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Aug 24, 2014",
+		"authors": ["Nicola Barbieri", "Francesco Bonchi", "Giuseppe Manco"],
+		"venue": "20th ACM SIGKDD Conference on Knowledge Discovery and Data Mining",
+		"name": "Who to Follow and Why: Link Prediction with Explanations",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jul 27, 2014",
+		"authors": ["Nemanja Djuric", "Mihajlo Grbovic", "Vladan Radosavljevic", "Narayan Bhamidipati", "Slobodan Vucetic"],
+		"venue": "AAAI Conference on Artificial Intelligence (AAAI-14)",
+		"name": "Non-linear Label Ranking for Large-scale Prediction of Long-Term User Interests",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jul 27, 2014",
+		"authors": ["Suleyman Cetintas", "Jimmy Yang", "Ali Hojjat", "John Turner"],
+		"venue": "AAAI Conference on Artificial Intelligence (AAAI-14)",
+		"name": "Delivering Guaranteed Display Ads Under Reach and Frequency Requirements",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jul 24, 2014",
+		"authors": ["Vidit Jain", "Sainyam Galhotra"],
+		"venue": "The Conference on Uncertainty in Artificial Intelligence (UAI)",
+		"name": "Min-d-Occur: Ensuring Future Occurrences in Streaming Sets",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jul 23, 2014",
+		"authors": ["Ohad Shacham", "Eran Yahav", "Guy Golan Gueta", "Alex Aiken", "Nathan Bronson", "Mooly Sagiv", "Martin Vechev"],
+		"venue": "ISSTA",
+		"name": "Verifying Atomicity via Data Independence",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jul 22, 2014",
+		"authors": ["Francesco Gullo", "Francesco Bonchi", "Panos Parchas", "Dimitris Papadias"],
+		"venue": "ACM SIGMOD International Conference on Management of Data (SIGMOD 14)",
+		"name": "The Pursuit of a Good Possible World: Extracting Representative Instances of Uncertain Graphs",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jul 14, 2014",
+		"authors": ["Justin Thaler"],
+		"venue": "",
+		"name": "Semi-Streaming Algorithms for Annotated Graph Streams",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jul 7, 2014",
+		"authors": ["Ioannis Arapakis", "Xiao Bai", "B. Barla Cambazoglu"],
+		"venue": "The 37th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR'14)",
+		"name": "Impact of Response Latency on User Behavior in Web Search",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jul 6, 2014",
+		"authors": ["Anlei Dong", "Hongbo Deng", "Yi Chang", "Yanen Li", "Hongning Wang", "Chengxiang Zhai"],
+		"venue": "The 37th Annual International ACM SIGIR CONFERENCE",
+		"name": "A Two-Dimensional Click Model for Query Auto-Completion",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jun 28, 2014",
+		"authors": ["Idan Szpektor", "Oren Melamud", "Ido Dagan", "Jacob Goldberger", "Deniz Yuret"],
+		"venue": "CONLL",
+		"name": "Probabilistic Modeling of Joint-context in Distributional Similarity",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jun 27, 2014",
+		"authors": ["Frank Bentley", "Karolina Buchner", "Jofish Kaye"],
+		"venue": "The 2014 ACM international conference on Interactive experiences for TV and online video (ACM TVx)",
+		"name": "MyChannel: Exploring City-Based Multimedia News Presentations on the Living Room TV",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jun 24, 2014",
+		"authors": ["Vijay Mahadevan", "Song Lu", "Nuno Vasconcelos"],
+		"venue": "CVPR 2014 Columbus, OH",
+		"name": "Learning Optimal Seeds for Diffusion-based Salient Object Detection",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jun 24, 2014",
+		"authors": ["Miriam Redi", "Neil O'hare", "Michele Trevisiol", "Alejandro Jaimes", "Rossano Schifanella"],
+		"venue": "CVPR 2014, IEEE International Conference on Computer Vision and Pattern Recognition",
+		"name": "6 Seconds of Sound and Vision: Creativity in Micro-Videos",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jun 23, 2014",
+		"authors": ["Luca Maria Aiello", "Rossano Schifanella", "Bogdan State"],
+		"venue": "WebSci",
+		"name": "Reading the Source Code of Social Ties",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jun 23, 2014",
+		"authors": ["Jia Li", "Kevin Tang", "Armand Joulin", "Feifei"],
+		"venue": "The Twenty-Seventh IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
+		"name": "Co-localization in Real-World Images",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jun 23, 2014",
+		"authors": ["Jiayang Jiang", "Michael Mitzenmacher", "Justin Thaler"],
+		"venue": "26th ACM Symposium on Parallelism in Algorithms and Architectures",
+		"name": "Parallel Peeling Algorithms",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jun 23, 2014",
+		"authors": ["Yannis Kalantidis", "Yannis Avrithis"],
+		"venue": "International Conference on Computer Vision and Pattern Recognition (CVPR) 2014",
+		"name": "Locally Optimized Product Quantization for Approximate Nearest Neighbor Search",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jun 22, 2014",
+		"authors": ["Sairam Gurajada", "Stephan Seufert", "Iris Miliaraki", "Martin Theobald"],
+		"venue": "ACM SIGMOD International Conference on Management of Data (SIGMOD 2014)",
+		"name": "TriAD: A Distributed Shared-Nothing RDF Engine based on Asynchronous Message Passing",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jun 22, 2014",
+		"authors": ["Zohar Karnin", "Nir Ailon"],
+		"venue": "icml 2014",
+		"name": "Reducing Dueling Bandits to Cardinal Bandits",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jun 22, 2014",
+		"authors": ["Zohar Karnin"],
+		"venue": "icml 2014",
+		"name": "Hard-Margin Active Linear Regression",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jun 21, 2014",
+		"authors": ["Yuekai Sun", "Stratis Ioannidis", "Andrea Montanari"],
+		"venue": "International Conference on Machine Learning (ICML)",
+		"name": "Learning Mixtures of Linear Classifiers",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jun 19, 2014",
+		"authors": ["Partha Kanuparthy", "Constantine Dovrolis"],
+		"venue": "USENIX ATC",
+		"name": "Pythia: Diagnosing Performance Problems in Wide Area Providers",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jun 17, 2014",
+		"authors": ["Stratis Ioannidis", "Andrea Montanari", "Udi Weinsberg", "Smriti Bhagat", "Nadia Fawaz", "Nina Taft."],
+		"venue": "International Conference on Measurements and Modeling of Computer Systems (SIGMETRICS)",
+		"name": "Privacy Tradeoffs in Predictive Analytics",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jun 14, 2014",
+		"authors": ["Zohar Karnin"],
+		"venue": "COLT 2014",
+		"name": "Volumetric Spanners: an Efficient Exploration Basis for Learning",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jun 12, 2014",
+		"authors": ["Edward Bortnikov", "Eshcar Hillel", "Artyom Sharov"],
+		"venue": "Systor 2014",
+		"name": "Reconciling Transactional and Non-Transactional Operations in Distributed Key-Value Stores",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jun 1, 2014",
+		"authors": ["Ioannis Arapakis", "Mounia Lalmas", "B. Barla Cambazoglu", "Mari Carmen Marcos", "Joemon M Jose"],
+		"venue": "Journal of the Association for Information Science and Technology",
+		"name": "User Engagement in Online News: Under the Scope of Sentiment, Interest, Affect, and Gaze",
+		"area": "Miscellaneous"
+	}, {
+		"date": "May 31, 2014",
+		"authors": ["Jordi Atserias Batalla", "Elisabet Comelles", "Victoria Arranz", "Irene Castellon", "Jordi Sese"],
+		"venue": "Proceedings of the Ninth International Conference on Language Resources and Evaluation (LREC&amp;amp;#39;14), Reykjavik, Iceland ISBN-978-2-9517408-8-4",
+		"name": "VERTa: Facing a Multilingual Experience of a Linguistically-based MT Evaluation",
+		"area": "Miscellaneous"
+	}, {
+		"date": "May 8, 2014",
+		"authors": ["Ziv Bar Yossef", "Idit Keidar", "Uri Schonfeld"],
+		"venue": "16th International World Wide Web Conference (WWW2007)",
+		"name": "Do Not Crawl in the DUST: Different URLs with Similar Text",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Apr 26, 2014",
+		"authors": ["Jofish Kaye", "David Ayman Shamma", "Mary Mccuistion", "Rebecca Gulotta"],
+		"venue": "Proc. CHI 2014",
+		"name": "Money Talks: Tracking Personal Finances",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Apr 26, 2014",
+		"authors": ["Karolina Buchner", "Roman Lissermann", "Lars Erik Holmquist"],
+		"venue": "CHI",
+		"name": "Interaction Techniques for Co-located Collaborative TV",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Apr 26, 2014",
+		"authors": ["Saeideh Bakhshi", "David Ayman Shamma", "Eric Gilbert"],
+		"venue": "CHI",
+		"name": "Faces Engage Us: Photos with Faces Attract More Likes and Comments on Instagram",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Apr 24, 2014",
+		"authors": ["Jia Li", "Xiangnan Kong", "Zhaoming Wu", "Ruofei Zhang", "Philip S Yu"],
+		"venue": "SIAM International Conference on Data Mining",
+		"name": "Large-Scale Multi-Label Learning with Incomplete Label Assignments",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Apr 24, 2014",
+		"authors": ["Nicola Barbieri", "Francesco Bonchi"],
+		"venue": "",
+		"name": "Influence Maximization with Viral Product Design - SDM 2014",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Apr 24, 2014",
+		"authors": ["Nicola Barbieri", "Francesco Bonchi"],
+		"venue": "SIAM International Conference on Data Mining (SDM)",
+		"name": "Influence Maximization with Viral Product Design",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Apr 22, 2014",
+		"authors": ["Max Vladymyrov", "Miguel . Carreira Perpin"],
+		"venue": "Proc. of the 17th Int. Workshop on Artificial Intelligence and Statistics (AISTATS 2014)",
+		"name": "Linear-time Training of Nonlinear Low-Dimensional Embeddings",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Apr 22, 2014",
+		"authors": ["Nikhil Rasiwasia", "Vijay Mahadevan", "Gaurav Aggarwal", "D Mahajan"],
+		"venue": "International Conference on Artificial Intelligence and Statistics",
+		"name": "Cluster Canonical Correlation Analysis",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Apr 16, 2014",
+		"authors": ["Edward Bortnikov", "Eshcar Hillel", "Artyom Sharov"],
+		"venue": "",
+		"name": "Reconciling Transactional and Non-Transactional Operations in Distributed Key-Value Stores",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Apr 7, 2014",
+		"authors": ["Changsung Kang", "Yi Chang", "Jingjing Wang", "Jiawei Han"],
+		"venue": "WWW 2014",
+		"name": "A Hierarchical Dirichlet Model for Taxonomy Expansion for Search Engines",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Apr 7, 2014",
+		"authors": ["Amin Mantrach", "Alejandro Jaimes", "Carmen Vaca", "Marco Saerens"],
+		"venue": "WWW 2014",
+		"name": "A Time-based Collective Factorization for Topic Discovery and Monitoring in News.",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Apr 7, 2014",
+		"authors": ["Mihajlo Grbovic", "Slobodan Vucetic"],
+		"venue": "23rd International World Wide Web Conference, WWW 14",
+		"name": "Generating Ad Targeting Rules using Sparse Principal Component Analysis with Constraints",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Apr 7, 2014",
+		"authors": ["Vidit Jain", "Jay Mahadeokar"],
+		"venue": "WWW 2014",
+		"name": "Short-Text Categorization using Diffusion Wavelets",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Apr 7, 2014",
+		"authors": ["Mihajlo Grbovic", "Slobodan Vucetic"],
+		"venue": "23rd International World Wide Web Conference, WWW 14",
+		"name": "Generating Ad Targeting Rules using Sparse Principal Component Analysis with Constraints",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Apr 7, 2014",
+		"authors": ["Saeideh Bakhshi", "Partha Kanuparthy", "Eric Gilbert"],
+		"venue": "WWW 2014 Proceedings of the 23rd international conference on World Wide Web",
+		"name": "Demographics, Weather and Online Reviews: A Study of Restaurant Recommendations",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Apr 5, 2014",
+		"authors": ["Oren Zomer", "Guy Golan Gueta", "G. Ramalingam", "Mooly Sagiv"],
+		"venue": "ESOP 2014",
+		"name": "Checking Linearizability of Encapsulated Extended Operations",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Apr 1, 2014",
+		"authors": ["Amin Mantrach", "Alejandro Jaimes", "Robin Devooght", "Ilkka Kivimaki", "Hugues Bersini", "Marco Saerens"],
+		"venue": "WWW",
+		"name": "Random Walks Based Modularity: Application to Semi-Supervised Learning",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Apr 1, 2014",
+		"authors": ["Amin Mantrach", "Alejandro Jaimes", "Carmen Vaca", "Marco Saerens"],
+		"venue": "WWW",
+		"name": "A Time-based Collective Factorization for Topic Discovery and Monitoring in News",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Mar 31, 2014",
+		"authors": ["Yi Chang", "Yoshi Inagaki", "Lei Tang", "Yan Liu"],
+		"venue": "",
+		"name": "What is Tumblr: A Statistical Overview and Comparison",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Mar 24, 2014",
+		"authors": ["Jia Li", "Somayah Albaradei", "Yang Wang", "Liangliang Cao"],
+		"venue": "IEEE Winter Conference on Applications of Computer Vision",
+		"name": "Learning Mid-Level Features from Object Hierarchy for Image Classication",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Mar 24, 2014",
+		"authors": ["Francesco Bonchi", "Francesco Gullo", "Arijit Khan", "Aris Gionis"],
+		"venue": "Proceedings of the International Conference on Extending Database Technology (EDBT 14)",
+		"name": "Fast Reliability Search in Uncertain Graphs",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Mar 24, 2014",
+		"authors": ["Francesco Bonchi", "Francesco Gullo", "Aris Gionis", "Antti Ukkonen"],
+		"venue": "International Conference on Extending Database Technology (EDBT 14)",
+		"name": "Distance Oracles in Edge-Labeled Graphs",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Feb 24, 2014",
+		"authors": ["Anlei Dong", "Yi Chang", "Hongning Wang", "Chengxiang Zhai", "Feng Liang"],
+		"venue": "WSDM 2014",
+		"name": "User Modeling in Search Logs via a Nonparametric Bayesian Approach",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Feb 24, 2014",
+		"authors": ["Xiao Bai", "B. Barla Cambazoglu", "Ricardo Baeza-yates", "Guillem F Medina"],
+		"venue": "The 7th ACM International Conference on Web Search and Data Mining (WSDM'14)",
+		"name": "Improving the Efficiency of Multi-site Web Search Engines",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Feb 24, 2014",
+		"authors": ["Pengyuan Wang", "Han-yun Tsao", "Jimmy Yang", "Yechao Liu", "Marsha Meytlis", "Pei Huang"],
+		"venue": "ACM WSDM Conference 2014 Proceedings",
+		"name": "An Efficient Framework for Online Advertising Effectiveness Measurement and Comparison",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Feb 15, 2014",
+		"authors": ["Jofish Kaye", "Gilly Leshed", "Maria Hakansson"],
+		"venue": "Proc. CSCW 2014",
+		"name": "Our Life is the Farm and Farming is Our Life: HomeWork Coordination in Organic Farm Families",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Feb 15, 2014",
+		"authors": ["Daniele Quercia", "Neil O'hare", "Henriette Cramer"],
+		"venue": "CSCW 2014",
+		"name": "Aesthetic Capital: What Makes London Look Beautiful, Quiet, and Happy?",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Feb 15, 2014",
+		"authors": ["Guy Golan Gueta", "G. Ramalingam", "Mooly Sagiv", "Eran Yahav"],
+		"venue": "PPoPP'14",
+		"name": "Automatic Semantic Locking",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Feb 1, 2014",
+		"authors": ["Edgar Meij", "Maria Hendrike Peetz", "Maarten De Rijke"],
+		"venue": "Information Retrieval",
+		"name": "Using temporal bursts for query modeling",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Feb 1, 2014",
+		"authors": ["Makoto Yamada", "Leonid Sigal", "Michalis Raptis"],
+		"venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+		"name": "Covariate Shift Adaptation for Discriminative 3D Pose Estimation",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 8, 2014",
+		"authors": ["Jia Li", "Xiangnan Kong", "Philip S Yu"],
+		"venue": "20th Anniversary International Conference on MultiMedia Modeling",
+		"name": "Visual Recognition by Exploiting Latent Social Links in Image Collections",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2014",
+		"authors": ["Makoto Yamada", "Wittawat Jitkrittum", "Leonid Sigal", "Eric P Xing", "Masashi Sugiyama"],
+		"venue": "Neural Computation",
+		"name": "High-Dimensional Feature Selection by Feature-Wise Kernelized Lasso",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2014",
+		"authors": ["Makoto Yamada", "Masashi Sugiyama", "Gang Niu", "Hirotaka Hachiya", "Manabu Kimura"],
+		"venue": "Neural Computation",
+		"name": "Information-Maximization Clustering Based on Squared-Loss Mutual Information",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Dec 13, 2013",
+		"authors": ["Makoto Yamada", "Yi Chang", "Leonid Sigal"],
+		"venue": "International Journal of Computer Vision (IJCV)",
+		"name": "Domain Adaptation for Structured Regression",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Dec 11, 2013",
+		"authors": ["Peter Mika", "Roi Blanco", "Julia Hoxha"],
+		"venue": "Proceedings of the 12th International Conference in Machine Learning and Applications (ICMLA 13)",
+		"name": "Learning Relevance of Web Resources across Domains to make Recommendations",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Dec 9, 2013",
+		"authors": ["Stratis Ioannidis", "Patrick Loiseau"],
+		"venue": "Conference on Web and Internet Economics (WINE)",
+		"name": "Linear Regression as a Non-Cooperative Game",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Dec 9, 2013",
+		"authors": ["Xiao Bai", "Arnaud Jegou", "Flavio P Junqueira", "Vincent Leroy"],
+		"venue": "Proceedings of the ACM/IFIP/USENIX 14th International Conference on Middleware (Middleware)",
+		"name": "DynaSoRe: Efficient In-memory Store for Social Applications",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Dec 7, 2013",
+		"authors": ["Nicola Barbieri", "Francesco Bonchi", "Giuseppe Manco"],
+		"venue": "International Conference on Data Mining",
+		"name": "Inuence-based Network-oblivious Community Detection",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Dec 4, 2013",
+		"authors": ["Vidit Jain", "Sachin Sudhakar Farfade"],
+		"venue": "International Conference on Computer Vision (ICCV)",
+		"name": "Adapting Classification Cascades to New Domains",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Dec 4, 2013",
+		"authors": ["Zohar Karnin", "Edo Liberty"],
+		"venue": "nips 2013",
+		"name": "Near-Optimal Entrywise Sampling for Data Matrices",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Dec 4, 2013",
+		"authors": ["Nikhil Rasiwasia", "M Dixit", "N Vasconcelos"],
+		"venue": "IEEE International Conference on Computer Vision",
+		"name": "Class Specific Simplex-Latent Dirichlet Allocation for Image Classification",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Nov 29, 2013",
+		"authors": ["Xiao Bai", "Flavio P Junqueira", "Adam Silberstein"],
+		"venue": "Proceedings of the 22nd ACM International Conference on Information and Knowledge Management (CIKM)",
+		"name": "Cache Refreshing for Online Social News Feeds",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Nov 1, 2013",
+		"authors": ["Partha Kanuparthy", "Danny Lee", "Warren Matthews", "Sajjad Zarifzadeh", "Constantine Dovrolis"],
+		"venue": "IEEE Communications Magazine",
+		"name": "Pythia: Detection, Localization, and Diagnosis of Performance Problems",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Oct 29, 2013",
+		"authors": ["Ilaria Bordino", "Yelena Mejova", "Mounia Lalmas"],
+		"venue": "ACM International Conference on Information and Knowledge Management (CIKM 2013)",
+		"name": "Penguins in Sweaters, or Serendipitous Entity Search on User-generated Content",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Oct 28, 2013",
+		"authors": ["Janette Lehmann", "Mounia Lalmas", "Georges Dupret", "Ricardo Baeza-yates"],
+		"venue": "CIKM 2013",
+		"name": "Online Multitasking and User Engagement",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Oct 23, 2013",
+		"authors": ["Ioannis Arapakis", "Mounia Lalmas", "Hakan Ceylan", "Pinar Donmez"],
+		"venue": "Journal of the American Society for Information Science and Technology (JASIST)",
+		"name": "Automatically Embedding Newsworthy Links to Articles: From Implementation to Evaluation",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Oct 23, 2013",
+		"authors": ["Chris Yan", "Romer Rosales", "Glenn Fung", "Jennifer Dy.", "Ramanathan Subramanian"],
+		"venue": "Machine Learning /Springer",
+		"name": "Learning from Multiple Annotators with Varying Expertise",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Oct 23, 2013",
+		"authors": ["Chris Yan", "Romer Rosales", "Glenn Fung", "Jennifer Dy", "Ramanathan Subramanian"],
+		"venue": "",
+		"name": "Learning from Multiple Annotators with Varying Expertise",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Oct 21, 2013",
+		"authors": ["Roi Blanco", "B. Barla Cambazoglu", "Peter Mika", "Nicolas Torzec"],
+		"venue": "The 12th International Semantic Web Conference",
+		"name": "Entity Recommendations in Web Search",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Oct 21, 2013",
+		"authors": ["Bart Thomee"],
+		"venue": "ACM International Workshop on Geotagging and Its Applications in Multimedia",
+		"name": "Localization of points of interest from georeferenced and oriented photographs",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Oct 21, 2013",
+		"authors": ["Bart Thomee"],
+		"venue": "ACM International Workshop on Geotagging and Its Applications in Multimedia",
+		"name": "Localization of points of interest from georeferenced and oriented photographs",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Oct 15, 2013",
+		"authors": ["Ilaria Bordino", "Nicolas Kourtellis", "Nikolay Laptev", "Youssef Billawala"],
+		"venue": "ICDE 2014",
+		"name": "Stock Trade Volume Prediction with Yahoo Finance User Browsing Behavior",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Oct 7, 2013",
+		"authors": ["Nemanja Djuric", "Mihajlo Grbovic", "Slobodan Vucetic"],
+		"venue": "IEEE International Conference on Big Data",
+		"name": "Distributed Confidence-Weighted Classification on MapReduce",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Oct 7, 2013",
+		"authors": ["Mihajlo Grbovic", "Jon Malkin", "Hirakendu Das"],
+		"venue": "2013 IEEE International Conference on Big Data",
+		"name": "Large Scale Ad Latency Analysis",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Oct 6, 2013",
+		"authors": ["Mounia Lalmas", "Ricardo Baeza-yates", "Georges Dupret"],
+		"venue": "IEEE International Conference on Big Data (BigData 2013), Santa Clara, CA, USA",
+		"name": "Measuring Inter-Site Engagement",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Oct 1, 2013",
+		"authors": ["Idan Szpektor"],
+		"venue": "Journal of Natural Language Engineering",
+		"name": "Unsupervised Acquisition of Entailment Relations from the Web",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Oct 1, 2013",
+		"authors": ["Nicola Barbieri"],
+		"venue": "Machine Learning",
+		"name": "Probabilistic Topic Models for Sequence Data",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Sep 23, 2013",
+		"authors": ["Yasir Mehmood", "Nicola Barbieri", "Francesco Bonchi", "Antti Ukkonen"],
+		"venue": "ECML PKDD",
+		"name": "CSI: Community-level Social Influence Analysis",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Sep 23, 2013",
+		"authors": ["Max Vladymyrov", "Miguel . Carreira Perpin"],
+		"venue": "Proc. of the 24nd European Conf. Machine Learning (ECML-13)",
+		"name": "Locally Linear Landmarks for Large-Scale Manifold Learning",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Sep 11, 2013",
+		"authors": ["Jia Li", "Hao Su", "Yongwhan Lim", "Feifei"],
+		"venue": "International Journal of Computer Vision",
+		"name": "Object Bank: An Object-Level Image Representation for High-Level Visual Recognition",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Sep 10, 2013",
+		"authors": ["Yoelle Maarek", "Idan Szpektor", "Gideon Dror"],
+		"venue": "ECML-PKDD",
+		"name": "Will My Question Be Answered? Predicting Question Answerability in Community Question-Answering Sites",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Sep 5, 2013",
+		"authors": ["Jordi Atserias Batalla", "Hugo Zaragoza"],
+		"venue": "EL PAPER DE LA LINGSTICA COMPUTACIONAL EN LA CERCA DINFORMACI, ANUARI DE FILOLOGIA. ESTUDIS DE LINGSTICA (Anu.Filol.Est.Lingust.) 3/2013, pp. 187-201, ISSN: 2014-1408",
+		"name": "The Role of Computational Linguistics In the Search For Information",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Sep 2, 2013",
+		"authors": ["Rui Li", "Shengjie Wang", "Kevin Chen Chuan Chang"],
+		"venue": "VLDB",
+		"name": "Towards Social Data Platform: Automatic Topic focused Monitor for Twitter Stream",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Sep 1, 2013",
+		"authors": ["Edgar Meij", "Enrique Amigo", "Jorge Carrillo De Albornoz", "Irina Chugur", "Adolfo Corujo", "Julio Gonzalo", "Tamara Martin", "Maarten De Rijke", "Damiano Spina"],
+		"venue": "Information Access Evaluation. Multilinguality, Multimodality, and Visualization - 4th International Conference of the CLEF Initiative (CLEF 2013)",
+		"name": "Overview of RepLab 2013: Evaluating Online Reputation Monitoring Systems",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Sep 1, 2013",
+		"authors": ["Maximilian Dylla", "Iris Miliaraki", "Martin Theobald"],
+		"venue": "Proceedings of the VLDB Endowment, Volume 6, Issue 14, 2013",
+		"name": "A Temporal-Probabilistic Database Model for Information Extraction",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Aug 30, 2013",
+		"authors": ["Suleyman Cetintas"],
+		"venue": "Proceedings of the 22nd International ACM CIKM Conference on Information and Knowledge Management",
+		"name": "Probabilistic Latent Class Models for Predicting Student Performance",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Aug 18, 2013",
+		"authors": ["Justin Thaler"],
+		"venue": "CRYPTO",
+		"name": "Time-Optimal Interactive Proofs for Circuit Evaluation",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Aug 12, 2013",
+		"authors": ["Bart Thomee", "Alejandro Jaimes", "Tadej Stajner", "Ana Maria Popescu", "Marco Pennacchiotti"],
+		"venue": "ACM Conference on Knowledge Discovery and Data Mining",
+		"name": "Automatic selection of social media responses to news",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Aug 12, 2013",
+		"authors": ["Roger Jie Luo", "Sudarshan Lamkhede", "Yi Chang", "Rochit Sapra", "Evans Hsu", "Helen Song"],
+		"venue": "KDD 2013",
+		"name": "A Unified Search Federation System Based on Online User Feedback",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Aug 11, 2013",
+		"authors": ["Xiao Bai"],
+		"venue": "Proceedings of the 19th ACM SIGKDD international conference on Knowledge discovery and data mining (KDD13)",
+		"name": "Exploiting User Clicks for Automatic Seed Set Generation for Entity Matching",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Aug 11, 2013",
+		"authors": ["Kuang Chih Lee", "Ali Jalali", "Ali Dasdan"],
+		"venue": "The Seventh International Workshop on Data Mining for Online Advertising",
+		"name": "Real Time Bid Optimization with Smooth Budget Delivery in Online Advertising",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Aug 6, 2013",
+		"authors": ["Mihajlo Grbovic", "Nemanja Djuric", "Slobodan Vucetic"],
+		"venue": "International Joint Conference on Artificial Intelligence (IJCAI)",
+		"name": "Multi-prototype Label Ranking with Novel Pairwise to Total Rank Aggregation",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Aug 5, 2013",
+		"authors": ["Idan Szpektor"],
+		"venue": "ACL 2013",
+		"name": "A Two Level Model for Context Sensitive Inference Rules",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Aug 5, 2013",
+		"authors": ["Oleg Rokhlenko", "Idan Szpektor"],
+		"venue": "ACL 2013",
+		"name": "Generating Synthetic Comparable Questions for News Articles",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Aug 5, 2013",
+		"authors": ["Idan Szpektor"],
+		"venue": "ACL 2013 short papers",
+		"name": "Using Lexical Expansion to Learn Inference Rules from Sparse Data",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Aug 5, 2013",
+		"authors": ["Yale Song", "Zhen Wen", "Ching Yung Lin", "Randall Davis"],
+		"venue": "International Joint Conference on Artificial Intelligence, IJCAI 2013.",
+		"name": "One-Class Conditional Random Fields for Sequential Anomaly Detection",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Aug 4, 2013",
+		"authors": ["Oleg Rokhlenko", "Idan Szpektor"],
+		"venue": "The 51st Annual Meeting of the Association for Computational Linguistics (ACL 2013)",
+		"name": "Generating Synthetic Comparable Questions for News Articles",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Aug 1, 2013",
+		"authors": ["Edgar Meij", "Tom Kenter", "David Graus", "Maarten De Rijke"],
+		"venue": "TAIA 2013",
+		"name": "Time-Aware Chi-squared for Document Filtering over Time",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jul 28, 2013",
+		"authors": ["Edgar Meij", "Zhaochun Ren", "Shangsong Liang", "Maarten De Rijke"],
+		"venue": "Proceedings of the 36th international ACM SIGIR conference on Research and development in information retrieval (SIGIR 2013)",
+		"name": "Personalized Time-Aware Tweets Summarization",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jul 28, 2013",
+		"authors": ["Neil O'hare"],
+		"venue": "SIGIR",
+		"name": "Competition-Based Networks for Expert Finding",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jul 28, 2013",
+		"authors": ["Neil O'hare"],
+		"venue": "SIGIR",
+		"name": "Competition-Based Networks for Expert Finding",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jul 15, 2013",
+		"authors": ["Bart Thomee", "Mark J Huiskes", "Erwin M Bakker", "Michael S Lew"],
+		"venue": "IEEE International Conference on Multimedia and Expo",
+		"name": "An evaluation of content-based duplicate image detection methods for web search",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jul 15, 2013",
+		"authors": ["Neil O'hare"],
+		"venue": "ICME",
+		"name": "Search Behaviour on Photo Sharing Platforms",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jul 8, 2013",
+		"authors": ["Mark Bun", "Justin Thaler"],
+		"venue": "40th International Colloquium on Automata, Languages and Programming (ICALP)",
+		"name": "Dual Lower Bounds for Approximate Degree and Markov-Bernstein Inequalities",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jul 8, 2013",
+		"authors": ["Janette Lehmann", "Mounia Lalmas", "Carlos Castillo", "Ethan Zuckerman"],
+		"venue": "ICWSM 2013",
+		"name": "Transient News Crowds in Social Media",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jul 8, 2013",
+		"authors": ["Dan Pelleg"],
+		"venue": "ICWSM-13",
+		"name": "Touch Screens for Touchy Issues: Analysis of Accessing Sensitive Information from Mobile Devices",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jul 2, 2013",
+		"authors": ["M. Mucha", "M. Sviridenko"],
+		"venue": "Proceedings of ICALP 2013",
+		"name": "No-Wait Flowshop Scheduling Is as Hard as Asymmetric Traveling Salesman Problem",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jul 1, 2013",
+		"authors": ["Emden R. Gansner", "Yifan Hu", "Stephen C. North"],
+		"venue": "Journal of Graph Algorithms and Applications, 17 (2013), pp. 515-540",
+		"name": "Interactive Visualization of Streaming Text Data with Dynamic Maps",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jul 1, 2013",
+		"authors": ["Claudio Lucchese", "Salvatore Orlando", "Raffaele Perego", "Gabriele Tolomei"],
+		"venue": "ACM Transactions on Information Systems",
+		"name": "Discovering Tasks from Search Engine Query Logs",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jul 1, 2013",
+		"authors": ["Saeed Amizadeh", "Bo Thiesson", "Milos Hauskrecht"],
+		"venue": "29th Conference on Uncertainty in Articial Intelligence (UAI-13)",
+		"name": "The Bregman Variational Dual-Tree Framework",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jun 24, 2013",
+		"authors": ["Yale Song", "Louis Philippe Morency", "Randall Davis"],
+		"venue": "IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2013",
+		"name": "Action Recognition by Hierarchical Sequence Summarization",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jun 23, 2013",
+		"authors": ["Zhen Li", "Shiyu Chang", "Feng Liang", "Thomas S Huang", "Liangliang Cao", "John R Smith"],
+		"venue": "CVPR",
+		"name": "Learning locally-adaptive decision functions for person verification",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jun 17, 2013",
+		"authors": ["Darrell Hoy", "Kamal Jain", "Christopher A. Wilkens"],
+		"venue": "9th Ad Auction Workshop",
+		"name": "Coopetitive Ad Auctions",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jun 16, 2013",
+		"authors": ["Darrell Hoy", "Kamal Jain", "Christopher A. Wilkens"],
+		"venue": "14th ACM Conference on Electronic Commerce, EC 2013",
+		"name": "A Dynamic Axiomatic Approach to First-Price Auctions",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jun 16, 2013",
+		"authors": ["Oren Somekh", "Zohar Karnin", "Tomer Koren"],
+		"venue": "in Proc. ICML(3), Atlanta, GA, US",
+		"name": "Almost Optimal Exploration in Multi-Armed Bandits",
+		"area": "Miscellaneous"
+	}, {
+		"date": "May 31, 2013",
+		"authors": ["Nikhil Rasiwasia", "N Vasconcelos"],
+		"venue": "IEEE Pattern Analysis and Machine Learning",
+		"name": "Latent Dirichlet Allocation Models for Image Classification",
+		"area": "Miscellaneous"
+	}, {
+		"date": "May 22, 2013",
+		"authors": ["Edgar Meij", "Daan Odijk", "Maarten De Rijke"],
+		"venue": "Proceedings of the 10th Conference on Open Research Areas in Information Retrieval (OAIR 2013)",
+		"name": "Feeding The Second Screen: Semantic Linking Based On Subtitles",
+		"area": "Miscellaneous"
+	}, {
+		"date": "May 17, 2013",
+		"authors": ["Yoelle Maarek", "Avihai Mejer", "Idan Szpektor", "Gideon Dror"],
+		"venue": "WWW 2013",
+		"name": "From Query to Question in One Click: Suggesting Synthetic Questions to Searchers",
+		"area": "Miscellaneous"
+	}, {
+		"date": "May 17, 2013",
+		"authors": ["Idan Szpektor", "Yoelle Maarek", "Dan Pelleg"],
+		"venue": "WWW",
+		"name": "When Relevance is not Enough: Promoting Diversity and Freshness in Personalized Question Recommendation",
+		"area": "Miscellaneous"
+	}, {
+		"date": "May 17, 2013",
+		"authors": ["Vidit Jain", "Esther Galbrun"],
+		"venue": "WWW",
+		"name": "Topical Organization of User Comments and Application to Content Recommendation",
+		"area": "Miscellaneous"
+	}, {
+		"date": "May 15, 2013",
+		"authors": ["Uma Sawant", "Soumen Chakrabarti"],
+		"venue": "WWW 2013",
+		"name": "Learning Joint Query Interpretation and Response Ranking",
+		"area": "Miscellaneous"
+	}, {
+		"date": "May 13, 2013",
+		"authors": ["Daniele Quercia", "Joao Paulo Pesce", "Virgilio Almeida", "Jon Crowcroft"],
+		"venue": "WWW 2013",
+		"name": "Psychological Maps 2.0: A Web Engagement Enterprise Starting in London",
+		"area": "Miscellaneous"
+	}, {
+		"date": "May 13, 2013",
+		"authors": ["Roi Blanco", "Hideo Joho", "Adam Jatow"],
+		"venue": "TempWeb 2013",
+		"name": "A Survey of Temporal Web Search Experience",
+		"area": "Miscellaneous"
+	}, {
+		"date": "May 13, 2013",
+		"authors": ["Peter Mika", "Roi Blanco", "Laura Hollink"],
+		"venue": "22nd International Word Wide Web Conference",
+		"name": "Web Usage Mining with Semantic Analysis",
+		"area": "Miscellaneous"
+	}, {
+		"date": "May 13, 2013",
+		"authors": ["Bart Thomee", "Adam Rae"],
+		"venue": "IW3C2 International Conference on World Wide Web",
+		"name": "Uncovering locally characterizing regions within geotagged data",
+		"area": "Miscellaneous"
+	}, {
+		"date": "May 13, 2013",
+		"authors": ["Janette Lehmann", "Mounia Lalmas", "Carlos Castillo", "Ethan Zuckerman"],
+		"venue": "SNOW workshop, WWW 2013",
+		"name": "Finding News Curators in Twitter",
+		"area": "Miscellaneous"
+	}, {
+		"date": "May 5, 2013",
+		"authors": ["Oleg Rokhlenko", "Nadav Golbandi", "Ronny Lempel", "Limor Leibovich"],
+		"venue": "24th ACM Conference on Hypertext and Social Media (HYPERTEXT 2013)",
+		"name": "Engagement-based User Attention Distribution on Web Article Pages",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Apr 29, 2013",
+		"authors": ["Jofish Kaye"],
+		"venue": "CHI Panels",
+		"name": "The Future of HCI Publishing in Journals and Books",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Apr 28, 2013",
+		"authors": ["Jofish Kaye"],
+		"venue": "CHI 2013 Workshops",
+		"name": "Exploring the Diversity of Families: Designing Technologies for the Contemporary Family Life",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Apr 28, 2013",
+		"authors": ["Jofish Kaye"],
+		"venue": "CHI 2013 Workshop Paper",
+		"name": "What We Can Learn from Small Organic Farm Families",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Apr 27, 2013",
+		"authors": ["Roi Blanco", "Peter Mika", "Harry Halpin", "Daniel M Herzig", "Jeffrey Pound", "Henry S Thompson", "Than Tran Duc"],
+		"venue": "Journal of Web Semantics",
+		"name": "Repeatable and Reliable Semantic Search Evaluation",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Apr 16, 2013",
+		"authors": ["Lyndon Kennedy", "Jia Li"],
+		"venue": "2013 ACM International Conference on Multimedia Retrieval",
+		"name": "Getting the look: Automatic clothing suggestions for everyday photos",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Apr 8, 2013",
+		"authors": ["Maximilian Dylla", "Iris Miliaraki", "Martin Theobald"],
+		"venue": "29th International Conference on Data Engineering (ICDE 2013)",
+		"name": "Top-k Query Processing in Probabilistic Databases with Non-Materialized Views",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Apr 8, 2013",
+		"authors": ["Nikolay Laptev", "Carlo Zaniolo", "Kai Zeng"],
+		"venue": "ICDE",
+		"name": "Very Fast Estimation for Result and Accuracy of Big Data Analytics: The EARL system",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Apr 1, 2013",
+		"authors": ["Nicola Barbieri", "Francesco Bonchi"],
+		"venue": "Knowledge and Information Systems",
+		"name": "Topic-aware Social Influence Propagation Models",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Mar 26, 2013",
+		"authors": ["Suleyman Cetintas"],
+		"venue": "Journal of Information Retrieval",
+		"name": "Forecasting user visits for online display advertising",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Mar 26, 2013",
+		"authors": ["Jofish Kaye"],
+		"venue": "Patent",
+		"name": "Patent: Method and apparatus for indicating an analysis criteria",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Mar 24, 2013",
+		"authors": ["Roi Blanco", "Yashar Moshfeghi", "Michael Matthews", "Joemon Jose"],
+		"venue": "35th European Conference on Information Retrieval",
+		"name": "Influence of Timeline and Named-entity Components on User Engagement",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Feb 26, 2013",
+		"authors": ["Max Vladymyrov", "Miguel . Carreira Perpin"],
+		"venue": "Proc. of the 230h Int. Conf. Machine Learning (ICML 2013)",
+		"name": "Entropic Affinities: Properties and Efficient Numerical Computation",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Feb 9, 2013",
+		"authors": ["Nicola Barbieri", "Francesco Bonchi"],
+		"venue": "International ACM Conference on Web Search and Data Mining",
+		"name": "Cascade-based Community Detection",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Feb 4, 2013",
+		"authors": ["Edo Liberty", "Yoelle Maarek", "Zohar Karnin", "Nir Ailon"],
+		"venue": "WSDM 2013",
+		"name": "Threading Machine Generated Email",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Feb 4, 2013",
+		"authors": ["Luca Maria Aiello", "Alejandro Jaimes"],
+		"venue": "WSDM",
+		"name": "Distinguishing Topical and Social Groups Based on Common Identity and Bond Theory",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Feb 1, 2013",
+		"authors": ["Neil O'hare"],
+		"venue": "Information Retrieval",
+		"name": "Modeling Locations with Social Media",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2013",
+		"authors": ["Giuseppe Di Fabbrizio", "Amanda Stent", "Robert Gaizauskas"],
+		"venue": "Mobile Speech and Advanced Natural Language",
+		"name": "Summarizing opinion-related information for mobile devices",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Dec 12, 2012",
+		"authors": ["Nicola Barbieri", "Francesco Bonchi"],
+		"venue": "IEEE International Conference on Data Mining (ICDM)",
+		"name": "Topic-Aware Social Influence Propagation Models",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Dec 8, 2012",
+		"authors": ["Xiao Bai"],
+		"venue": "Proceedings of the 35th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR), Portland, USA",
+		"name": "Online Result Cache Invalidation for Real-time Web Search",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Dec 8, 2012",
+		"authors": ["Gideon Dror"],
+		"venue": "KDD, Beijing",
+		"name": "Large-Scale Learning of Word Relatedness with Constraints",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Dec 2, 2012",
+		"authors": ["Zohar Karnin"],
+		"venue": "NIPS 2012",
+		"name": "A Provably Efficient Simplex Algorithm for Classification",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Nov 2, 2012",
+		"authors": ["Neil O'hare"],
+		"venue": "1st ACM Multimedia Workshop on Geotagging and Its Applications in Multimedia",
+		"name": "Gender-based Models of Location from Flickr",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Nov 1, 2012",
+		"authors": ["Sourangshu Bhattacharya"],
+		"venue": "CIKM 2012, Hawaii, USA.",
+		"name": "Segmenting Web-Domains and Hashtags using Length Specific Models",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Oct 31, 2012",
+		"authors": ["Nikhil Rasiwasia"],
+		"venue": "European Conference on Computer Vision 2012",
+		"name": "Scene Recognition on the Semantic Manifold",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Oct 29, 2012",
+		"authors": ["Roi Blanco", "Fabrizio Silvestri", "Diego Ceccarelli", "Claudio Lucchese", "Raffaelle Perego"],
+		"venue": "Proceedings of the 21st ACM International Conference on Information and Knowledge Management, CIKM 2012",
+		"name": "You Should Read This! Let Me Explain To You Why",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Oct 29, 2012",
+		"authors": ["Peter Mika", "Roi Blanco", "Pablo N Mendes", "Hugo Zaragoza"],
+		"venue": "Proceedings of the 21st ACM International Conference on Information and Knowledge Management, CIKM 2012",
+		"name": "Measuring Website Similarity Using an Entity-Aware Click Graph",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Oct 29, 2012",
+		"authors": ["Liangliang Cao", "Zhenguo Li", "Yadong Mu", "Shih Fu Chang"],
+		"venue": "ACM Multimedia",
+		"name": "Submodular video hashing: a unified framework towards video pooling and indexing",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Oct 29, 2012",
+		"authors": ["Neil O'hare", "Luca Maria Aiello", "Alejandro Jaimes"],
+		"venue": "ACM Multimedia",
+		"name": "Predicting Participants in Public Events Using Stock Photos",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Oct 29, 2012",
+		"authors": ["Ioannis Arapakis", "Mounia Lalmas", "Hakan Ceylan", "Pinar Donmez"],
+		"venue": "CIKM",
+		"name": "Automatically Embedding Newsworthy Links to Articles",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Oct 29, 2012",
+		"authors": ["Bart Thomee", "Adam Rae"],
+		"venue": "ACM International Conference on Multimedia",
+		"name": "Exploring and browsing photos through characteristic geographic tag regions",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Oct 19, 2012",
+		"authors": ["Roi Blanco", "B. Barla Cambazoglu", "Ismail Sengor Altingovde", "Rifat Ozcan", "Erdem Sarigil", "Ozgur Ulusoy"],
+		"venue": "Proceedings of the 21st ACM International Conference on Information and Knowledge Management, CIKM 2012",
+		"name": "Characterizing Web Search Queries that Match Very Few or No Results",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Oct 10, 2012",
+		"authors": ["Yannis Avrithis", "Yannis Kalantidis"],
+		"venue": "European Conference on Computer Vision (ECCV), Florence, Italy, October 2012.",
+		"name": "Approximate Gaussian Mixtures for Large Scale Vocabularies",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Sep 20, 2012",
+		"authors": ["Jordi Atserias Batalla", "Roi Blanco", "Jose M Chenlo", "Carlos Rodriguez"],
+		"venue": "CLEF (Online Working Notes/Labs/Workshop) 2012",
+		"name": "FBM-Yahoo at RepLab 2012",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Sep 5, 2012",
+		"authors": ["Jia Li"],
+		"venue": "The 11th Asian Conference on Computer Vision 2012",
+		"name": "Multi-Level Structured Image Coding on High-Dimensional Image Representation",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Sep 5, 2012",
+		"authors": ["Jia Li"],
+		"venue": "The 11th Asian Conference on Computer Vision 2012",
+		"name": "Digital Paparazzi: Spotting Celebrities in Professional Photo Libraries",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Sep 3, 2012",
+		"authors": ["Dan Pelleg", "Yoelle Maarek", "Elad Yom Tov"],
+		"venue": "SocialCom",
+		"name": "Can you believe an anonymous contributor? On truthfulness in Yahoo Answers",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Sep 1, 2012",
+		"authors": ["Iris Miliaraki", "Manolis Koubarakis"],
+		"venue": "ACM Transactions on the Web (TWEB) Journal, Volume 6 Issue 3",
+		"name": "FoXtrot: Distributed Structural and Value XML filtering",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Aug 15, 2012",
+		"authors": ["Sourangshu Bhattacharya"],
+		"venue": "UAI 2012, Catalina Island, USA",
+		"name": "Mechanism Design for Cost Optimal PAC Learning in the Presence of Strategic Noisy Annotators",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Aug 12, 2012",
+		"authors": ["Francesco Bonchi", "Francesco Gullo", "Aris Gionis", "Antti Ukkonen"],
+		"venue": "ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD `12)",
+		"name": "Chromatic Correlation Clustering",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Aug 12, 2012",
+		"authors": ["Roi Blanco", "Manos Tsagkias"],
+		"venue": "The 35th International ACM SIGIR Conference on Research and Development in Information Retrieval",
+		"name": "Language Intent Models for Inferring User Browsing Behavior",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Aug 12, 2012",
+		"authors": ["Roi Blanco", "Paolo Boldi"],
+		"venue": "Proceedings of the 35th international ACM SIGIR conference on Research and development in information retrieval",
+		"name": "Extending BM25 with Multiple Query Operators",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Aug 12, 2012",
+		"authors": ["Francesco Bonchi", "Francesco Gullo", "Aris Gionis", "Antti Ukkonen"],
+		"venue": "ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD `12)",
+		"name": "Chromatic Correlation Clustering",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Aug 12, 2012",
+		"authors": ["Michele Trevisiol", "Luca Chiarandini", "Luca Maria Aiello", "Alejandro Jaimes"],
+		"venue": "ACM SIGIR",
+		"name": "Image Ranking Based on User Browsing Behavior",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Aug 12, 2012",
+		"authors": ["Marc Bron", "Jasmijn Van Gorp", "Frank Nack", "Maarten De Rijke", "Andrei Vishneuski"],
+		"venue": "SIGIR 2012",
+		"name": "A subjunctive Exploratory Search Interface to Support Media Studies Researchers",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Aug 7, 2012",
+		"authors": ["Diego Saez Trumper", "Giovanni Comarela", "Virgilio Almeida", "Ricardo Baeza Yates", "Fabrcio Benevenuto."],
+		"venue": "18th ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD 2012). Beijing, China.",
+		"name": "Finding Trendsetters in Information Networks",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Aug 1, 2012",
+		"authors": ["Gideon Dror", "Yoelle Maarek", "Idan Szpektor", "Qiaoling Liu", "Eugene Agichten"],
+		"venue": "SIGIR",
+		"name": "When Web Search Fails, Searchers Become Askers: Understanding the Transition",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jul 23, 2012",
+		"authors": ["Mihajlo Grbovic", "Nemanja Djuric", "Slobodan Vucetic"],
+		"venue": "AAAI Conference on Artificial Intelligence",
+		"name": "Convex Kernelized Sorting",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jul 23, 2012",
+		"authors": ["Mihajlo Grbovic", "Slobodan Vucetic"],
+		"venue": "AAAI Conference on Artificial Intelligence",
+		"name": "Sparse Principal Component Analysis with Constraints",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jul 1, 2012",
+		"authors": ["Bart Thomee", "Michael S Lew"],
+		"venue": "Springer International Journal of Multimedia Information Retrieval 1(2)",
+		"name": "Interactive search in image retrieval: a survey",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jun 30, 2012",
+		"authors": ["Nikhil Rasiwasia"],
+		"venue": "IEEE Conference Computer Vision and Pattern Recognition",
+		"name": "Adapted Gaussian Models for Image Classification",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jun 26, 2012",
+		"authors": ["Max Vladymyrov", "Miguel . Carreira Perpin"],
+		"venue": "Proc. of the 29th Int. Conf. Machine Learning (ICML 2012)",
+		"name": "Partial-Hessian Strategies for Fast Learning of Nonlinear Embeddings",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jun 25, 2012",
+		"authors": ["Zohar Karnin"],
+		"venue": "Journal of Machine Learning",
+		"name": "Unsupervised SVMs: On the Complexity of the Furthest Hyperplane Problem",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jun 16, 2012",
+		"authors": ["Yale Song", "Louis Philippe Morency", "Randall Davis"],
+		"venue": "IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2012",
+		"name": "Multi-View Latent Variable Discriminative Models For Action Recognition",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jun 4, 2012",
+		"authors": ["Christopher A. Wilkens", "Balasubramanian Sivan"],
+		"venue": "13th ACM Conference on Electronic Commerce, EC 2012.",
+		"name": "Single-Call Mechanisms",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jun 1, 2012",
+		"authors": ["Nikolay Laptev", "Kai Zeng", "Carlo Zaniolo"],
+		"venue": "VLDB 2012",
+		"name": "Early Accurate Results for Advanced Analytics on Mapreduce",
+		"area": "Miscellaneous"
+	}, {
+		"date": "May 31, 2012",
+		"authors": ["Nikhil Rasiwasia"],
+		"venue": "IEEE Pattern Analysis and Machine Learning",
+		"name": "Holistic Context Models for Visual Recognition",
+		"area": "Miscellaneous"
+	}, {
+		"date": "May 7, 2012",
+		"authors": ["Lars Erik Holmquist"],
+		"venue": "Morgan Kaufman Publishers",
+		"name": "Grounded Innovation: Strategies for Creating Digital Products",
+		"area": "Miscellaneous"
+	}, {
+		"date": "May 1, 2012",
+		"authors": ["Partha Kanuparthy", "Constantine Dovrolis", "Warren Matthews"],
+		"venue": "CoRR abs/1205.0820",
+		"name": "DNS-based Ingress Load Balancing: An Experimental Evaluation",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Apr 1, 2012",
+		"authors": ["Nikolay Laptev", "Carlo Zaniolo"],
+		"venue": "ICDE",
+		"name": "Optimization of Massive Pattern Queries by Dynamic Configuration Morphing",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Apr 1, 2012",
+		"authors": ["Saeed Amizadeh", "Hamed Valizadegan", "Milos Hauskrecht"],
+		"venue": "The 15th International Conference on Artificial Intelligence and Statistics (AISTATS-12)",
+		"name": "Factorized Diffusion Map Approximation",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Apr 1, 2012",
+		"authors": ["Hamed Valizadegan", "Saeed Amizadeh", "Milos Hauskrecht"],
+		"venue": "2012 SIAM International Conference on Data Mining (SDM-12)",
+		"name": "Sampling Strategies to Evaluate the Performance of Unknown Predictors",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Mar 26, 2012",
+		"authors": ["Ronny Lempel"],
+		"venue": "ACM SAC (Symposium on Applied Computing) 2012",
+		"name": "Approximately Optimal Facet Selection",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Feb 22, 2012",
+		"authors": ["Suleyman Cetintas"],
+		"venue": "Journal of the American Society for Information Science and Technology (JASIST)",
+		"name": "Effective query generation and postprocessing strategies for prior art patent search",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Feb 1, 2012",
+		"authors": ["Gideon Dror", "Yoelle Maarek", "Idan Szpektor", "Anna Shtok"],
+		"venue": "WWW",
+		"name": "Learning from the past: answering new questions with past answers",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 9, 2012",
+		"authors": ["Roi Blanco", "Christina Lioma"],
+		"venue": "Information Retrieval Journal",
+		"name": "Graph-based Term Weighting for Information Retrieval",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 8, 2012",
+		"authors": ["Graham Cormode", "Michael Mitzenmacher", "Justin Thaler"],
+		"venue": "Innovations in Theoretical Computer Science (ITCS 2012)",
+		"name": "Practical Verified Computation with Streaming Interactive Proofs",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2012",
+		"authors": ["Rashmi Mohan", "Mohamed Aly"],
+		"venue": "Proceedings of the 21s International World Wide Web Conference",
+		"name": "Web-Scale User Modeling for Targeting",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2012",
+		"authors": ["Mounia Lalmas"],
+		"venue": "35th ACM SIGIR Conference on Research and Development in Information Retrieval, Portland, USA",
+		"name": "Evaluating Aggregated Search Pages",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2012",
+		"authors": ["Mounia Lalmas"],
+		"venue": "Yahoo! Research Seminar Series Barcelona, 01 March 2012",
+		"name": "User Engagement A Scientific Challenge",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2012",
+		"authors": ["Ronny Lempel", "Amit Kagian"],
+		"venue": "WWW'12, Lyon, France",
+		"name": "Care to Comment? Recommendations for Commenting on News Stories",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2012",
+		"authors": ["Alejandro Jaimes"],
+		"venue": "WSDM, Seattle, Washington, USA",
+		"name": "Correlating Financial Time Series with Micro-Blogging Data",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2012",
+		"authors": ["Mounia Lalmas", "Ricardo Baeza-yates", "Georges Dupret", "Janette Lehmann"],
+		"venue": "World Wide Web Conference (WWW) - Poster",
+		"name": "The Effect of Links on Networked User Engagement",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2012",
+		"authors": ["Mounia Lalmas"],
+		"venue": "Yahoo! Research Seminar Series Barcelona, 01 March 2012",
+		"name": "User Engagement A Scientific Challenge",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2012",
+		"authors": ["Ricardo Baeza-yates", "Yoelle Maarek"],
+		"venue": "Scientific and Statistical Database Management: 24th SSDBM, Chania, Crete",
+		"name": "Usage Data in Web Search: Benefits and Limitations",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2012",
+		"authors": ["Rashmi Mohan"],
+		"venue": "Human-Computer Interaction: The Agency Perspective",
+		"name": "Children Psychotherapy with Mobile Devices",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2012",
+		"authors": ["Rashmi Mohan", "Vanessa Murdock"],
+		"venue": "Journal of Information Retrieval",
+		"name": "Modeling Locations with Social Media",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2012",
+		"authors": ["Alejandro Jaimes"],
+		"venue": "WSDM, Seattle, Washington, USA",
+		"name": "Correlating Financial Time Series with Micro-Blogging Data",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2012",
+		"authors": ["David Ayman Shamma"],
+		"venue": "Personal and Ubiquitous Computing",
+		"name": "Live Mobile Collaboration for Video Production: Design, Guidelines, and Requirements",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2012",
+		"authors": ["Rashmi Mohan"],
+		"venue": "interactions",
+		"name": "More than a feeling",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2012",
+		"authors": ["Rashmi Mohan"],
+		"venue": "Workshop on Interaction Design and Emotional Wellbeing at CHI2012, Austin, Texas",
+		"name": "From Paper to Personalized Digital Forms: Technology in Psychotherapy",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2012",
+		"authors": ["Rashmi Mohan", "Judd Antin"],
+		"venue": "CHI 2012: ACM Conference on Human Factors in Computing Systems, Austin, Texas, USA",
+		"name": "Profanity Use in Online Communities",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2012",
+		"authors": ["Mounia Lalmas"],
+		"venue": "ACM SIGCHI Conference on Human Factors in Computing Systems (CHI), Austin, Texas",
+		"name": "On Saliency, Affect and Focused Attention",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2012",
+		"authors": ["Rashmi Mohan"],
+		"venue": "AH'2012: 3rd Augmented Human International Conference",
+		"name": "Therapy: Location-aware Assessment and Tasks",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2012",
+		"authors": ["Rashmi Mohan"],
+		"venue": "Behavior Research Methods",
+		"name": "Conducting Behavioral Research on Amazons Mechanical Turk",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2012",
+		"authors": ["Hugues Bouchard"],
+		"venue": "Proceedings of the 35th Conference on Research and Development in Information Retrieval (SIGIR 2012), Portland (USA)",
+		"name": "Mining the Web for Points of Interest",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2012",
+		"authors": ["Rashmi Mohan"],
+		"venue": "The World Wide Web Conference (WWW) 2012, Lyon, France",
+		"name": "The Impact of Visual Appearance on User Response in Online Display Advertising",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2012",
+		"authors": ["Rashmi Mohan", "Judd Antin"],
+		"venue": "CHI 2012: ACM Conference on Human Factors in Computing Systems, Austin, Texas, USA",
+		"name": "Profanity Use in Online Communities",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2012",
+		"authors": ["Rashmi Mohan", "Eren Manavoglu"],
+		"venue": "18th ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD-2012), Beijing, China",
+		"name": "Multimedia Features for Click Prediction of New Ads in Display Advertising",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2012",
+		"authors": ["Mounia Lalmas"],
+		"venue": "ACM SIGCHI Conference on Human Factors in Computing Systems (CHI), Austin, Texas",
+		"name": "On Saliency, Affect and Focused Attention",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2012",
+		"authors": ["Mounia Lalmas", "Ricardo Baeza-yates", "Georges Dupret", "Janette Lehmann"],
+		"venue": "World Wide Web Conference (WWW) - Poster",
+		"name": "The Effect of Links on Networked User Engagement",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2012",
+		"authors": ["Mounia Lalmas"],
+		"venue": "Journal of the American Society for Information Science and Technology (JASIST)",
+		"name": "On using a Quantum Physics formalism for Multi-document Summarisation",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2012",
+		"authors": ["Partha Kanuparthy", "Constantine Dovrolis", "Konstantina Papagiannaki", "Srinivasan Seshan", "Peter Steenkiste"],
+		"venue": "ACM SIGCOMM CCR",
+		"name": "Can User-Level Probing Detect and Diagnose Common Home-WLAN Pathologies?",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2012",
+		"authors": ["Rashmi Mohan", "Mohamed Aly"],
+		"venue": "Proceedings of the 21s International World Wide Web Conference",
+		"name": "Web-Scale User Modeling for Targeting",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2012",
+		"authors": ["Ruggiero Cavallo", "Shaili Jain"],
+		"venue": "The 11th International Conference on Autonomous Agents and Multiagent Systems (AAMAS 2012), Valencia, Spain",
+		"name": "Efficient Crowdsourcing Contests",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2012",
+		"authors": ["Idan Szpektor", "Gideon Dror", "Dan Pelleg", "Oleg Rokhlenko"],
+		"venue": "CQA'12 Workshop",
+		"name": "Churn prediction in new users of Yahoo answers",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2012",
+		"authors": ["Rashmi Mohan"],
+		"venue": "interactions",
+		"name": "More than a feeling",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2012",
+		"authors": ["Rashmi Mohan", "Romer Rosales-delmoral"],
+		"venue": "International Conference on Artificial Intelligence and Statistics",
+		"name": "Active Learning from Multiple Knowledge Sources",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2012",
+		"authors": ["Rashmi Mohan"],
+		"venue": "Proceedings of the 34th European Conference on Information Retrieval",
+		"name": "Adaptive time-to-live strategies for query result caching in web search engines",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2012",
+		"authors": ["Edward Bortnikov", "Ronny Lempel"],
+		"venue": "WWW 2012",
+		"name": "Lightweight automatic face annotation in media pages",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2012",
+		"authors": ["Marcelo Mendoza", "Barbara Poblete"],
+		"venue": "United States Patent Application 12/979792, US",
+		"name": "METHOD AND SYSTEM FOR CLASSIFYING WEB SITES USING QUERY-BASED WEB SITE MODELS",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2012",
+		"authors": ["Mounia Lalmas", "Georges Dupret"],
+		"venue": "20th conference on User Modeling, Adaptation, and Personalization (UMAP 2012), Montreal, Canada",
+		"name": "Models of User Engagement",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Dec 31, 2011",
+		"authors": ["Nikhil Rasiwasia"],
+		"venue": "IEEE International Conference on Data Mining",
+		"name": "Improving Product Classification Using Images",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Nov 3, 2011",
+		"authors": ["Partha Kanuparthy", "Constantine Dovrolis"],
+		"venue": "ACM SIGCOMM IMC",
+		"name": "ShaperProbe: End-to-end Detection of ISP Traffic Shaping using Active Methods",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Oct 31, 2011",
+		"authors": ["Roi Blanco", "Jeff Pound"],
+		"venue": "CIKM '11 Proceedings of the 20th ACM international conference on Information and knowledge management",
+		"name": "Keyword Search over RDF Graphs",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Oct 31, 2011",
+		"authors": ["Peter Mika", "Roi Blanco", "Jeff Dalton"],
+		"venue": "20th ACM International Conference on Information and Knowledge Management",
+		"name": "Coreference Aware Web Object Retrieval",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Oct 28, 2011",
+		"authors": ["Neil O'hare"],
+		"venue": "2nd International Workshop on Search and Mining of User-generated Content (SMUC)",
+		"name": "&quot;I'm Eating a Sandwich in Glasgow&quot;: Modeling Locations with Tweets",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Oct 28, 2011",
+		"authors": ["Roi Blanco", "B. Barla Cambazoglu", "Ivan Kelly", "Flavio P Junqueira", "Vincent Leroy"],
+		"venue": "Proceedings of the 20th ACM Conference on Information and Knowledge Management, CIKM 2011",
+		"name": "Assigning documents to master sites in distributed search",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Oct 24, 2011",
+		"authors": ["Roi Blanco", "Peter Mika", "Sebastiano Vigna"],
+		"venue": "ISWC'11 The 10th International Semantic Web Conference",
+		"name": "Effective and Efficient Entity Search in RDF data",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Oct 23, 2011",
+		"authors": ["Yuval Pinter"],
+		"venue": "IGDAL 1, Hebrew University of Jerusalem",
+		"name": "Modal Aspects of Before",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Sep 26, 2011",
+		"authors": ["Marc Bron", "Bouke Huurnink", "Maarten De Rijke"],
+		"venue": "TPDL 2011",
+		"name": "Linking Archives Using Document Enrichment and Term Selection",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Aug 24, 2011",
+		"authors": ["Rashmi Mohan"],
+		"venue": "ACM SIGMOD Conference, Athens, Greece",
+		"name": "Tutorial: Privacy-aware Data Management in Information Networks",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jul 29, 2011",
+		"authors": ["Roi Blanco", "Peter Mika", "Harry Halpin", "Daniel M Herzig", "Jeff Pound", "Henry S Thompson", "Than Tran Duc"],
+		"venue": "EOS 2011 - Entity Oriented Search Workshop",
+		"name": "Entity Search Evaluation over Structured Web Data",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jul 28, 2011",
+		"authors": ["B. Barla Cambazoglu", "Roi Blanco", "Enver Kayaaslan", "Flavio P Junqueira", "Cevdet Aykanat"],
+		"venue": "Proceedings of the 34th Annual International ACM SIGIR Conference on Research and Development in Information Retrieval SIGIR 2011",
+		"name": "Energy-Price-Driven Query Processing in Multi-center Web Search Engines",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jul 24, 2011",
+		"authors": ["Roi Blanco", "Nattiya Kanhabua", "Michael Matthews"],
+		"venue": "34th ACM International Conference on Research and Development in Information Retrieval SIGIR 2011",
+		"name": "Ranking Related News Predictions",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jul 24, 2011",
+		"authors": ["Peter Mika", "Roi Blanco", "Kevin Haas", "Paul Tarjan"],
+		"venue": "Proceedings of the 34th Annual International ACM SIGIR Conference on Research and Development in Information Retrieval SIGIR 2011",
+		"name": "Enhanced Results for Web Search",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jul 24, 2011",
+		"authors": ["Suleyman Cetintas"],
+		"venue": "Proceedings of the 34th International ACM SIGIR Conference on Research and Development in Information Retrieval",
+		"name": "Identifying similar people in professional social networks with discriminative probabilistic models",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jun 20, 2011",
+		"authors": ["Yuanqing Lin", "Fengjun Lv", "Shenghuo Zhu", "Ming Yang", "Timothee Cour", "Kai Yu", "Thomas S. Huang"],
+		"venue": "CVPR",
+		"name": "Large-scale image classification: fast feature extraction and svm training",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Apr 11, 2011",
+		"authors": ["Hetal Thakkar", "Nikolay Laptev", "Hamid Mousavi", "Barzan Mozafari", "Vincenzo Russo", "Carlo Zaniolo"],
+		"venue": "ICDE 2011",
+		"name": "Smm: A Data Stream Management System for Knowledge Discovery",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Mar 28, 2011",
+		"authors": ["Zhijun Yin", "Liangliang Cao", "Jiawei Han", "Chengxiang Zhai", "Thomas Huang"],
+		"venue": "WWW",
+		"name": "Geographical topic discovery and comparison",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Feb 9, 2011",
+		"authors": ["Claudio Lucchese", "Salvatore Orlando", "Raffaele Perego", "Fabrizio Silvestri", "Gabriele Tolomei"],
+		"venue": "WSDM 2011",
+		"name": "Identifying Task-based Sessions in Search Engine Query Logs",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Feb 9, 2011",
+		"authors": ["Michael J. Welch", "Uri Schonfeld", "Dan He", "Junghoo Cho"],
+		"venue": "Fourth ACM International Conference on Web Search and Data Mining (WSDM 2011)",
+		"name": "Topical Semantics of Twitter Links",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 30, 2011",
+		"authors": ["Roi Blanco", "Giuseppe Amodeo", "Ulf Brefeld"],
+		"venue": "20th ACM International Conference on Information and Knowledge Management",
+		"name": "Hybrid Models for Future Event Prediction",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2011",
+		"authors": ["Rashmi Mohan", "Malcolm Slaney"],
+		"venue": "International Symposium on Music Information Retrieval (ISMIR)",
+		"name": "A CLASSIFICATION-BASED POLYPHONIC PIANO TRANSCRIPTION APPROACH USING LEARNED FEATURE REPRESENTATIONS",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2011",
+		"authors": ["Rashmi Mohan", "Marco Serafini"],
+		"venue": "IEEE Int'l Conf. on Dependable Systems and Networks (DSN-DCCS)",
+		"name": "Efficient Model Checking of Fault-Tolerant Distributed Protocols",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2011",
+		"authors": ["David Ayman Shamma"],
+		"venue": "CSCW 2011, Hangzhou, China",
+		"name": "In the Limelight Over Time: Temporalities of Network Centrality",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2011",
+		"authors": ["Rashmi Mohan", "Ashwin Machanavajjhala", "Nilesh Dalvi"],
+		"venue": "WWW",
+		"name": "Highly Efficient Algorithms For Structural Clustering of Large Websites",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2011",
+		"authors": ["Rashmi Mohan", "Vanessa Murdock"],
+		"venue": "2nd International Workshop on Search and Mining of User-generated Content (SMUC), Glasgow",
+		"name": "&quot;I'm Eating a Sandwich in Glasgow&quot;: Modeling Locations with Tweets",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2011",
+		"authors": ["Kevin Lang"],
+		"venue": "Fourth ACM International Conference on Web Search and Data Mining, Hong Kong, China",
+		"name": "Efficient online ad serving in a display advertising exchange",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2011",
+		"authors": ["Rashmi Mohan", "Flavio Junqueira", "Marco Serafini"],
+		"venue": "IEEE Int'l Conf. on Dependable Systems and Networks (DSN-DCCS)",
+		"name": "Zab: High-performance broadcast for primary-backup systems",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2011",
+		"authors": ["Rashmi Mohan", "Elizabeth Churchill"],
+		"venue": "interactions",
+		"name": "Missing the point",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2011",
+		"authors": ["Ronny Lempel", "Nadav Golbandi"],
+		"venue": "WSDM&#39;11",
+		"name": "Adaptive Bootstrapping of Recommender Systems Using Decision Trees",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2011",
+		"authors": ["Ronny Lempel", "Nadav Golbandi"],
+		"venue": "WSDM&#39;11",
+		"name": "Adaptive Bootstrapping of Recommender Systems Using Decision Trees",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2011",
+		"authors": ["Rashmi Mohan", "Lwei"],
+		"venue": "ACM KDD 2011, San Diego, CA",
+		"name": "Bid Landscape Forecasting in Online Ad Exchange Marketplace",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2011",
+		"authors": ["David Ayman Shamma"],
+		"venue": "Electronic Imaging, San Francisco",
+		"name": "Know Your Data: Understanding Implicit Usage versus Explicit Action in Video Content Classi",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2011",
+		"authors": ["Rashmi Mohan", "Marco Pennacchiotti", "Ana-maria Popescu"],
+		"venue": "ICWSM",
+		"name": "&quot;Dancing with the Stars&quot;, NBA Games, Politics: An exploration of Twitter users' response to events",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2011",
+		"authors": ["Rashmi Mohan"],
+		"venue": "MobileHCI '11: International Conference on Human Computer Interaction with Mobile Devices and Services, Stockholm, Sweden",
+		"name": "Mobile augmented reality: design issues and opportunities: Workshop outline",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2011",
+		"authors": ["Marcelo Mendoza", "Barbara Poblete"],
+		"venue": "World Wide Web (WWW), Hyderabad, India",
+		"name": "Information Credibility on Twitter",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2011",
+		"authors": ["David Ayman Shamma"],
+		"venue": "CSCW 2011, Hangzhou, China",
+		"name": "Peaks and Persistence: Modeling the Shape of Microblog Conversations",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2011",
+		"authors": ["Mounia Lalmas"],
+		"venue": "WSDM Workshop on User Modelling for Web Applications, Hong Kong, China",
+		"name": "Towards a science of user engagement (Position Paper)",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2011",
+		"authors": ["Vidit Jain"],
+		"venue": "CVPR 2011, Colorado Springs, USA",
+		"name": "Online Domain-Adaptation of a Pre-Trained Cascade of Classifiers",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2011",
+		"authors": ["Gideon Dror"],
+		"venue": "ACM Recommender Systems 2011 (RecSys'11), Chicago, Illinois, USA",
+		"name": "Yahoo Music Recommendations: Modeling Music Ratings with Temporal Dynamics and Item Taxonomy",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2011",
+		"authors": ["David Ayman Shamma"],
+		"venue": "CSCW 2011, Hangzhou, China",
+		"name": "In the Limelight Over Time: Temporalities of Network Centrality",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2011",
+		"authors": ["Edo Liberty", "Yoelle Maarek", "Yehuda Koren", "Roman Sandler"],
+		"venue": "KDD 2011: 17th ACM SIGKDD Conference on Knowledge Discovery and Data Mining",
+		"name": "Automatically Tagging Email by Leveraging Other Users' Folders",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2011",
+		"authors": ["Francesco Bonchi"],
+		"venue": "ACM Transactions on Intelligent Systems and Technology (TIST)",
+		"name": "Social Network Analysis and Mining for Business Applications",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2011",
+		"authors": ["Rashmi Mohan"],
+		"venue": "Interacting with Computers",
+		"name": "Feminism and HCI: New Perspectives",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2011",
+		"authors": ["Rashmi Mohan"],
+		"venue": "Proceedings of the 4th International Conference on Web Search and Data Mining",
+		"name": "Document assignment in multi-site search engines",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2011",
+		"authors": ["Francesco Bonchi"],
+		"venue": "KDD, San Diego, CA, USA",
+		"name": "Sparsification of Influence Networks",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2011",
+		"authors": ["Francesco Bonchi"],
+		"venue": "Communications of ACM",
+		"name": "Viscous democracy for social networks",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2011",
+		"authors": ["Francesco Bonchi"],
+		"venue": "Communications of ACM",
+		"name": "Viscous democracy for social networks",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2011",
+		"authors": ["Rashmi Mohan"],
+		"venue": "Computer Supported Cooperative Work",
+		"name": "Computer Interaction Analysis: Toward an Empirical Approach to Understanding User Practice and Eye Gaze in GUI-Based Interaction",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2011",
+		"authors": ["David Ayman Shamma"],
+		"venue": "CSCW 2011, Hangzhou, China",
+		"name": "Peaks and Persistence: Modeling the Shape of Microblog Conversations",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2011",
+		"authors": ["Rashmi Mohan", "Rushi P Bhatt", "Dineshg"],
+		"venue": "WWW 2011, Hyderabad, India",
+		"name": "Adaptive Policies for Selecting Groupon Style Chunked Reward Ads in a Stochastic Knapsack Framework",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2011",
+		"authors": ["Rashmi Mohan"],
+		"venue": "AISTATS",
+		"name": "Contextual Bandit Algorithms with Supervised Learning Guarantees",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2011",
+		"authors": ["Rashmi Mohan"],
+		"venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+		"name": "Nonnegative Matrix Factorization with Earth Mover's Distance Metric for Image Analysis.",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2011",
+		"authors": ["Mounia Lalmas"],
+		"venue": "International Workshop on Internationalisation of Products and Systems (IWIPS 2011), Malaysia",
+		"name": "Please call ME.N.U.4EVER: Designing for Callback in Rural Africa",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2011",
+		"authors": ["Rashmi Mohan"],
+		"venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+		"name": "Nonnegative Matrix Factorization with Earth Mover's Distance Metric for Image Analysis.",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2011",
+		"authors": ["Mounia Lalmas"],
+		"venue": "International Workshop on Internationalisation of Products and Systems (IWIPS 2011), Malaysia",
+		"name": "Please call ME.N.U.4EVER: Designing for Callback in Rural Africa",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2011",
+		"authors": ["Rashmi Mohan", "Ingmar Weber"],
+		"venue": "Information Processing Letters",
+		"name": "Offline File Assignments for Online Load Balancing",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2011",
+		"authors": ["Gideon Dror"],
+		"venue": "ACM Recommender Systems 2011 (RecSys'11), Chicago, Illinois, USA",
+		"name": "Yahoo Music Recommendations: Modeling Music Ratings with Temporal Dynamics and Item Taxonomy",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2011",
+		"authors": ["Andreas Eiselt"],
+		"venue": "e-Business and Telecommunications, Milan, Italy",
+		"name": "An Enhanced Concept of a Digital Radio Incorporating a Multimodal Interface and Searchable Spoken Content",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2011",
+		"authors": ["Rashmi Mohan"],
+		"venue": "20th Annual World Wide Web Conference, Hyderabad, India",
+		"name": "Who Says What to Whom on Twitter",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2011",
+		"authors": ["Rashmi Mohan", "Yehuda Arie Koren"],
+		"venue": "Recommender Systems Handbook",
+		"name": "Advances in Collaborative Filtering",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2011",
+		"authors": ["Rashmi Mohan", "Marco Serafini"],
+		"venue": "IEEE Int'l Conf. on Dependable Systems and Networks (DSN-DCCS)",
+		"name": "Efficient Model Checking of Fault-Tolerant Distributed Protocols",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2011",
+		"authors": ["David Ayman Shamma"],
+		"venue": "CHI 2011, Vancouver, Canada",
+		"name": "Knowing Funny: Genre Perception and Categorization in Social Video Sharing",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2011",
+		"authors": ["Rashmi Mohan"],
+		"venue": "National Conference on Artificial Intelligence (AAAI)",
+		"name": "A Kernel-Based Iterative Combinatorial Auction",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2011",
+		"authors": ["Rashmi Mohan"],
+		"venue": "CSCW 2011, Hangzhou, China",
+		"name": "Three Sequential Positions of Query Repair in Interactions with Internet Search Engines",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2011",
+		"authors": ["Rashmi Mohan"],
+		"venue": "Computer Supported Cooperative Work",
+		"name": "Computer Interaction Analysis: Toward an Empirical Approach to Understanding User Practice and Eye Gaze in GUI-Based Interaction",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2011",
+		"authors": ["Rashmi Mohan", "Vidhya Navalpakkam"],
+		"venue": "NIPS, Granada, Spain",
+		"name": "Predicting response time and error rates in visual search",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2011",
+		"authors": ["Anirban Dasgupta"],
+		"venue": "4th International Conference on Web Search and Web Data Mining, WSDM",
+		"name": "Enhanced email spam filtering through combining similarity graphs",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2011",
+		"authors": ["Rashmi Mohan"],
+		"venue": "Fourth International Conference on Web Search and Data Mining",
+		"name": "Everyone's an Influencer: Quantifying Influence on Twitter",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2011",
+		"authors": ["Alejandro Jaimes"],
+		"venue": "WSDM",
+		"name": "Who Uses Web Search for What? And How?",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2011",
+		"authors": ["Kevin Lang"],
+		"venue": "Fourth ACM International Conference on Web Search and Data Mining, Hong Kong, China",
+		"name": "Efficient online ad serving in a display advertising exchange",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2011",
+		"authors": ["Oren Somekh", "Ronny Lempel", "Edo Liberty"],
+		"venue": "WWW",
+		"name": "Inverted Index Compression via Online Document Routing",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2011",
+		"authors": ["Rashmi Mohan"],
+		"venue": "Proceedings of the 20th International Conference on World Wide Web",
+		"name": "Timestamp-based cache invalidation for search engines",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2011",
+		"authors": ["Marcelo Mendoza", "Barbara Poblete"],
+		"venue": "World Wide Web (WWW), Hyderabad, India",
+		"name": "Information Credibility on Twitter",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2011",
+		"authors": ["Peter Mika", "Roi Blanco"],
+		"venue": "SIGIR",
+		"name": "Enhanced Results for Web Search",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2011",
+		"authors": ["Rashmi Mohan", "Brefeld"],
+		"venue": "Journal of Machine Learning Research",
+		"name": "lp-Norm Multiple Kernel Learning",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2011",
+		"authors": ["Rashmi Mohan"],
+		"venue": "CHI 2011, Vancouver, BC, Canada",
+		"name": "My Kind of People? Perceptions About Wikipedia Contributors and Their Motivations",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2011",
+		"authors": ["Rashmi Mohan"],
+		"venue": "CHI EA '11: annual conference on Human factors in computing systems, Vancouver, BC, Canada",
+		"name": "Managing global UX teams: Panel Description",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2011",
+		"authors": ["Rashmi Mohan", "Lihong Li"],
+		"venue": "AISTATS",
+		"name": "Linear-time estimators for propensity scores",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2011",
+		"authors": ["Rashmi Mohan", "Arpita Ghosh"],
+		"venue": "WWW 2011: Proceedings of the 20th international conference on World Wide Web, Hyderabad, India",
+		"name": "Incentivizing High-quality User-Generated Content",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2011",
+		"authors": ["Mounia Lalmas"],
+		"venue": "CIKM 2011 Workshop on Large-Scale and Distributed Information Retrieval (LSDS-IR 2011), Glasgow, Scotland",
+		"name": "Evaluating Large-Scale Distributed Vertical Search",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2011",
+		"authors": ["Rashmi Mohan"],
+		"venue": "Interacting with Computers",
+		"name": "Feminism and HCI: New Perspectives",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2011",
+		"authors": ["Xiao Bai"],
+		"venue": "Proceedings of the 20th ACM International Conference on Information and Knowledge Management (CIKM), Glasgow, Scotland, UK",
+		"name": "Discovering URLs through User Feedback",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2011",
+		"authors": ["Rashmi Mohan"],
+		"venue": "Computer Supported Cooperative Work (CSCW), Hangzhou, China",
+		"name": "Faceted Identity, Faceted Lives: Social and Technical Issues with Being Yourself Online",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2011",
+		"authors": ["Rashmi Mohan", "Yehuda Arie Koren"],
+		"venue": "ACM Recommender Systems 2011 (RecSys'11), Chicago, Illinois, USA",
+		"name": "OrdRec: An Ordinal Model for Predicting Personalized Item Rating Distributions",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2011",
+		"authors": ["Suju Rajan"],
+		"venue": "4th International Conference on Web Search and Web Data Mining, WSDM",
+		"name": "Scalable clustering of news search results",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2011",
+		"authors": ["Rashmi Mohan", "Ashwin Machanavajjhala"],
+		"venue": "VLDB",
+		"name": "Personalized Social Recommendations -- Accurate or Private?",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2011",
+		"authors": ["Rashmi Mohan", "Ingmar Weber"],
+		"venue": "CIKM",
+		"name": "What and How Children Search on the Web",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2011",
+		"authors": ["Rashmi Mohan"],
+		"venue": "interactions",
+		"name": "Rat, rational, or seething cauldron of desire: designing the shopper",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2011",
+		"authors": ["Rashmi Mohan", "Ruggiero Cavallo"],
+		"venue": "International Joint Conference on Artificial Intelligence (IJCAI), Barcelona, Spain",
+		"name": "Efficient Mechanisms with Risky Participation",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2011",
+		"authors": ["Rashmi Mohan", "Lihong Li"],
+		"venue": "Information Systems and E-Business Management",
+		"name": "Cloud control: Voluntary admission control for Intranet traffic management",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2011",
+		"authors": ["David Ayman Shamma"],
+		"venue": "CSCW 2011, Hangzhou, China",
+		"name": "Peaks and Persistence: Modeling the Shape of Microblog Conversations",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2011",
+		"authors": ["Rashmi Mohan", "Ashwin Machanavajjhala"],
+		"venue": "VLDB",
+		"name": "Personalized Social Recommendations -- Accurate or Private?",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2011",
+		"authors": ["Rashmi Mohan"],
+		"venue": "20th Annual World Wide Web Conference, Hyderabad, India",
+		"name": "Who Says What to Whom on Twitter",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2011",
+		"authors": ["Suju Rajan"],
+		"venue": "4th International Conference on Web Search and Web Data Mining, WSDM",
+		"name": "Scalable clustering of news search results",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2011",
+		"authors": ["Rashmi Mohan", "Marco Serafini"],
+		"venue": "IEEE Transactions on Dependable and Secure Computing",
+		"name": "Application-Level Diagnostic and Membership Protocols for Generic Time-Triggered Systems",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2011",
+		"authors": ["David Ayman Shamma"],
+		"venue": "2011 annual conference on Human factors in computing systems - Extended Abstracts, Vancouver, BC, Canada",
+		"name": "Mobile augmented reality: video prototyping",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2011",
+		"authors": ["Rashmi Mohan"],
+		"venue": "ICML",
+		"name": "Doubly robust policy evaluation and learning",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2011",
+		"authors": ["Andreas Eiselt"],
+		"venue": "e-Business and Telecommunications, Milan, Italy",
+		"name": "An Enhanced Concept of a Digital Radio Incorporating a Multimodal Interface and Searchable Spoken Content",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2011",
+		"authors": ["Rashmi Mohan", "Arpita Ghosh"],
+		"venue": "WWW 2011: Proceedings of the 20th international conference on World Wide Web, Hyderabad, India",
+		"name": "Incentivizing High-quality User-Generated Content",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2011",
+		"authors": ["Rashmi Mohan", "Ingmar Weber"],
+		"venue": "Information Processing Letters",
+		"name": "Offline File Assignments for Online Load Balancing",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2011",
+		"authors": ["David Ayman Shamma"],
+		"venue": "CSCW 2011, Hangzhou, China",
+		"name": "In the Limelight Over Time: Temporalities of Network Centrality",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2011",
+		"authors": ["David Ayman Shamma"],
+		"venue": "CSCW 2011, Hangzhou, China",
+		"name": "Peaks and Persistence: Modeling the Shape of Microblog Conversations",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2011",
+		"authors": ["Rashmi Mohan", "Ruggiero Cavallo"],
+		"venue": "Uncertainty in Artificial Intelligence (UAI), Barcelona, Spain",
+		"name": "Incentives in Group Decision-Making With Uncertainty and Subjective Beliefs",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2011",
+		"authors": ["David Ayman Shamma"],
+		"venue": "Electronic Imaging, San Francisco",
+		"name": "Know Your Data: Understanding Implicit Usage versus Explicit Action in Video Content Classi",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2011",
+		"authors": ["Rashmi Mohan"],
+		"venue": "interactions",
+		"name": "Making time",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2011",
+		"authors": ["Rashmi Mohan", "Ingmar Weber"],
+		"venue": "CIKM",
+		"name": "What and How Children Search on the Web",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2011",
+		"authors": ["Roi Blanco", "Peter Mika"],
+		"venue": "SIGIR",
+		"name": "Repeatable and Reliable Search System Evaluation using Crowd-Sourcing",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2011",
+		"authors": ["Arun Iyer"],
+		"venue": "WDSM",
+		"name": "Collective Bayesian Extraction from Heterogeneous Web Lists",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2011",
+		"authors": ["Yoelle Maarek", "Idan Szpektor", "Aris Gionis"],
+		"venue": "WWW&#39;2011, Hyderabad, India",
+		"name": "Improving recommendation for long-tail queries via templates",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2011",
+		"authors": ["Rashmi Mohan"],
+		"venue": "interactions",
+		"name": "Rat, rational, or seething cauldron of desire: designing the shopper",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2011",
+		"authors": ["Francesco Bonchi"],
+		"venue": "ACM Transactions on Intelligent Systems and Technology (TIST)",
+		"name": "Social Network Analysis and Mining for Business Applications",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2011",
+		"authors": ["Achint Thomas"],
+		"venue": "KDD",
+		"name": "Unbiased online active learning in data streams",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2011",
+		"authors": ["Rashmi Mohan"],
+		"venue": "Journal of Machine Learning Research, W&CP",
+		"name": "Results of the Active Learning Challenge",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2011",
+		"authors": ["Rashmi Mohan", "Ruggiero Cavallo"],
+		"venue": "International Joint Conference on Artificial Intelligence (IJCAI), Barcelona, Spain",
+		"name": "Efficient Mechanisms with Risky Participation",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2011",
+		"authors": ["Rashmi Mohan", "Arpita Ghosh", "Patrick Hummel"],
+		"venue": "ACM EC",
+		"name": "A Game-Theoretic Analysis of Rank-Order Mechanisms for User-Generated Content",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2011",
+		"authors": ["Rashmi Mohan", "Lihong Li"],
+		"venue": "NIPS",
+		"name": "An empirical evaluation of Thompson sampling",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2011",
+		"authors": ["Rashmi Mohan", "Vanessa Murdock"],
+		"venue": "International Conference on Multimedia Retrieval (ICMR), Trento, Italy",
+		"name": "Automatic Tagging and Geotagging in Video Collections and Communities",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2011",
+		"authors": ["Xiao Bai"],
+		"venue": "ACM Transactions on Database Systems (TODS)",
+		"name": "Collaborative Personalized Top-k Processing",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2011",
+		"authors": ["Rashmi Mohan", "Ashwin Machanavajjhala"],
+		"venue": "VLDB",
+		"name": "Personalized Social Recommendations -- Accurate or Private?",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2011",
+		"authors": ["Rashmi Mohan", "Lihong Li"],
+		"venue": "Annals of Mathematics and Artificial Intelligence",
+		"name": "Reducing reinforcement learning to KWIK online regression",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2011",
+		"authors": ["Rashmi Mohan"],
+		"venue": "Nature Neuroscience",
+		"name": "Behavior and neural basis of near-optimal visual search",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2011",
+		"authors": ["Rashmi Mohan", "Malcolm Slaney", "Vidhya Navalpakkam"],
+		"venue": "CHI 2011 (WIP), Vancouver, BC",
+		"name": "Using Gaze Patterns to Study and Predict Reading Struggles due to Distraction",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2011",
+		"authors": ["Alejandro Jaimes"],
+		"venue": "WSDM",
+		"name": "Who Uses Web Search for What? And How?",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2011",
+		"authors": ["Anirban Dasgupta"],
+		"venue": "4th International Conference on Web Search and Web Data Mining, WSDM",
+		"name": "Enhanced email spam filtering through combining similarity graphs",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2011",
+		"authors": ["Rashmi Mohan", "Marco Pennacchiotti", "Ana-maria Popescu"],
+		"venue": "ICWSM",
+		"name": "A machine-learning approach to Twitter user classification",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2011",
+		"authors": ["Rashmi Mohan"],
+		"venue": "MobileHCI '11: International Conference on Human Computer Interaction with Mobile Devices and Services, Stockholm, Sweden",
+		"name": "Mobile augmented reality: design issues and opportunities: Workshop outline",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2011",
+		"authors": ["Rashmi Mohan"],
+		"venue": "",
+		"name": "A Study of Cooperation and Contagion in Web-Based Public Goods Experiments",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2011",
+		"authors": ["Kevin Lang"],
+		"venue": "Fourth ACM International Conference on Web Search and Data Mining, Hong Kong, China",
+		"name": "Efficient online ad serving in a display advertising exchange",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2011",
+		"authors": ["Roi Blanco"],
+		"venue": "SIGIR",
+		"name": "Ranking Related News Predictions",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2011",
+		"authors": ["Francesco Bonchi"],
+		"venue": "ACM Transactions on Intelligent Systems and Technology (TIST)",
+		"name": "Social Network Analysis and Mining for Business Applications",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2011",
+		"authors": ["Rashmi Mohan", "Marco Serafini"],
+		"venue": "IEEE Transactions on Dependable and Secure Computing",
+		"name": "Application-Level Diagnostic and Membership Protocols for Generic Time-Triggered Systems",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2011",
+		"authors": ["Rashmi Mohan"],
+		"venue": "Workshop on Internet and Network Economics (WINE)",
+		"name": "Efficient Ranking in Sponsored Search",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2011",
+		"authors": ["Rashmi Mohan"],
+		"venue": "International Conference on Machine Learning, Bellevue, WA",
+		"name": "Active Learning from Crowds",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2011",
+		"authors": ["Alejandro Jaimes"],
+		"venue": "WSDM",
+		"name": "Who Uses Web Search for What? And How?",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2011",
+		"authors": ["Roi Blanco", "Peter Mika"],
+		"venue": "SIGIR",
+		"name": "Repeatable and Reliable Search System Evaluation using Crowd-Sourcing",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2011",
+		"authors": ["Rashmi Mohan", "Lihong Li"],
+		"venue": "Information Systems and E-Business Management",
+		"name": "Cloud control: Voluntary admission control for Intranet traffic management",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2011",
+		"authors": ["Marcelo Mendoza", "Barbara Poblete"],
+		"venue": "20th ACM Conference on Information and Knowledge Management, CIKM 2011, Glasgow, United Kingdom",
+		"name": "Do all birds tweet the same?: characterizing twitter around the world",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2011",
+		"authors": ["Rashmi Mohan"],
+		"venue": "SIGMOD",
+		"name": "No Free Lunch in Data Privacy",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2011",
+		"authors": ["Mounia Lalmas"],
+		"venue": "WSDM Workshop on User Modelling for Web Applications, Hong Kong, China",
+		"name": "Towards a science of user engagement (Position Paper)",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2011",
+		"authors": ["Andreas Eiselt"],
+		"venue": "e-Business and Telecommunications, Milan, Italy",
+		"name": "An Enhanced Concept of a Digital Radio Incorporating a Multimodal Interface and Searchable Spoken Content",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2011",
+		"authors": ["Rashmi Mohan", "Arpita Ghosh"],
+		"venue": "22nd International Joint Conference on Artificial Intelligence: IJCAI",
+		"name": "A Market Clearing Solution for Social Lending",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2011",
+		"authors": ["Rashmi Mohan"],
+		"venue": "AISTATS",
+		"name": "Contextual Bandit Algorithms with Supervised Learning Guarantees",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2011",
+		"authors": ["Rashmi Mohan", "Elizabeth Churchill"],
+		"venue": "interactions",
+		"name": "Missing the point",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2011",
+		"authors": ["Mounia Lalmas"],
+		"venue": "WSDM Workshop on User Modelling for Web Applications, Hong Kong, China",
+		"name": "Towards a science of user engagement (Position Paper)",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Dec 12, 2010",
+		"authors": ["Zhen Li", "Huazhong Ning", "Liangliang Cao", "Tong Zhang", "Yihong Gong", "Thomas S. Huang"],
+		"venue": "NIPS",
+		"name": "Learning to Search Efficiently in High Dimensions",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Nov 10, 2010",
+		"authors": ["Peter Mika", "Roi Blanco", "Harry Halpin", "Daniel M Herzig", "Jeffrey Pound", "Henry S Thompson", "Than Tran Duc"],
+		"venue": "International Workshop on Evaluation of Semantic Technologies, IWEST 2010",
+		"name": "Evaluating Ad-Hoc Object Retrieval",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Oct 26, 2010",
+		"authors": ["Marc Bron", "Krisztian Balog", "Maarten De Rijke"],
+		"venue": "CIKM 2010",
+		"name": "Ranking Related Entities: Components and Analyses",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Oct 25, 2010",
+		"authors": ["Xin Jin", "Andrew Gallagher", "Liangliang Cao", "Jiebo Luo", "Jiawei Han"],
+		"venue": "ACM MM",
+		"name": "The wisdom of social multimedia: using flickr for prediction and forecast",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Oct 22, 2010",
+		"authors": ["Rashmi Mohan"],
+		"venue": "ADKDD, Washington D.C.",
+		"name": "Clickable Terms for Contextual Advertising",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Oct 22, 2010",
+		"authors": ["Rashmi Mohan"],
+		"venue": "SIGIR, Geneva",
+		"name": "Ranking for the Conversion Funnel in Contextual Advertising",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Sep 13, 2010",
+		"authors": ["Georges Dupret"],
+		"venue": "WSDM, Brooklin, New York",
+		"name": "A Model to Estimate Intrinsic Document Relevance from the Clickthrough Logs of a Web Search Engine.",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Sep 10, 2010",
+		"authors": ["Yuval Pinter"],
+		"venue": "Modality in English 4, Universidad Complutense de Madrid",
+		"name": "A Modification of Graded Modality Comparison",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jul 19, 2010",
+		"authors": ["Roi Blanco", "Edward Bortnikov", "Ronny Lempel", "Flavio P Junqueira", "Luca Telloli", "Hugo Zaragoza"],
+		"venue": "SIGIR 2010",
+		"name": "Caching search engine results over incremental indices",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jun 13, 2010",
+		"authors": ["Liangliang Cao", "Thomas S. Huang", "Zicheng Liu"],
+		"venue": "CVPR",
+		"name": "Cross-dataset action detection",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Apr 26, 2010",
+		"authors": ["Kevin Lang"],
+		"venue": "WWW 2010, Raleigh, NC",
+		"name": "Empirical Comparison of Algorithms for Network Community Detection",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Mar 29, 2010",
+		"authors": ["Rashmi Mohan"],
+		"venue": "",
+		"name": "AUC Definitions and Calculations",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Mar 18, 2010",
+		"authors": ["Partha Kanuparthy", "Constantine Dovrolis"],
+		"venue": "IEEE INFOCOM",
+		"name": "DiffProbe: Detecting ISP Service Discrimination",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Rashmi Mohan"],
+		"venue": "National Conference on Artificial Intelligence (AAAI)",
+		"name": "Stability and Incentive Compatibility in a Kernel-Based Combinatorial Auction",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Rashmi Mohan"],
+		"venue": "Grace Hopper Celebration of Women in Computing, Atlanta, GA",
+		"name": "Anger Management: Using Sentiment Analysis to Manage Online Communities",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Ronny Lempel", "Nadav Golbandi"],
+		"venue": "CIKM'10",
+		"name": "On Bootstrapping Recommender Systems",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Rashmi Mohan"],
+		"venue": "SIGIR, Geneva, Switzerland",
+		"name": "Query Similarity by Projecting the Query-Flow Graph",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Rashmi Mohan", "Malcolm Slaney"],
+		"venue": "2010 International Conference on Audio, Speech and Language Processing, Dallas, TX",
+		"name": "THE INFORMATION CONTENT OF DEMODULATED SPEECH",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Rashmi Mohan", "Sergei Vassilvitskii"],
+		"venue": "Electronic Commerce (EC)",
+		"name": "Optimal Online Assignment with Forecasts",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Rashmi Mohan", "Lwei"],
+		"venue": "Online Multimedia Advertising: Techniques and Technologies",
+		"name": "Click-Through Rate Estimation for Rare Events in Online Advertising",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Rashmi Mohan", "Malcolm Slaney"],
+		"venue": "IEEE Transactions on Audio, Speech and Language Processing",
+		"name": "Solving Demodulation as an Optimization Problem",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Rashmi Mohan"],
+		"venue": "interactions",
+		"name": "The (Anti) Social Net",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Andreas Eiselt"],
+		"venue": "CLEF 10 Labs and Workshops, Padua, Italy",
+		"name": "Overview of the 2nd International Competition on Plagiarism Detection",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Rashmi Mohan"],
+		"venue": "AAAI",
+		"name": "Prioritization of Domain-Specific Web Information Extraction",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Rashmi Mohan"],
+		"venue": "WWW 2010: Proceedings of the 19th international conference on World Wide Web",
+		"name": "Using Landing Pages for Sponsored Search Ad Selection",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Rashmi Mohan"],
+		"venue": "Grace Hopper Celebration of Women in Computing, Atlanta, GA.",
+		"name": "Faceted Identity, Faceted Lives: Social and Technical Issues in Being Yourself Online",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Rashmi Mohan", "Lwei"],
+		"venue": "The 16th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD)",
+		"name": "Exploitation and Exploration in a Performance based Contextual Advertising System",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Rashmi Mohan"],
+		"venue": "Proceedings of the 19th International Conference on World Wide Web",
+		"name": "A refreshing perspective of search engine caching",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Rashmi Mohan", "Ingmar Weber"],
+		"venue": "World Wide Web (WWW)",
+		"name": "How much is your personal recommendation worth?",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Rashmi Mohan"],
+		"venue": "19th ACM Conference on Information and Knowledge Management, CIKM",
+		"name": "The anatomy of a click: modeling user behavior on web information systems",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Rashmi Mohan"],
+		"venue": "19th ACM Conference on Information and Knowledge Management, CIKM",
+		"name": "The anatomy of a click: modeling user behavior on web information systems",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Yi Chang", "Georges Dupret", "Anlei Dong", "Yoshi Inagaki"],
+		"venue": "the Twenty-Fourth AAAI Conference on Artificial Intelligence (AAAI 2010)",
+		"name": "Session Based Click Features for Recency Ranking",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Rashmi Mohan", "Chris Leggetter"],
+		"venue": "NAACL HLT",
+		"name": "Minimally-Supervised Extraction of Entities from Text Advertisements",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Yi Chang"],
+		"venue": "CIKM",
+		"name": "Online learning for recency search ranking using real-time user feedback",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Francesco Bonchi"],
+		"venue": "Preceedings of the 19th International World Wide Web Conference",
+		"name": "On the high density of leadership nuclei in endorsement social networks",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Rashmi Mohan", "Rajeev Rastogi", "Pankajeg"],
+		"venue": "www2010, Raleigh, NC, USA",
+		"name": "EXPLOITING CONTENT REDUNDANCY FOR WEB INFORMATION EXTRACTION",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Rashmi Mohan", "Lihong Li"],
+		"venue": "Algorithmica",
+		"name": "Maintaining equilibria during exploration in sponsored search auctions",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Rashmi Mohan"],
+		"venue": "Web Intelligence, Toronto, Canada",
+		"name": "The Effects of Query Bursts on Web Search Results",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["David Ayman Shamma"],
+		"venue": "XRDS: Crossroads",
+		"name": "Beyond Freebird",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Ricardo Baeza-yates"],
+		"venue": "Proceedings of the 19th ACM Conference on Information and Knowledge Management",
+		"name": "Web search solved? All result rankings the same?",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Ronny Lempel", "Nadav Golbandi"],
+		"venue": "ACM Hypertext, Toronto, Canada",
+		"name": "Automatic Construction of Travel Itineraries using Social Breadcrumbs",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Roi Blanco"],
+		"venue": "SIGIR 2010",
+		"name": "Finding Support Sentences for Entities",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Rashmi Mohan", "Judd Antin"],
+		"venue": "GROUP - The ACM 2010 international conference on supporting group work, Sanibel Island, Florida, USA",
+		"name": "Everyday Favors: A Case Study of a Local Online Gift Exchange System",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Rashmi Mohan"],
+		"venue": "WWW",
+		"name": "The Paths More Taken: Matching DOM Trees to Search Logs for Accurate Webpage Clustering",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Roi Blanco"],
+		"venue": "SIGIR Forum",
+		"name": "The 8th Workshop on Large-Scale Distributed Systems for Information Retrieval (LSDS-IR10)",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Rashmi Mohan", "Chris Leggetter"],
+		"venue": "NAACL HLT",
+		"name": "Minimally-Supervised Extraction of Entities from Text Advertisements",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Rashmi Mohan", "Judd Antin"],
+		"venue": "Knowledge, Technology & Policy",
+		"name": "General and Familiar Trust in Websites",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Rashmi Mohan"],
+		"venue": "WSDM, Brooklyn, NY",
+		"name": "Beyond DCG: User Behaviour as a Predictor of a Successful Search",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Roi Blanco"],
+		"venue": "SIGIR Forum",
+		"name": "The 8th Workshop on Large-Scale Distributed Systems for Information Retrieval (LSDS-IR10)",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Alejandro Jaimes"],
+		"venue": "CIKM",
+		"name": "Demographic Information Flows",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Rashmi Mohan"],
+		"venue": "the 19th International World Wide Web Conference",
+		"name": "Ranking Specialization for Web Search: A Divide and Conquer Approach Using Topical RankSVM",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Rashmi Mohan", "Chris Leggetter", "Eren Manavoglu", "Stefan"],
+		"venue": "WSDM",
+		"name": "Improving Ad Relevance in Sponsored Search",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Rashmi Mohan", "Sharad Goel"],
+		"venue": "Proceedings of the National Academy of Sciences",
+		"name": "Predicting consumer behavior with Web search",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Roi Blanco"],
+		"venue": "SIGIR 2010",
+		"name": "Entity Summarization of News Articles",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Rashmi Mohan", "Vidhya Navalpakkam"],
+		"venue": "Proc Natl Acad Sci U S A.",
+		"name": "Optimal reward harvesting in complex perceptual environments",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Rashmi Mohan", "Chris Leggetter"],
+		"venue": "SIGIR",
+		"name": "Clicked Phrase Document Expansion for Sponsored Search Ad Retrieval",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Rashmi Mohan"],
+		"venue": "No Code Required: Giving Users Tools to Transform the Web, Burlington, MA, USA",
+		"name": "Mashed Layers and Muddled Models: Debugging Mashup Applications",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Rashmi Mohan"],
+		"venue": "Proceedings of the 3rd ACM International Conference on Web Search and Data Mining",
+		"name": "Early exit optimizations for additive machine learned ranking systems",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Rashmi Mohan", "Rusty Sears", "Khaled Elmeleegy"],
+		"venue": "the 7th USENIX Symposium on Networked Systems Design and Implementation (NSDI '10)",
+		"name": "MapReduce Online",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["David Ayman Shamma", "Lyndon Kennedy"],
+		"venue": "International AAAI Conference on Weblogs and Social Media, Washington DC",
+		"name": "Conversational Shadows: Describing Live Media Events Using Short Messages",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Rashmi Mohan", "Chris Leggetter", "Eren Manavoglu", "Stefan"],
+		"venue": "WSDM",
+		"name": "Improving Ad Relevance in Sponsored Search",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Rashmi Mohan", "Kun Liu"],
+		"venue": "The 16th ACM SIGKDD Conference on Knowledge Discovery and Data Mining, Washington DC",
+		"name": "Tutorial: Privacy-aware Data Mining in Information Networks",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Roi Blanco"],
+		"venue": "CIKM 2010",
+		"name": "TAER: Time-Aware Entity Retrieval",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Rashmi Mohan"],
+		"venue": "Journal of Labor Economics",
+		"name": "Investment Tournaments: When Should a Rational Agent Put All Eggs in One Basket?",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Rashmi Mohan"],
+		"venue": "ACM Multimedia, Firenza, Italy",
+		"name": "Proceedings of second ACM SIGMM workshop on Social media",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Rashmi Mohan"],
+		"venue": "WWW",
+		"name": "Faceted Exploration of Image Search Results",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Andreas Eiselt"],
+		"venue": "International Conference on Language Resources and Evaluation (LREC'10), Valletta, Malta",
+		"name": "Corpus and Evaluation Measures for Automatic Plagiarism Detection",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Rashmi Mohan"],
+		"venue": "WWW",
+		"name": "The Paths More Taken: Matching DOM Trees to Search Logs for Accurate Webpage Clustering",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Rashmi Mohan", "Ingmar Weber"],
+		"venue": "World Wide Web (WWW)",
+		"name": "How much is your personal recommendation worth?",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Yi Chang"],
+		"venue": "CIKM",
+		"name": "Online learning for recency search ranking using real-time user feedback",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Rashmi Mohan"],
+		"venue": "Journal of Machine Learning Research",
+		"name": "Approximate Tree Kernels",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Rashmi Mohan"],
+		"venue": "CHI 2010, Atlanta, GA, USA",
+		"name": "Addressing Challenges in Doing International Field Research",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Rashmi Mohan", "Judd Antin"],
+		"venue": "GROUP - The ACM 2010 international conference on supporting group work, Sanibel Island, Florida, USA",
+		"name": "Everyday Favors: A Case Study of a Local Online Gift Exchange System",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Rashmi Mohan", "Chris Leggetter"],
+		"venue": "SIGIR",
+		"name": "Clicked Phrase Document Expansion for Sponsored Search Ad Retrieval",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Rashmi Mohan"],
+		"venue": "Foundations and Trends in Information Retrieval",
+		"name": "Adversarial Web Search",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Roi Blanco"],
+		"venue": "ACM Transactions on Information Systems (TOIS)",
+		"name": "Probabilistic static pruning of inverted files",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Rashmi Mohan"],
+		"venue": "WWW",
+		"name": "Web-Scale Knowledge Extraction from Semi-Structured Tables",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Rashmi Mohan"],
+		"venue": "ACM SIGMOD 2010, Indiana, IN",
+		"name": "Constructing and Exploring Composite Items",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Peter Mika", "Roi Blanco"],
+		"venue": "IWEST",
+		"name": "Evaluating Ad-Hoc Ob ject Retrieval",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Rashmi Mohan", "Lihong Li"],
+		"venue": "NIPS",
+		"name": "Learning from logged implicit exploration data",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Idan Szpektor"],
+		"venue": "Natural Language Engineering",
+		"name": "Directional distributional similarity for lexical inference",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Rashmi Mohan"],
+		"venue": "Proceedings of the 19th International Conference on World Wide Web",
+		"name": "A refreshing perspective of search engine caching",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Idan Szpektor"],
+		"venue": "NAACL",
+		"name": "Tutorial on Textual Entailment",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Rashmi Mohan", "Khaled Elmeleegy"],
+		"venue": "European Conference on Computer Systems (EuroSys)",
+		"name": "BOOM: Data-Centric Programming in the Datacenter",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Rashmi Mohan", "David Reiley", "Randall Lewis"],
+		"venue": "11th ACM Conference on Electronic Commerce",
+		"name": "Northern Exposure: A Field Experiment Measuring Externalities between Search Advertisements",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Rashmi Mohan", "Vidhya Navalpakkam"],
+		"venue": "Proc Natl Acad Sci U S A.",
+		"name": "Optimal reward harvesting in complex perceptual environments",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Rashmi Mohan"],
+		"venue": "WWW",
+		"name": "Faceted Exploration of Image Search Results",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Rashmi Mohan"],
+		"venue": "USENIX Annual Technology Conference",
+		"name": "ZooKeeper: Wait-free coordination for Internet-scale systems",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Rashmi Mohan", "Stefan", "Skrao", "Neumeyer"],
+		"venue": "AdKDD, Washington, DC, USA",
+		"name": "Generalized Utility in Web Search Advertising",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Rashmi Mohan"],
+		"venue": "ACM Symposium on Cloud Computing, Indianapolis, IN, USA",
+		"name": "Benchmarking Cloud Serving Systems with YCSB",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Rashmi Mohan", "Arpita Ghosh"],
+		"venue": "FUN 2010 (Fifth International Conference on FUN WITH ALGORITHMS)",
+		"name": "Christmas Gift Exchange Games",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Rashmi Mohan"],
+		"venue": "Journal of Machine Learning Research",
+		"name": "Approximate Tree Kernels",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["David Ayman Shamma"],
+		"venue": "XRDS: Crossroads",
+		"name": "Beyond Freebird",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Rashmi Mohan"],
+		"venue": "interactions",
+		"name": "Sugared Puppy Dog Tails: Gender and Design",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Rashmi Mohan"],
+		"venue": "Foundations and Trends in Information Retrieval",
+		"name": "Adversarial Web Search",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Rashmi Mohan"],
+		"venue": "CHI 2010, Atlanta, GA, USA",
+		"name": "Addressing Challenges in Doing International Field Research",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Rashmi Mohan", "Stefan", "Skrao", "Neumeyer"],
+		"venue": "AdKDD, Washington, DC, USA",
+		"name": "Generalized Utility in Web Search Advertising",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Francesco Bonchi"],
+		"venue": "SIASP 2010 workshop at ICDM 2010",
+		"name": "The Meme Ranking Problem: Maximizing Microblogging Virality",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Ronny Lempel", "Nadav Golbandi"],
+		"venue": "WWW, Raleigh, NC, USA",
+		"name": "Constructing Travel Itineraries from Tagged Geo-Temporal Breadcrumbs",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Rashmi Mohan", "Sandeep Pandey"],
+		"venue": "ACM SIGIR Special Interest Group on Information Retrieval",
+		"name": "Estimating Advertisability of Tail Queries for Sponsored Search",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Rashmi Mohan", "Malcolm Slaney"],
+		"venue": "11th ACM SIGMM International Conference on Multimedia Information Retrieval, Philadelphia, PA",
+		"name": "Multimodal retrieval and ranking: More than waveforms",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Georges Dupret"],
+		"venue": "sigir, geneva, switzerland",
+		"name": "A user behavior model for average precision and its generalization to graded judgments",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Rashmi Mohan", "Khaled Elmeleegy"],
+		"venue": "European Conference on Computer Systems (EuroSys)",
+		"name": "BOOM: Data-Centric Programming in the Datacenter",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Rashmi Mohan"],
+		"venue": "interactions",
+		"name": "Socializing at cross purposes",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Rashmi Mohan", "Sharad Goel"],
+		"venue": "Journal of Personality and Social Psychology",
+		"name": "Real and Perceived Attitude Agreement in Social Networks",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Rashmi Mohan"],
+		"venue": "IEEE Int&#39;l Conf. on Dependable Systems and Networks (DSN-DCCS)",
+		"name": "Scrooge: Reducing the Costs of Fast Byzantine Replication in Presence of Unresponsive Replicas",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Rashmi Mohan", "Michael Schwarz"],
+		"venue": "Journal of Public Economic Theory",
+		"name": "Half a Century of Public Software Institutions: Open Source as a Solution to Hold-Up Problem",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Rashmi Mohan"],
+		"venue": "WWW",
+		"name": "The Paths More Taken: Matching DOM Trees to Search Logs for Accurate Webpage Clustering",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Rashmi Mohan", "Malcolm Slaney"],
+		"venue": "IEEE Transactions on Audio, Speech and Language Processing",
+		"name": "Solving Demodulation as an Optimization Problem",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Rashmi Mohan", "Malcolm Slaney"],
+		"venue": "ACM Multimedia, Florence, Italy",
+		"name": "Image classification using the web graph",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Rashmi Mohan", "Lihong Li"],
+		"venue": "Algorithmica",
+		"name": "Maintaining equilibria during exploration in sponsored search auctions",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Rashmi Mohan"],
+		"venue": "USENIX Annual Technology Conference",
+		"name": "ZooKeeper: Wait-free coordination for Internet-scale systems",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Francesco Bonchi"],
+		"venue": "Preceedings of the 19th International World Wide Web Conference",
+		"name": "On the high density of leadership nuclei in endorsement social networks",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Rashmi Mohan", "Rajeev Rastogi", "Pankajeg"],
+		"venue": "www2010, Raleigh, NC, USA",
+		"name": "EXPLOITING CONTENT REDUNDANCY FOR WEB INFORMATION EXTRACTION",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Rashmi Mohan"],
+		"venue": "WWW 2010: Proceedings of the 19th international conference on World Wide Web, Raleigh, NC, USA",
+		"name": "A Contextual-bandit Approach to Personalized News Article Recommendation",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Rashmi Mohan", "Arpita Ghosh"],
+		"venue": "FUN 2010 (Fifth International Conference on FUN WITH ALGORITHMS)",
+		"name": "Christmas Gift Exchange Games",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Rashmi Mohan"],
+		"venue": "ACM Multimedia, Firenza, Italy",
+		"name": "Proceedings of second ACM SIGMM workshop on Social media",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Rashmi Mohan", "Ingmar Weber"],
+		"venue": "World Wide Web (WWW)",
+		"name": "How much is your personal recommendation worth?",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Rashmi Mohan"],
+		"venue": "WWW 2010: Proceedings of the 19th international conference on World Wide Web",
+		"name": "Inferring Relevant Social Networks from Interpersonal Communication",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["David Ayman Shamma"],
+		"venue": "XRDS: Crossroads",
+		"name": "Beyond Freebird",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Roi Blanco"],
+		"venue": "CIKM 2010",
+		"name": "TAER: Time-Aware Entity Retrieval",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Rashmi Mohan"],
+		"venue": "ICWSM 2010 - International AAAI Conference on Weblogs and Social Media",
+		"name": "Sequential In?uence Models in Social Networks",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Roi Blanco"],
+		"venue": "CIKM 2010",
+		"name": "TAER: Time-Aware Entity Retrieval",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Rashmi Mohan", "Khaled Elmeleegy"],
+		"venue": "European Conference on Computer Systems (EuroSys)",
+		"name": "Delay Scheduling: A Simple Technique for Achieving Locality and Fairness in Cluster Scheduling",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Rashmi Mohan"],
+		"venue": "IEEE Int&#39;l Conf. on Dependable Systems and Networks (DSN-DCCS)",
+		"name": "Scrooge: Reducing the Costs of Fast Byzantine Replication in Presence of Unresponsive Replicas",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Rashmi Mohan"],
+		"venue": "Transactions on Knowledge and Data Engineering",
+		"name": "Privacy in Search Logs",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Rashmi Mohan", "Lihong Li", "Marty Zinkevich", "Markus Weimer"],
+		"venue": "NIPS",
+		"name": "Parallelized stochastic gradient descent",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Rashmi Mohan", "Kun Liu"],
+		"venue": "The 16th ACM SIGKDD Conference on Knowledge Discovery and Data Mining, Washington DC",
+		"name": "Tutorial: Privacy-aware Data Mining in Information Networks",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Rashmi Mohan"],
+		"venue": "Information Processing & Management",
+		"name": "Review of &quot;Search Engines: Information Retrieval in Practice&quot;",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Rashmi Mohan"],
+		"venue": "ACM Multimedia, Firenze, Italy",
+		"name": "Prediction of Favourite Photos using Social, Visual, and Textual Signals",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Rashmi Mohan"],
+		"venue": "Proceedings of the SIAM International Conference on Data Mining (SDM)",
+		"name": "Evaluating query result significance in databases via randomizations",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Rashmi Mohan", "Lihong Li"],
+		"venue": "NIPS",
+		"name": "Learning from logged implicit exploration data",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Rashmi Mohan"],
+		"venue": "WWW 2010: Proceedings of the 19th international conference on World Wide Web",
+		"name": "Using Landing Pages for Sponsored Search Ad Selection",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Rashmi Mohan"],
+		"venue": "WSDM, New York, NY, USA",
+		"name": "An Optimization Framework for Query Recommendation",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Rashmi Mohan"],
+		"venue": "European Conference on Artificial Intelligence (ECAI)",
+		"name": "Kernel Methods for Revealed Preference Analysis",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Ronny Lempel"],
+		"venue": "SIGIR, Geneva, Switzerland",
+		"name": "Caching Search Engine Results over Incremental Indices",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Rashmi Mohan"],
+		"venue": "Organisation, interaction and practice: Studies in ethnomethodology and conversation analysis, Cambridge, UK",
+		"name": "The work of the work order: Document practices in face-to-face service encounters",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Rashmi Mohan", "Neumeyer", "Anands", "Robbins"],
+		"venue": "KDCloud 2010, Sydney, Australia",
+		"name": "S4: Distributed Stream Computing Platform",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Roi Blanco", "Peter Mika", "Jordi Atserias Batalla"],
+		"venue": "HCIR 2010",
+		"name": "Searching through time in the New York Times",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Rashmi Mohan"],
+		"venue": "SIGMOD Conference, Indianapolis, Indiana",
+		"name": "Forecasting High-Dimensional Data",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Rashmi Mohan"],
+		"venue": "National Conference on Artificial Intelligence (AAAI)",
+		"name": "Stability and Incentive Compatibility in a Kernel-Based Combinatorial Auction",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Rashmi Mohan", "Arpita Ghosh"],
+		"venue": "ACM Conference on Electronic Commerce (EC)",
+		"name": "Truthful Assignment without Money",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Rashmi Mohan", "Sergei Vassilvitskii"],
+		"venue": "SIGMOD Conference, Indianapolis, Indiana",
+		"name": "Efficiently Evaluating Complex Boolean Expressions",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Francesco Bonchi"],
+		"venue": "Information System",
+		"name": "Anonymization of Moving Objects Databases by Clustering and Perturbation",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Rashmi Mohan"],
+		"venue": "Games and Culture",
+		"name": "Behind the Avatar: The Patterns, Practices, and Functions of Role Playing in MMOs",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Rashmi Mohan"],
+		"venue": "RIAO 2010, Paris, France",
+		"name": "Improving Tag Recommendation Using Social Networks",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Rashmi Mohan"],
+		"venue": "WWW 2010: Proceedings of the 19th international conference on World Wide Web, Raleigh, NC, USA",
+		"name": "A Contextual-bandit Approach to Personalized News Article Recommendation",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Rashmi Mohan"],
+		"venue": "interactions",
+		"name": "Enticing Engagement",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Rashmi Mohan"],
+		"venue": "Transactions on Knowledge and Data Engineering",
+		"name": "Privacy in Search Logs",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Rashmi Mohan"],
+		"venue": "European Conference on Artificial Intelligence (ECAI)",
+		"name": "Kernel Methods for Revealed Preference Analysis",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Rashmi Mohan", "Sharad Goel"],
+		"venue": "Proceedings of the National Academy of Sciences",
+		"name": "Assessing Respondent-Driven Sampling",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Rashmi Mohan"],
+		"venue": "interactions",
+		"name": "Socializing at cross purposes",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Rashmi Mohan"],
+		"venue": "WWW 2010: Proceedings of the 19th international conference on World Wide Web",
+		"name": "Competing for Users' Attention: On the Interplay between Organic and Sponsored Search Results",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Ricardo Baeza-yates", "Yoelle Maarek"],
+		"venue": "Proceeding of the 33rd international ACM SIGIR conference on Research and development in information retrieval",
+		"name": "Web Retrieval: the role of users (tutorial)",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2010",
+		"authors": ["Rashmi Mohan"],
+		"venue": "Journal of Labor Economics",
+		"name": "Investment Tournaments: When Should a Rational Agent Put All Eggs in One Basket?",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Dec 1, 2009",
+		"authors": ["Rashmi Mohan"],
+		"venue": "International Conference on Data Mining",
+		"name": "Explore/Exploit Schemes for Web Content Optimization",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Nov 20, 2009",
+		"authors": ["Rashmi Mohan"],
+		"venue": "Conference on Information and Knowledge Management, Hong Kong",
+		"name": "Web Search Result Summarization: Title Selection Algorithms and User Satisfaction",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Apr 20, 2009",
+		"authors": ["Uri Schonfeld", "Narayanan Shivakumar"],
+		"venue": "18th International World Wide Web Conference (www2009)",
+		"name": "Sitemaps: Above and Beyond the Crawl of Duty",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Apr 1, 2009",
+		"authors": ["Rashmi Mohan"],
+		"venue": "World Wide Web Conference",
+		"name": "Spatio-Temporal Models for Estimating Click-through Rate",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2009",
+		"authors": ["Rashmi Mohan", "Lihong Li"],
+		"venue": "Journal of Machine Learning Research",
+		"name": "Reinforcement learning in finite MDPs: PAC analysis",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2009",
+		"authors": ["Idan Szpektor"],
+		"venue": "Department of Computer Science, Ramat Gan",
+		"name": "Entailment Rules for Predicates: Representation, Learning, Application and Evaluation",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2009",
+		"authors": ["Rashmi Mohan", "Lihong Li"],
+		"venue": "Autonomous Agents and Multi-Agent Systems",
+		"name": "Learning and planning in environments with delayed feedback",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2009",
+		"authors": ["Rashmi Mohan"],
+		"venue": "Proceedings of the 2009 IEEE international conference on Multimedia and Expo, New York, NY, USA",
+		"name": "Integrating facial expressions into user profiling for the improvement of a multimodal recommender system",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2009",
+		"authors": ["Rashmi Mohan"],
+		"venue": "Journal of Digital Imaging",
+		"name": "VirtualPACS - A federating gateway to access remote image data resources over the grid",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2009",
+		"authors": ["Rashmi Mohan", "Lihong Li"],
+		"venue": "Journal of Machine Learning Research",
+		"name": "Provably efficient learning with typed parametric models",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2009",
+		"authors": ["Rashmi Mohan"],
+		"venue": "SIGIR",
+		"name": "A Relevance Model Based Filter for Improving Ad Quality",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2009",
+		"authors": ["Ricardo Baeza-yates"],
+		"venue": "Proceedings of the 32nd Annual International ACM SIGIR Conference on Research and Development in Information Retrieval",
+		"name": "Quantifying performance and quality gains in distributed web search engines",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2009",
+		"authors": ["Rashmi Mohan", "Lihong Li"],
+		"venue": "UAI",
+		"name": "A Bayesian sampling approach to exploration in reinforcement learning",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2009",
+		"authors": ["Idan Szpektor"],
+		"venue": "Department of Computer Science, Ramat Gan",
+		"name": "Entailment Rules for Predicates: Representation, Learning, Application and Evaluation",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2009",
+		"authors": ["Rashmi Mohan"],
+		"venue": "WWW, Madrid, Spain",
+		"name": "Estimating the ImpressionRank of web pages",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2009",
+		"authors": ["Rashmi Mohan"],
+		"venue": "SIGIR",
+		"name": "A Relevance Model Based Filter for Improving Ad Quality",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2009",
+		"authors": ["Rashmi Mohan"],
+		"venue": "Proceedings of the 32nd Annual International ACM SIGIR Conference on Research and Development in Information Retrieval",
+		"name": "On efficient posting list intersection with multicore processors",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2009",
+		"authors": ["Rashmi Mohan"],
+		"venue": "The Twenty-Third Annual Conference on Neural Information Processing Systems (NIPS)",
+		"name": "Learning to Rank by Optimizing NDCG Measure",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2009",
+		"authors": ["Rashmi Mohan"],
+		"venue": "WSDM",
+		"name": "Cross-Language Query Classi?cation using Web Search for Exogenous Knowledge",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2009",
+		"authors": ["Francesco Bonchi"],
+		"venue": "Data Mining and Knowledge Discovery",
+		"name": "Taxonomy-driven lumping for sequence mining",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2009",
+		"authors": ["Rashmi Mohan"],
+		"venue": "Computer Human Interaction (CHI)",
+		"name": "Rethinking the ESP Game",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2009",
+		"authors": ["Rashmi Mohan"],
+		"venue": "Computer Human Interaction (CHI)",
+		"name": "Rethinking the ESP Game",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2009",
+		"authors": ["Rashmi Mohan", "Sanjay Kshetramade", "Tasos Anastasakos"],
+		"venue": "CIKM",
+		"name": "Collaborative Filtering Approach to Ad Recommendation using the Query Ad Click Graph",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2009",
+		"authors": ["Rashmi Mohan", "Malcolm Slaney"],
+		"venue": "2009 ACM Multimedia: Workshop on Large-Scale Multimedia Retrieval and Mining, Beijing, China",
+		"name": "Unsupervised Image Ranking",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2009",
+		"authors": ["Rashmi Mohan", "Sanjay Kshetramade", "Tasos Anastasakos"],
+		"venue": "CIKM",
+		"name": "Collaborative Filtering Approach to Ad Recommendation using the Query Ad Click Graph",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2009",
+		"authors": ["Rashmi Mohan", "Malcolm Slaney"],
+		"venue": "2009 ACM Multimedia: Workshop on Large-Scale Multimedia Retrieval and Mining, Beijing, China",
+		"name": "Unsupervised Image Ranking",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2009",
+		"authors": ["Rashmi Mohan"],
+		"venue": "Proceedings of the 17th ACM international conference on Multimedia, Beijing, China",
+		"name": "Using facial expressions and peripheral physiological signals as implicit indicators of topical relevance",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2009",
+		"authors": ["Rashmi Mohan", "Ana-maria Popescu"],
+		"venue": "EMNLP, Singapore",
+		"name": "Web-Scale Distributional Similarity and Entity Set Expansion",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2009",
+		"authors": ["Ricardo Baeza-yates"],
+		"venue": "Thirty-second International ACM SIGIR Conference, Boston",
+		"name": "Efficiency Trade-Offs in Two Tier Web Search Systems",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2009",
+		"authors": ["Rashmi Mohan"],
+		"venue": "CIKM, Hong Kong, China",
+		"name": "Active Learning in Partially Supervised Classification",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2009",
+		"authors": ["Rashmi Mohan"],
+		"venue": "ACM RecSys 2009",
+		"name": "Recommender Systems for the Conference Paper Assignment Problem",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2009",
+		"authors": ["Rashmi Mohan"],
+		"venue": "interactions",
+		"name": "On trusting your socks to find each other",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2009",
+		"authors": ["Rashmi Mohan", "Malcolm Slaney"],
+		"venue": "International Conference on Acoustics, Speech and Signal Processing, Taipei, Taiwan",
+		"name": "Reconciliation of human and machine speech recogntition performance",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2009",
+		"authors": ["Rashmi Mohan", "Lihong Li"],
+		"venue": "UAI",
+		"name": "A Bayesian sampling approach to exploration in reinforcement learning",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2009",
+		"authors": ["Rashmi Mohan", "Kun Liu"],
+		"venue": "2009 IEEE International Conference on Data Mining (ICDM), Miami, FL, USA",
+		"name": "A Framework for Computing the Privacy Scores of Users in Online Social Networks",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2009",
+		"authors": ["Ricardo Baeza-yates"],
+		"venue": "Proceedings of the 32nd Annual International ACM SIGIR Conference on Research and Development in Information Retrieval",
+		"name": "Quantifying performance and quality gains in distributed web search engines",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2009",
+		"authors": ["Rashmi Mohan", "Lihong Li"],
+		"venue": "UAI",
+		"name": "A Bayesian sampling approach to exploration in reinforcement learning",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2009",
+		"authors": ["Rashmi Mohan"],
+		"venue": "The 32nd Annual ACM SIGIR Conference (Poster)",
+		"name": "Context Transfer in Search Advertising",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2009",
+		"authors": ["Rashmi Mohan", "Lihong Li"],
+		"venue": "AAMAS",
+		"name": "Online exploration in least-squares policy iteration",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2009",
+		"authors": ["Rashmi Mohan"],
+		"venue": "NIPS",
+		"name": "Efficient and Accurate Lp-norm Multiple Kernel Learning",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2009",
+		"authors": ["Rashmi Mohan", "Lihong Li"],
+		"venue": "ICML",
+		"name": "The adaptive k-meteorologists problem and its application to structure learning and feature selection in reinforcement learning",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2009",
+		"authors": ["Rashmi Mohan"],
+		"venue": "NIPS",
+		"name": "Efficient and Accurate Lp-norm Multiple Kernel Learning",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2009",
+		"authors": ["Rashmi Mohan", "Arpita Ghosh"],
+		"venue": "ACM Conference on Electronic Commerce (EC'09)",
+		"name": "Social Lending",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2009",
+		"authors": ["Rashmi Mohan"],
+		"venue": "Computer Science Department",
+		"name": "Representing and Querying Uncertain Data",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2009",
+		"authors": ["Ziv Bar Yossef", "Idit Keidar", "Uri Schonfeld"],
+		"venue": "ACM Transactions on the Web (TWEB) Volume 3 Issue 1",
+		"name": "Do Not Crawl in the dust: Different URLs with Similar Text",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2009",
+		"authors": ["Rashmi Mohan", "Ravi Kumar", "Nilesh Dalvi"],
+		"venue": "EMNLP",
+		"name": "Matching Reviews to Objects using a Language Model",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2009",
+		"authors": ["Rashmi Mohan", "Lihong Li"],
+		"venue": "UAI",
+		"name": "A Bayesian sampling approach to exploration in reinforcement learning",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2009",
+		"authors": ["Rashmi Mohan"],
+		"venue": "SIGIR",
+		"name": "A Relevance Model Based Filter for Improving Ad Quality",
+		"area": "Miscellaneous"
+	}, {
+		"date": "Jan 1, 2009",
+		"authors": ["Ricardo Baeza-yates"],
+		"venue": "Thirty-second International ACM SIGIR Conference, Boston",
+		"name": "Efficiency Trade-Offs in Two Tier Web Search Systems",
+		"area": "Miscellaneous"
+	}],
+	"Computer Vision": [{
+		"date": "Dec 13, 2015",
+		"authors": ["Yannis Avrithis", "Yannis Kalantidis", "Evangelos Anagnostopoulos", "Ioannis Z. Emiris"],
+		"venue": "International Converence on Computer Vision (ICCV 2015)",
+		"name": "Web-Scale Image Clustering Revisited",
+		"area": "Computer Vision"
+	}, {
+		"date": "Oct 27, 2015",
+		"authors": ["Breandan Jou", "Tao Chen", "Nikolaos Pappas", "Miriam Redi", "Mercan Topkara", "Shih-fu Chang"],
+		"venue": "ACM International Conference on Multimedia (ACM MM)",
+		"name": "Visual Affect Around the World: A Large-scale Multilingual Visual Sentiment Ontology",
+		"area": "Computer Vision"
+	}, {
+		"date": "Sep 7, 2015",
+		"authors": ["Francesco Orabona"],
+		"venue": "International Conference on Image Analysis and Processing (ICIAP 2015)",
+		"name": "Transfer Learning through Greedy Subset Selection",
+		"area": "Computer Vision"
+	}, {
+		"date": "Jul 28, 2011",
+		"authors": ["Roi Blanco", "Peter Mika", "Harry Halpin", "Daniel M Herzig", "Jeffrey Pound", "Henry S Thompson", "Than Tran Duc"],
+		"venue": "34th ACM International Conference on Research and Development in Information Retrieval SIGIR 2011",
+		"name": "Repeatable and Reliable Search System Evaluation using Crowdsourcing",
+		"area": "Computer Vision"
+	}],
+	"Systems": [{
+		"date": "Oct 7, 2015",
+		"authors": ["Guy Gueta", "Eshcar Hillel", "Idit Keidar", "Maya Arbel"],
+		"venue": "International Symposium on Distributed Computing",
+		"name": "Towards Automatic Lock Removal for Scalable Synchronization (Full Version)",
+		"area": "Systems"
+	}, {
+		"date": "Jul 21, 2015",
+		"authors": ["Ran Wolff"],
+		"venue": "34th Annual ACM Symposium on Principles of Distributed Computing (PODC 2015)",
+		"name": "Distributed Convex Thresholding",
+		"area": "Systems"
+	}],
+	"Web Search and Data Mining": [{
+		"date": "Nov 4, 2014",
+		"authors": ["Robert Meusel", "Peter Mika", "Roi Blanco"],
+		"venue": "CIKM 2014",
+		"name": "Focused Crawling for Structured Data",
+		"area": "Web Search and Data Mining"
+	}],
+	"None of the above": [{
+		"date": "Jul 4, 2014",
+		"authors": ["Ran Wolff", "Smadar Ben Asher"],
+		"venue": "Papers on Social Representations",
+		"name": "Privacy as a Social Mechanism for Maintaining Inconsistency Between Identities",
+		"area": "None of the above"
+	}],
+	"Information and Knowledge Management": [{
+		"date": "Oct 19, 2015",
+		"authors": ["Jingyuan Zhang", "Roger Jie Luo", "Altaf Rahman", "Yi Chang", "Philip S Yu"],
+		"venue": "The 24th ACM International Conference on Information and Knowledge Management (CIKM 2015)",
+		"name": "Learning Entity Types from Query Logs Via Graph-Based Modeling",
+		"area": "Information and Knowledge Management"
+	}, {
+		"date": "May 18, 2015",
+		"authors": ["Michal Aharon", "Amit Kagian", "Raz Nissim", "Oren Somekh", "Yohay Kaplan"],
+		"venue": "Ad Targeting Workshop, WWW 2015 (WWW 2015)",
+		"name": "Serving Ads to Yahoo Answers Occasional Visitors",
+		"area": "Information and Knowledge Management"
+	}],
+	"Advertising Science": [{
+		"date": "Feb 11, 2016",
+		"authors": ["Nikolay Laptev"],
+		"venue": "ASSOCIATION FOR THE ADVANCEMENT OF ARTIFICIAL INTELLIGENCE (AAAI 2016)",
+		"name": "DECT: Distributed Evolving Context Tree for Understanding User Behavior Pattern Evolution",
+		"area": "Advertising Science"
+	}, {
+		"date": "Aug 11, 2015",
+		"authors": ["Mihajlo Grbovic", "Vladan Radosavljevic", "Nemanja Djuric", "Narayan Bhamidipati"],
+		"venue": "ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD 2015)",
+		"name": "E-commerce in Your Inbox: Product Recommendations at Scale",
+		"area": "Advertising Science"
+	}, {
+		"date": "Aug 10, 2015",
+		"authors": ["Mihajlo Grbovic", "Vladan Radosavljevic", "Nemanja Djuric", "Narayan Bhamidipati"],
+		"venue": "ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD 2015)",
+		"name": "Gender and Interest Targeting for Sponsored Post Advertising at Tumblr",
+		"area": "Advertising Science"
+	}, {
+		"date": "Aug 10, 2015",
+		"authors": ["Mihajlo Grbovic", "Vladan Radosavljevic", "Nemanja Djuric", "Narayan Bhamidipati"],
+		"venue": "ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD 2015)",
+		"name": "Gender and Interest Targeting for Sponsored Post Advertising at Tumblr",
+		"area": "Advertising Science"
+	}, {
+		"date": "Jun 1, 2014",
+		"authors": ["Iftah Gamzu", "Yuval Emek", "Michal Feldman", "Renato Paes Leme", "Moshe Tennenholtz"],
+		"venue": "ACM Transactions on Economics and Computation (ACM TEAC)",
+		"name": "Signaling Schemes for Revenue Maximization",
+		"area": "Advertising Science"
+	}, {
+		"date": "Jun 22, 2013",
+		"authors": ["Iris Miliaraki", "Klaus Berberich", "Rainer Gemulla", "Spyros Zoupanos"],
+		"venue": "ACM SIGMOD International Conference on Management of Data (SIGMOD 2013)",
+		"name": "Mind the Gap: Large-Scale Frequent Sequence Mining",
+		"area": "Advertising Science"
+	}]
+}

@@ -1,0 +1,3028 @@
+<!DOCTYPE html>
+<html class="google" lang="en">
+  <head>
+
+    <script>
+    (function(H){H.className=H.className.replace(/\bgoogle\b/,'google-js')})(document.documentElement)
+    </script>
+    <meta charset="utf-8">
+    <meta content="initial-scale=1, minimum-scale=1, width=device-width" name="viewport">
+    <title>
+      Data Mining and Modeling - Research at Google
+    </title>
+    <script src="//www.google.com/js/google.js">
+    </script>
+    <script>
+    new gweb.analytics.AutoTrack({profile:"UA-5974346-1"});
+    </script>
+    <link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;lang=en" rel=
+    "stylesheet">
+    <link href="/css/research.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="maia-header" id="maia-header" role="banner">
+      <div class="maia-aux">
+        <h1>
+          <a href="/" id="logo"><img alt="Research at Google" src=
+          "/images/research_at_google.png"></a>
+        </h1><a class="maia-teleport" href="#content">Skip to content</a>
+        <div class="maia-util">
+          <form class="maia-search" id="search" name="search">
+            <input id="q" name="q" placeholder="Search this site" value=""> <input class=
+            "maia-button" type="submit" value="Search">
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="maia-nav maia-complex" id="maia-nav-x" role="navigation">
+      <div class="maia-aux">
+        <ul>
+          <li>
+            <a href="/index.html">Home</a>
+          </li>
+          <li class="active" id="ra">
+            <a href="/pubs/papers.html">Research Areas &amp; Publications</a> <span class=
+            "glyph">&nbsp;</span>
+            <div class="hidden">
+              <ul id="ramenu">
+                <li class="fill">
+                  <a href="/pubs/papers.html">Overview</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/AlgorithmsandTheory.html">Algorithms and Theory</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/DataManagement.html">Data Management</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/DataMiningandModeling.html">Data Mining and Modeling</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/DistributedSystemsandParallelComputing.html">Distributed Systems
+                  and Parallel Computing</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/EconomicsandElectronicCommerce.html">Economics and Electronic
+                  Commerce</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/EducationInnovation.html">Education Innovation</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/GeneralScience.html">General Science</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/HardwareandArchitecture.html">Hardware and Architecture</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/Human-ComputerInteractionandVisualization.html">Human-Computer
+                  Interaction and Visualization</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/InformationRetrievalandtheWeb.html">Information Retrieval and the
+                  Web</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/MachineIntelligence.html">Machine Intelligence</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/MachinePerception.html">Machine Perception</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/MachineTranslation.html">Machine Translation</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/MobileSystems.html">Mobile Systems</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/NaturalLanguageProcessing.html">Natural Language Processing</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/Networking.html">Networking</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/SecurityPrivacyandAbusePrevention.html">Security, Privacy and
+                  Abuse Prevention</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/SoftwareEngineering.html">Software Engineering</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/SoftwareSystems.html">Software Systems</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/SpeechProcessing.html">Speech Processing</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a href="/researchers.html">People</a>
+          </li>
+          <li>
+            <a href="/university/">Research Programs</a>
+          </li>
+          <li>
+            <a href="/workatgoogle.html">Work at Google</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div id="maia-main" role="main">
+      <div class="maia-teleport" id="content"></div>
+      <div id="cse">
+        &nbsp;
+      </div>
+      <h1>
+        Data Mining and Modeling
+      </h1>
+      <div class="maia-cols">
+        <div class="maia-col-4">
+          <div>
+            <div class="sidebar">
+              <h2>
+                What We Do
+              </h2>
+              <p>
+                At Google, much of our work on our primary products like search, social, and ads
+                relies on large-scale data mining. Data mining applications arise in several
+                specific projects including speech processing, machine translation, and visual
+                processing. Machine learning at Google raises deep scientific and engineering
+                challenges. The statistics of the data we observe shifts very rapidly, the features
+                of interest change, and the volume of data often precludes the use of standard
+                single-machine training algorithms. When data mining systems are placed at the core
+                of interactive services in a rapidly changing and sometimes adversarial
+                environment, statistical models need to be combined with ideas from control and
+                game theory; for example, when using learning in auction algorithms.
+              </p>
+              <p>
+                Research at Google is at the forefront of innovation in machine learning and data
+                mining - we have one of the most active groups working on virtually all aspects of
+                data mining and maintain a strong academic presence through giving technical talks
+                and publishing at major conferences and in technical and academic journals.
+              </p>
+              <p class="fill">
+                <a href="http://www.youtube.com/user/GoogleTechTalks?feature=watch">Google's
+                tech-talk channel on YouTube</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="maia-col-8">
+          <h2>
+            169 Publications
+          </h2>
+          <div class="section">
+            <ul class="pub-list">
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Ego-net+Community+Mining+Applied+to+Friend+Suggestion+Epasto+Lattanzi+Mirrokni+Sebe+Taei+Verma">
+                &nbsp;</a>
+                <p class="pub-title">
+                  Ego-net Community Mining Applied to Friend Suggestion
+                </p>
+                <p>
+                  Alessandro Epasto, <a href="/pubs/SilvioLattanzi.html">Silvio Lattanzi</a>,
+                  <a href="/pubs/mirrokni.html">Vahab S. Mirrokni</a>, Ismail Sebe, <a href=
+                  "/pubs/AhmedTaei.html">Ahmed Taei</a>, Sunita Verma
+                </p>
+                <p>
+                  Proceedings of VLDB (2016) (to appear)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Hierarchical+Label+Propagation+and+Discovery+for+Machine+Generated+Email+Wendt,+Bendersky+Garcia-Pueyo+Josifovski+Miklos+Krka+Saikia+Yang+Cartright+Ravi">
+                &nbsp;</a>
+                <p class="pub-title">
+                  Hierarchical Label Propagation and Discovery for Machine Generated Email
+                </p>
+                <p>
+                  James B. Wendt,, <a href="/pubs/MikeBendersky.html">Michael Bendersky</a>,
+                  <a href="/pubs/LluisGarciaPueyo.html">Lluis Garcia-Pueyo</a>, Vanja Josifovski,
+                  Balint Miklos, Ivo Krka, Amitabh Saikia, <a href="/pubs/JieYang.html">Jie
+                  Yang</a>, Marc-Allen Cartright, <a href="/pubs/SujithRavi.html">Sujith Ravi</a>
+                </p>
+                <p>
+                  Proceedings of the International Conference on Web Search and Data Mining (WSDM)
+                  (2016) (to appear)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Active+Learning+in+Keyword+Search-based+Data+Integration+Yan+Zheng+Ives+Talukdar+Yu">
+                &nbsp;</a>
+                <p class="pub-title">
+                  Active Learning in Keyword Search-based Data Integration
+                </p>
+                <p>
+                  Zhepeng Yan, Nan Zheng, Zachary G. Ives, Partha Pratim Talukdar, <a href=
+                  "/pubs/CongYu.html">Cong Yu</a>
+                </p>
+                <p>
+                  The VLDB Journal, vol. 24 (2015), pp. 611-631
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Applying+WebTables+in+Practice+Balakrishnan+Halevy+Harb+Lee+Madhavan+Rostamizadeh+Shen+Wilder+Wu+Yu">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/43806.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Applying WebTables in Practice
+                </p>
+                <p>
+                  Sreeram Balakrishnan, Alon Halevy, <a href="/pubs/BoulosHarb.html">Boulos
+                  Harb</a>, <a href="/pubs/HongraeLee.html">Hongrae Lee</a>, <a href=
+                  "/pubs/author6192.html">Jayant Madhavan</a>, <a href=
+                  "/pubs/author36233.html">Afshin Rostamizadeh</a>, <a href=
+                  "/pubs/author18116.html">Warren Shen</a>, Kenneth Wilder, <a href=
+                  "/pubs/FeiWu.html">Fei Wu</a>, <a href="/pubs/CongYu.html">Cong Yu</a>
+                </p>
+                <p>
+                  Conference on Innovative Data Systems Research (2015)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Associating+Locations+with+Healthcare+Events+Klein+Jackson">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://www.tdcommons.org/dpubs_series/31/">&nbsp;</a><a class=
+                "abstract-icon tooltip" href="/pubs/pub43419.html">&nbsp;</a>
+                <p class="pub-title">
+                  Associating Locations with Healthcare Events
+                </p>
+                <p>
+                  <a href="/pubs/DanielKlein.html">Daniel V. Klein</a>, <a href=
+                  "/pubs/DeanJackson.html">Dean Jackson</a>
+                </p>
+                <p>
+                  Defensive Publications Series, Technical Disclosure Commons (2015)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Automatic+Pronunciation+Verification+for+Speech+Recognition+Rao+Peng+Beaufays">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/43262.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Automatic Pronunciation Verification for Speech Recognition
+                </p>
+                <p>
+                  <a href="/pubs/KanishkaRao.html">Kanishka Rao</a>, <a href=
+                  "/pubs/FuchunPeng.html">Fuchun Peng</a>, <a href=
+                  "/pubs/author21120.html">Françoise Beaufays</a>
+                </p>
+                <p>
+                  ICASSP (2015)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Crowdsourcing+and+the+Semantic+Web:+A+Research+Manifesto+Sarasua+Simperl+Noy+Bernstein+Leimeister">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/43889.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub43889.html">&nbsp;</a>
+                <p class="pub-title">
+                  Crowdsourcing and the Semantic Web: A Research Manifesto
+                </p>
+                <p>
+                  Cristina Sarasua, Elena Simperl, <a href="/pubs/NatalyaNoy.html">Natasha Noy</a>,
+                  Abraham Bernstein, Jan Marco Leimeister
+                </p>
+                <p>
+                  Human Computation, vol. 2 (2015)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Discovering+Subsumption+Relationships+for+Web-Based+Ontologies+Movshovitz-Attias+Whang+Noy+Halevy">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/43471.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Discovering Subsumption Relationships for Web-Based Ontologies
+                </p>
+                <p>
+                  Dana Movshovitz-Attias, <a href="/pubs/StevenWhang.html">Steven Euijong
+                  Whang</a>, <a href="/pubs/NatalyaNoy.html">Natalya Noy</a>, Alon Halevy
+                </p>
+                <p>
+                  Proc. 18th International Workshop on the Web and Databases (WebDB) (2015)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Efficient+Algorithms+for+Public-Private+Social+Networks+Chierichetti+Epasto+Kumar+Lattanzi+Mirrokni">
+                &nbsp;</a>
+                <p class="pub-title">
+                  Efficient Algorithms for Public-Private Social Networks
+                </p>
+                <p>
+                  Flavio Chierichetti, Alessandro Epasto, Ravi Kumar, <a href=
+                  "/pubs/SilvioLattanzi.html">Silvio Lattanzi</a>, <a href=
+                  "/pubs/mirrokni.html">Vahab Mirrokni</a>
+                </p>
+                <p>
+                  KDD (2015)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Efficient+Densest+Subgraph+Computation+in+Evolving+Graphs+Epasto+Lattanzi+Sozio">
+                &nbsp;</a>
+                <p class="pub-title">
+                  Efficient Densest Subgraph Computation in Evolving Graphs
+                </p>
+                <p>
+                  Alessandro Epasto, <a href="/pubs/SilvioLattanzi.html">Silvio Lattanzi</a>, Mauro
+                  Sozio
+                </p>
+                <p>
+                  WWW (2015)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Event+Relevant+Reminders+Klein+Jackson">
+                &nbsp;</a>
+                <p class="pub-title">
+                  Event Relevant Reminders
+                </p>
+                <p>
+                  <a href="/pubs/DanielKlein.html">Daniel V. Klein</a>, <a href=
+                  "/pubs/DeanJackson.html">Dean Jackson</a>
+                </p>
+                <p>
+                  Defensive Publications Series, Technical Disclosure Commons (2015)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Fix+It+Where+It+Fails:+Pronunciation+Learning+by+Mining+Error+Corrections+from+Speech+Logs+Kou+Stanton+Peng+Beaufays+Strohman">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/43263.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Fix It Where It Fails: Pronunciation Learning by Mining Error Corrections from
+                  Speech Logs
+                </p>
+                <p>
+                  Zhenzhen Kou, <a href="/pubs/DaisyStanton.html">Daisy Stanton</a>, <a href=
+                  "/pubs/FuchunPeng.html">Fuchun Peng</a>, <a href=
+                  "/pubs/author21120.html">Françoise Beaufays</a>, <a href=
+                  "/pubs/TrevorStrohman.html">Trevor Strohman</a>
+                </p>
+                <p>
+                  ICASSP (2015)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Focus+on+the+Long-Term:+It's+better+for+Users+and+Business+Hohnhold+O'Brien+Tang">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/43887.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub43887.html">&nbsp;</a>
+                <p class="pub-title">
+                  Focus on the Long-Term: It's better for Users and Business
+                </p>
+                <p>
+                  Henning Hohnhold, Deirdre O'Brien, <a href="/pubs/author3770.html">Diane Tang</a>
+                </p>
+                <p>
+                  Proceedings 21st Conference on Knowledge Discovery and Data Mining, ACM, Sydney,
+                  Australia (2015)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Improving+User+Topic+Interest+Profiles+by+Behavior+Factorization+Zhao+Cheng+Hong+Chi">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/43807.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub43807.html">&nbsp;</a>
+                <p class="pub-title">
+                  Improving User Topic Interest Profiles by Behavior Factorization
+                </p>
+                <p>
+                  Zhe Zhao, Zhiyuan Cheng, Lichan Hong, <a href="/pubs/EdChi.html">Ed H. Chi</a>
+                </p>
+                <p>
+                  Proceedings of the 24th International Conference on World Wide Web, International
+                  World Wide Web Conferences Steering Committee, Republic and Canton of Geneva,
+                  Switzerland (2015), pp. 1406-1416
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Linked+Enterprise+Data+Model+and+Its+Use+in+Real+Time+Analytics+and+Context-Driven+Data+Discovery+Taneja+Zhu+Duggan+Tung">
+                &nbsp;</a>
+                <p class="pub-title">
+                  Linked Enterprise Data Model and Its Use in Real Time Analytics and
+                  Context-Driven Data Discovery
+                </p>
+                <p>
+                  <a href="/pubs/KunalTaneja.html">KUNAL TANEJA</a>, Qian Zhu, Desmond Duggan,
+                  Teresa Tung
+                </p>
+                <p>
+                  IEEE International Conference on Mobile Services, 1800 (2015), pp. 277-283 (to
+                  appear)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Mining+Subjective+Properties+on+the+Web+Trummer+Halevy+Lee+Sarawagi+Gupta">
+                &nbsp;</a>
+                <p class="pub-title">
+                  Mining Subjective Properties on the Web
+                </p>
+                <p>
+                  Immanuel Trummer, Alon Halevy, <a href="/pubs/HongraeLee.html">Hongrae Lee</a>,
+                  Sunita Sarawagi, <a href="/pubs/RahulGupta.html">Rahul Gupta</a>
+                </p>
+                <p>
+                  SIGMOD (2015) (to appear)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Scalable+Community+Discovery+from+Multi-Faceted+Graphs+Metwally+Pan+Doan+Faloutsos">
+                &nbsp;</a><a class="abstract-icon tooltip" href="/pubs/pub43972.html">&nbsp;</a>
+                <p class="pub-title">
+                  Scalable Community Discovery from Multi-Faceted Graphs
+                </p>
+                <p>
+                  <a href="/pubs/AhmedMetwally.html">Ahmed Metwally</a>, Jia-Yu Pan, Minh Doan,
+                  Christos Faloutsos
+                </p>
+                <p>
+                  2015 IEEE International Conference on Big Data, IEEE, 445 Hoes Lane Piscataway,
+                  NJ 08854-4141 USA (to appear)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Secrets,+Lies,+and+Account+Recovery:+Lessons+from+the+Use+of+Personal+Knowledge+Questions+at+Google+Bonneau+Bursztein+Caron+Jackson+Williamson">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/43783.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub43783.html">&nbsp;</a>
+                <p class="pub-title">
+                  Secrets, Lies, and Account Recovery: Lessons from the Use of Personal Knowledge
+                  Questions at Google
+                </p>
+                <p>
+                  <a href="/pubs/JosephBonneau.html">Joseph Bonneau</a>, <a href=
+                  "/pubs/ElieBursztein.html">Elie Bursztein</a>, Ilan Caron, Rob Jackson, Mike
+                  Williamson
+                </p>
+                <p>
+                  WWW'15 - Proceedings of the 22nd international conference on World Wide Web, ACM
+                  (2015)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Temporal/Spatial+Calendar+Events+and+Triggers+Klein+Jackson">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://www.tdcommons.org/dpubs_series/31/">&nbsp;</a><a class=
+                "abstract-icon tooltip" href="/pubs/pub43422.html">&nbsp;</a>
+                <p class="pub-title">
+                  Temporal/Spatial Calendar Events and Triggers
+                </p>
+                <p>
+                  <a href="/pubs/DanielKlein.html">Daniel V. Klein</a>, <a href=
+                  "/pubs/DeanJackson.html">Dean Jackson</a>
+                </p>
+                <p>
+                  Defensive Publications Series, Technical Disclosure Commons (2015)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Unified+and+contrasting+cuts+in+multiple+graphs:+application+to+medical+imaging+segmentation+Kuo+Wang+Walker+Carmichael+Ye+Davidson">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/44266.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub44266.html">&nbsp;</a>
+                <p class="pub-title">
+                  Unified and contrasting cuts in multiple graphs: application to medical imaging
+                  segmentation
+                </p>
+                <p>
+                  Chia-Tung Kuo, <a href="/pubs/XiangWang.html">Xiang Wang</a>, Peter Walker, Owen
+                  Carmichael, Jieping Ye, Ian Davidson
+                </p>
+                <p>
+                  KDD (2015), pp. 617-626
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Biperpedia:+An+Ontology+for+Search+Applications+Gupta+Halevy+Wang+Whang+Wu">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/41894.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub41894.html">&nbsp;</a>
+                <p class="pub-title">
+                  Biperpedia: An Ontology for Search Applications
+                </p>
+                <p>
+                  <a href="/pubs/RahulGupta.html">Rahul Gupta</a>, Alon Halevy, Xuezhi Wang,
+                  <a href="/pubs/StevenWhang.html">Steven Whang</a>, <a href="/pubs/FeiWu.html">Fei
+                  Wu</a>
+                </p>
+                <p>
+                  Proc. 40th Int'l Conf. on Very Large Data Bases (PVLDB) (2014)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Distributed+Balanced+Clustering+via+Mapping+Coresets+Bateni+Bhaskara+Lattanzi+Mirrokni">
+                &nbsp;</a>
+                <p class="pub-title">
+                  Distributed Balanced Clustering via Mapping Coresets
+                </p>
+                <p>
+                  <a href="/pubs/bateni.html">Mohammadhossein Bateni</a>, <a href=
+                  "/pubs/AdityaBhaskara.html">Aditya Bhaskara</a>, <a href=
+                  "/pubs/SilvioLattanzi.html">Silvio Lattanzi</a>, <a href=
+                  "/pubs/mirrokni.html">Vahab Mirrokni</a>
+                </p>
+                <p>
+                  NIPS, Neural Information Processing Systems Foundation (2014)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Frame+by+Frame+Language+Identification+in+Short+Utterances+using+Deep+Neural+Networks+Gonzalez-Dominguez+Lopez+Moreno+Moreno+Gonzalez-Rodriguez">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/42929.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub42929.html">&nbsp;</a>
+                <p class="pub-title">
+                  Frame by Frame Language Identification in Short Utterances using Deep Neural
+                  Networks
+                </p>
+                <p>
+                  Javier Gonzalez-Dominguez, <a href="/pubs/IgnacioLopezMoreno.html">Ignacio
+                  Lopez-Moreno</a>, <a href="/pubs/author5289.html">Pedro J. Moreno</a>, Joaquin
+                  Gonzalez-Rodriguez
+                </p>
+                <p>
+                  Neural Networks Special Issue: Neural Network Learning in Big Data (2014)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Great+Question!+Question+Quality+in+Community+Q%26A+Ravi+Pang+Rastogi+Kumar">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/42287.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Great Question! Question Quality in Community Q&amp;A
+                </p>
+                <p>
+                  <a href="/pubs/SujithRavi.html">Sujith Ravi</a>, Bo Pang, Vibhor Rastogi, Ravi
+                  Kumar
+                </p>
+                <p>
+                  International AAAI Conference on Weblogs and Social Media (ICWSM) (2014)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Handcrafted+Fraud+and+Extortion:+Manual+Account+Hijacking+in+the+Wild+Bursztein+Benko+Margolis+Pietraszek+Archer+Aquino+Pitsillidis+Savage">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/43469.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub43469.html">&nbsp;</a>
+                <p class="pub-title">
+                  Handcrafted Fraud and Extortion: Manual Account Hijacking in the Wild
+                </p>
+                <p>
+                  <a href="/pubs/ElieBursztein.html">Elie Bursztein</a>, Borbala Benko, Daniel
+                  Margolis, Tadek Pietraszek, Andy Archer, Allan Aquino, Andreas Pitsillidis,
+                  Stefan Savage
+                </p>
+                <p>
+                  IMC '14 Proceedings of the 2014 Conference on Internet Measurement Conference,
+                  ACM, 1600 Amphitheatre Parkway, pp. 347-358
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Knowledge+Base+Completion+via+Search-Based+Question+Answering+West+Gabrilovich+Murphy+Sun+Gupta+Lin">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/42024.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub42024.html">&nbsp;</a>
+                <p class="pub-title">
+                  Knowledge Base Completion via Search-Based Question Answering
+                </p>
+                <p>
+                  Robert West, <a href="/pubs/EvgeniyGabrilovich.html">Evgeniy Gabrilovich</a>,
+                  <a href="/pubs/KevinMurphy.html">Kevin Murphy</a>, Shaohua Sun, <a href=
+                  "/pubs/RahulGupta.html">Rahul Gupta</a>, <a href="/pubs/author108.html">Dekang
+                  Lin</a>
+                </p>
+                <p>
+                  WWW (2014)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Near+Neighbor+Join+Kllapi+Harb+Yu">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/42034.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Near Neighbor Join
+                </p>
+                <p>
+                  Herald Kllapi, <a href="/pubs/BoulosHarb.html">Boulos Harb</a>, <a href=
+                  "/pubs/CongYu.html">Cong Yu</a>
+                </p>
+                <p>
+                  ICDE (2014)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=On+Estimating+the+Average+Degree+Dasgupta+Kumar+Sarlos">
+                &nbsp;</a><a class="abstract-icon tooltip" href="/pubs/pub42030.html">&nbsp;</a>
+                <p class="pub-title">
+                  On Estimating the Average Degree
+                </p>
+                <p>
+                  Anirban Dasgupta, Ravi Kumar, <a href="/pubs/TamasSarlos.html">Tamas Sarlos</a>
+                </p>
+                <p>
+                  23rd International World Wide Web Conference, WWW '14, ACM (2014) (to appear)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Quizz:+Targeted+Crowdsourcing+with+a+Billion+(Potential)+Users+Ipeirotis+Gabrilovich">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/42022.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub42022.html">&nbsp;</a>
+                <p class="pub-title">
+                  Quizz: Targeted Crowdsourcing with a Billion (Potential) Users
+                </p>
+                <p>
+                  Panos Ipeirotis, <a href="/pubs/EvgeniyGabrilovich.html">Evgeniy Gabrilovich</a>
+                </p>
+                <p>
+                  WWW (2014) (to appear)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=RAPPOR:+Randomized+Aggregatable+Privacy-Preserving+Ordinal+Response+Erlingsson+Pihur+Korolova">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/42852.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub42852.html">&nbsp;</a>
+                <p class="pub-title">
+                  RAPPOR: Randomized Aggregatable Privacy-Preserving Ordinal Response
+                </p>
+                <p>
+                  <a href="/pubs/ulfar.html">Úlfar Erlingsson</a>, Vasyl Pihur, Aleksandra Korolova
+                </p>
+                <p>
+                  Proceedings of the 21st ACM Conference on Computer and Communications Security,
+                  ACM, Scottsdale, Arizona (2014) (to appear)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Reducing+the+Sampling+Complexity+of+Topic+Models+Li+Ahmed+Ravi+Smola">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://www.sravi.org/pubs/fastlda-kdd2014.pdf">&nbsp;</a><a class=
+                "abstract-icon tooltip" href="/pubs/pub42500.html">&nbsp;</a>
+                <p class="pub-title">
+                  Reducing the Sampling Complexity of Topic Models
+                </p>
+                <p>
+                  Aaron Li, <a href="/pubs/AmrAhmed.html">Amr Ahmed</a>, <a href=
+                  "/pubs/SujithRavi.html">Sujith Ravi</a>, Alexander J Smola
+                </p>
+                <p>
+                  ACM Conference on Knowledge Discovery and Data Mining (KDD) (2014)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Scalable+Hierarchical+Multitask+Learning+Algorithms+for+Conversion+Optimization+in+Display+Advertising+Ahmed+Das+Smola">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/42498.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub42498.html">&nbsp;</a>
+                <p class="pub-title">
+                  Scalable Hierarchical Multitask Learning Algorithms for Conversion Optimization
+                  in Display Advertising
+                </p>
+                <p>
+                  <a href="/pubs/AmrAhmed.html">Amr Ahmed</a>, Abhimanyu Das, Alexander J. Smola
+                </p>
+                <p>
+                  ACM International Conference on Web Search And Data Mining (WSDM) (2014)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Taxonomy+Discovery+for+Personalized+Recommendation+Zhang+Ahmed+Josifovski+Smola">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/42499.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub42499.html">&nbsp;</a>
+                <p class="pub-title">
+                  Taxonomy Discovery for Personalized Recommendation
+                </p>
+                <p>
+                  Yuchen Zhang, <a href="/pubs/AmrAhmed.html">Amr Ahmed</a>, Vanja Josifovski,
+                  Alexander J Smola
+                </p>
+                <p>
+                  ACM International Conference on Web Search And Data Mining (WSDM) (2014)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Trust,+but+Verify:+Predicting+Contribution+Quality+for+Knowledge+Base+Construction+and+Curation+Tan+Agichtein+Ipeirotis+Gabrilovich">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/42023.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub42023.html">&nbsp;</a>
+                <p class="pub-title">
+                  Trust, but Verify: Predicting Contribution Quality for Knowledge Base
+                  Construction and Curation
+                </p>
+                <p>
+                  Chun How Tan, Eugene Agichtein, Panos Ipeirotis, <a href=
+                  "/pubs/EvgeniyGabrilovich.html">Evgeniy Gabrilovich</a>
+                </p>
+                <p>
+                  WSDM (2014) (to appear)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Unsupervised+Spatial+Event+Detection+in+Targeted+Domains+with+Applications+to+Civil+Unrest+Modeling+Zhao+Cheng+Dai+Hua+Lu+Ramakrishnan">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/43158.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub43158.html">&nbsp;</a>
+                <p class="pub-title">
+                  Unsupervised Spatial Event Detection in Targeted Domains with Applications to
+                  Civil Unrest Modeling
+                </p>
+                <p>
+                  Liang Zhao, Feng Cheng, <a href="/pubs/JingDai.html">Jing Dai</a>, Ting Hua,
+                  Chang-Tien Lu, Naren Ramakrishnan
+                </p>
+                <p>
+                  PLOS ONE, vol. 9 (2014), pp. 1-12
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=A+Framework+for+Benchmarking+Entity-Annotation+Systems+Cornolti+Ferragina+Ciaramita">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/40749.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub40749.html">&nbsp;</a>
+                <p class="pub-title">
+                  A Framework for Benchmarking Entity-Annotation Systems
+                </p>
+                <p>
+                  Marco Cornolti, Paolo Ferragina, <a href=
+                  "/pubs/MassimilianoCiaramita.html">Massimiliano Ciaramita</a>
+                </p>
+                <p>
+                  Proceedings of the International World Wide Web Conference (WWW) (Practice &amp;
+                  Experience Track), ACM (2013) (to appear)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Classifying+YouTube+Channels:+a+Practical+System+Simonet">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/41156.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub41156.html">&nbsp;</a>
+                <p class="pub-title">
+                  Classifying YouTube Channels: a Practical System
+                </p>
+                <p>
+                  <a href="/pubs/VincentSimonet.html">Vincent Simonet</a>
+                </p>
+                <p>
+                  Proceedings of the 2nd International Workshop on Web of Linked Entities (WOLE
+                  2013), in Proceedings of the 22nd International conference on World Wide Web
+                  companion, ACM, pp. 1295-1304
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Compacting+Large+and+Loose+Communities+V.+Kumar+Jawahar">
+                &nbsp;</a><a class="abstract-icon tooltip" href="/pubs/pub41436.html">&nbsp;</a>
+                <p class="pub-title">
+                  Compacting Large and Loose Communities
+                </p>
+                <p>
+                  Chandrashekhar V., <a href="/pubs/ShaileshKumar.html">Shailesh Kumar</a>, C. V.
+                  Jawahar
+                </p>
+                <p>
+                  Asian Conference on Pattern Recognition (2013) (to appear)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Crawling+deep+web+entity+pages+He+Xin+Ganti+Rajaraman+Shah">
+                &nbsp;</a>
+                <p class="pub-title">
+                  Crawling deep web entity pages
+                </p>
+                <p>
+                  Yeye He, <a href="/pubs/DongXin.html">Dong Xin</a>, Venkatesh Ganti, Sriram
+                  Rajaraman, Nirav Shah
+                </p>
+                <p>
+                  WSDM (2013), pp. 355-364
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Crowd-Sourced+Call+Identification+and+Suppression+Klein+Jackson">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/41119.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub41119.html">&nbsp;</a>
+                <p class="pub-title">
+                  Crowd-Sourced Call Identification and Suppression
+                </p>
+                <p>
+                  <a href="/pubs/DanielKlein.html">Daniel V. Klein</a>, <a href=
+                  "/pubs/DeanJackson.html">Dean K. Jackson</a>
+                </p>
+                <p>
+                  Federal Trade Commission Robocall Challenge (2013)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Data+Fusion:+Resolving+Conflicts+from+Multiple+Sources+Dong+Berti-Equille+Srivastava">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/41657.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub41657.html">&nbsp;</a>
+                <p class="pub-title">
+                  Data Fusion: Resolving Conflicts from Multiple Sources
+                </p>
+                <p>
+                  <a href="/pubs/XinDong.html">Xin Luna Dong</a>, Laure Berti-Equille, Divesh
+                  Srivastava
+                </p>
+                <p>
+                  WAIM (2013), pp. 64-76 (to appear)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Dense+Subgraph+Maintenance+under+Streaming+Edge+Weight+Updates+for+Real-time+Story+Identification+Angel+Koudas+Sarkas+Srivastava+Svendsen+Tirthapura">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://dx.doi.org/10.1007/s00778-013-0340-z">&nbsp;</a><a class=
+                "abstract-icon tooltip" href="/pubs/pub41607.html">&nbsp;</a>
+                <p class="pub-title">
+                  Dense Subgraph Maintenance under Streaming Edge Weight Updates for Real-time
+                  Story Identification
+                </p>
+                <p>
+                  Albert Angel, Nick Koudas, Nikos Sarkas, Divesh Srivastava, Michael Svendsen,
+                  Srikanta Tirthapura
+                </p>
+                <p>
+                  The VLDB Journal (2013), pp. 1-25
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Distributed+Large-scale+Natural+Graph+Factorization+Ahmed+Shervashidze+Narayanamurthy,+Josifovski+Smola">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/40839.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Distributed Large-scale Natural Graph Factorization
+                </p>
+                <p>
+                  <a href="/pubs/AmrAhmed.html">Amr Ahmed</a>, Nino Shervashidze, Shravan
+                  Narayanamurthy,, Vanja Josifovski, Alexander J Smola
+                </p>
+                <p>
+                  Proceedings of the 22nd International World Wide Web Conference (WWW 2013) (to
+                  appear)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Diversity+maximization+under+matroid+constraints+Abbassi+Mirrokni+Thakur">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://academiccommons.columbia.edu/download/fedora_content/download/ac:154865/CONTENT/cucs-019-12.pdf">&nbsp;</a><a class="abstract-icon tooltip"
+                href="/pubs/pub41408.html">&nbsp;</a>
+                <p class="pub-title">
+                  Diversity maximization under matroid constraints
+                </p>
+                <p>
+                  Zeinab Abbassi, <a href="/pubs/mirrokni.html">Vahab Mirrokni</a>, Mayur Thakur
+                </p>
+                <p>
+                  KDD, ACM SIGKDD (2013), pp. 32-40
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Efficient+and+Accurate+Label+Propagation+on+Large+Graphs+and+Label+Sets+Covell+Baluja">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/41144.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub41144.html">&nbsp;</a>
+                <p class="pub-title">
+                  Efficient and Accurate Label Propagation on Large Graphs and Label Sets
+                </p>
+                <p>
+                  <a href="/pubs/author85.html">Michele Covell</a>, <a href=
+                  "/pubs/author35.html">Shumeet Baluja</a>
+                </p>
+                <p>
+                  Proceedings International Conference on Advances in Multimedia, IARIA (2013)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Filling+Knowledge+Base+Gaps+for+Distant+Supervision+of+Relation+Extraction+Xu+Hoffmann+Zhao+Grishman">
+                &nbsp;</a><a class="abstract-icon tooltip" href="/pubs/pub41671.html">&nbsp;</a>
+                <p class="pub-title">
+                  Filling Knowledge Base Gaps for Distant Supervision of Relation Extraction
+                </p>
+                <p>
+                  Wei Xu, Raphael Hoffmann, <a href="/pubs/LeZhao.html">Le Zhao</a>, Ralph Grishman
+                </p>
+                <p>
+                  ACL 2013
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Focused+Marix+Factorization+for+Audience+Selection+in+Display+Advertising+Kanagal+Ahmed+Pandey+Josifovski+Garcia-Pueyo+Yuan">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/40489.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Focused Marix Factorization for Audience Selection in Display Advertising
+                </p>
+                <p>
+                  <a href="/pubs/BhargavKanagal.html">Bhargav Kanagal</a>, <a href=
+                  "/pubs/AmrAhmed.html">Amr Ahmed</a>, Sandeep Pandey, Vanja Josifovski, <a href=
+                  "/pubs/LluisGarciaPueyo.html">Lluis Garcia-Pueyo</a>, Jeff Yuan
+                </p>
+                <p>
+                  Proceedings of the 29th International Conference on Data Engineering (ICDE)
+                  (2013) (to appear)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=From+Assets+to+Stories+via+the+Google+Cultural+Institute+Platform+Seales+Crossan+Girgin+Yoshitake">
+                &nbsp;</a><a class="abstract-icon tooltip" href="/pubs/pub41442.html">&nbsp;</a>
+                <p class="pub-title">
+                  From Assets to Stories via the Google Cultural Institute Platform
+                </p>
+                <p>
+                  W. Brent Seales, Steve Crossan, Sertan Girgin, Mark Yoshitake
+                </p>
+                <p>
+                  IEEE BigData'13 Big Data and the Humanities (2013), pp. 6 (to appear)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=GOOGLE+DISEASE+TRENDS:++AN+UPDATE+Copeland+Romano+Zhang+Hecht+Zigmond+Stefansen">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/41763.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub41763.html">&nbsp;</a>
+                <p class="pub-title">
+                  GOOGLE DISEASE TRENDS: AN UPDATE
+                </p>
+                <p>
+                  <a href="/pubs/PatrickCopeland.html">Patrick Copeland</a>, Raquel Romano, Tom
+                  Zhang, <a href="/pubs/GregHecht.html">Greg Hecht</a>, Dan Zigmond, <a href=
+                  "/pubs/ChristianStefansen.html">Christian Stefansen</a>
+                </p>
+                <p>
+                  International Society of Neglected Tropical Diseases 2013, International Society
+                  of Neglected Tropical Diseases, pp. 3
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Identifying+Surrogate+Geographic+Research+Regions+with+Advanced++Exact+Test+Statistics+Ellis">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/41379.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Identifying Surrogate Geographic Research Regions with Advanced Exact Test
+                  Statistics
+                </p>
+                <p>
+                  <a href="/pubs/StevenEllis.html">Steven Ellis</a>
+                </p>
+                <p>
+                  American Marketing Association Advanced Research Techniques Forum (2013), Poster
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Instant+Foodie:+Predicting+Expert+Ratings+From+Grassroots+Tan+Chi+Huffaker+Kossinets+Smola">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/41382.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub41382.html">&nbsp;</a>
+                <p class="pub-title">
+                  Instant Foodie: Predicting Expert Ratings From Grassroots
+                </p>
+                <p>
+                  Chenhao Tan, <a href="/pubs/EdChi.html">Ed H. Chi</a>, <a href=
+                  "/pubs/DavidHuffaker.html">David Huffaker</a>, <a href=
+                  "/pubs/author38367.html">Gueorgi Kossinets</a>, Alex J. Smola
+                </p>
+                <p>
+                  CIKM’13, Oct. 27–Nov. 1, 2013, San Francisco, CA, USA, ACM
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=KDD+tutorial:+The+Dataminer+Guide+to+Scalable+Mixed-Membership+and+Nonparametric+Bayesian+Models+Ahmed+Smola">
+                &nbsp;</a>
+                <p class="pub-title">
+                  KDD tutorial: The Dataminer Guide to Scalable Mixed-Membership and Nonparametric
+                  Bayesian Models
+                </p>
+                <p>
+                  <a href="/pubs/AmrAhmed.html">Amr Ahmed</a>, Alexander J Smola
+                </p>
+                <p>
+                  ACM conference on Knowledge Discovery and Data Mining (KDD) (2013) (to appear)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Latent+Factor+Models+with+Additive+Hierarchically-smoothed+User+Preferences+Ahmed+Kanagal+Pandey+Josifovski+Garcia-Pueyo">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/40490.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Latent Factor Models with Additive Hierarchically-smoothed User Preferences
+                </p>
+                <p>
+                  <a href="/pubs/AmrAhmed.html">Amr Ahmed</a>, <a href=
+                  "/pubs/BhargavKanagal.html">Bhargav Kanagal</a>, Sandeep Pandey, Vanja
+                  Josifovski, <a href="/pubs/LluisGarciaPueyo.html">Lluis Garcia-Pueyo</a>
+                </p>
+                <p>
+                  Proceedings of The 6th ACM International Conference on Web Search and Data Mining
+                  (WSDM) (2013) (to appear)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Nowcasting+with+Google+Trends+Matias">
+                &nbsp;</a><a class="abstract-icon tooltip" href="/pubs/pub41692.html">&nbsp;</a>
+                <p class="pub-title">
+                  Nowcasting with Google Trends
+                </p>
+                <p>
+                  <a href="/pubs/YossiMatias.html">Yossi Matias</a>
+                </p>
+                <p>
+                  String Processing and Information Retrieval, Springer (2013), pp. 4
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Optimal+Hashing+Schemes+for+Entity+Matching+Dalvi+Rastogi+Dasgupta+Das+Sarma+Sarlos">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://dl.acm.org/citation.cfm?id=2488415">&nbsp;</a><a class=
+                "abstract-icon tooltip" href="/pubs/pub41465.html">&nbsp;</a>
+                <p class="pub-title">
+                  Optimal Hashing Schemes for Entity Matching
+                </p>
+                <p>
+                  Nilesh Dalvi, Vibhor Rastogi, Anirban Dasgupta, <a href=
+                  "/pubs/author19995.html">Anish Das Sarma</a>, <a href=
+                  "/pubs/TamasSarlos.html">Tamas Sarlos</a>
+                </p>
+                <p>
+                  22nd International World Wide Web Conference, WWW '13, ACM, Rio de Janeiro,
+                  Brazil (2013), pp. 295-306
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Permutation+Indexing:+Fast+Approximate+Retrieval+from+Large+Corpora+Gurevich+Sarlos">
+                &nbsp;</a><a class="abstract-icon tooltip" href="/pubs/pub41468.html">&nbsp;</a>
+                <p class="pub-title">
+                  Permutation Indexing: Fast Approximate Retrieval from Large Corpora
+                </p>
+                <p>
+                  <a href="/pubs/MaximGurevich.html">Maxim Gurevich</a>, <a href=
+                  "/pubs/TamasSarlos.html">Tamas Sarlos</a>
+                </p>
+                <p>
+                  22nd International Conference on Information and Knowledge Management (CIKM), ACM
+                  (2013)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Postmarket+Drug+Surveillance+Without+Trial+Costs:+Discovery+of+Adverse+Drug+Reactions+Through+Large-Scale+Analysis+of+Web+Search+Queries+Yom-Tov+Gabrilovich">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/42031.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub42031.html">&nbsp;</a>
+                <p class="pub-title">
+                  Postmarket Drug Surveillance Without Trial Costs: Discovery of Adverse Drug
+                  Reactions Through Large-Scale Analysis of Web Search Queries
+                </p>
+                <p>
+                  Elad Yom-Tov, <a href="/pubs/EvgeniyGabrilovich.html">Evgeniy Gabrilovich</a>
+                </p>
+                <p>
+                  Journal of Medical Internet Research, vol. 15 (2013)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Rolling+Up+Random+Variables+in+Data+Cubes+Yelland">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/41652.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub41652.html">&nbsp;</a>
+                <p class="pub-title">
+                  Rolling Up Random Variables in Data Cubes
+                </p>
+                <p>
+                  Phillip M. Yelland
+                </p>
+                <p>
+                  Joint Statistical Meetings, American Statistical Association, 732 North
+                  Washington Street, Alexandria, VA 22314-1943 (2013) (to appear)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Scalable+all-pairs+similarity+search+in+metric+spaces+Wang+Metwally+Parthasarathy">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/41467.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub41467.html">&nbsp;</a>
+                <p class="pub-title">
+                  Scalable all-pairs similarity search in metric spaces
+                </p>
+                <p>
+                  Ye Wang, <a href="/pubs/AhmedMetwally.html">Ahmed Metwally</a>, Srinivasan
+                  Parthasarathy
+                </p>
+                <p>
+                  Proceedings of the 19th ACM SIGKDD international conference on Knowledge
+                  discovery and data mining, ACM, 2 Pennsylvania Plaza, New York, NY (2013), pp.
+                  829-837
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Semantic+Queries+by+Example+Lim+Wang+Wang">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/40761.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub40761.html">&nbsp;</a>
+                <p class="pub-title">
+                  Semantic Queries by Example
+                </p>
+                <p>
+                  Lipyeow Lim, Haixun Wang, <a href="/pubs/MinWang.html">Min Wang</a>
+                </p>
+                <p>
+                  Proceedings of the 16th International Conference on Extending Database Technology
+                  (EDBT 2013) (to appear)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=TSum:+Fast,+Principled+Table+Summarization.+Chen+Pan+Faloutsos+Papadimitriou">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/41683.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub41683.html">&nbsp;</a>
+                <p class="pub-title">
+                  TSum: Fast, Principled Table Summarization.
+                </p>
+                <p>
+                  Jieying Chen, Jia-Yu Pan, Christos Faloutsos, Spiros Papadimitriou
+                </p>
+                <p>
+                  Proceedings of the Seventh International Workshop on Data Mining for Online
+                  Advertising, ACM (2013)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=The+Nested+Chinese+Restaurant+Franchise+Process:+User+Tracking+and+Document+Modeling+Ahmed+Hong+Smola">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/41130.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  The Nested Chinese Restaurant Franchise Process: User Tracking and Document
+                  Modeling
+                </p>
+                <p>
+                  <a href="/pubs/AmrAhmed.html">Amr Ahmed</a>, Liangjie Hong, Alexander J Smola
+                </p>
+                <p>
+                  International Conference on Machine Learning (ICML) (2013) (to appear)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Tracking+Large-Scale+Video+Remix+in+Real-World+Events+Xie+Natsev+He+Kender+Hill+Smith">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/41769.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub41769.html">&nbsp;</a>
+                <p class="pub-title">
+                  Tracking Large-Scale Video Remix in Real-World Events
+                </p>
+                <p>
+                  Lexing Xie, <a href="/pubs/ApostolNatsev.html">Apostol Natsev</a>, Xuming He,
+                  John R. Kender, Matthew L. Hill, John R. Smith
+                </p>
+                <p>
+                  IEEE Transactions on Multimedia, vol. 15, no. 6 (2013), pp. 1244-1254
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Understanding+Latency+of+Black-Box+Service+Workloads+Krushevskaja">
+                &nbsp;</a>
+                <p class="pub-title">
+                  Understanding Latency of Black-Box Service Workloads
+                </p>
+                <p>
+                  Darja Krushevskaja
+                </p>
+                <p>
+                  WWW 2013 (to appear)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=A+Cross-Lingual+Dictionary+for+English+Wikipedia+Concepts+Spitkovsky+Chang">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/38098.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  A Cross-Lingual Dictionary for English Wikipedia Concepts
+                </p>
+                <p>
+                  <a href="/pubs/author3196.html">Valentin I. Spitkovsky</a>, Angel X. Chang
+                </p>
+                <p>
+                  Eighth International Conference on Language Resources and Evaluation (LREC 2012)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=An+Integrated+Framework+for+Spatio-Temporal-Textual+Search+and+Mining+Wang+Dong+Boedihardjo+Lu+Yu+Chen+Dai">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/40571.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub40571.html">&nbsp;</a>
+                <p class="pub-title">
+                  An Integrated Framework for Spatio-Temporal-Textual Search and Mining
+                </p>
+                <p>
+                  Bingsheng Wang, Haili Dong, Arnold Boedihardjo, Chang-Tien Lu, Harland Yu,
+                  Ing-Ray Chen, <a href="/pubs/JingDai.html">Jing Dai</a>
+                </p>
+                <p>
+                  20th ACM SIGSPATIAL International Conference on Advances in Geographic
+                  Information Systems (ACM SIGSPATIAL GIS 2012), ACM, 2 Penn Plaza, Suite 701, New
+                  York, NY 10121, pp. 570-573
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Automatically+Discovering+Talented+Musicians+with+Acoustic+Analysis+of+YouTube+Videos+Nichols+DuHadway+Aradhye+Lyon">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/41422.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub41422.html">&nbsp;</a>
+                <p class="pub-title">
+                  Automatically Discovering Talented Musicians with Acoustic Analysis of YouTube
+                  Videos
+                </p>
+                <p>
+                  <a href="/pubs/EricNichols.html">Eric Nichols</a>, <a href=
+                  "/pubs/CharlesDuHadway.html">Charles DuHadway</a>, <a href=
+                  "/pubs/author37818.html">Hrishikesh Aradhye</a>, <a href=
+                  "/pubs/author35932.html">Richard F. Lyon</a>
+                </p>
+                <p>
+                  Proceedings of the 2012 IEEE 12th International Conference on Data Mining (ICDM),
+                  IEEE Computer Society, Washington, DC, USA, pp. 559-565
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Budget+Optimization+for+Online+Campaigns+with+Positive+Carryover+Effects+Archak+Mirrokni+Muthukrishnan">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://dx.doi.org/10.1007/978-3-642-35311-6_7">&nbsp;</a>
+                <p class="pub-title">
+                  Budget Optimization for Online Campaigns with Positive Carryover Effects
+                </p>
+                <p>
+                  Nikolay Archak, <a href="/pubs/mirrokni.html">Vahab S. Mirrokni</a>, S.
+                  Muthukrishnan
+                </p>
+                <p>
+                  WINE (2012), pp. 86-99
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Dynamic+Covering+for+Recommendation+Systems+Antonellis+Das+Sarma+Dughmi">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://arxiv.org/abs/0912.2404">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub40414.html">&nbsp;</a>
+                <p class="pub-title">
+                  Dynamic Covering for Recommendation Systems
+                </p>
+                <p>
+                  Ioannis Antonellis, <a href="/pubs/author19995.html">Anish Das Sarma</a>, Shaddin
+                  Dughmi
+                </p>
+                <p>
+                  CIKM (2012)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Extracting+Unambiguous+Keywords+from+Microposts+Using+Web+and+Query+Logs+Data+Reis+Goldstein+Quintao">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/40408.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub40408.html">&nbsp;</a>
+                <p class="pub-title">
+                  Extracting Unambiguous Keywords from Microposts Using Web and Query Logs Data
+                </p>
+                <p>
+                  <a href="/pubs/author17772.html">Davi Reis</a>, <a href=
+                  "/pubs/FelipeGoldstein.html">Felipe Goldstein</a>, <a href=
+                  "/pubs/FredericoQuintao.html">Frederico Quintao</a>
+                </p>
+                <p>
+                  Making sense of Microposts (at WWW 2012)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=FastEx:+Hash+Clustering+with+Exponential+Families+Ahmed+Ravi+Narayanamurthy+Smola">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://www.sravi.org/pubs/hashclustering-nips2012.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  FastEx: Hash Clustering with Exponential Families
+                </p>
+                <p>
+                  <a href="/pubs/AmrAhmed.html">Amr Ahmed</a>, <a href=
+                  "/pubs/SujithRavi.html">Sujith Ravi</a>, Shravan Narayanamurthy, Alex Smola
+                </p>
+                <p>
+                  Proceedings of the 26th Conference on Neural Information Processing Systems.
+                  (NIPS) (2012)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Logical+Itemset+Mining+Kumar+V.+Jawahar">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/41322.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub41322.html">&nbsp;</a>
+                <p class="pub-title">
+                  Logical Itemset Mining
+                </p>
+                <p>
+                  <a href="/pubs/ShaileshKumar.html">Shailesh Kumar</a>, Chandrashekhar V., C. V.
+                  Jawahar
+                </p>
+                <p>
+                  IEEE International Conference on Data Mining (Workshop) (2012), pp. 603-610
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Look+Who+I+Found:+Understanding+the+Effects+of+Sharing+Curated+Friend+Groups+Fang+Fabrikant+LeFevre">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/38169.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub38169.html">&nbsp;</a>
+                <p class="pub-title">
+                  Look Who I Found: Understanding the Effects of Sharing Curated Friend Groups
+                </p>
+                <p>
+                  Lujun Fang, <a href="/pubs/AlexFabrikant.html">Alex Fabrikant</a>, <a href=
+                  "/pubs/KristenLeFevre.html">Kristen LeFevre</a>
+                </p>
+                <p>
+                  Proceedings of ACM Web Science 2012, ACM, pp. 137-146
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=MedLDA:+Maximum+Margin+Supervised+Topic+Models+Zhu+Ahmed+Xing">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/38352.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub38352.html">&nbsp;</a>
+                <p class="pub-title">
+                  MedLDA: Maximum Margin Supervised Topic Models
+                </p>
+                <p>
+                  Jun Zhu, <a href="/pubs/AmrAhmed.html">Amr Ahmed</a>, Eric P. Xing
+                </p>
+                <p>
+                  Journal of Machine Learning Research (2012) (to appear)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Multi-skill+Collaborative+Teams+based+on+Densest+Subgraphs+Gajewar+Das+Sarma">
+                &nbsp;</a>
+                <p class="pub-title">
+                  Multi-skill Collaborative Teams based on Densest Subgraphs
+                </p>
+                <p>
+                  Amita Gajewar, Atish Das Sarma
+                </p>
+                <p>
+                  SDM (2012) (to appear)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Multimedia+Semantics:+Interactions+Between+Content+and+Community+Sundaram+Xie+Choudhury+Lin+Natsev">
+                &nbsp;</a><a class="abstract-icon tooltip" href="/pubs/pub38105.html">&nbsp;</a>
+                <p class="pub-title">
+                  Multimedia Semantics: Interactions Between Content and Community
+                </p>
+                <p>
+                  Hari Sundaram, Lexing Xie, Munmun De Choudhury, Yu-Ru Lin, <a href=
+                  "/pubs/ApostolNatsev.html">Apostol Natsev</a>
+                </p>
+                <p>
+                  Proceedings of the IEEE, vol. 100, no. 9 (2012)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Nowcasting+the+macroeconomy+with+search+engine+data+Varian">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://doi.acm.org/10.1145/2124295.2124297">&nbsp;</a>
+                <p class="pub-title">
+                  Nowcasting the macroeconomy with search engine data
+                </p>
+                <p>
+                  Hal R. Varian
+                </p>
+                <p>
+                  Proceedings of the fifth ACM international conference on Web search and data
+                  mining, ACM, New York, NY, USA (2012), pp. 1-2
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Online+Selection+of+Diverse+Results+Panigrahi+Das+Sarma+Aggarwal+Tomkins">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/38158.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Online Selection of Diverse Results
+                </p>
+                <p>
+                  Debmalya Panigrahi, Atish Das Sarma, <a href="/pubs/author3107.html">Gagan
+                  Aggarwal</a>, <a href="/pubs/author8038.html">Andrew Tomkins</a>
+                </p>
+                <p>
+                  Proceedings of the 5th ACM international Conference on Web Search and Data Mining
+                  (2012), pp. 263-272
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Overlapping+clusters+for+distributed+computation+Andersen+Gleich+Mirrokni">
+                &nbsp;</a>
+                <p class="pub-title">
+                  Overlapping clusters for distributed computation
+                </p>
+                <p>
+                  Reid Andersen, David Gleich, <a href="/pubs/mirrokni.html">Vahab Mirrokni</a>
+                </p>
+                <p>
+                  ACM Conference on Web Search and Data Mining (WSDM) (2012)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=PageRank+on+an+evolving+graph+Bahmani+Kumar+Mahdian+Upfal">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://mahdian.org/evolvingPR.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  PageRank on an evolving graph
+                </p>
+                <p>
+                  Bahman Bahmani, Ravi Kumar, <a href="/pubs/MohammadMahdian.html">Mohammad
+                  Mahdian</a>, Eli Upfal
+                </p>
+                <p>
+                  KDD (2012), pp. 24-32
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Spotting+fake+reviewer+groups+in+consumer+reviews+Mukherjee+Liu+Glance">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://doi.acm.org/10.1145/2187836.2187863">&nbsp;</a>
+                <p class="pub-title">
+                  Spotting fake reviewer groups in consumer reviews
+                </p>
+                <p>
+                  Arjun Mukherjee, Bing Liu, Natalie Glance
+                </p>
+                <p>
+                  Proceedings of the 21st international conference on World Wide Web, ACM, New
+                  York, NY, USA (2012), pp. 191-200
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Student-t+based+Robust+Spatio-Temporal+Prediction+Chen+Chen+Dai+Clancy+Wu">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/41177.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub41177.html">&nbsp;</a>
+                <p class="pub-title">
+                  Student-t based Robust Spatio-Temporal Prediction
+                </p>
+                <p>
+                  Yang Chen, Feng Chen, <a href="/pubs/JingDai.html">Jing Dai</a>, T. Charles
+                  Clancy, Yao-Jan Wu
+                </p>
+                <p>
+                  IEEE 12th International Conference on Data Mining, IEEE, Brussels, Belgium
+                  (2012), pp. 151-160
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=The+YouTube+Social+Network+Wattenhofer+Wattenhofer+Zhu">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/37738.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub37738.html">&nbsp;</a>
+                <p class="pub-title">
+                  The YouTube Social Network
+                </p>
+                <p>
+                  <a href="/pubs/MirjamWattenhofer.html">Mirjam Wattenhofer</a>, Roger Wattenhofer,
+                  Zack Zhu
+                </p>
+                <p>
+                  ICWSM 2012, Sixth International AAAI Conference on Weblogs and Social Media
+                  (ICWSM 2012) (to appear)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=V-SMART-Join:+A+Scalable+MapReduce+Framework+for+All-Pair+Similarity+Joins+of+Multisets+and+Vectors+Metwally+Faloutsos">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/37740.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub37740.html">&nbsp;</a>
+                <p class="pub-title">
+                  V-SMART-Join: A Scalable MapReduce Framework for All-Pair Similarity Joins of
+                  Multisets and Vectors
+                </p>
+                <p>
+                  <a href="/pubs/AhmedMetwally.html">Ahmed Metwally</a>, Christos Faloutsos
+                </p>
+                <p>
+                  PVLDB Proceedings of the VLDB Endowment, vol. 5 (2012), pp. 704-715
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Vote+calibration+in+community+question-answering+systems+Chen+Dasgupta+Wang+Yang">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/40345.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub40345.html">&nbsp;</a>
+                <p class="pub-title">
+                  Vote calibration in community question-answering systems
+                </p>
+                <p>
+                  Bee-Chung Chen, Anirban Dasgupta, Xuanhui Wang, <a href="/pubs/JieYang.html">Jie
+                  Yang</a>
+                </p>
+                <p>
+                  SIGIR '12 Proceedings of the 35th international ACM SIGIR conference on Research
+                  and development in information retrieval (2012), pp. 781-790
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Web-Scale+Multi-Task+Feature+Selection+for+Behavioral+Targeting+Ahmed+Aly+Das+Smola+Anastasakos">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/38345.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub38345.html">&nbsp;</a>
+                <p class="pub-title">
+                  Web-Scale Multi-Task Feature Selection for Behavioral Targeting
+                </p>
+                <p>
+                  <a href="/pubs/AmrAhmed.html">Amr Ahmed</a>, Mohamed Aly, Abhimanyu Das, Alex
+                  Smola, Tasos Anastasakos
+                </p>
+                <p>
+                  Proceedings of The 21st ACM International Conference on Information and Knowledge
+                  Management (CIKM), ACM (2012) (to appear)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=YouTube+around+the+world:+geographic+popularity+of+videos+Brodersen+Scellato+Wattenhofer">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://doi.acm.org/10.1145/2187836.2187870">&nbsp;</a>
+                <p class="pub-title">
+                  YouTube around the world: geographic popularity of videos
+                </p>
+                <p>
+                  Anders Brodersen, Salvatore Scellato, <a href=
+                  "/pubs/MirjamWattenhofer.html">Mirjam Wattenhofer</a>
+                </p>
+                <p>
+                  Proceedings of the 21st international conference on World Wide Web, ACM, New
+                  York, NY, USA (2012), pp. 241-250
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Your+Two+Weeks+of+Fame+and+Your+Grandmother's+Cook+Das+Sarma+Fabrikant+Tomkins">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://arxiv.org/abs/1204.4346">&nbsp;</a>
+                <p class="pub-title">
+                  Your Two Weeks of Fame and Your Grandmother's
+                </p>
+                <p>
+                  James Cook, Atish Das Sarma, <a href="/pubs/AlexFabrikant.html">Alex
+                  Fabrikant</a>, <a href="/pubs/author8038.html">Andrew Tomkins</a>
+                </p>
+                <p>
+                  WWW (2012)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=A+Tale+of+Two+(Similar)+Cities:+Inferring+City+Similarity+Through+Geo-Spatial+Query+Log+Analysis+Seth+Covell+Ravichandran+Sivakumar+Baluja">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/37632.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub37632.html">&nbsp;</a>
+                <p class="pub-title">
+                  A Tale of Two (Similar) Cities: Inferring City Similarity Through Geo-Spatial
+                  Query Log Analysis
+                </p>
+                <p>
+                  Rohan Seth, <a href="/pubs/author85.html">Michele Covell</a>, <a href=
+                  "/pubs/author14731.html">Deepak Ravichandran</a>, <a href=
+                  "/pubs/DSivakumar.html">D. Sivakumar</a>, <a href="/pubs/author35.html">Shumeet
+                  Baluja</a>
+                </p>
+                <p>
+                  Proceedings of the International Conference on Knowledge Discovery and
+                  Information Retrieval (2011)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Catching+a+viral+video+Broxton+Interian+Vaver+Wattenhofer">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/37650.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub37650.html">&nbsp;</a>
+                <p class="pub-title">
+                  Catching a viral video
+                </p>
+                <p>
+                  Tom Broxton, <a href="/pubs/author37416.html">Yannet Interian</a>, Jon Vaver,
+                  <a href="/pubs/MirjamWattenhofer.html">Mirjam Wattenhofer</a>
+                </p>
+                <p>
+                  Journal of Intelligent Information Systems (2011), pp. 1-19
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Detecting+Adversarial+Advertisements+in+the+Wild+Sculley+Otey+Pohl+Spitznagel+Hainsworth+Zhou">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/37195.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub37195.html">&nbsp;</a>
+                <p class="pub-title">
+                  Detecting Adversarial Advertisements in the Wild
+                </p>
+                <p>
+                  <a href="/pubs/author38217.html">D. Sculley</a>, <a href=
+                  "/pubs/MatthewOtey.html">Matthew Eric Otey</a>, Michael Pohl, <a href=
+                  "/pubs/BridgetSpitznagel.html">Bridget Spitznagel</a>, John Hainsworth, <a href=
+                  "/pubs/author5497.html">Yunkai Zhou</a>
+                </p>
+                <p>
+                  Proceedings of the 17th ACM SIGKDD International Conference on Data Mining and
+                  Knowledge Discovery, KDD (2011)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Efficient+Search+Engine+Measurements+Bar-Yossef+Gurevich">
+                &nbsp;</a>
+                <p class="pub-title">
+                  Efficient Search Engine Measurements
+                </p>
+                <p>
+                  <a href="/pubs/author6593.html">Ziv Bar-Yossef</a>, <a href=
+                  "/pubs/MaximGurevich.html">Maxim Gurevich</a>
+                </p>
+                <p>
+                  ACM Transactions on the Web, vol. 5, no. 4 (2011), pp. 18
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Efficient+Spectral+Neighborhood+Blocking+for+Entity+Resolution+Shu+Chen+Xiong+Meng">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/36940.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub36940.html">&nbsp;</a>
+                <p class="pub-title">
+                  Efficient Spectral Neighborhood Blocking for Entity Resolution
+                </p>
+                <p>
+                  Liangcai Shu, <a href="/pubs/author35860.html">Aiyou Chen</a>, Ming Xiong, Weiyi
+                  Meng
+                </p>
+                <p>
+                  International Conference on Data Engineering 2011 (ICDE), IEEE, pp. 1-12
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Estimating+the+Number+of+Users+behind+IPs+for+Combating+Abusive+Traffic+Metwally+Paduano">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/35769.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Estimating the Number of Users behind IPs for Combating Abusive Traffic
+                </p>
+                <p>
+                  <a href="/pubs/AhmedMetwally.html">Ahmed Metwally</a>, Matt Paduano
+                </p>
+                <p>
+                  SIGKDD International Conference on Knowledge Discovery and Data Mining, ACM, ACM,
+                  2 Penn Plaza New York, NY 10121-0799 (2011), pp. 249-257
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Fast+Algorithms+for+Finding+Extremal+Sets+Bayardo+Panda">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://bayardo.org/ps/sdm2011.pdf">&nbsp;</a><a class="abstract-icon tooltip"
+                href="/pubs/pub36974.html">&nbsp;</a>
+                <p class="pub-title">
+                  Fast Algorithms for Finding Extremal Sets
+                </p>
+                <p>
+                  <a href="/pubs/author16753.html">Roberto J. Bayardo</a>, <a href=
+                  "/pubs/author38399.html">Biswanath Panda</a>
+                </p>
+                <p>
+                  Proc. of the 2011 SIAM Int'l Conf. on Data Mining (to appear)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Frequent+Pattern+Discovery+and+Association+Rule+Mining+of+XML+Data+Ding+Sundarraj">
+                &nbsp;</a>
+                <p class="pub-title">
+                  Frequent Pattern Discovery and Association Rule Mining of XML Data
+                </p>
+                <p>
+                  Qin Ding, Gnanasekaran Sundarraj
+                </p>
+                <p>
+                  XML Data Mining: Models, Methods, and Applications, IGI Publishing (2011) (to
+                  appear)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Influence+Maximization+in+Social+Networks+When+Negative+Opinions+May+Emerge+and+Propagate+Collins">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/37225.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Influence Maximization in Social Networks When Negative Opinions May Emerge and
+                  Propagate
+                </p>
+                <p>
+                  <a href="/pubs/author41145.html">Alex Collins</a>
+                </p>
+                <p>
+                  SIAM 2011 International Conference on Data Mining, SIAM, Society for Industrial
+                  and Applied Mathematics, 3600 Market Street, 6th Floor, Philadelphia, PA
+                  19104-2688 USA., pp. 379-390
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Interactive+Itinerary+Planning+Basu-Roy+Das+Amer-Yahia+Yu">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/37383.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Interactive Itinerary Planning
+                </p>
+                <p>
+                  Senjuti Basu-Roy, Gautam Das, Sihem Amer-Yahia, <a href="/pubs/CongYu.html">Cong
+                  Yu</a>
+                </p>
+                <p>
+                  ICDE (2011)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Large+Scale+Page-Based+Book+Similarity+Clustering+Spasojevic+Poncin">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/37296.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub37296.html">&nbsp;</a>
+                <p class="pub-title">
+                  Large Scale Page-Based Book Similarity Clustering
+                </p>
+                <p>
+                  Nemanja Spasojevic, Guillaume Poncin
+                </p>
+                <p>
+                  ICDAR 2011
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Large-scale+community+detection++on+YouTube+for+Topic+Discovery+and+Exploration+Gargi+Lu+Mirrokni+Yoon">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/36923.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Large-scale community detection on YouTube for Topic Discovery and Exploration
+                </p>
+                <p>
+                  <a href="/pubs/UllasGargi.html">Ullas Gargi</a>, Wenjun Lu, <a href=
+                  "/pubs/mirrokni.html">Vahab Mirrokni</a>, <a href="/pubs/SanghoYoon.html">Sangho
+                  Yoon</a>
+                </p>
+                <p>
+                  AAAI Conference on Weblogs and Social Media 2011
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Learning+to+Target:+What+Works+for+Behavioral+Targeting+Pandey+Aly+Bagherjeiran+Hatch+Ciccolo+Ratnaparkhi+Zinkevich">
+                &nbsp;</a><a class="abstract-icon tooltip" href="/pubs/pub37667.html">&nbsp;</a>
+                <p class="pub-title">
+                  Learning to Target: What Works for Behavioral Targeting
+                </p>
+                <p>
+                  Sandeep Pandey, Mohamed Aly, Abraham Bagherjeiran, Andrew Hatch, Peter Ciccolo,
+                  Adwait Ratnaparkhi, Martin Zinkevich
+                </p>
+                <p>
+                  CIKM '11, ACM, Glasgow, Scotland, UK (2011), pp. 1805-1814
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=MRI:+Meaningful+Interpretations+of+Collaborative+Ratings+Das+Amer-Yahia+Das+Yu">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/37382.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  MRI: Meaningful Interpretations of Collaborative Ratings
+                </p>
+                <p>
+                  Mahashweta Das, Sihem Amer-Yahia, Gautam Das, <a href="/pubs/CongYu.html">Cong
+                  Yu</a>
+                </p>
+                <p>
+                  VLDB (2011)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Personalized+Social+Recommendations+-+Accurate+or+Private?+Machanavajjhala+Korolova+Das+Sarma">
+                &nbsp;</a>
+                <p class="pub-title">
+                  Personalized Social Recommendations - Accurate or Private?
+                </p>
+                <p>
+                  Ashwin Machanavajjhala, Aleksandra Korolova, Atish Das Sarma
+                </p>
+                <p>
+                  Very Large Data Bases (VLDB) (2011)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Stanford's+Distantly-Supervised+Slot-Filling+System+Surdeanu+Gupta+Bauer+McClosky+Chang+Spitkovsky+Manning">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/37720.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Stanford's Distantly-Supervised Slot-Filling System
+                </p>
+                <p>
+                  Mihai Surdeanu, Sonal Gupta, John Bauer, David McClosky, Angel X. Chang, <a href=
+                  "/pubs/author3196.html">Valentin I. Spitkovsky</a>, Christopher D. Manning
+                </p>
+                <p>
+                  Fourth Text Analysis Conference (TAC 2011)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Stanford-UBC+Entity+Linking+at+TAC-KBP,+Again+Chang+Spitkovsky+Agirre+Manning">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/37718.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Stanford-UBC Entity Linking at TAC-KBP, Again
+                </p>
+                <p>
+                  Angel X. Chang, <a href="/pubs/author3196.html">Valentin I. Spitkovsky</a>, Eneko
+                  Agirre, Christopher D. Manning
+                </p>
+                <p>
+                  Fourth Text Analysis Conference (TAC 2011)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Strong+Baselines+for+Cross-Lingual+Entity+Linking+Chang+Spitkovsky">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/37719.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Strong Baselines for Cross-Lingual Entity Linking
+                </p>
+                <p>
+                  Angel X. Chang, <a href="/pubs/author3196.html">Valentin I. Spitkovsky</a>
+                </p>
+                <p>
+                  Fourth Text Analysis Conference (TAC 2011)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Suggesting+(More)+Friends+Using+the+Implicit+Social+Graph+Roth+Barenholz+Ben-David+Deutscher+Flysher+Hassidim+Horn+Leichtberg+Leiser+Matias+Merom">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/37120.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub37120.html">&nbsp;</a>
+                <p class="pub-title">
+                  Suggesting (More) Friends Using the Implicit Social Graph
+                </p>
+                <p>
+                  Maayan Roth, Tzvika Barenholz, Assaf Ben-David, <a href=
+                  "/pubs/DavidDeutscher.html">David Deutscher</a>, Guy Flysher, Avinatan Hassidim,
+                  <a href="/pubs/author38460.html">Ilan Horn</a>, Ari Leichtberg, <a href=
+                  "/pubs/NatyLeiser.html">Naty Leiser</a>, <a href="/pubs/YossiMatias.html">Yossi
+                  Matias</a>, <a href="/pubs/author39051.html">Ron Merom</a>
+                </p>
+                <p>
+                  International Conference on Machine Learning (ICML) (2011)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Unary+Data+Structures+for+Language+Models+Sorensen+Allauzen">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/37218.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub37218.html">&nbsp;</a>
+                <p class="pub-title">
+                  Unary Data Structures for Language Models
+                </p>
+                <p>
+                  <a href="/pubs/author14753.html">Jeffrey Sorensen</a>, <a href=
+                  "/pubs/author130.html">Cyril Allauzen</a>
+                </p>
+                <p>
+                  Interspeech 2011, International Speech Communication Association, pp. 1425-1428
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=A+Simple+Distant+Supervision+Approach+for+the+TAC-KBP+Slot+Filling+Task+Surdeanu+McClosky+Tibshirani+Bauer+Chang+Spitkovsky+Manning">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/36977.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  A Simple Distant Supervision Approach for the TAC-KBP Slot Filling Task
+                </p>
+                <p>
+                  Mihai Surdeanu, David McClosky, Julie Tibshirani, John Bauer, Angel X. Chang,
+                  <a href="/pubs/author3196.html">Valentin I. Spitkovsky</a>, Christopher D.
+                  Manning
+                </p>
+                <p>
+                  Third Text Analysis Conference (TAC 2010)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=AdHeat:+An+Influence-based+Diffusion+Model+for+Propagating+Hints+to+Match+Ads+Bao+Chang">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/36258.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  AdHeat: An Influence-based Diffusion Model for Propagating Hints to Match Ads
+                </p>
+                <p>
+                  <a href="/pubs/HongjiBao.html">Hongji Bao</a>, Edward Y. Chang
+                </p>
+                <p>
+                  Proceedings of WWW2010, IW3C2, pp. 71-80
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Catching+a+Viral+Video+Broxton+Interian+Vaver+Wattenhofer">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/36697.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub36697.html">&nbsp;</a>
+                <p class="pub-title">
+                  Catching a Viral Video
+                </p>
+                <p>
+                  Tom Broxton, <a href="/pubs/author37416.html">Yannet Interian</a>, Jon Vaver,
+                  <a href="/pubs/MirjamWattenhofer.html">Mirjam Wattenhofer</a>
+                </p>
+                <p>
+                  IEEE SIASP@ICDM 2010
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Confucius+and+Its+Intelligent+Disciples:+Integrating+Social+with+Search+Si+Chang+Gyongyi+Sun">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/36900.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub36900.html">&nbsp;</a>
+                <p class="pub-title">
+                  Confucius and Its Intelligent Disciples: Integrating Social with Search
+                </p>
+                <p>
+                  <a href="/pubs/author38938.html">Xiance Si</a>, Edward Y. Chang, Zoltan Gyongyi,
+                  Maosong Sun
+                </p>
+                <p>
+                  Proceedings of VLDB 2010, 36th International Conference on Very Large Data Bases,
+                  VLDB Endowment, pp. 1505-1516
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Improved+classification+through+runoff+elections+Golubitsky+Watt">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://doi.acm.org/10.1145/1815330.1815338">&nbsp;</a><a class=
+                "abstract-icon tooltip" href="/pubs/pub36587.html">&nbsp;</a>
+                <p class="pub-title">
+                  Improved classification through runoff elections
+                </p>
+                <p>
+                  Oleg Golubitsky, Stephen M. Watt
+                </p>
+                <p>
+                  Proceedings of the 9th IAPR International Workshop on Document Analysis Systems,
+                  ACM, Boston (2010), pp. 59-64
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Mining+Arabic+Business+Reviews+Elhawary+Elfeky">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/36759.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub36759.html">&nbsp;</a>
+                <p class="pub-title">
+                  Mining Arabic Business Reviews
+                </p>
+                <p>
+                  <a href="/pubs/author39411.html">Mohamed Elhawary</a>, <a href=
+                  "/pubs/author32404.html">Mohamed Elfeky</a>
+                </p>
+                <p>
+                  IEEE, pp. 1108-1113
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Mining+advertiser-specific+user+behavior+using+adfactors+Archak+Mirrokni+Muthukrishnan">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://doi.acm.org/10.1145/1772690.1772695">&nbsp;</a>
+                <p class="pub-title">
+                  Mining advertiser-specific user behavior using adfactors
+                </p>
+                <p>
+                  Nikolay Archak, <a href="/pubs/mirrokni.html">Vahab S. Mirrokni</a>, S.
+                  Muthukrishnan
+                </p>
+                <p>
+                  WWW (2010), pp. 31-40
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Overlapping+Experiment+Infrastructure:+More,+Better,+Faster+Experimentation+Tang+Agarwal+O'Brien+Meyer">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/36500.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub36500.html">&nbsp;</a>
+                <p class="pub-title">
+                  Overlapping Experiment Infrastructure: More, Better, Faster Experimentation
+                </p>
+                <p>
+                  <a href="/pubs/author3770.html">Diane Tang</a>, Ashish Agarwal, Deirdre O'Brien,
+                  Mike Meyer
+                </p>
+                <p>
+                  Proceedings 16th Conference on Knowledge Discovery and Data Mining, ACM,
+                  Washington, DC (2010), pp. 17-26
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=PSVM:+Parallel+Support+Vector+Machines+with+Incomplete+Cholesky+Factorization+Chang+Bai+Zhu+Wang+Li+Qiu">
+                &nbsp;</a>
+                <p class="pub-title">
+                  PSVM: Parallel Support Vector Machines with Incomplete Cholesky Factorization
+                </p>
+                <p>
+                  Edward Y. Chang, <a href="/pubs/author29895.html">Hongjie Bai</a>, <a href=
+                  "/pubs/author23207.html">Kaihua Zhu</a>, Hao Wang, Jian Li, Zhihuan Qiu
+                </p>
+                <p>
+                  Scaling Up Machine Learning, Cambridge University Press (2010)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Stanford-UBC+Entity+Linking+at+TAC-KBP+Chang+Spitkovsky+Yeh+Agirre+Manning">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/36976.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Stanford-UBC Entity Linking at TAC-KBP
+                </p>
+                <p>
+                  Angel X. Chang, <a href="/pubs/author3196.html">Valentin I. Spitkovsky</a>, Eric
+                  Yeh, Eneko Agirre, Christopher D. Manning
+                </p>
+                <p>
+                  Third Text Analysis Conference (TAC 2010)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Ad+Quality+On+TV:+Predicting+Television+Audience++Retention+Interian+Dorai-Raj+Naverniouk+Opalinski+Kaustuv+Zigmond">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/35368.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Ad Quality On TV: Predicting Television Audience Retention
+                </p>
+                <p>
+                  <a href="/pubs/author37416.html">Yannet Interian</a>, <a href=
+                  "/pubs/author38116.html">Sundar Dorai-Raj</a>, <a href=
+                  "/pubs/IgorNaverniouk.html">Igor Naverniouk</a>, P. J. Opalinski, Kaustuv,
+                  <a href="/pubs/DanZigmond.html">Dan Zigmond</a>
+                </p>
+                <p>
+                  Proceedings of ADKDD (2009)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=An+incentive-based+architecture+for+social+recommendations+Bhattacharjee+Goel+Kollias">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://doi.acm.org/10.1145/1639714.1639755">&nbsp;</a>
+                <p class="pub-title">
+                  An incentive-based architecture for social recommendations
+                </p>
+                <p>
+                  Rajat Bhattacharjee, Ashish Goel, Konstantinos Kollias
+                </p>
+                <p>
+                  RecSys '09: Proceedings of the third ACM conference on Recommender systems, ACM,
+                  New York, NY, USA (2009), pp. 229-232
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Collaborative+Filtering+for+Orkut+Communities:+Discovery+of+User+Latent+Behavior+Chen+Chu+Luan+Bai+Chang">
+                &nbsp;</a><a class="abstract-icon tooltip" href="/pubs/pub35270.html">&nbsp;</a>
+                <p class="pub-title">
+                  Collaborative Filtering for Orkut Communities: Discovery of User Latent Behavior
+                </p>
+                <p>
+                  Wen-Yen Chen, Jon Chu, Junyi Luan, <a href="/pubs/author29895.html">Hongjie
+                  Bai</a>, Edward Chang
+                </p>
+                <p>
+                  18th International Conference on World Wide Web (WWW), ACM (2009), pp. 681-690
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Computers+and+iPhones+and+Mobile+Phones,+oh+my!+A+logs-based+comparison+of+search+users+on+different+devices+Kamvar+Kellar+Patel+Xu">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/35252.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub35252.html">&nbsp;</a>
+                <p class="pub-title">
+                  Computers and iPhones and Mobile Phones, oh my! A logs-based comparison of search
+                  users on different devices
+                </p>
+                <p>
+                  <a href="/pubs/author34.html">Maryam Kamvar</a>, Melanie Kellar, <a href=
+                  "/pubs/author37597.html">Rajan Patel</a>, Ya Xu
+                </p>
+                <p>
+                  WWW 2009 MADRID, pp. 801-810
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Do+Viewers+Care?++Understanding+the+impact+of+ad+creatives+on+TV+viewing+behavior+Interian+Kaustuv+Naverniouk+Opalinski+Dorai-Raj+Zigmond">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/35167.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Do Viewers Care? Understanding the impact of ad creatives on TV viewing behavior
+                </p>
+                <p>
+                  <a href="/pubs/author37416.html">Yannet Interian</a>, Kaustuv, <a href=
+                  "/pubs/IgorNaverniouk.html">Igor Naverniouk</a>, P. J. Opalinski, <a href=
+                  "/pubs/author38116.html">Sundar Dorai-raj</a>, <a href=
+                  "/pubs/DanZigmond.html">Dan Zigmond</a>
+                </p>
+                <p>
+                  Re:Think 2009
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Efficient+Clustering+of+Web-Derived+Data+Sets+Sarmento+Kehlenbeck+Oliveira+Ungar">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://dx.doi.org/10.1007/978-3-642-03070-3_30">&nbsp;</a>
+                <p class="pub-title">
+                  Efficient Clustering of Web-Derived Data Sets
+                </p>
+                <p>
+                  Luís Sarmento, Alexander Kehlenbeck, Eugénio C. Oliveira, Lyle Ungar
+                </p>
+                <p>
+                  MLDM '09: Proceedings of the 6th International Conference on Machine Learning and
+                  Data Mining in Pattern Recognition, Springer-Verlag, Berlin, Heidelberg (2009),
+                  pp. 398-412
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Finding+topic+trends+in+digital+libraries+Bolelli+Ertekin+Zhou+Giles">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://doi.acm.org/10.1145/1555400.1555411">&nbsp;</a>
+                <p class="pub-title">
+                  Finding topic trends in digital libraries
+                </p>
+                <p>
+                  Levent Bolelli, Seyda Ertekin, Ding Zhou, C. Lee Giles
+                </p>
+                <p>
+                  JCDL '09: Proceedings of the 9th ACM/IEEE-CS joint conference on Digital
+                  libraries, ACM, New York, NY, USA (2009), pp. 69-72
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Going+Mini:+Extreme+Lightweight+Spam+Filters+Sculley+Cormack">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/35379.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Going Mini: Extreme Lightweight Spam Filters
+                </p>
+                <p>
+                  <a href="/pubs/author38217.html">D. Sculley</a>, Gordon V. Cormack
+                </p>
+                <p>
+                  CEAS 2009: Proceedings of the Sixth Conference on Email and Anti-Spam
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=On+the+Predictability+of+Search+Trends+(manuscript)+Shimshoni+Efron+Matias">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://research.google.com/archive/google_trends_predictability.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  On the Predictability of Search Trends (manuscript)
+                </p>
+                <p>
+                  Yair Shimshoni, Niv Efron, <a href="/pubs/YossiMatias.html">Yossi Matias</a>
+                </p>
+                <p>
+                  Google (2009)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=PLANET:+Massively+Parallel+Learning+of+Tree+Ensembles+with+MapReduce+Panda+Herbach+Basu+Bayardo">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/36296.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub36296.html">&nbsp;</a>
+                <p class="pub-title">
+                  PLANET: Massively Parallel Learning of Tree Ensembles with MapReduce
+                </p>
+                <p>
+                  <a href="/pubs/author38399.html">Biswanath Panda</a>, <a href=
+                  "/pubs/author38398.html">Joshua S. Herbach</a>, <a href=
+                  "/pubs/author39.html">Sugato Basu</a>, <a href="/pubs/author16753.html">Roberto
+                  J. Bayardo</a>
+                </p>
+                <p>
+                  Proceedings of the 35th International Conference on Very Large Data Bases
+                  (VLDB-2009)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Parallel+community+detection+on+large+networks+with+propinquity+dynamics+Zhang+Wang+Wang+Zhou">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://doi.acm.org/10.1145/1557019.1557127">&nbsp;</a>
+                <p class="pub-title">
+                  Parallel community detection on large networks with propinquity dynamics
+                </p>
+                <p>
+                  Yuzhou Zhang, Jianyong Wang, Yi Wang, Lizhu Zhou
+                </p>
+                <p>
+                  KDD '09: Proceedings of the 15th ACM SIGKDD international conference on Knowledge
+                  discovery and data mining, ACM, New York, NY, USA (2009), pp. 997-1006
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Predicting+Bounce+Rates+in+Sponsored+Search+Advertisements+Sculley+Malkin+Basu+Bayardo">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/35251.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Predicting Bounce Rates in Sponsored Search Advertisements
+                </p>
+                <p>
+                  <a href="/pubs/author38217.html">D. Sculley</a>, Robert Malkin, <a href=
+                  "/pubs/author39.html">Sugato Basu</a>, <a href="/pubs/author16753.html">Roberto
+                  J. Bayardo</a>
+                </p>
+                <p>
+                  Proc. of the 15th International ACM-SIGKDD Conference on Knowledge Discovery and
+                  Data Mining, ACM (2009), pp. 1325-1334
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Preference+aggregation+in+group+recommender+systems+for+committee+decision-making+Baskin+Krishnamurthi">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://doi.acm.org/10.1145/1639714.1639782">&nbsp;</a>
+                <p class="pub-title">
+                  Preference aggregation in group recommender systems for committee decision-making
+                </p>
+                <p>
+                  Jacob P. Baskin, Shriram Krishnamurthi
+                </p>
+                <p>
+                  RecSys '09: Proceedings of the third ACM conference on Recommender systems, ACM,
+                  New York, NY, USA (2009), pp. 337-340
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Pricing+Guidance+in+Ad+Sale+Negotiations:+The+Print+Ads+Example+Juda+Muthukrishnan+Rastogi">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/35341.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Pricing Guidance in Ad Sale Negotiations: The Print Ads Example
+                </p>
+                <p>
+                  Adam Juda, S. N. Muthukrishnan, Ashish Rastogi
+                </p>
+                <p>
+                  The Third Annual International Workshop on Data Mining and Audience Intelligence
+                  for Advertising (2009)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Rating+aggregation+in+collaborative+filtering+systems+Garcin+Faltings+Jurca+Joswig">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://doi.acm.org/10.1145/1639714.1639785">&nbsp;</a>
+                <p class="pub-title">
+                  Rating aggregation in collaborative filtering systems
+                </p>
+                <p>
+                  Florent Garcin, Boi Faltings, <a href="/pubs/author37631.html">Radu Jurca</a>,
+                  Nadine Joswig
+                </p>
+                <p>
+                  RecSys '09: Proceedings of the third ACM conference on Recommender systems, ACM,
+                  New York, NY, USA (2009), pp. 349-352
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Scalable+Attribute-Value+Extraction+from+Semi-Structured+Text+Wong+Widdows+Lokovic+Nigam">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/34460.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub34460.html">&nbsp;</a>
+                <p class="pub-title">
+                  Scalable Attribute-Value Extraction from Semi-Structured Text
+                </p>
+                <p>
+                  <a href="/pubs/author10320.html">Yuk Wah Wong</a>, Dominic Widdows, Tom Lokovic,
+                  Kamal Nigam
+                </p>
+                <p>
+                  ICDM Workshop on Large-scale Data Mining: Theory and Applications (2009)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Stanford-UBC+at+TAC-KBP+Agirre+Chang+Jurafsky+Manning+Spitkovsky+Yeh">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/36395.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Stanford-UBC at TAC-KBP
+                </p>
+                <p>
+                  Eneko Agirre, Angel X. Chang, Daniel S. Jurafsky, Christopher D. Manning,
+                  <a href="/pubs/author3196.html">Valentin I. Spitkovsky</a>, Eric Yeh
+                </p>
+                <p>
+                  Second Text Analysis Conference (TAC 2009)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Succinct+approximate+counting+of+skewed+data+Talbot">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/35519.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub35519.html">&nbsp;</a>
+                <p class="pub-title">
+                  Succinct approximate counting of skewed data
+                </p>
+                <p>
+                  <a href="/pubs/DavidTalbot.html">David Talbot</a>
+                </p>
+                <p>
+                  IJCAI-09 Proceedings (2009), pp. 1243-1248
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Text+Classification+Through+Time:+Efficient+Label+Propagation+in+Time-Based+Graphs+Baluja+Ravichandran+Sivakumar">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/35616.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Text Classification Through Time: Efficient Label Propagation in Time-Based
+                  Graphs
+                </p>
+                <p>
+                  <a href="/pubs/author35.html">Shumeet Baluja</a>, <a href=
+                  "/pubs/author14731.html">Deepak Ravichandran</a>, <a href=
+                  "/pubs/DSivakumar.html">D. Sivakumar</a>
+                </p>
+                <p>
+                  International Conference on Knowledge Discovery and Information Retrieval (2009)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=The+Unreasonable+Effectiveness+of+Data+Halevy+Norvig+Pereira">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/35179.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  The Unreasonable Effectiveness of Data
+                </p>
+                <p>
+                  Alon Halevy, <a href="/pubs/author205.html">Peter Norvig</a>, <a href=
+                  "/pubs/author1092.html">Fernando Pereira</a>
+                </p>
+                <p>
+                  IEEE Intelligent Systems, vol. 24 (2009), pp. 8-12
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Tour+the+world:+a+technical+demonstration+of+a+web-scale+landmark+recognition+engine+Zheng+Zhao+Song+Adam+Buddemeier+Bissacco+Brucher+Chua+Neven+Yagnik">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://doi.acm.org/10.1145/1631272.1631468">&nbsp;</a>
+                <p class="pub-title">
+                  Tour the world: a technical demonstration of a web-scale landmark recognition
+                  engine
+                </p>
+                <p>
+                  Yan-Tao Zheng, <a href="/pubs/author1502.html">Ming Zhao</a>, <a href=
+                  "/pubs/author38270.html">Yang Song</a>, <a href="/pubs/author37870.html">Hartwig
+                  Adam</a>, Ulrich Buddemeier, <a href="/pubs/AlessandroBissacco.html">Alessandro
+                  Bissacco</a>, Fernando Brucher, Tat-Seng Chua, Hartmut Neven, <a href=
+                  "/pubs/author36197.html">Jay Yagnik</a>
+                </p>
+                <p>
+                  MM '09: Proceedings of the seventeen ACM international conference on Multimedia,
+                  ACM, New York, NY, USA (2009), pp. 961-962
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Video2Text:+Learning+to+Annotate+Video+Content+Aradhye+Toderici+Yagnik">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/35638.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub35638.html">&nbsp;</a>
+                <p class="pub-title">
+                  Video2Text: Learning to Annotate Video Content
+                </p>
+                <p>
+                  <a href="/pubs/author37818.html">Hrishikesh Aradhye</a>, <a href=
+                  "/pubs/author38233.html">George Toderici</a>, <a href=
+                  "/pubs/author36197.html">Jay Yagnik</a>
+                </p>
+                <p>
+                  ICDM Workshop on Internet Multimedia Mining (2009)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=A+Social+Query+Model+for+Decentralized+Search+Banerjee+Basu">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/34731.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  A Social Query Model for Decentralized Search
+                </p>
+                <p>
+                  Arindam Banerjee, <a href="/pubs/author39.html">Sugato Basu</a>
+                </p>
+                <p>
+                  Second ACM Workshop on Social Network Mining and Analysis at the KDD Conference
+                  (SNAKDD-08) (2008)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Bootstrapping+Information+Extraction+from+Semi-structured+Web+Pages+Carlson+Schafer">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://www.springerlink.com/content/m003r7p6h52k366k/">&nbsp;</a>
+                <p class="pub-title">
+                  Bootstrapping Information Extraction from Semi-structured Web Pages
+                </p>
+                <p>
+                  Andrew Carlson, Charles Schafer
+                </p>
+                <p>
+                  ECML/PKDD, Springer Lecture Notes in Computer Science Volume 5211/2008 (2008),
+                  pp. 16
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Constrained+Clustering:+Advances+in+Algorithms,+Theory,+and+Applications+Basu+Davidson+Wagstaff">
+                &nbsp;</a>
+                <p class="pub-title">
+                  Constrained Clustering: Advances in Algorithms, Theory, and Applications
+                </p>
+                <p>
+                  <a href="/pubs/author39.html">Sugato Basu</a>, Ian Davidson, Kiri Wagstaff
+                </p>
+                <p>
+                  CRC Press (2008)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Detecting+Image+Spam+using+Visual+Features+and+Near+Duplicate+Detection+Mehta+Nangia+Gupta+Nejdl">
+                &nbsp;</a>
+                <p class="pub-title">
+                  Detecting Image Spam using Visual Features and Near Duplicate Detection
+                </p>
+                <p>
+                  <a href="/pubs/author36288.html">Bhaskar Mehta</a>, Saurabh Nangia, Manish Gupta,
+                  Wolgang Nejdl
+                </p>
+                <p>
+                  Proceedings of WWW 2008
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Efficient+Concept+Clustering+for+Ontology+Learning+using+an+Event+Life+Cycle+on+the+Web+Sung+Chung+McLeod">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://doi.acm.org/10.1145/1363686.1364234">&nbsp;</a>
+                <p class="pub-title">
+                  Efficient Concept Clustering for Ontology Learning using an Event Life Cycle on
+                  the Web
+                </p>
+                <p>
+                  Sangsoo Sung, Seokkyung Chung, Dennis McLeod
+                </p>
+                <p>
+                  Proc. 2008 ACM SYmposium on Applied Computing, ACM, Fortaleza, Brazil, pp.
+                  2310-2314
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Exploring+a+Digital+Library+Through+Key+Ideas+Schilit+Kolak">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://doi.acm.org/10.1145/1378889.1378920">&nbsp;</a>
+                <p class="pub-title">
+                  Exploring a Digital Library Through Key Ideas
+                </p>
+                <p>
+                  <a href="/pubs/author27501.html">Bill N. Schilit</a>, <a href=
+                  "/pubs/author2713.html">Okan Kolak</a>
+                </p>
+                <p>
+                  JCDL, Pittsburgh, Pennsylvania, USA (2008), pp. 177-186
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Extreme+Data+Mining+Ramaswamy">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://doi.acm.org/10.1145/1376616.1376617">&nbsp;</a>
+                <p class="pub-title">
+                  Extreme Data Mining
+                </p>
+                <p>
+                  Sridhar Ramaswamy
+                </p>
+                <p>
+                  Proceedings 2008 ACM SIGMOD International Conference on Management of Data, ACM,
+                  Vancouver, pp. 1-2
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Modeling+Online+Reviews+with+Multi-Grain+Topic+Models+Titov+McDonald">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/33452.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Modeling Online Reviews with Multi-Grain Topic Models
+                </p>
+                <p>
+                  Ivan Titov, <a href="/pubs/author32317.html">Ryan McDonald</a>
+                </p>
+                <p>
+                  17th International World Wide Web Conference (2008)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=PFP:+Parallel+FP-Growth+for+Query+Recommendation+Li+Wang+Zhang+Chang+Zhang">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/34668.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  PFP: Parallel FP-Growth for Query Recommendation
+                </p>
+                <p>
+                  Haoyuan Li, Yi Wang, Dong Zhang, Edward Chang, Ming Zhang
+                </p>
+                <p>
+                  ACM Recommendation Systems (2008) (to appear)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Video+Suggestion+and+Discovery+for+YouTube:+Taking+Random+Walks+Through+the+View+Graph+Baluja+Seth+Sivakumar+Jing+Yagnik+Kumar+Ravichandran+Aly">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/34407.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Video Suggestion and Discovery for YouTube: Taking Random Walks Through the View
+                  Graph
+                </p>
+                <p>
+                  <a href="/pubs/author35.html">Shumeet Baluja</a>, Rohan Seth, <a href=
+                  "/pubs/DSivakumar.html">D. Sivakumar</a>, Yushi Jing, <a href=
+                  "/pubs/author36197.html">Jay Yagnik</a>, <a href="/pubs/author3286.html">Shankar
+                  Kumar</a>, <a href="/pubs/author14731.html">Deepak Ravichandran</a>, Mohamed Aly
+                </p>
+                <p>
+                  WWW-2008
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=A+Support+Vector+Approach+to+Censored+Targets+Shivaswamy+Chu+Jansche">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/34327.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub34327.html">&nbsp;</a>
+                <p class="pub-title">
+                  A Support Vector Approach to Censored Targets
+                </p>
+                <p>
+                  Pannagadatta Shivaswamy, Wei Chu, <a href="/pubs/author35845.html">Martin
+                  Jansche</a>
+                </p>
+                <p>
+                  Seventh IEEE International Conference on Data Mining (ICDM) (2007), pp. 655-660
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Clustering+Billions+of+Images+with+Large+Scale+Nearest+Neighbor+Search+Liu+Rosenberg+Rowley">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/32616.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Clustering Billions of Images with Large Scale Nearest Neighbor Search
+                </p>
+                <p>
+                  Ting Liu, <a href="/pubs/author30937.html">Chuck Rosenberg</a>, <a href=
+                  "/pubs/author37.html">Henry A. Rowley</a>
+                </p>
+                <p>
+                  IEEE Workshop on Applications of Computer Vision, IEEE (2007)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Google+Book+Search:+Document+Understanding+on+a+Massive+Scale+Vincent">
+                &nbsp;</a>
+                <p class="pub-title">
+                  Google Book Search: Document Understanding on a Massive Scale
+                </p>
+                <p>
+                  <a href="/pubs/author1415.html">L. Vincent</a>
+                </p>
+                <p>
+                  PROC. ninth International Conference on Document Analysis and Recognition
+                  (ICDAR), IEEE Computer Society, Washington, DC (2007), pp. 819-823
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Mining+API+patterns+as+partial+orders+from+source+code:+from+usage+scenarios+to+specifications+Acharya+Xie+Pei+Xu">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/33336.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Mining API patterns as partial orders from source code: from usage scenarios to
+                  specifications
+                </p>
+                <p>
+                  Mithun Acharya, Tao Xie, Jian Pei, <a href="/pubs/author857.html">Jun Xu</a>
+                </p>
+                <p>
+                  Proc. ACM SIGSOFT Symposium on The Foundations of Software Engineering, ACM,
+                  Dubrovnik, Croatia (2007), pp. 25-34
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Relational+Clustering+by+Symmetric+Convex+Coding+Long+Zhang+Wu+Yu">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/33309.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Relational Clustering by Symmetric Convex Coding
+                </p>
+                <p>
+                  Bo Long, Zhongfei (Mark) Zhang, Xiaoyun Wu, Philip S. Yu
+                </p>
+                <p>
+                  Proc. 24th ICML, ACM, Corvalis (2007), pp. 569-576
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Scaling+Up+All+Pairs+Similarity+Search+Bayardo+Ma+Srikant">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/32781.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Scaling Up All Pairs Similarity Search
+                </p>
+                <p>
+                  <a href="/pubs/author16753.html">Roberto Bayardo</a>, Yiming Ma, <a href=
+                  "/pubs/author888.html">Ramakrishnan Srikant</a>
+                </p>
+                <p>
+                  Proc. of the 16th Int'l Conf. on the World Wide Web (2007)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Cluster+Ranking+with+an+Application+to+Mining+Mailbox+Networks+Bar-Yossef+Guy+Lempel+Maarek+Soroka">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/32589.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Cluster Ranking with an Application to Mining Mailbox Networks
+                </p>
+                <p>
+                  <a href="/pubs/author6593.html">Ziv Bar-Yossef</a>, Ido Guy, Ronny Lempel, Yoelle
+                  S. Maarek, Vladimir Soroka
+                </p>
+                <p>
+                  ICDM (2006), pp. 63-74
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Dense+Subgraph+Extraction+Gibson+Kumar+McCurley+Tomkins">
+                &nbsp;</a>
+                <p class="pub-title">
+                  Dense Subgraph Extraction
+                </p>
+                <p>
+                  David Gibson, Ravi Kumar, <a href="/pubs/author89.html">Kevin S. McCurley</a>,
+                  <a href="/pubs/author8038.html">Andrew Tomkins</a>
+                </p>
+                <p>
+                  in: Mining Graph Data, John Wiley &amp; Sons (2006), pp. 411-441
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Mining+for+proposal+reviewers:+lessons+learned+at+the+national+science+foundation+Hettich+Pazzani">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/32722.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Mining for proposal reviewers: lessons learned at the national science foundation
+                </p>
+                <p>
+                  Seth Hettich, Michael J. Pazzani
+                </p>
+                <p>
+                  Proc. 12th ACM SIGKDD International Conference on Knowledge Discovery and Data
+                  Mining, ACM, Philadelphia, PA (2006), pp. 862-871
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Mining+the+Web+to+Determine+Similarity+Between+Words,+Objects,+and+Communities+Sahami">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/33.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Mining the Web to Determine Similarity Between Words, Objects, and Communities
+                </p>
+                <p>
+                  Mehran Sahami
+                </p>
+                <p>
+                  Proceedings of the 19th International FLAIRS Conference (FLAIRS-2006)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=New+cached-sufficient+statistics+algorithms+for+quickly+answering+statistical+questions+Moore">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://portal.acm.org/ft_gateway.cfm?id=1150405&amp;type=pdf&amp;coll=&amp;dl=ACM&amp;CFID=15151515&amp;CFTOKEN=6184618">&nbsp;</a>
+                <p class="pub-title">
+                  New cached-sufficient statistics algorithms for quickly answering statistical
+                  questions
+                </p>
+                <p>
+                  <a href="/pubs/author6411.html">Andrew Moore</a>
+                </p>
+                <p>
+                  Proc. 12th ACM SIGKDD International Conference on Knowledge Discovery and Data
+                  Mining, ACM, Philadelphia, PA (2006), pp. 2
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=STAGGER:+Periodicity+Mining+of+Data+Streams+Using+Expanding+Sliding+Windows+Elfeky+Aref+Elmagarmid">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/36677.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub36677.html">&nbsp;</a>
+                <p class="pub-title">
+                  STAGGER: Periodicity Mining of Data Streams Using Expanding Sliding Windows
+                </p>
+                <p>
+                  <a href="/pubs/author32404.html">Mohamed G. Elfeky</a>, Walid G. Aref, Ahmed K.
+                  Elmagarmid
+                </p>
+                <p>
+                  Proceedings of the 6th IEEE International Conference on Data Mining (ICDM 2006),
+                  IEEE Computer Society, pp. 188-199
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Adaptive+Product+Normalization:+Using+Online+Learning+for+Record+Linkage+in+Comparison+Shopping+Bilenko+Basu+Sahami">
+                &nbsp;</a>
+                <p class="pub-title">
+                  Adaptive Product Normalization: Using Online Learning for Record Linkage in
+                  Comparison Shopping
+                </p>
+                <p>
+                  Mikhail Bilenko, <a href="/pubs/author39.html">Sugato Basu</a>, Mehran Sahami
+                </p>
+                <p>
+                  Proceedings of the 5th IEEE International Conference on Data Mining (2005), pp.
+                  58-65
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Evaluating+similarity+measures:+a+large-scale+study+in+the+orkut+social+network+Spertus+Sahami+Buyukkokten">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/31.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Evaluating similarity measures: a large-scale study in the orkut social network
+                </p>
+                <p>
+                  <a href="/pubs/author40.html">Ellen Spertus</a>, Mehran Sahami, Orkut Buyukkokten
+                </p>
+                <p>
+                  Proceedings of the Eleventh ACM SIGKDD International Conference on Knowledge
+                  Discovery and Data Mining (KDD-2005), pp. 678-684
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Unweaving+a+web+of+documents+Guha+Kumar+Sivakumar+Sundaram">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://doi.acm.org/10.1145/1081870.1081939">&nbsp;</a>
+                <p class="pub-title">
+                  Unweaving a web of documents
+                </p>
+                <p>
+                  <a href="/pubs/author17184.html">R. Guha</a>, Ravi Kumar, <a href=
+                  "/pubs/DSivakumar.html">D. Sivakumar</a>, Ravi Sundaram
+                </p>
+                <p>
+                  KDD (2005), pp. 574-579
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=A+social+network+caught+in+the+Web+Adamic+Buyukkokten+Adar">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://firstmonday.org/issues/issue8_6/adamic/index.html">&nbsp;</a>
+                <p class="pub-title">
+                  A social network caught in the Web
+                </p>
+                <p>
+                  Lada A. Adamic, Orkut Buyukkokten, Eytan Adar
+                </p>
+                <p>
+                  First Monday, vol. 8 (2003)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Mining+Optimized+Gain+Rules+for+Numeric+Attributes+Brin+Rastogi+Shim">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/4690.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Mining Optimized Gain Rules for Numeric Attributes
+                </p>
+                <p>
+                  <a href="/pubs/SergeyBrin.html">Sergey Brin</a>, Rajeev Rastogi, Kyuseok Shim
+                </p>
+                <p>
+                  IEEE Trans. Knowl. Data Eng., vol. 15 (2003), pp. 324-338
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Extracting+Patterns+and+Relations+from+the+World+Wide+Web+Brin">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/21844.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Extracting Patterns and Relations from the World Wide Web
+                </p>
+                <p>
+                  <a href="/pubs/SergeyBrin.html">Sergey Brin</a>
+                </p>
+                <p>
+                  WebDB (1998), pp. 172-183
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Scalable+Techniques+for+Mining+Causal+Structures+Silverstein+Brin+Motwani+Ullman">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://www.vldb.org/conf/1998/p594.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Scalable Techniques for Mining Causal Structures
+                </p>
+                <p>
+                  Craig Silverstein, <a href="/pubs/SergeyBrin.html">Sergey Brin</a>, Rajeev
+                  Motwani, Jeffrey D. Ullman
+                </p>
+                <p>
+                  VLDB (1998), pp. 594-605
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="maia-signature"></div>
+    <div class="maia-footer" id="maia-footer">
+      <div id="maia-footer-local">
+        <div class="maia-aux">
+          <ul class="expand no-marker" id="footer-local">
+            <li>
+              <a class="googleplus middle" href=
+              "//plus.google.com/117790530324740296539/posts">Google Plus</a>
+              <p>
+                Thoughts from Google's academic community
+              </p>
+            </li>
+            <li>
+              <a class="twitter middle" href="//twitter.com/googleresearch">Twitter</a>
+              <p>
+                Research at Google announcements
+              </p>
+            </li>
+            <li>
+              <a class="blogger middle" href="//googleresearch.blogspot.com/">Research Blog</a>
+              <p>
+                The latest news from Research at Google
+              </p>
+            </li>
+            <li>
+              <a class="scholar middle" href="//scholar.google.com/">Google Scholar</a>
+              <p>
+                Search for scholarly literature
+              </p>
+            </li>
+            <li>
+              <a class="youtube middle" href=
+              "//www.youtube.com/user/GoogleTechTalks/featured">YouTube Tech Talks</a>
+              <p>
+                Tech talks by leaders in the field
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div id="maia-footer-global">
+        <div class="maia-aux">
+          <ul>
+            <li>
+              <a href="//www.google.com/">Google</a>
+            </li>
+            <li>
+              <a href="//www.google.com/intl/en/about/">About Google</a>
+            </li>
+            <li>
+              <a href="//www.google.com/intl/en/policies/privacy/">Privacy</a>
+            </li>
+            <li>
+              <a href="//www.google.com/intl/en/policies/terms/">Terms</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <script src="//www.google.com/jsapi">
+    </script> 
+    <script src="/js/research.view.js">
+    </script> 
+    <script>
+    var videoUnit= new gweb.ui.LightBox('video-lightbox', 'Some tech-talks in Data Mining and Modeling');
+  videoUnit.setAnimate(true);
+  videoUnit.setScaleImages(true);
+  videoUnit.setOutsideNav(true);
+  videoUnit.setCloseText('CLOSE');
+  videoUnit.setItemCount(true);
+  videoUnit.init();
+    </script> 
+    <script src="//www.google.com/js/maia.js">
+    </script>
+  </body>
+</html>

@@ -1,0 +1,962 @@
+<!DOCTYPE html>
+<html class="google" lang="en">
+  <head>
+
+    <script>
+    (function(H){H.className=H.className.replace(/\bgoogle\b/,'google-js')})(document.documentElement)
+    </script>
+    <meta charset="utf-8">
+    <meta content="initial-scale=1, minimum-scale=1, width=device-width" name="viewport">
+    <title>
+      Machine Translation - Research at Google
+    </title>
+    <script src="//www.google.com/js/google.js">
+    </script>
+    <script>
+    new gweb.analytics.AutoTrack({profile:"UA-5974346-1"});
+    </script>
+    <link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;lang=en" rel=
+    "stylesheet">
+    <link href="/css/research.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="maia-header" id="maia-header" role="banner">
+      <div class="maia-aux">
+        <h1>
+          <a href="/" id="logo"><img alt="Research at Google" src=
+          "/images/research_at_google.png"></a>
+        </h1><a class="maia-teleport" href="#content">Skip to content</a>
+        <div class="maia-util">
+          <form class="maia-search" id="search" name="search">
+            <input id="q" name="q" placeholder="Search this site" value=""> <input class=
+            "maia-button" type="submit" value="Search">
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="maia-nav maia-complex" id="maia-nav-x" role="navigation">
+      <div class="maia-aux">
+        <ul>
+          <li>
+            <a href="/index.html">Home</a>
+          </li>
+          <li class="active" id="ra">
+            <a href="/pubs/papers.html">Research Areas &amp; Publications</a> <span class=
+            "glyph">&nbsp;</span>
+            <div class="hidden">
+              <ul id="ramenu">
+                <li class="fill">
+                  <a href="/pubs/papers.html">Overview</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/AlgorithmsandTheory.html">Algorithms and Theory</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/DataManagement.html">Data Management</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/DataMiningandModeling.html">Data Mining and Modeling</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/DistributedSystemsandParallelComputing.html">Distributed Systems
+                  and Parallel Computing</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/EconomicsandElectronicCommerce.html">Economics and Electronic
+                  Commerce</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/EducationInnovation.html">Education Innovation</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/GeneralScience.html">General Science</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/HardwareandArchitecture.html">Hardware and Architecture</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/Human-ComputerInteractionandVisualization.html">Human-Computer
+                  Interaction and Visualization</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/InformationRetrievalandtheWeb.html">Information Retrieval and the
+                  Web</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/MachineIntelligence.html">Machine Intelligence</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/MachinePerception.html">Machine Perception</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/MachineTranslation.html">Machine Translation</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/MobileSystems.html">Mobile Systems</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/NaturalLanguageProcessing.html">Natural Language Processing</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/Networking.html">Networking</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/SecurityPrivacyandAbusePrevention.html">Security, Privacy and
+                  Abuse Prevention</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/SoftwareEngineering.html">Software Engineering</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/SoftwareSystems.html">Software Systems</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/SpeechProcessing.html">Speech Processing</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a href="/researchers.html">People</a>
+          </li>
+          <li>
+            <a href="/university/">Research Programs</a>
+          </li>
+          <li>
+            <a href="/workatgoogle.html">Work at Google</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div id="maia-main" role="main">
+      <div class="maia-teleport" id="content"></div>
+      <div id="cse">
+        &nbsp;
+      </div>
+      <h1>
+        Machine Translation
+      </h1>
+      <div class="maia-cols">
+        <div class="maia-col-4">
+          <div>
+            <div class="sidebar">
+              <h2>
+                What We Do
+              </h2>
+              <p>
+                Machine Translation is a great example of how cutting edge research and world class
+                infrastructure come together at Google. We focus our research efforts towards
+                developing statistical translation techniques that improve with more data and
+                generalize well to new languages. Our large scale computing infrastructure allows
+                us to rapidly experiment with new models trained on web-scale data to significantly
+                improve translation quality. This&nbsp;<a href=
+                "http://research.google.com/pubs/MachineTranslation.html">cutting-edge research</a>
+                backs the translations served at&nbsp;<a href=
+                "http://translate.google.com/">translate.google.com</a>, allowing our users to
+                translate text, web pages and even speech. Deployed within a wide range of Google
+                services like GMail,&nbsp;<a href=
+                "http://booksearch.blogspot.com/2011/05/define-translate-and-search-for-words.html">Books</a>,&nbsp;<a href="http://googlemobile.blogspot.com/2011/01/new-look-for-google-translate-for.html">Android</a>
+                and&nbsp;<a href="http://www.google.com/language_tools">web search</a>, Google
+                Translate is a high impact, research driven product that bridges the language
+                barrier and makes it possible to explore the multilingual web in 63 languages.
+                Exciting research challenges abound as we pursue human quality translation and
+                develop machine translation systems for new languages.
+              </p>
+              <h2>
+                Related videos
+              </h2><a class="video-small video-lightbox" data-lightbox-caption=
+              "Ever wondered how Google Translate creates your translations?" data-lightbox-height=
+              "480" data-lightbox-width="853" href=
+              "//www.youtube.com/embed/Rq1dow1vTHY?autoplay=1"><img alt=
+              "Ever wondered how Google Translate creates your translations?" src=
+              "https://i2.ytimg.com/vi/Rq1dow1vTHY/hqdefault.jpg"> <span>&nbsp;</span></a>
+              <p class="caption">
+                Ever wondered how Google Translate creates your translations?
+              </p>
+              <p class="fill">
+                <a href="http://www.youtube.com/user/GoogleTechTalks?feature=watch">Google's
+                tech-talk channel on YouTube</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="maia-col-8">
+          <h2>
+            40 Publications
+          </h2>
+          <div class="section">
+            <ul class="pub-list">
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Efficient+Top-Down+BTG+Parsing+for+Machine+Translation+Preordering+Nakagawa">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/43848.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub43848.html">&nbsp;</a>
+                <p class="pub-title">
+                  Efficient Top-Down BTG Parsing for Machine Translation Preordering
+                </p>
+                <p>
+                  Tetsuji Nakagawa
+                </p>
+                <p>
+                  Proceedings of the 53rd Annual Meeting of the Association for Computational
+                  Linguistics and the 7th International Joint Conference on Natural Language
+                  Processing (Volume 1: Long Papers), Association for Computational Linguistics
+                  (2015), pp. 208-218
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Pushdown+automata+in+statistical+machine+translation+Allauzen+Byrne+Gispert+Iglesias+Riley">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://www.mitpressjournals.org/doi/pdf/10.1162/COLI_a_00197">&nbsp;</a>
+                <p class="pub-title">
+                  Pushdown automata in statistical machine translation
+                </p>
+                <p>
+                  <a href="/pubs/author130.html">Cyril Allauzen</a>, Bill Byrne, Adrià de Gispert,
+                  Gonzalo Iglesias, <a href="/pubs/author125.html">Michael Riley</a>
+                </p>
+                <p>
+                  Computational Linguistics, vol. 40 (2014), pp. 687-723
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Enlisting+the+Ghost:+Modeling+Empty+Categories+for+Machine+Translation+Xiang+Luo+Zhou">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/41389.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub41389.html">&nbsp;</a>
+                <p class="pub-title">
+                  Enlisting the Ghost: Modeling Empty Categories for Machine Translation
+                </p>
+                <p>
+                  Bing Xiang, <a href="/pubs/XiaoqiangLuo.html">Xiaoqiang Luo</a>, Bowen Zhou
+                </p>
+                <p>
+                  Proceedings of ACL, ACL (2013), pp. 822-831
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Source-Side+Classifier+Preordering+for+Machine+Translation+Lerner+Petrov">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/41651.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub41651.html">&nbsp;</a>
+                <p class="pub-title">
+                  Source-Side Classifier Preordering for Machine Translation
+                </p>
+                <p>
+                  <a href="/pubs/UriLerner.html">Uri Lerner</a>, <a href=
+                  "/pubs/author38945.html">Slav Petrov</a>
+                </p>
+                <p>
+                  Proceedings of the 2014 Conference on Empirical Methods in Natural Language
+                  Processing (EMNLP '13) (2013)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=A+Class-Based+Agreement+Model+For+Generating+Accurately+Inflected+Translations+Green+DeNero">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/38107.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub38107.html">&nbsp;</a>
+                <p class="pub-title">
+                  A Class-Based Agreement Model For Generating Accurately Inflected Translations
+                </p>
+                <p>
+                  Spence Green, <a href="/pubs/author38952.html">John DeNero</a>
+                </p>
+                <p>
+                  50th Annual Meeting of the Association for Computational Linguistics (ACL 2012)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=A+Systematic+Comparison+of+Phrase+Table+Pruning+Techniques+Zens+Stanton+Xu">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/38279.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub38279.html">&nbsp;</a>
+                <p class="pub-title">
+                  A Systematic Comparison of Phrase Table Pruning Techniques
+                </p>
+                <p>
+                  <a href="/pubs/RichardZens.html">Richard Zens</a>, <a href=
+                  "/pubs/DaisyStanton.html">Daisy Stanton</a>, <a href="/pubs/PengXu.html">Peng
+                  Xu</a>
+                </p>
+                <p>
+                  Proceedings of the 2012 Joint Conference on Empirical Methods in Natural Language
+                  Processing and Computational Natural Language Learning, Association for
+                  Computational Linguistics, Jeju Island, Korea, pp. 972-983
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Fast+and+Scalable+Decoding+with+Language+Model+Look-Ahead+for+Phrase-based+Statistical+Machine+Translation+Wuebker+Ney+Zens">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/40409.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub40409.html">&nbsp;</a>
+                <p class="pub-title">
+                  Fast and Scalable Decoding with Language Model Look-Ahead for Phrase-based
+                  Statistical Machine Translation
+                </p>
+                <p>
+                  Joern Wuebker, Hermann Ney, <a href="/pubs/RichardZens.html">Richard Zens</a>
+                </p>
+                <p>
+                  Proceedings of the 50th Annual Meeting of the Association for Computational
+                  Linguistics, Association for Computational Linguistics, Jeju, Republic of Korea
+                  (2012), pp. 28-32
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Improved+Domain+Adaptation+for+Statistical+Machine+Translation+Wang+Macherey+Macherey+Och+Xu">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://amta2012.amtaweb.org/AMTA2012Files/papers/131.pdf">&nbsp;</a><a class=
+                "abstract-icon tooltip" href="/pubs/pub40803.html">&nbsp;</a>
+                <p class="pub-title">
+                  Improved Domain Adaptation for Statistical Machine Translation
+                </p>
+                <p>
+                  Wei Wang, <a href="/pubs/author29100.html">Klaus Macherey</a>, <a href=
+                  "/pubs/author7590.html">Wolfgang Macherey</a>, Franz Och, <a href=
+                  "/pubs/PengXu.html">Peng Xu</a>
+                </p>
+                <p>
+                  AMTA-2012, The Association for Machine Translation in the Americas
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Unsupervised+Translation+Sense+Clustering+Bansal+DeNero+Lin">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/38138.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub38138.html">&nbsp;</a>
+                <p class="pub-title">
+                  Unsupervised Translation Sense Clustering
+                </p>
+                <p>
+                  Mohit Bansal, <a href="/pubs/author38952.html">John DeNero</a>, <a href=
+                  "/pubs/author108.html">Dekang Lin</a>
+                </p>
+                <p>
+                  the North American Association of Computational Linguistics (2012)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=A+Lightweight+Evaluation+Framework+for+Machine+Translation+Reordering+Talbot+Kazawa+Ichikawa">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/37729.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  A Lightweight Evaluation Framework for Machine Translation Reordering
+                </p>
+                <p>
+                  <a href="/pubs/DavidTalbot.html">David Talbot</a>, Hideto Kazawa, Hiroshi
+                  Ichikawa
+                </p>
+                <p>
+                  Proceedings of the 6th Workshop on Statistical Machine Translation (2011), pp.
+                  468-476
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Binarized+Forest+to+String+Translation+Zhang+Fang+Xu+Wu">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/37011.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Binarized Forest to String Translation
+                </p>
+                <p>
+                  <a href="/pubs/HaoZhang.html">Hao Zhang</a>, Licheng Fang, <a href=
+                  "/pubs/PengXu.html">Peng Xu</a>, Xiaoyun Wu
+                </p>
+                <p>
+                  ACL (2011), pp. 835-845
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Hierarchical+Phrase-Based+Translation+Representations+Iglesias+Allauzen+Byrne+Gispert+Riley">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/37167.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Hierarchical Phrase-Based Translation Representations
+                </p>
+                <p>
+                  Gonzalo Iglesias, <a href="/pubs/author130.html">Cyril Allauzen</a>, William
+                  Byrne, Adrià de Gispert, <a href="/pubs/author125.html">Michael Riley</a>
+                </p>
+                <p>
+                  Proceedings of EMNLP 2011
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Inducing+Sentence+Structure+from+Parallel+Corpora+for+Reordering+DeNero+Uszkoreit">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/37163.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub37163.html">&nbsp;</a>
+                <p class="pub-title">
+                  Inducing Sentence Structure from Parallel Corpora for Reordering
+                </p>
+                <p>
+                  <a href="/pubs/author38952.html">John DeNero</a>, <a href=
+                  "/pubs/author37567.html">Jakob Uszkoreit</a>
+                </p>
+                <p>
+                  Proceedings of the 2011 Conference on Empirical Methods in Natural Language
+                  Processing (EMNLP), Association for Computational Linguistics
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Language-independent+Compound+Splitting+with+Morphological+Operations+Macherey+Dai+Talbot+Popat+Och">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/37093.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub37093.html">&nbsp;</a>
+                <p class="pub-title">
+                  Language-independent Compound Splitting with Morphological Operations
+                </p>
+                <p>
+                  <a href="/pubs/author29100.html">Klaus Macherey</a>, Andrew M. Dai, <a href=
+                  "/pubs/DavidTalbot.html">David Talbot</a>, Ashok C. Popat, Franz Och
+                </p>
+                <p>
+                  ACL HLT 2011, pp. 10
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Model-Based+Aligner+Combination+Using+Dual+Decomposition+DeNero+Macherey">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/37256.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub37256.html">&nbsp;</a>
+                <p class="pub-title">
+                  Model-Based Aligner Combination Using Dual Decomposition
+                </p>
+                <p>
+                  <a href="/pubs/author38952.html">John DeNero</a>, <a href=
+                  "/pubs/author29100.html">Klaus Macherey</a>
+                </p>
+                <p>
+                  Proceedings of the Association for Computational Linguistics (ACL), 2011
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Training+a+Parser+for+Machine+Translation+Reordering+Katz-Brown+Petrov+McDonald+Och+Talbot+Ichikawa+Seno">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/37159.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub37159.html">&nbsp;</a>
+                <p class="pub-title">
+                  Training a Parser for Machine Translation Reordering
+                </p>
+                <p>
+                  Jason Katz-Brown, <a href="/pubs/author38945.html">Slav Petrov</a>, <a href=
+                  "/pubs/author32317.html">Ryan McDonald</a>, Franz Och, <a href=
+                  "/pubs/DavidTalbot.html">David Talbot</a>, Hiroshi Ichikawa, Masakazu Seno
+                </p>
+                <p>
+                  Proceedings of the 2011 Conference on Empirical Methods in Natural Language
+                  Processing (EMNLP '11)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Translation-Inspired+OCR+Genzel+Popat+Spasojevic+Jahr+Senior+Ie+Tang">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/37260.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub37260.html">&nbsp;</a>
+                <p class="pub-title">
+                  Translation-Inspired OCR
+                </p>
+                <p>
+                  <a href="/pubs/author14721.html">Dmitriy Genzel</a>, Ashok C. Popat, Nemanja
+                  Spasojevic, Michael Jahr, <a href="/pubs/author37792.html">Andrew Senior</a>,
+                  <a href="/pubs/author10168.html">Eugene Ie</a>, Frank Yung-Fong Tang
+                </p>
+                <p>
+                  ICDAR-2011
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Watermarking+the+Outputs+of+Structured+Prediction+with+an+application+in+Statistical+Machine+Translation+Venugopal+Uszkoreit+Talbot+Och+Ganitkevitch">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/37162.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub37162.html">&nbsp;</a>
+                <p class="pub-title">
+                  Watermarking the Outputs of Structured Prediction with an application in
+                  Statistical Machine Translation
+                </p>
+                <p>
+                  Ashish Venugopal, <a href="/pubs/author37567.html">Jakob Uszkoreit</a>, <a href=
+                  "/pubs/DavidTalbot.html">David Talbot</a>, Franz Och, Juri Ganitkevitch
+                </p>
+                <p>
+                  Proceedings of the 2011 Conference on Empirical Methods in Natural Language
+                  Processing (EMNLP), Association for Computational Linguistics
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Automatically+Learning+Source-side+Reordering+Rules+for+Large+Scale+Machine+Translation+Genzel">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/36484.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub36484.html">&nbsp;</a>
+                <p class="pub-title">
+                  Automatically Learning Source-side Reordering Rules for Large Scale Machine
+                  Translation
+                </p>
+                <p>
+                  <a href="/pubs/author14721.html">Dmitriy Genzel</a>
+                </p>
+                <p>
+                  COLING-2010
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Large+Scale+Parallel+Document+Mining+for+Machine+Translation+Uszkoreit+Ponte+Popat+Dubiner">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/36580.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Large Scale Parallel Document Mining for Machine Translation
+                </p>
+                <p>
+                  <a href="/pubs/author37567.html">Jakob Uszkoreit</a>, Jay Ponte, Ashok Popat,
+                  Moshe Dubiner
+                </p>
+                <p>
+                  Proceedings of the 23rd International Conference on Computational Linguistics
+                  (Coling 2010), Coling 2010 Organizing Committee, Beijing, China, pp. 1101-1109
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Model+Combination+for+Machine+Translation+DeNero+Kumar+Chelba+Och">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/36683.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Model Combination for Machine Translation
+                </p>
+                <p>
+                  <a href="/pubs/author38952.html">John DeNero</a>, <a href=
+                  "/pubs/author3286.html">Shankar kumar</a>, <a href=
+                  "/pubs/author6342.html">Ciprian Chelba</a>, Franz Och
+                </p>
+                <p>
+                  Proceedings of the North American Chapter of the Association for Computational
+                  Linguistics (NAACL) (2010), pp. 975-983
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Statistical+Language+Modeling+Chelba">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://onlinelibrary.wiley.com/doi/10.1002/9781444324044.ch3/summary">&nbsp;</a><a class="abstract-icon tooltip"
+                href="/pubs/pub36557.html">&nbsp;</a>
+                <p class="pub-title">
+                  Statistical Language Modeling
+                </p>
+                <p>
+                  <a href="/pubs/author6342.html">Ciprian Chelba</a>
+                </p>
+                <p>
+                  The Handbook of Computational Linguistics and Natural Language Processing,
+                  Wiley-Blackwell, John Wiley &amp; Sons Ltd, The Atrium, Southern Gate,
+                  Chichester, West Sussex, PO19 8SQ United Kingdom (2010), pp. 74-104
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Syntax+based+reordering+with+automatically+derived+rules+for+improved+statistical+machine+translation+Visweswariah+Navratil+Sorensen+Chenthamarakshan+Kambhatla">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://portal.acm.org/citation.cfm?id=1873781.1873907">&nbsp;</a>
+                <p class="pub-title">
+                  Syntax based reordering with automatically derived rules for improved statistical
+                  machine translation
+                </p>
+                <p>
+                  Karthik Visweswariah, Jiri Navratil, <a href="/pubs/author14753.html">Jeffrey
+                  Sorensen</a>, Vijil Chenthamarakshan, Nanda Kambhatla
+                </p>
+                <p>
+                  Proceedings of the 23rd International Conference on Computational Linguistics,
+                  Association for Computational Linguistics, Stroudsburg, PA, USA (2010), pp.
+                  1119-1127
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=%E2%80%9CPoetic%E2%80%9D+Statistical+Machine+Translation:+Rhyme+and+Meter+Genzel+Uszkoreit+Och">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/36745.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub36745.html">&nbsp;</a>
+                <p class="pub-title">
+                  “Poetic” Statistical Machine Translation: Rhyme and Meter
+                </p>
+                <p>
+                  <a href="/pubs/author14721.html">Dmitriy Genzel</a>, <a href=
+                  "/pubs/author37567.html">Jakob Uszkoreit</a>, Franz Och
+                </p>
+                <p>
+                  EMNLP (2010), pp. 158-166
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Compiling+a+massive,+multilingual+dictionary+via+probabilistic+inference+Mausam+Soderland+Etzioni+Weld+Skinner+Bilmes">
+                &nbsp;</a>
+                <p class="pub-title">
+                  Compiling a massive, multilingual dictionary via probabilistic inference
+                </p>
+                <p>
+                  Mausam, Stephen Soderland, Oren Etzioni, Daniel S. Weld, Michael Skinner, Jeff
+                  Bilmes
+                </p>
+                <p>
+                  ACL-IJCNLP '09: Proceedings of the Joint Conference of the 47th Annual Meeting of
+                  the ACL and the 4th International Joint Conference on Natural Language Processing
+                  of the AFNLP: Volume 1, Association for Computational Linguistics, Morristown,
+                  NJ, USA (2009), pp. 262-270
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Creating+a+High-Quality+Machine+Translation+System+for+a+Low-Resource+Language:+Yiddish+Genzel+Macherey+Uszkoreit">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/35627.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Creating a High-Quality Machine Translation System for a Low-Resource Language:
+                  Yiddish
+                </p>
+                <p>
+                  <a href="/pubs/author14721.html">Dmitriy Genzel</a>, <a href=
+                  "/pubs/author29100.html">Klaus Macherey</a>, <a href=
+                  "/pubs/author37567.html">Jakob Uszkoreit</a>
+                </p>
+                <p>
+                  MT Summit XII (2009)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Ef%EF%AC%81cient+Minimum+Error+Rate+Training+and++Minimum+Bayes-Risk+Decoding+for++Translation+Hypergraphs+and+Lattices+Kumar+Macherey+Dyer+Och">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/35496.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Efﬁcient Minimum Error Rate Training and Minimum Bayes-Risk Decoding for
+                  Translation Hypergraphs and Lattices
+                </p>
+                <p>
+                  <a href="/pubs/author3286.html">Shankar Kumar</a>, <a href=
+                  "/pubs/author7590.html">Wolfgang Macherey</a>, Chris Dyer, Franz Och
+                </p>
+                <p>
+                  Proceedings of the 47th Annual Meeting of the ACL and the 4th IJCNLP of the
+                  AFNLP, ACL and AFNLP (2009), pp. 163-171
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Learning+linear+ordering+problems+for+better+translation+Tromble+Eisner">
+                &nbsp;</a>
+                <p class="pub-title">
+                  Learning linear ordering problems for better translation
+                </p>
+                <p>
+                  <a href="/pubs/author37739.html">Roy Tromble</a>, Jason Eisner
+                </p>
+                <p>
+                  EMNLP '09: Proceedings of the 2009 Conference on Empirical Methods in Natural
+                  Language Processing, Association for Computational Linguistics, Morristown, NJ,
+                  USA, pp. 1007-1016
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Using+a+dependency+parser+to+improve+SMT+for+subject-object-verb+languages+Xu+Kang+Ringgaard+Och">
+                &nbsp;</a>
+                <p class="pub-title">
+                  Using a dependency parser to improve SMT for subject-object-verb languages
+                </p>
+                <p>
+                  <a href="/pubs/PengXu.html">Peng Xu</a>, Jaeho Kang, <a href=
+                  "/pubs/author38358.html">Michael Ringgaard</a>, Franz Och
+                </p>
+                <p>
+                  NAACL '09: Proceedings of Human Language Technologies: The 2009 Annual Conference
+                  of the North American Chapter of the Association for Computational Linguistics,
+                  Association for Computational Linguistics, Morristown, NJ, USA, pp. 245-253
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=A+systematic+comparison+of+phrase-based,+hierarchical+and+syntax-augmented+statistical+MT+Zollmann+Venugopal+Och+Ponte">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/34505.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  A systematic comparison of phrase-based, hierarchical and syntax-augmented
+                  statistical MT
+                </p>
+                <p>
+                  Andreas Zollmann, Ashish Venugopal, Franz Josef Och, Jay Ponte
+                </p>
+                <p>
+                  Proceedings of the 22nd International Conference on Computational Linguistics
+                  (COLING) (2008)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Distributed+Word+Clustering+for+Large+Scale+Class-Based+Language+Modeling+in+Machine+Translation+Uszkoreit+Brants">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://www.aclweb.org/anthology/P/P08/P08-1086">&nbsp;</a>
+                <p class="pub-title">
+                  Distributed Word Clustering for Large Scale Class-Based Language Modeling in
+                  Machine Translation
+                </p>
+                <p>
+                  <a href="/pubs/author37567.html">Jakob Uszkoreit</a>, Thorsten Brants
+                </p>
+                <p>
+                  Proceedings of ACL-08: HLT, Association for Computational Linguistics, Columbus,
+                  Ohio (2008), pp. 755-762
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Lattice+Minimum+Bayes-Risk+Decoding+for+Statistical+Machine+Translation+Tromble+Kumar+Och+Macherey">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/34628.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub34628.html">&nbsp;</a>
+                <p class="pub-title">
+                  Lattice Minimum Bayes-Risk Decoding for Statistical Machine Translation
+                </p>
+                <p>
+                  <a href="/pubs/author37739.html">Roy Tromble</a>, <a href=
+                  "/pubs/author3286.html">Shankar Kumar</a>, Franz Och, <a href=
+                  "/pubs/author7590.html">Wolfgang Macherey</a>
+                </p>
+                <p>
+                  Proceedings of the 2008 Conference on Empirical Methods in Natural Language
+                  Processing, Association for Computational Linguistics, pp. 620-629
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Lattice-based+Minimum+Error+Rate+Training+for+Statistical+Machine+Translation+Macherey+Och+Thayer+Uszkoreit">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/34629.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub34629.html">&nbsp;</a>
+                <p class="pub-title">
+                  Lattice-based Minimum Error Rate Training for Statistical Machine Translation
+                </p>
+                <p>
+                  <a href="/pubs/author7590.html">Wolfgang Macherey</a>, Franz Och, Ignacio Thayer,
+                  <a href="/pubs/author37567.html">Jakob Uszkoreit</a>
+                </p>
+                <p>
+                  Proceedings of the 2008 Conference on Empirical Methods in Natural Language
+                  Processing (EMNLP), Association for Computational Linguistics, pp. 725-734
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Mining+Parenthetical+Translations+from+the+Web+by+Word+Alignment+Lin+Zhao+Van+Durme+Pasca">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://www.aclweb.org/anthology/P/P08/P08-1113">&nbsp;</a>
+                <p class="pub-title">
+                  Mining Parenthetical Translations from the Web by Word Alignment
+                </p>
+                <p>
+                  <a href="/pubs/author108.html">Dekang Lin</a>, Shaojun Zhao, Benjamin Van Durme,
+                  <a href="/pubs/author107.html">Marius Pasca</a>
+                </p>
+                <p>
+                  Proceedings of the 46th Annual Meeting of the Association for Computational
+                  Linguistics: Human Language Technologies (ACL-2008), Columbus, Ohio, pp. 994-1002
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Using+Word+Space+Models+for+Enriching+Multilingual+Lexical+Resources+and+Detecting+the+Relation+Between+Morphological+and+Semantic+Composition+Toumouh+Widdows+Lehireche">
+                &nbsp;</a>
+                <p class="pub-title">
+                  Using Word Space Models for Enriching Multilingual Lexical Resources and
+                  Detecting the Relation Between Morphological and Semantic Composition
+                </p>
+                <p>
+                  Adil Toumouh, Dominic Widdows, Ahmed Lehireche
+                </p>
+                <p>
+                  International Conference on Web and Information Tecnologies (ICWIT '08) (2008),
+                  pp. 195-201
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=An+Empirical+Study+on+Computing+Consensus+Translations+from+Multiple+Machine+Translation+Systems+Macherey+Och">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/34506.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub34506.html">&nbsp;</a>
+                <p class="pub-title">
+                  An Empirical Study on Computing Consensus Translations from Multiple Machine
+                  Translation Systems
+                </p>
+                <p>
+                  <a href="/pubs/author7590.html">Wolfgang Macherey</a>, Franz J. Och
+                </p>
+                <p>
+                  Proceedings of the 2007 Joint Conference on Empirical Methods in Natural Language
+                  Processing and Computational Natural Language Learning (EMNLP-CoNLL), Association
+                  for Computational Linguistics, 209 N. Eighth Street, East Stroudsburg, PA, USA,
+                  pp. 986-995
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Improving+Word+Alignment+with+Bridge+Languages+Kumar+Och+Macherey">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/33430.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub33430.html">&nbsp;</a>
+                <p class="pub-title">
+                  Improving Word Alignment with Bridge Languages
+                </p>
+                <p>
+                  <a href="/pubs/author3286.html">Shankar Kumar</a>, Franz Och, <a href=
+                  "/pubs/author7590.html">Wolfgang Macherey</a>
+                </p>
+                <p>
+                  Conference on Empirical Methods in Natural Language Processing and Computational
+                  Natural Language Learning, Association for Computational Linguistics, 209 N.
+                  Eighth Street, East Stroudsburg, PA, USA (2007)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Inversion+transduction+grammar+for+joint+phrasal+translation+modeling+Cherry+Lin">
+                &nbsp;</a>
+                <p class="pub-title">
+                  Inversion transduction grammar for joint phrasal translation modeling
+                </p>
+                <p>
+                  Colin Cherry, <a href="/pubs/author108.html">Dekang Lin</a>
+                </p>
+                <p>
+                  SSST '07: Proceedings of the NAACL-HLT 2007/AMTA Workshop on Syntax and Structure
+                  in Statistical Translation, Association for Computational Linguistics,
+                  Morristown, NJ, USA, pp. 17-24
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Large+Language+Models+in+Machine+Translation+Brants+Popat+Xu+Och+Dean">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/33278.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Large Language Models in Machine Translation
+                </p>
+                <p>
+                  Thorsten Brants, Ashok C. Popat, <a href="/pubs/PengXu.html">Peng Xu</a>, Franz
+                  J. Och, <a href="/pubs/jeff.html">Jeffrey Dean</a>
+                </p>
+                <p>
+                  Proceedings of the 2007 Joint Conference on Empirical Methods in Natural Language
+                  Processing and Computational Natural Language Learning (EMNLP-CoNLL), pp. 858-867
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=A+path-based+transfer+model+for+machine+translation+Lin">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://dx.doi.org/10.3115/1220355.1220445">&nbsp;</a>
+                <p class="pub-title">
+                  A path-based transfer model for machine translation
+                </p>
+                <p>
+                  <a href="/pubs/author108.html">Dekang Lin</a>
+                </p>
+                <p>
+                  COLING '04: Proceedings of the 20th international conference on Computational
+                  Linguistics, Association for Computational Linguistics, Morristown, NJ, USA
+                  (2004), pp. 625
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="maia-signature"></div>
+    <div class="maia-footer" id="maia-footer">
+      <div id="maia-footer-local">
+        <div class="maia-aux">
+          <ul class="expand no-marker" id="footer-local">
+            <li>
+              <a class="googleplus middle" href=
+              "//plus.google.com/117790530324740296539/posts">Google Plus</a>
+              <p>
+                Thoughts from Google's academic community
+              </p>
+            </li>
+            <li>
+              <a class="twitter middle" href="//twitter.com/googleresearch">Twitter</a>
+              <p>
+                Research at Google announcements
+              </p>
+            </li>
+            <li>
+              <a class="blogger middle" href="//googleresearch.blogspot.com/">Research Blog</a>
+              <p>
+                The latest news from Research at Google
+              </p>
+            </li>
+            <li>
+              <a class="scholar middle" href="//scholar.google.com/">Google Scholar</a>
+              <p>
+                Search for scholarly literature
+              </p>
+            </li>
+            <li>
+              <a class="youtube middle" href=
+              "//www.youtube.com/user/GoogleTechTalks/featured">YouTube Tech Talks</a>
+              <p>
+                Tech talks by leaders in the field
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div id="maia-footer-global">
+        <div class="maia-aux">
+          <ul>
+            <li>
+              <a href="//www.google.com/">Google</a>
+            </li>
+            <li>
+              <a href="//www.google.com/intl/en/about/">About Google</a>
+            </li>
+            <li>
+              <a href="//www.google.com/intl/en/policies/privacy/">Privacy</a>
+            </li>
+            <li>
+              <a href="//www.google.com/intl/en/policies/terms/">Terms</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <script src="//www.google.com/jsapi">
+    </script> 
+    <script src="/js/research.view.js">
+    </script> 
+    <script>
+    var videoUnit= new gweb.ui.LightBox('video-lightbox', 'Some tech-talks in Machine Translation');
+  videoUnit.setAnimate(true);
+  videoUnit.setScaleImages(true);
+  videoUnit.setOutsideNav(true);
+  videoUnit.setCloseText('CLOSE');
+  videoUnit.setItemCount(true);
+  videoUnit.init();
+    </script> 
+    <script src="//www.google.com/js/maia.js">
+    </script>
+  </body>
+</html>

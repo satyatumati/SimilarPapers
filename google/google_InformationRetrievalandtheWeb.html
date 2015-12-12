@@ -1,0 +1,3271 @@
+<!DOCTYPE html>
+<html class="google" lang="en">
+  <head>
+
+    <script>
+    (function(H){H.className=H.className.replace(/\bgoogle\b/,'google-js')})(document.documentElement)
+    </script>
+    <meta charset="utf-8">
+    <meta content="initial-scale=1, minimum-scale=1, width=device-width" name="viewport">
+    <title>
+      Information Retrieval and the Web - Research at Google
+    </title>
+    <script src="//www.google.com/js/google.js">
+    </script>
+    <script>
+    new gweb.analytics.AutoTrack({profile:"UA-5974346-1"});
+    </script>
+    <link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;lang=en" rel=
+    "stylesheet">
+    <link href="/css/research.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="maia-header" id="maia-header" role="banner">
+      <div class="maia-aux">
+        <h1>
+          <a href="/" id="logo"><img alt="Research at Google" src=
+          "/images/research_at_google.png"></a>
+        </h1><a class="maia-teleport" href="#content">Skip to content</a>
+        <div class="maia-util">
+          <form class="maia-search" id="search" name="search">
+            <input id="q" name="q" placeholder="Search this site" value=""> <input class=
+            "maia-button" type="submit" value="Search">
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="maia-nav maia-complex" id="maia-nav-x" role="navigation">
+      <div class="maia-aux">
+        <ul>
+          <li>
+            <a href="/index.html">Home</a>
+          </li>
+          <li class="active" id="ra">
+            <a href="/pubs/papers.html">Research Areas &amp; Publications</a> <span class=
+            "glyph">&nbsp;</span>
+            <div class="hidden">
+              <ul id="ramenu">
+                <li class="fill">
+                  <a href="/pubs/papers.html">Overview</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/AlgorithmsandTheory.html">Algorithms and Theory</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/DataManagement.html">Data Management</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/DataMiningandModeling.html">Data Mining and Modeling</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/DistributedSystemsandParallelComputing.html">Distributed Systems
+                  and Parallel Computing</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/EconomicsandElectronicCommerce.html">Economics and Electronic
+                  Commerce</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/EducationInnovation.html">Education Innovation</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/GeneralScience.html">General Science</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/HardwareandArchitecture.html">Hardware and Architecture</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/Human-ComputerInteractionandVisualization.html">Human-Computer
+                  Interaction and Visualization</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/InformationRetrievalandtheWeb.html">Information Retrieval and the
+                  Web</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/MachineIntelligence.html">Machine Intelligence</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/MachinePerception.html">Machine Perception</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/MachineTranslation.html">Machine Translation</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/MobileSystems.html">Mobile Systems</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/NaturalLanguageProcessing.html">Natural Language Processing</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/Networking.html">Networking</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/SecurityPrivacyandAbusePrevention.html">Security, Privacy and
+                  Abuse Prevention</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/SoftwareEngineering.html">Software Engineering</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/SoftwareSystems.html">Software Systems</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/SpeechProcessing.html">Speech Processing</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a href="/researchers.html">People</a>
+          </li>
+          <li>
+            <a href="/university/">Research Programs</a>
+          </li>
+          <li>
+            <a href="/workatgoogle.html">Work at Google</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div id="maia-main" role="main">
+      <div class="maia-teleport" id="content"></div>
+      <div id="cse">
+        &nbsp;
+      </div>
+      <h1>
+        Information Retrieval and the Web
+      </h1>
+      <div class="maia-cols">
+        <div class="maia-col-4">
+          <div>
+            <div class="sidebar">
+              <h2>
+                What We Do
+              </h2>
+              <p>
+                Google came about as a result of our founders' attempt to organize the
+                web&nbsp;into something searchable. Their early&nbsp;prototype was based upon a
+                few&nbsp;basic principles, including:
+              </p>
+              <ul>
+                <li>The best pages tend to be the ones that people linked to the most.
+                </li>
+                <li>The best description of a page is often derived from the <a href=
+                "https://www.google.com/search?ie=UTF-8&amp;q=define:anchor+text&amp;hl=en">anchor
+                text</a> associated with the links to a page.
+                </li>
+              </ul>
+              <p>
+                Both of&nbsp;these principles were observed as structural features of the
+                world&nbsp;wide web, and theories were developed to exploit these principles to
+                optimize the task of retrieving&nbsp;the best documents for a user query.
+              </p>
+              <p>
+                The science surrounding search engines is commonly referred to as&nbsp;information
+                retrieval, in which algorithmic principles are developed&nbsp;to match user
+                interests to the best documents about those interests. In&nbsp;continuing to
+                enhance and refine the&nbsp;world's&nbsp;foremost search&nbsp;engine,&nbsp;we
+                constantly incorporate knowledge from our studies of&nbsp;the web, as well&nbsp;as
+                basic research into the structure of documents and their relationships&nbsp;to
+                queries.
+              </p>
+              <h2>
+                Related videos
+              </h2><a class="video-small video-lightbox" data-lightbox-caption=
+              "Document Visual Similarity Measure for Document Search" data-lightbox-height="480"
+              data-lightbox-width="853" href=
+              "//www.youtube.com/embed/KVFY-r-BLJQ?autoplay=1"><img alt=
+              "Document Visual Similarity Measure for Document Search" src=
+              "https://i2.ytimg.com/vi/KVFY-r-BLJQ/hqdefault.jpg"> <span>&nbsp;</span></a>
+              <p class="caption">
+                Document Visual Similarity Measure for Document Search
+              </p>
+              <p class="fill">
+                <a href="http://www.youtube.com/user/GoogleTechTalks?feature=watch">Google's
+                tech-talk channel on YouTube</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="maia-col-8">
+          <h2>
+            187 Publications
+          </h2>
+          <div class="section">
+            <ul class="pub-list">
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=AdAlyze+Redux:+Post-Click+and+Post-Conversion+Text+Feature+Attribution+for+Sponsored+Search+Ads+Steiner">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/44012.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub44012.html">&nbsp;</a>
+                <p class="pub-title">
+                  AdAlyze Redux: Post-Click and Post-Conversion Text Feature Attribution for
+                  Sponsored Search Ads
+                </p>
+                <p>
+                  <a href="/pubs/author39477.html">Thomas Steiner</a>
+                </p>
+                <p>
+                  WWW '15 Companion Proceedings of the 24th International Conference on World Wide
+                  Web, ACM (2015)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Learning+to+Extract+Local+Events+from+the+Web+Foley+Bendersky+Josifovski">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/43796.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub43796.html">&nbsp;</a>
+                <p class="pub-title">
+                  Learning to Extract Local Events from the Web
+                </p>
+                <p>
+                  John Foley, <a href="/pubs/MikeBendersky.html">Michael Bendersky</a>, Vanja
+                  Josifovski
+                </p>
+                <p>
+                  SIGIR 2015 (to appear)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=A+Scalable+Gibbs+Sampler+for+Probabilistic+Entity+Linking+Houlsby+Ciaramita">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/42453.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub42453.html">&nbsp;</a>
+                <p class="pub-title">
+                  A Scalable Gibbs Sampler for Probabilistic Entity Linking
+                </p>
+                <p>
+                  <a href="/pubs/NeilHoulsby.html">Neil Houlsby</a>, <a href=
+                  "/pubs/MassimilianoCiaramita.html">Massimiliano Ciaramita</a>
+                </p>
+                <p>
+                  Advances in Information Retrieval (ECIR 2014), Springer International Publishing,
+                  pp. 335-346
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Circumlocution+in+Diagnostic+Medical+Queries+Stanton+Ieong+Mishra">
+                &nbsp;</a>
+                <p class="pub-title">
+                  Circumlocution in Diagnostic Medical Queries
+                </p>
+                <p>
+                  <a href="/pubs/IsabelleStanton.html">Isabelle Stanton</a>, Samuel Ieong, Nina
+                  Mishra
+                </p>
+                <p>
+                  The 37th Annual ACM SIGIR Conference (2014)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Discrete+Graph+Hashing+Liu+Mu+Kumar+Chang">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/43145.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub43145.html">&nbsp;</a>
+                <p class="pub-title">
+                  Discrete Graph Hashing
+                </p>
+                <p>
+                  Wei Liu, Cun Mu, <a href="/pubs/author11555.html">Sanjiv Kumar</a>, Shih-Fu Chang
+                </p>
+                <p>
+                  Neural Information Processing Systems (2014)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Near+Neighbor+Join+Kllapi+Harb+Yu">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/42034.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Near Neighbor Join
+                </p>
+                <p>
+                  Herald Kllapi, <a href="/pubs/BoulosHarb.html">Boulos Harb</a>, <a href=
+                  "/pubs/CongYu.html">Cong Yu</a>
+                </p>
+                <p>
+                  ICDE (2014)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=On+Reconstructing+a+Hidden+Permutation+Chierichetti+Dasgupta+Kumar+Lattanzi">
+                &nbsp;</a>
+                <p class="pub-title">
+                  On Reconstructing a Hidden Permutation
+                </p>
+                <p>
+                  Flavio Chierichetti, Anirban Dasgupta, Ravi Kumar, <a href=
+                  "/pubs/SilvioLattanzi.html">Silvio Lattanzi</a>
+                </p>
+                <p>
+                  RANDOM (2014)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Scalable+K-Means+by+ranked+retrieval+Broder+Garcia-Pueyo+Josifovski+Vassilvitskii+Venkatesan">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/42853.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub42853.html">&nbsp;</a>
+                <p class="pub-title">
+                  Scalable K-Means by ranked retrieval
+                </p>
+                <p>
+                  <a href="/pubs/AndreiBroder.html">Andrei Broder</a>, <a href=
+                  "/pubs/LluisGarciaPueyo.html">Lluis Garcia-Pueyo</a>, Vanja Josifovski, <a href=
+                  "/pubs/SergeiVassilvitskii.html">Sergei Vassilvitskii</a>, Srihari Venkatesan
+                </p>
+                <p>
+                  Proceedings of the 7th ACM international conference on Web search and data
+                  mining, ACM, New York, NY, USA (2014), pp. 233-242
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Storing+and+Querying+Tree-Structured+Records+in+Dremel+Afrati+Delorey+Pasumansky+Ullman">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/43119.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub43119.html">&nbsp;</a>
+                <p class="pub-title">
+                  Storing and Querying Tree-Structured Records in Dremel
+                </p>
+                <p>
+                  Foto N Afrati, <a href="/pubs/DanielDelorey.html">Dan Delorey</a>, <a href=
+                  "/pubs/MoshaPasumansky.html">Mosha Pasumansky</a>, Jeffrey D. Ullman
+                </p>
+                <p>
+                  Proceedings of the VLDB Endowment, vol. 7 (2014), pp. 1131-1142
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=The+SMAPH+System+for+Query+Entity+Recognition+and+Disambiguation+Cornolti+Ferragina+Ciaramita+Rued+Schuetze">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/42720.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub42720.html">&nbsp;</a>
+                <p class="pub-title">
+                  The SMAPH System for Query Entity Recognition and Disambiguation
+                </p>
+                <p>
+                  Marco Cornolti, Paolo Ferragina, <a href=
+                  "/pubs/MassimilianoCiaramita.html">Massimiliano Ciaramita</a>, Stefan Rued,
+                  Hinrich Schuetze
+                </p>
+                <p>
+                  ERD 2014: Entity Recognition and Disambiguation Challenge. SIGIR Forum., ACM
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Towards+better+measurement+of+attention+and+satisfaction+in+mobile+search+Lagun+Webster+Hsieh+Navalpakkam">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/43224.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub43224.html">&nbsp;</a>
+                <p class="pub-title">
+                  Towards better measurement of attention and satisfaction in mobile search
+                </p>
+                <p>
+                  Dmitry Lagun, Dale Webster, Chih-Hung Hsieh, <a href=
+                  "/pubs/VidhyaNavalpakkam.html">Vidhya Navalpakkam</a>
+                </p>
+                <p>
+                  SIGIR '14 Proceedings of the 37th international ACM SIGIR conference on Research
+                  &amp; development in information retrieval (2014), pp. 113-122
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Up+Next:+Retrieval+Methods+for+Large+Scale+Related+Video+Suggestion+Bendersky+Garcia-Pueyo+Josifovski+Harmsen+Lepikhin">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/42623.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub42623.html">&nbsp;</a>
+                <p class="pub-title">
+                  Up Next: Retrieval Methods for Large Scale Related Video Suggestion
+                </p>
+                <p>
+                  <a href="/pubs/MikeBendersky.html">Michael Bendersky</a>, <a href=
+                  "/pubs/LluisGarciaPueyo.html">Lluis Garcia Pueyo</a>, Vanja Josifovski, <a href=
+                  "/pubs/JeremiahHarmsen.html">Jeremiah J. Harmsen</a>, Dima Lepikhin
+                </p>
+                <p>
+                  Proceedings of KDD 2014, New York, NY, USA, pp. 1769-1778
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=A+Framework+for+Benchmarking+Entity-Annotation+Systems+Cornolti+Ferragina+Ciaramita">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/40749.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub40749.html">&nbsp;</a>
+                <p class="pub-title">
+                  A Framework for Benchmarking Entity-Annotation Systems
+                </p>
+                <p>
+                  Marco Cornolti, Paolo Ferragina, <a href=
+                  "/pubs/MassimilianoCiaramita.html">Massimiliano Ciaramita</a>
+                </p>
+                <p>
+                  Proceedings of the International World Wide Web Conference (WWW) (Practice &amp;
+                  Experience Track), ACM (2013) (to appear)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Adolescent+search+roles+Foss+Hutchinson+Druin+Yip+Ford+Golub">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://onlinelibrary.wiley.com/doi/10.1002/asi.22809/pdf">&nbsp;</a><a class=
+                "abstract-icon tooltip" href="/pubs/pub40667.html">&nbsp;</a>
+                <p class="pub-title">
+                  Adolescent search roles
+                </p>
+                <p>
+                  Elizabeth Foss, <a href="/pubs/author15270.html">Hilary Hutchinson</a>, Allison
+                  Druin, Jason Yip, Whitney Ford, Evan Golub
+                </p>
+                <p>
+                  Journal of the American Society for Information Science and Technology, vol.
+                  64(1) (2013), pp. 173-189
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=AngularJS+Green+Seshadri">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://www.amazon.com/AngularJS-Brad-Green/dp/1449344852">&nbsp;</a><a class=
+                "abstract-icon tooltip" href="/pubs/pub41445.html">&nbsp;</a>
+                <p class="pub-title">
+                  AngularJS
+                </p>
+                <p>
+                  Brad Green, Shyam Seshadri
+                </p>
+                <p>
+                  O'Reilly (2013), pp. 196
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Capturing+the+functionality+of+Web+services+with+functional+descriptions+Verborgh+Steiner+Van+Deursen+Roo+Walle+Vall%26eacute;s">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/41905.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Capturing the functionality of Web services with functional descriptions
+                </p>
+                <p>
+                  Ruben Verborgh, <a href="/pubs/author39477.html">Thomas Steiner</a>, Davy Van
+                  Deursen, Jos De Roo, Rik Van de Walle, Joaquim Gabarró Vallés
+                </p>
+                <p>
+                  Multimedia Tools Appl., vol. 64 (2013), pp. 365-387
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Crawling+deep+web+entity+pages+He+Xin+Ganti+Rajaraman+Shah">
+                &nbsp;</a>
+                <p class="pub-title">
+                  Crawling deep web entity pages
+                </p>
+                <p>
+                  Yeye He, <a href="/pubs/DongXin.html">Dong Xin</a>, Venkatesh Ganti, Sriram
+                  Rajaraman, Nirav Shah
+                </p>
+                <p>
+                  WSDM (2013), pp. 355-364
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Distributed+affordance:+an+open-world+assumption+for+hypermedia+Verborgh+Hausenblas+Steiner+Mannens+Walle">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/41909.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Distributed affordance: an open-world assumption for hypermedia
+                </p>
+                <p>
+                  Ruben Verborgh, Michael Hausenblas, <a href="/pubs/author39477.html">Thomas
+                  Steiner</a>, Erik Mannens, Rik Van de Walle
+                </p>
+                <p>
+                  WWW (Companion Volume) (2013), pp. 1399-1406
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Instant+Google+Drive+Starter+Procopio">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://www.packtpub.com/google-drive-starter/book">&nbsp;</a><a class=
+                "abstract-icon tooltip" href="/pubs/pub42181.html">&nbsp;</a>
+                <p class="pub-title">
+                  Instant Google Drive Starter
+                </p>
+                <p>
+                  <a href="/pubs/MichaelProcopio.html">Michael J. Procopio</a>
+                </p>
+                <p>
+                  Packt Publishing, Packt Publishing Limited, 2nd Floor, Livery Place, 35 Livery
+                  Street, Birmingham, B3 2PB (2013)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Learning+to+Rank+Recommendations+with+the+k-Order+Statistic+Loss+Weston+Yee+Weiss">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/41534.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub41534.html">&nbsp;</a>
+                <p class="pub-title">
+                  Learning to Rank Recommendations with the k-Order Statistic Loss
+                </p>
+                <p>
+                  Jason Weston, <a href="/pubs/HectorYee.html">Hector Yee</a>, <a href=
+                  "/pubs/RonWeiss.html">Ron Weiss</a>
+                </p>
+                <p>
+                  ACM International Conference on Recommender Systems (RecSys) (2013)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Modelling+Score+Distributions+Without+Actual+Scores+Robertson+Kanoulas+Yilmaz">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/42036.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub42036.html">&nbsp;</a>
+                <p class="pub-title">
+                  Modelling Score Distributions Without Actual Scores
+                </p>
+                <p>
+                  Stephen Robertson, <a href="/pubs/EvangelosKanoulas.html">Evangelos Kanoulas</a>,
+                  Emine Yilmaz
+                </p>
+                <p>
+                  Proceedings of the 2013 Conference on the Theory of Information Retrieval, ACM,
+                  New York, NY, USA, pp. 85-92
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Nearest+Neighbor+Search+in+Google+Correlate+Vanderkam+Schonberger+Rowley+Kumar">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/41694.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub41694.html">&nbsp;</a>
+                <p class="pub-title">
+                  Nearest Neighbor Search in Google Correlate
+                </p>
+                <p>
+                  Dan Vanderkam, Rob Schonberger, <a href="/pubs/author37.html">Henry Rowley</a>,
+                  <a href="/pubs/author11555.html">Sanjiv Kumar</a>
+                </p>
+                <p>
+                  Google (2013)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Proceedings+of+the+2013+Conference+on+the+Theory+of+Information+Retrieval+Kurland+Metzler+Lioma+Larsen+Ingwersen">
+                &nbsp;</a><a class="abstract-icon tooltip" href="/pubs/pub41860.html">&nbsp;</a>
+                <p class="pub-title">
+                  Proceedings of the 2013 Conference on the Theory of Information Retrieval
+                </p>
+                <p>
+                  Oren Kurland, <a href="/pubs/DonaldMetzler.html">Donald Metzler</a>, Christina
+                  Lioma, Birger Larsen, Peter Ingwersen
+                </p>
+                <p>
+                  ACM (2013)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=R-Score:+Reputation-based+Scoring+of+Research+Groups+Ribas+Ribeiro-Neto+Silva+Ziviani">
+                &nbsp;</a>
+                <p class="pub-title">
+                  R-Score: Reputation-based Scoring of Research Groups
+                </p>
+                <p>
+                  Sabir Ribas, <a href="/pubs/author2723.html">Berthier A. Ribeiro-Neto</a>,
+                  Edmundo de Souza e Silva, Nivio Ziviani
+                </p>
+                <p>
+                  CoRR, vol. abs/1308.5286 (2013)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Random+Grids:+Fast+Approximate+Nearest+Neighbors+and+Range+Searching+for+Image+Search+Aiger+Kokiopoulou+Rivlin">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/41388.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub41388.html">&nbsp;</a>
+                <p class="pub-title">
+                  Random Grids: Fast Approximate Nearest Neighbors and Range Searching for Image
+                  Search
+                </p>
+                <p>
+                  <a href="/pubs/DrorAiger.html">Dror Aiger</a>, <a href=
+                  "/pubs/EffrosyniKokiopoulou.html">Efi Kokiopoulou</a>, Ehud Rivlin
+                </p>
+                <p>
+                  ICCV 2013
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Real-time+communications+for+the+web+Jenngins+Hardie+Westerlund">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://ieeexplore.ieee.org/application/enterprise/entconfirmation.jsp?arnumber=6495756&amp;icp=false">&nbsp;</a><a class="abstract-icon tooltip"
+                href="/pubs/pub41400.html">&nbsp;</a>
+                <p class="pub-title">
+                  Real-time communications for the web
+                </p>
+                <p>
+                  Cullen Jenngins, <a href="/pubs/TedHardie.html">Ted Hardie</a>, Magnus Westerlund
+                </p>
+                <p>
+                  Communications Magazine, IEEE, vol. 51 (2013), pp. 20-26
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Top-k+Publish-Subscribe+for++Social+Annotation+of+News+Shraer+Gurevich+Fontoura+Josifovski">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/40815.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub40815.html">&nbsp;</a>
+                <p class="pub-title">
+                  Top-k Publish-Subscribe for Social Annotation of News
+                </p>
+                <p>
+                  <a href="/pubs/AlexanderShraer.html">Alexander Shraer</a>, <a href=
+                  "/pubs/MaximGurevich.html">Maxim Gurevich</a>, <a href=
+                  "/pubs/author17919.html">Marcus Fontoura</a>, Vanja Josifovski
+                </p>
+                <p>
+                  Proceedings of the 39th International Conference on Very Large Data Bases, VLDB
+                  Endowment (2013)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Transfer+Learning+In+MIR:+Sharing+Learned+Latent+Representations+For+Music+Audio+Classification+And+Similarity+Hamel+Davies+Yoshii+Goto">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/41530.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub41530.html">&nbsp;</a>
+                <p class="pub-title">
+                  Transfer Learning In MIR: Sharing Learned Latent Representations For Music Audio
+                  Classification And Similarity
+                </p>
+                <p>
+                  <a href="/pubs/PhilippeHamel.html">Philippe Hamel</a>, Matthew E. P. Davies,
+                  Kazuyoshi Yoshii, Masataka Goto
+                </p>
+                <p>
+                  14th International Conference on Music Information Retrieval (ISMIR '13) (2013)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Web+Workers+Multithreaded+Programs+in+JavaScript+Green">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://shop.oreilly.com/product/0636920024446.do">&nbsp;</a><a class=
+                "abstract-icon tooltip" href="/pubs/pub41524.html">&nbsp;</a>
+                <p class="pub-title">
+                  Web Workers Multithreaded Programs in JavaScript
+                </p>
+                <p>
+                  <a href="/pubs/IdoGreen.html">Ido Green</a>
+                </p>
+                <p>
+                  O'Reilly, 1005 Gravenstein Hwy N Sebastopol, CA 95472 (2013), pp. 62
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=A+Cross-Lingual+Dictionary+for+English+Wikipedia+Concepts+Spitkovsky+Chang">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/38098.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  A Cross-Lingual Dictionary for English Wikipedia Concepts
+                </p>
+                <p>
+                  <a href="/pubs/author3196.html">Valentin I. Spitkovsky</a>, Angel X. Chang
+                </p>
+                <p>
+                  Eighth International Conference on Language Resources and Evaluation (LREC 2012)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=A+Social+Description+Revolution+-+Describing+Web+APIs'+Social+Parameters+with+RESTdesc+Verborgh+Steiner+Gabarr%26oacute;+Mannens+Walle">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/41913.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  A Social Description Revolution - Describing Web APIs' Social Parameters with
+                  RESTdesc
+                </p>
+                <p>
+                  Ruben Verborgh, <a href="/pubs/author39477.html">Thomas Steiner</a>, Joaquim
+                  Gabarró, Erik Mannens, Rik Van de Walle
+                </p>
+                <p>
+                  AAAI Spring Symposium: Intelligent Web Services Meet Social Computing (2012)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=An+Integrated+Framework+for+Spatio-Temporal-Textual+Search+and+Mining+Wang+Dong+Boedihardjo+Lu+Yu+Chen+Dai">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/40571.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub40571.html">&nbsp;</a>
+                <p class="pub-title">
+                  An Integrated Framework for Spatio-Temporal-Textual Search and Mining
+                </p>
+                <p>
+                  Bingsheng Wang, Haili Dong, Arnold Boedihardjo, Chang-Tien Lu, Harland Yu,
+                  Ing-Ray Chen, <a href="/pubs/JingDai.html">Jing Dai</a>
+                </p>
+                <p>
+                  20th ACM SIGSPATIAL International Conference on Advances in Geographic
+                  Information Systems (ACM SIGSPATIAL GIS 2012), ACM, 2 Penn Plaza, Suite 701, New
+                  York, NY 10121, pp. 570-573
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Angular+Quantization-based+Binary+Codes+for+Fast+Similarity+Search+Gong+Kumar+Verma+Lazebnik">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/40572.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Angular Quantization-based Binary Codes for Fast Similarity Search
+                </p>
+                <p>
+                  Yunchao Gong, <a href="/pubs/author11555.html">Sanjiv Kumar</a>, Vishal Verma,
+                  Svetlana Lazebnik
+                </p>
+                <p>
+                  Neural Information Processing Systems (NIPS) (2012)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Beyond+Web+Developer+Tools:+Strace+Gentilcore">
+                &nbsp;</a>
+                <p class="pub-title">
+                  Beyond Web Developer Tools: Strace
+                </p>
+                <p>
+                  <a href="/pubs/TonyGentilcore.html">Tony Gentilcore</a>
+                </p>
+                <p>
+                  Web Performance Daybook Volume Two, O'Reilly Media, Inc., 1005 Gravenstein
+                  Highway North, Sebastopol, CA 95472 (2012), pp. 119-121
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Compact+Hyperplane+Hashing+with+Bilinear+Functions+Liu+Wang+Mu+Kumar+Chang">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/38141.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub38141.html">&nbsp;</a>
+                <p class="pub-title">
+                  Compact Hyperplane Hashing with Bilinear Functions
+                </p>
+                <p>
+                  Wei Liu, Jun Wang, Yadong Mu, <a href="/pubs/author11555.html">Sanjiv Kumar</a>,
+                  Shih-Fu Chang
+                </p>
+                <p>
+                  International Conference on Machine Learning (ICML) (2012)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Context-aware+querying+for+multimodal+search+engines+Etzold+Brousseau+Grimm+Steiner">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/38201.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Context-aware querying for multimodal search engines
+                </p>
+                <p>
+                  Jonas Etzold, Arnaud Brousseau, Paul Grimm, <a href=
+                  "/pubs/author39477.html">Thomas Steiner</a>
+                </p>
+                <p>
+                  Proceedings of the 18th international conference on Advances in Multimedia
+                  Modeling, Springer-Verlag, Berlin, Heidelberg (2012), pp. 728-739
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=DOHA:+scalable+real-time+web+applications+through+adaptive+concurrent+execution+Erbad+Hutchinson+Krasic">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://dx.doi.org/10.1145/2187836.2187859">&nbsp;</a>
+                <p class="pub-title">
+                  DOHA: scalable real-time web applications through adaptive concurrent execution
+                </p>
+                <p>
+                  Aiman Erbad, Norman C. Hutchinson, Charles Krasic
+                </p>
+                <p>
+                  Proceedings of the 21st international conference on World Wide Web, ACM, New
+                  York, NY, USA (2012), pp. 161-170
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Dart:+Up+and+Running+Walrath+Ladd">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://www.dartlang.org/docs/dart-up-and-running/">&nbsp;</a>
+                <p class="pub-title">
+                  Dart: Up and Running
+                </p>
+                <p>
+                  <a href="/pubs/KathyWalrath.html">Kathleen Walrath</a>, <a href=
+                  "/pubs/SethLadd.html">Seth Ladd</a>
+                </p>
+                <p>
+                  O'Reilly Media, 1005 Gravenstein Highway North Sebastopol, CA 95472 USA (2012)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Experimental+methods+for+information+retrieval+Metzler+Kurland">
+                &nbsp;</a>
+                <p class="pub-title">
+                  Experimental methods for information retrieval
+                </p>
+                <p>
+                  <a href="/pubs/DonaldMetzler.html">Donald Metzler</a>, Oren Kurland
+                </p>
+                <p>
+                  SIGIR (2012), pp. 1185-1186
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Hokusai+%7C+Sketching+Streams+in+Real+Time+Matusevych+Smola+Ahmed">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/38346.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub38346.html">&nbsp;</a>
+                <p class="pub-title">
+                  Hokusai | Sketching Streams in Real Time
+                </p>
+                <p>
+                  Sergiy Matusevych, Alex Smola, <a href="/pubs/AmrAhmed.html">Amr Ahmed</a>
+                </p>
+                <p>
+                  Proceedings of the 28th International Conference on Conference on Uncertainty in
+                  Artificial Intelligence (UAI) (2012)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=I-SEARCH:+a+multimodal+search+engine+based+on+rich+unified+content+description+(RUCoD)+Steiner+Sutton+Spiller+Lazzaro+Nucci+Croce+Massari+Camurri+Verroust-Blondet+Joyeux+Etzold+Grimm+Mademlis+Malassiotis+Daras+Axenopoulos+Tzovaras">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/38220.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  I-SEARCH: a multimodal search engine based on rich unified content description
+                  (RUCoD)
+                </p>
+                <p>
+                  <a href="/pubs/author39477.html">Thomas Steiner</a>, Lorenzo Sutton, Sabine
+                  Spiller, Marilena Lazzaro, Francesco Nucci, Vincenzo Croce, Alberto Massari,
+                  Antonio Camurri, Anne Verroust-Blondet, Laurent Joyeux, Jonas Etzold, Paul Grimm,
+                  Athanasios Mademlis, Sotiris Malassiotis, Petros Daras, Apostolos Axenopoulos,
+                  Dimitrios Tzovaras
+                </p>
+                <p>
+                  Proceedings of the 21st international conference companion on World Wide Web,
+                  ACM, New York, NY, USA (2012), pp. 291-294
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=IR+paradigms+in+computational+advertising+Broder">
+                &nbsp;</a>
+                <p class="pub-title">
+                  IR paradigms in computational advertising
+                </p>
+                <p>
+                  <a href="/pubs/AndreiBroder.html">Andrei Z. Broder</a>
+                </p>
+                <p>
+                  SIGIR (2012), pp. 1019
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Indexing+the+World+Wide+Web:+The+Journey+So+Far+Das+Jain">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://www.igi-global.com/chapter/indexing-world-wide-web/64418">&nbsp;</a><a class="abstract-icon tooltip"
+                href="/pubs/pub37043.html">&nbsp;</a>
+                <p class="pub-title">
+                  Indexing the World Wide Web: The Journey So Far
+                </p>
+                <p>
+                  <a href="/pubs/author39695.html">Abhishek Das</a>, <a href=
+                  "/pubs/author39692.html">Ankit Jain</a>
+                </p>
+                <p>
+                  Next Generation Search Engines: Advanced Models for Information Retrieval,
+                  IGI-Global (2012), pp. 1-28
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Latent+Collaborative+Retrieval+Weston+Wang+Weiss+Berenzweig">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/40569.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub40569.html">&nbsp;</a>
+                <p class="pub-title">
+                  Latent Collaborative Retrieval
+                </p>
+                <p>
+                  Jason Weston, Chong Wang, <a href="/pubs/RonWeiss.html">Ron Weiss</a>, Adam
+                  Berenzweig
+                </p>
+                <p>
+                  International Conference on Machine Learning (2012)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Latent+Structured+Ranking+Weston+Blitzer">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://www.thespermwhale.com/jaseweston/papers/lsr.pdf">&nbsp;</a><a class=
+                "abstract-icon tooltip" href="/pubs/pub40574.html">&nbsp;</a>
+                <p class="pub-title">
+                  Latent Structured Ranking
+                </p>
+                <p>
+                  Jason Weston, <a href="/pubs/author14735.html">John Blitzer</a>
+                </p>
+                <p>
+                  UAI (2012)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Nowcasting+the+macroeconomy+with+search+engine+data+Varian">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://doi.acm.org/10.1145/2124295.2124297">&nbsp;</a>
+                <p class="pub-title">
+                  Nowcasting the macroeconomy with search engine data
+                </p>
+                <p>
+                  Hal R. Varian
+                </p>
+                <p>
+                  Proceedings of the fifth ACM international conference on Web search and data
+                  mining, ACM, New York, NY, USA (2012), pp. 1-2
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=On+the+Difficulty+of+Nearest+Neighbor+Search+He+Kumar+Chang">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/38140.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub38140.html">&nbsp;</a>
+                <p class="pub-title">
+                  On the Difficulty of Nearest Neighbor Search
+                </p>
+                <p>
+                  Junfeng He, <a href="/pubs/author11555.html">Sanjiv Kumar</a>, Shih-Fu Chang
+                </p>
+                <p>
+                  International Conference on Machine Learning (ICML) (2012)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Online+Selection+of+Diverse+Results+Panigrahi+Das+Sarma+Aggarwal+Tomkins">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/38158.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Online Selection of Diverse Results
+                </p>
+                <p>
+                  Debmalya Panigrahi, Atish Das Sarma, <a href="/pubs/author3107.html">Gagan
+                  Aggarwal</a>, <a href="/pubs/author8038.html">Andrew Tomkins</a>
+                </p>
+                <p>
+                  Proceedings of the 5th ACM international Conference on Web Search and Data Mining
+                  (2012), pp. 263-272
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Participatory+design+of+social+search+experiences+Matterson+Choi">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://doi.acm.org/10.1145/2223656.2223732">&nbsp;</a>
+                <p class="pub-title">
+                  Participatory design of social search experiences
+                </p>
+                <p>
+                  Nick Matterson, David Choi
+                </p>
+                <p>
+                  Proceedings of the 2012 ACM annual conference extended abstracts on Human Factors
+                  in Computing Systems Extended Abstracts, ACM, New York, NY, USA, pp. 1937-1942
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Spotting+fake+reviewer+groups+in+consumer+reviews+Mukherjee+Liu+Glance">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://doi.acm.org/10.1145/2187836.2187863">&nbsp;</a>
+                <p class="pub-title">
+                  Spotting fake reviewer groups in consumer reviews
+                </p>
+                <p>
+                  Arjun Mukherjee, Bing Liu, Natalie Glance
+                </p>
+                <p>
+                  Proceedings of the 21st international conference on World Wide Web, ACM, New
+                  York, NY, USA (2012), pp. 191-200
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=The+Shoebox+and+the+Safe:+When+Once-Personal+Information+Changes+Hands+Tungare">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/40349.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub40349.html">&nbsp;</a>
+                <p class="pub-title">
+                  The Shoebox and the Safe: When Once-Personal Information Changes Hands
+                </p>
+                <p>
+                  <a href="/pubs/author35897.html">Manas Tungare</a>
+                </p>
+                <p>
+                  Proceedings of the 5th International Workshop on Personal Information Management
+                  at CSCW 2012
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Topical+clustering+of+search+results+Scaiella+Ferragina+Marino+Ciaramita">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/37745.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub37745.html">&nbsp;</a>
+                <p class="pub-title">
+                  Topical clustering of search results
+                </p>
+                <p>
+                  Ugo Scaiella, Paolo Ferragina, Andrea Marino, <a href=
+                  "/pubs/MassimilianoCiaramita.html">Massimiliano Ciaramita</a>
+                </p>
+                <p>
+                  Proceedings of the fifth ACM international conference on Web search and data
+                  mining, ACM, New York, NY, USA (2012), pp. 223-232
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Towards+a+High+Quality+and+Web-Scalable+Table+Search+Engine+Yu">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://doi.acm.org/10.1145/2254736.2254738">&nbsp;</a>
+                <p class="pub-title">
+                  Towards a High Quality and Web-Scalable Table Search Engine
+                </p>
+                <p>
+                  <a href="/pubs/CongYu.html">Cong Yu</a>
+                </p>
+                <p>
+                  Proceedings of the Third International Workshop on Keyword Search on Structured
+                  Data (2012), pp. 1-1
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Web+Search+-+Challenges+and+Opportunities+Ribeiro-Neto">
+                &nbsp;</a>
+                <p class="pub-title">
+                  Web Search - Challenges and Opportunities
+                </p>
+                <p>
+                  <a href="/pubs/author2723.html">Berthier A. Ribeiro-Neto</a>
+                </p>
+                <p>
+                  AMW (2012), pp. 16-17
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Who+knows?:+searching+for+expertise+on+the+social+web:+technical+perspective.+Chi">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/38117.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Who knows?: searching for expertise on the social web: technical perspective.
+                </p>
+                <p>
+                  <a href="/pubs/EdChi.html">Ed H. Chi</a>
+                </p>
+                <p>
+                  Commun. ACM, vol. 55, 4 (2012), pp. 110-110
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=YouTube+around+the+world:+geographic+popularity+of+videos+Brodersen+Scellato+Wattenhofer">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://doi.acm.org/10.1145/2187836.2187870">&nbsp;</a>
+                <p class="pub-title">
+                  YouTube around the world: geographic popularity of videos
+                </p>
+                <p>
+                  Anders Brodersen, Salvatore Scellato, <a href=
+                  "/pubs/MirjamWattenhofer.html">Mirjam Wattenhofer</a>
+                </p>
+                <p>
+                  Proceedings of the 21st international conference on World Wide Web, ACM, New
+                  York, NY, USA (2012), pp. 241-250
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=A+Four+Group+Cross-Over+Design+for+Measuring+Irreversible+Treatments+on+Web+Search+Tasks+Ma+Mease+Russell">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/41897.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  A Four Group Cross-Over Design for Measuring Irreversible Treatments on Web
+                  Search Tasks
+                </p>
+                <p>
+                  Li Ma, <a href="/pubs/DavidMease.html">David Mease</a>, <a href=
+                  "/pubs/author173.html">Daniel M. Russell</a>
+                </p>
+                <p>
+                  Proceedings of Hawaii International Conference on System Sciences (HICSS) (2011),
+                  pp. 1-9
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=A+generic+Web-based+entity+resolution+framework+Pereira+Ribeiro-Neto+Ziviani+Laender+Gon%26ccedil;alves">
+                &nbsp;</a>
+                <p class="pub-title">
+                  A generic Web-based entity resolution framework
+                </p>
+                <p>
+                  Denilson Alves Pereira, <a href="/pubs/author2723.html">Berthier A.
+                  Ribeiro-Neto</a>, Nivio Ziviani, Alberto H. F. Laender, Marcos André Gonçalves
+                </p>
+                <p>
+                  JASIST, vol. 62 (2011), pp. 919-932
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Analysis+of+an+Expert+Search+Query+Log+Fang+Somasundaram+Si+Ko+Mathur">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/37257.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Analysis of an Expert Search Query Log
+                </p>
+                <p>
+                  Yi Fang, Naveen Somasundaram, Luo Si, <a href="/pubs/author23244.html">Jeongwoo
+                  Ko</a>, Aditya P. Mathur
+                </p>
+                <p>
+                  SIGIR (2011)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Context-sensitive+query+auto-completion+Bar-Yossef+Kraus">
+                &nbsp;</a>
+                <p class="pub-title">
+                  Context-sensitive query auto-completion
+                </p>
+                <p>
+                  <a href="/pubs/author6593.html">Ziv Bar-Yossef</a>, Naama Kraus
+                </p>
+                <p>
+                  Proceedings of the 20th International Conference on World Wide Web (WWW) (2011),
+                  pp. 107-116
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=CrowdForge:+Crowdsourcing+Complex+Work+Kittur+Smus+Khamkar+Kraut">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/39980.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub39980.html">&nbsp;</a>
+                <p class="pub-title">
+                  CrowdForge: Crowdsourcing Complex Work
+                </p>
+                <p>
+                  Aniket Kittur, <a href="/pubs/BorisSmus.html">Boris Smus</a>, Susheel Khamkar,
+                  Robert Kraut
+                </p>
+                <p>
+                  Proceedings of UIST 2011, Santa Barbara, CA
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Efficient+Runtime+Service+Discovery+and+Consumption+with+Hyperlinked+RESTdesc+Verborgh+Steiner+Van+Deursen+Van+de+Walle+Gabarro">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/37427.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub37427.html">&nbsp;</a>
+                <p class="pub-title">
+                  Efficient Runtime Service Discovery and Consumption with Hyperlinked RESTdesc
+                </p>
+                <p>
+                  Ruben Verborgh, <a href="/pubs/author39477.html">Thomas Steiner</a>, Davy Van
+                  Deursen, Rik Van de Walle, Joaquim Gabarro
+                </p>
+                <p>
+                  The 7th International Conference on Next Generation Web Services Practices (NWeSP
+                  2011), Salamanca, Spain
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Estimating+the+size+of+online+social+networks+Ye+Wu">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/37602.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Estimating the size of online social networks
+                </p>
+                <p>
+                  <a href="/pubs/ShaozhiYe.html">Shaozhi Ye</a>, S. Felix Wu
+                </p>
+                <p>
+                  International Journal of Social Computing and Cyber-Physical Systems, vol. 1
+                  (2011), pp. 160 - 179
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Fulfilling+the+Hypermedia+Constraint+Via+HTTP+OPTIONS,+the+HTTP+Vocabulary+In+RDF,+and+Link+Headers+Steiner+Algermissen">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/37429.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub37429.html">&nbsp;</a>
+                <p class="pub-title">
+                  Fulfilling the Hypermedia Constraint Via HTTP OPTIONS, the HTTP Vocabulary In
+                  RDF, and Link Headers
+                </p>
+                <p>
+                  <a href="/pubs/author39477.html">Thomas Steiner</a>, Jan Algermissen
+                </p>
+                <p>
+                  Proceedings of the Second International Workshop on RESTful Design, ACM, New
+                  York, NY, USA (2011), pp. 11-14
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Google+Correlate+Whitepaper+Mohebbi+Vanderkam+Kodysh+Schonberger+Choi+Kumar">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/41695.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub41695.html">&nbsp;</a>
+                <p class="pub-title">
+                  Google Correlate Whitepaper
+                </p>
+                <p>
+                  Matt Mohebbi, Dan Vanderkam, Julia Kodysh, Rob Schonberger, Hyunyoung Choi,
+                  <a href="/pubs/author11555.html">Sanjiv Kumar</a>
+                </p>
+                <p>
+                  Google (2011)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Learning+to+Search+Efficiently+in+High+Dimensions+Li+Ning+Cao+Zhang+Gong+Huang">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/37686.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub37686.html">&nbsp;</a>
+                <p class="pub-title">
+                  Learning to Search Efficiently in High Dimensions
+                </p>
+                <p>
+                  <a href="/pubs/ZhenLi.html">Zhen Li</a>, <a href=
+                  "/pubs/HuazhongNing.html">Huazhong Ning</a>, Liangliang Cao, Tong Zhan, Yihong
+                  Gong, Thomas S. Huang
+                </p>
+                <p>
+                  Neural Information Processing Systems (2011)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Modern+Information+Retrieval+-+the+concepts+and+technology+behind+search,+Second+edition+Baeza-Yates+Ribeiro-Neto">
+                &nbsp;</a>
+                <p class="pub-title">
+                  Modern Information Retrieval - the concepts and technology behind search, Second
+                  edition
+                </p>
+                <p>
+                  Ricardo A. Baeza-Yates, <a href="/pubs/author2723.html">Berthier A.
+                  Ribeiro-Neto</a>
+                </p>
+                <p>
+                  Pearson Education Ltd., Harlow, England (2011)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Recovering+Semantics+of+Tables+on+the+Web+Venetis+Halevy+Madhavan+Pasca+Shen+Wu+Miao">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/37232.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Recovering Semantics of Tables on the Web
+                </p>
+                <p>
+                  Petros Venetis, Alon Y. Halevy, <a href="/pubs/author6192.html">Jayant
+                  Madhavan</a>, <a href="/pubs/author107.html">Marius Pasca</a>, <a href=
+                  "/pubs/author18116.html">Warren Shen</a>, <a href="/pubs/FeiWu.html">Fei Wu</a>,
+                  Gengxin Miao
+                </p>
+                <p>
+                  Proceedings of the VLDB Endowment, vol. 4 (2011), pp. 528-538
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Reputation+Systems+for+Open+Collaboration+Adler+de+Alfaro+Kulshreshtha+Pye">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/36757.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Reputation Systems for Open Collaboration
+                </p>
+                <p>
+                  B.T. Adler, L. de Alfaro, <a href="/pubs/author25088.html">A. Kulshrestra</a>, I.
+                  Pye
+                </p>
+                <p>
+                  Communications of the ACM, vol. 54 No. 8 (2011), pp. 81-87
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=The+Future+of+Browsers+-+A+Primer+for+HTML5+and+Other+Modern+Browser+Game+Technologies+Scheib">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://gamedeveloper.texterity.com/gamedeveloper/201105?pg=37#pg37">&nbsp;</a>
+                <p class="pub-title">
+                  The Future of Browsers - A Primer for HTML5 and Other Modern Browser Game
+                  Technologies
+                </p>
+                <p>
+                  <a href="/pubs/author2570.html">Vincent Scheib</a>
+                </p>
+                <p>
+                  Game Developer Magazine, vol. 18 #5 (2011), pp. 35-41
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=The+Need+for+Music+Information+Retrieval+with+User-Centered+and+Multimodal+Strategies+Liem+M%C3%BCller+Eck+Tzanetakis+Hanjalic">
+                &nbsp;</a><a class="abstract-icon tooltip" href="/pubs/pub37669.html">&nbsp;</a>
+                <p class="pub-title">
+                  The Need for Music Information Retrieval with User-Centered and Multimodal
+                  Strategies
+                </p>
+                <p>
+                  Cynthia C.S. Liem, Meinard Müller, <a href="/pubs/author39086.html">Douglas
+                  Eck</a>, George Tzanetakis, Alan Hanjalic
+                </p>
+                <p>
+                  MIRUM '11, ACM, Scottsdale, Arizona (2011), pp. 1-6
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=The+Snap+Framework:+A+Web+Toolkit+for+Haskell+Collins+Beardsley">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/37267.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub37267.html">&nbsp;</a>
+                <p class="pub-title">
+                  The Snap Framework: A Web Toolkit for Haskell
+                </p>
+                <p>
+                  <a href="/pubs/author58033.html">Gregory Collins</a>, Doug Beardsley
+                </p>
+                <p>
+                  IEEE Internet Computing, vol. 15 (2011), pp. 84-87
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Capacity+Planning+for+Vertical+Search+Engines+Badue+Almeida+Almeida+Baeza-Yates+Ribeiro-Neto+Ziviani+Ziviani">
+                &nbsp;</a>
+                <p class="pub-title">
+                  Capacity Planning for Vertical Search Engines
+                </p>
+                <p>
+                  Claudine Santos Badue, Jussara M. Almeida, Virgilio Almeida, Ricardo A.
+                  Baeza-Yates, <a href="/pubs/author2723.html">Berthier A. Ribeiro-Neto</a>, Artur
+                  Ziviani, Nivio Ziviani
+                </p>
+                <p>
+                  CoRR, vol. abs/1006.5059 (2010)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Children's+Roles+Using+Keyword+Search+Interfaces+in+the+Home+Druin+Foss+Hutchinson+Golub+Hatley">
+                &nbsp;</a><a class="abstract-icon tooltip" href="/pubs/pub36300.html">&nbsp;</a>
+                <p class="pub-title">
+                  Children's Roles Using Keyword Search Interfaces in the Home
+                </p>
+                <p>
+                  Allison Druin, Elizabeth Foss, <a href="/pubs/author15270.html">Hilary
+                  Hutchinson</a>, Evan Golub, Leshell Hatley
+                </p>
+                <p>
+                  Proceedings of CHI 2010, ACM Press
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Clustering+Query+Refinements+by+User+Intent+Sadikov+Madhavan+Wang+Halevy">
+                &nbsp;</a><a class="abstract-icon tooltip" href="/pubs/pub36242.html">&nbsp;</a>
+                <p class="pub-title">
+                  Clustering Query Refinements by User Intent
+                </p>
+                <p>
+                  Eldar Sadikov, <a href="/pubs/author6192.html">Jayant Madhavan</a>, Lu Wang, Alon
+                  Halevy
+                </p>
+                <p>
+                  Proceedings of the International World Wide Web Conference (WWW) (2010)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Combining+Evidence+with+a+Probabilistic+Framework+for+Answer+Ranking+and+Answer+Merging+in+Question+Answering+Ko+Si+Nyberg">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://dx.doi.org/10.1016/j.ipm.2009.11.004">&nbsp;</a>
+                <p class="pub-title">
+                  Combining Evidence with a Probabilistic Framework for Answer Ranking and Answer
+                  Merging in Question Answering
+                </p>
+                <p>
+                  <a href="/pubs/author23244.html">Jeongwoo Ko</a>, Luo Si, Eric Nyberg
+                </p>
+                <p>
+                  Information Processing and Management, vol. 46 (2010), pp. 541-554
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Generalized+Syntactic+and+Semantic+Models+of+Query+Reformulation+Herdagdelen+Ciaramita+Mahler+Holmqvist+Hall+Riezler+Alfonseca">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/36337.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Generalized Syntactic and Semantic Models of Query Reformulation
+                </p>
+                <p>
+                  Amac Herdagdelen, <a href="/pubs/MassimilianoCiaramita.html">Massimiliano
+                  Ciaramita</a>, Daniel Mahler, Maria Holmqvist, <a href=
+                  "/pubs/author38002.html">Keith Hall</a>, Stefan Riezler, <a href=
+                  "/pubs/author35866.html">Enrique Alfonseca</a>
+                </p>
+                <p>
+                  Proceedings of SIGIR-2010
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Google+Squared:+web+scale,+open+domain+information+extraction+and+presentation+Crow">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/36641.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub36641.html">&nbsp;</a>
+                <p class="pub-title">
+                  Google Squared: web scale, open domain information extraction and presentation
+                </p>
+                <p>
+                  Dan Crow
+                </p>
+                <p>
+                  European Conference on Information Retrieval, Industry Day (2010)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=How+Google+is+using+Linked+Data+Today+and+Vision+For+Tomorrow+Steiner+Troncy+Hausenblas">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/37430.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub37430.html">&nbsp;</a>
+                <p class="pub-title">
+                  How Google is using Linked Data Today and Vision For Tomorrow
+                </p>
+                <p>
+                  <a href="/pubs/author39477.html">Thomas Steiner</a>, Raphael Troncy, Michael
+                  Hausenblas
+                </p>
+                <p>
+                  Proceedings of Linked Data in the Future Internet at the Future Internet Assembly
+                  (FIA 2010), Ghent, December 2010
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Information+Retrieval:+Implementing+and+Evaluating+Search+Engines+Buettcher+Clarke+Cormack">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://www.ir.uwaterloo.ca/book/">&nbsp;</a>
+                <p class="pub-title">
+                  Information Retrieval: Implementing and Evaluating Search Engines
+                </p>
+                <p>
+                  Stefan Buettcher, Charles L. A. Clarke, Gordon V. Cormack
+                </p>
+                <p>
+                  MIT Press, Cambridge, MA (2010)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Personalized+News+Recommendation+Based+on+Click+Behavior+Liu+Pedersen+Dolan">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/35599.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub35599.html">&nbsp;</a>
+                <p class="pub-title">
+                  Personalized News Recommendation Based on Click Behavior
+                </p>
+                <p>
+                  Jiahui Liu, <a href="/pubs/author36234.html">Elin Pedersen</a>, Peter Dolan
+                </p>
+                <p>
+                  2010 International Conference on Intelligent User Interfaces
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Probabilistic+Models+for+Answer+Ranking+in+Multilingual+Question+Answering+Ko+Si+Nyberg+Mitamura">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/36631.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Probabilistic Models for Answer Ranking in Multilingual Question Answering
+                </p>
+                <p>
+                  <a href="/pubs/author23244.html">Jeongwoo Ko</a>, Luo Si, Eric Nyberg, Teruko
+                  Mitamura
+                </p>
+                <p>
+                  Transactions on Information Systems (2010)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Quantitative+Analysis+of+Culture+Using+Millions+of+Digitized+Books+Michel+Shen+Aiden+Veres+Gray+Team+Pickett+Holberg+Clancy+Norvig+Orwant+Pinker+Nowak+Aiden">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://www.sciencemag.org/content/331/6014/176.full">&nbsp;</a><a class=
+                "abstract-icon tooltip" href="/pubs/pub37388.html">&nbsp;</a>
+                <p class="pub-title">
+                  Quantitative Analysis of Culture Using Millions of Digitized Books
+                </p>
+                <p>
+                  Jean-Baptiste Michel, Yuan Kui Shen, Aviva Presser Aiden, Adrian Veres, Matthew
+                  K. Gray, The Google Books Team, Joseph P. Pickett, Dale Holberg, Dan Clancy,
+                  <a href="/pubs/author205.html">Peter Norvig</a>, <a href=
+                  "/pubs/JonOrwant.html">Jon Orwant</a>, Steven Pinker, Martin A. Nowak, Erez
+                  Lieberman Aiden
+                </p>
+                <p>
+                  Science (2010)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Query+Difficulty+Prediction+for+Contextual+Image+Retrieval+Xing+Zhang+Han">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/36418.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Query Difficulty Prediction for Contextual Image Retrieval
+                </p>
+                <p>
+                  Xing Xing, Yi Zhang, <a href="/pubs/author13553.html">Mei Han</a>
+                </p>
+                <p>
+                  32nd European Conference on Information Retrieval (ECIR'10) (2010)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Query+Rewriting+using+Monolingual+Statistical+Machine+Translation+Riezler+Liu">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/36610.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Query Rewriting using Monolingual Statistical Machine Translation
+                </p>
+                <p>
+                  Stefan Riezler, <a href="/pubs/author4723.html">Yi Liu</a>
+                </p>
+                <p>
+                  Computational Linguistics, vol. 36 (2010)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Research+trails:+getting+back+where+you+left+off+Liu+Hong+Pedersen">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/36583.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub36583.html">&nbsp;</a>
+                <p class="pub-title">
+                  Research trails: getting back where you left off
+                </p>
+                <p>
+                  Jiahui Liu, Peter Jin Hong, <a href="/pubs/author36234.html">Elin Rønby
+                  Pedersen</a>
+                </p>
+                <p>
+                  Proceedings of the 19th international conference on World Wide Web, ACM, Raleigh,
+                  North Carolina (2010), pp. 1151-1152
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Search+flavours+-+recent+updates+and+trends+Matias">
+                &nbsp;</a>
+                <p class="pub-title">
+                  Search flavours - recent updates and trends
+                </p>
+                <p>
+                  <a href="/pubs/YossiMatias.html">Yossi Matias</a>
+                </p>
+                <p>
+                  SIGIR (2010)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Shopping+for+Top+Forums:+Discovering+Online+Discussion+for+Product+Research+Elsas+Glance">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/36551.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub36551.html">&nbsp;</a>
+                <p class="pub-title">
+                  Shopping for Top Forums: Discovering Online Discussion for Product Research
+                </p>
+                <p>
+                  Jonathan Elsas, Natalie Glance
+                </p>
+                <p>
+                  KDD SOMA 2010 Workshop on Social Media Analytics
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Stochastic+Models+for+Tabbed+Browsing+Chierichetti+Kumar+Tomkins">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://doi.acm.org/10.1145/1772690.1772716">&nbsp;</a>
+                <p class="pub-title">
+                  Stochastic Models for Tabbed Browsing
+                </p>
+                <p>
+                  Flavio Chierichetti, Ravi Kumar, <a href="/pubs/author8038.html">Andrew
+                  Tomkins</a>
+                </p>
+                <p>
+                  Proceedings of the 19th international conference on World Wide Web, ACM, Raleigh,
+                  North Carolina (2010), pp. 241-250
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=User+browsing+models:+relevance+versus+examination+Srikant+Basu+Wang+Pregibon">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://doi.acm.org/10.1145/1835804.1835835">&nbsp;</a><a class=
+                "abstract-icon tooltip" href="/pubs/pub36588.html">&nbsp;</a>
+                <p class="pub-title">
+                  User browsing models: relevance versus examination
+                </p>
+                <p>
+                  <a href="/pubs/author888.html">Ramakrishnan Srikant</a>, <a href=
+                  "/pubs/author39.html">Sugato Basu</a>, Ni Wang, Daryl Pregibon
+                </p>
+                <p>
+                  Proceedings of the 16th ACM SIGKDD international conference on Knowledge
+                  discovery and data mining, ACM, Washington, DC (2010), pp. 223-232
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Using+structural+information+to+improve+search+in+Web+collections+Moura+Fernandes+Ribeiro-Neto+Silva+Gon%26ccedil;alves">
+                &nbsp;</a>
+                <p class="pub-title">
+                  Using structural information to improve search in Web collections
+                </p>
+                <p>
+                  Edleno Silva de Moura, David Fernandes, <a href="/pubs/author2723.html">Berthier
+                  A. Ribeiro-Neto</a>, Altigran Soares da Silva, Marcos André Gonçalves
+                </p>
+                <p>
+                  JASIST, vol. 61 (2010), pp. 2503-2513
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=What+the+web+can't+do+Shamma+Fitzsimmonds+Gregorio+Hupp+Jain+Marks">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://doi.acm.org/10.1145/1772690.1772919">&nbsp;</a>
+                <p class="pub-title">
+                  What the web can't do
+                </p>
+                <p>
+                  David A. Shamma, Seth Fitzsimmonds, <a href="/pubs/author39201.html">Joe
+                  Gregorio</a>, Adam Hupp, Ramesh Jain, Kevin Marks
+                </p>
+                <p>
+                  Proceedings of the 19th international conference on World Wide Web, ACM, Raleigh,
+                  North Carolina (2010), pp. 1341-1342
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=7th+workshop+on+large-scale+distributed+systems+for+information+retrieval+(LSDS-IR'09)+Lucchese+Skobeltsyn+Yee">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://dl.acm.org/citation.cfm?id=1670570">&nbsp;</a>
+                <p class="pub-title">
+                  7th workshop on large-scale distributed systems for information retrieval
+                  (LSDS-IR'09)
+                </p>
+                <p>
+                  Claudio Lucchese, <a href="/pubs/GlebSkobeltsyn.html">Gleb Skobeltsyn</a>, Wai
+                  Gen Yee
+                </p>
+                <p>
+                  SIGIR forum, vol. 43 (2009), pp. 34-40
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=A+Simple+Linear+Ranking+Algorithm+Using+Query+Dependent+Intercept+Variables+Ailon">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/35093.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  A Simple Linear Ranking Algorithm Using Query Dependent Intercept Variables
+                </p>
+                <p>
+                  Nir Ailon
+                </p>
+                <p>
+                  ECIR 2009 (to appear)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=An+Audio+Indexing+System+for+Election+Video+Material+Alberti+Bacchiani+Bezman+Chelba+Drofa+Liao+Moreno+Power+Sahuguet+Shugrina+Siohan">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/35613.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub35613.html">&nbsp;</a>
+                <p class="pub-title">
+                  An Audio Indexing System for Election Video Material
+                </p>
+                <p>
+                  Christopher Alberti, <a href="/pubs/MichielBacchiani.html">Michiel Bacchiani</a>,
+                  Ari Bezman, <a href="/pubs/author6342.html">Ciprian Chelba</a>, Anastassia Drofa,
+                  <a href="/pubs/author37501.html">Hank Liao</a>, <a href=
+                  "/pubs/author5289.html">Pedro Moreno</a>, Ted Power, <a href=
+                  "/pubs/author2704.html">Arnaud Sahuguet</a>, Maria Shugrina, <a href=
+                  "/pubs/OlivierSiohan.html">Olivier Siohan</a>
+                </p>
+                <p>
+                  Proceedings of ICASSP (2009), pp. 4873-4876
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Answer+typing+for+information+retrieval+Pinchak+Rafiei+Lin">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://doi.acm.org/10.1145/1645953.1646274">&nbsp;</a><a class=
+                "abstract-icon tooltip" href="/pubs/pub36029.html">&nbsp;</a>
+                <p class="pub-title">
+                  Answer typing for information retrieval
+                </p>
+                <p>
+                  Christopher Pinchak, Davood Rafiei, <a href="/pubs/author108.html">Dekang Lin</a>
+                </p>
+                <p>
+                  Proceeding of the 18th ACM conference on Information and knowledge management
+                  (CIKM), ACM, Hong Kong (2009), pp. 1955-1958
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Challenges+in+building+large-scale+information+retrieval+systems:+invited+talk+Dean">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://doi.acm.org/10.1145/1498759.1498761">&nbsp;</a>
+                <p class="pub-title">
+                  Challenges in building large-scale information retrieval systems: invited talk
+                </p>
+                <p>
+                  <a href="/pubs/jeff.html">Jeffrey Dean</a>
+                </p>
+                <p>
+                  WSDM '09: Proceedings of the Second ACM International Conference on Web Search
+                  and Data Mining, ACM, New York, NY, USA (2009), pp. 1-1
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Do+not+crawl+in+the+DUST:+Different+URLs+with+similar+text+Bar-Yossef+Keidar+Schonfeld">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/35210.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Do not crawl in the DUST: Different URLs with similar text
+                </p>
+                <p>
+                  <a href="/pubs/author6593.html">Ziv Bar-Yossef</a>, Idit Keidar, Uri Schonfeld
+                </p>
+                <p>
+                  ACM Transactions on the Web, vol. 3 (2009), pp. 3
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Estimating+the+ImpressionRank+of+Web+Pages+Bar-Yossef+Gurevich">
+                &nbsp;</a>
+                <p class="pub-title">
+                  Estimating the ImpressionRank of Web Pages
+                </p>
+                <p>
+                  <a href="/pubs/author6593.html">Ziv Bar-Yossef</a>, <a href=
+                  "/pubs/MaximGurevich.html">Maxim Gurevich</a>
+                </p>
+                <p>
+                  Proceedings of the 18th International Conference on World Wide Web (WWW) (2009),
+                  pp. 41-50
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Evaluating+web+search+using+task+completion+time+Xu+Mease">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://doi.acm.org/10.1145/1571941.1572073">&nbsp;</a>
+                <p class="pub-title">
+                  Evaluating web search using task completion time
+                </p>
+                <p>
+                  Ya Xu, <a href="/pubs/DavidMease.html">David Mease</a>
+                </p>
+                <p>
+                  SIGIR '09: Proceedings of the 32nd international ACM SIGIR conference on Research
+                  and development in information retrieval, ACM, New York, NY, USA (2009), pp.
+                  676-677
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Expected+reciprocal+rank+for+graded+relevance+Chapelle+Metlzer+Zhang+Grinspan">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://doi.acm.org/10.1145/1645953.1646033">&nbsp;</a>
+                <p class="pub-title">
+                  Expected reciprocal rank for graded relevance
+                </p>
+                <p>
+                  Olivier Chapelle, Donald Metlzer, Ya Zhang, Pierre Grinspan
+                </p>
+                <p>
+                  CIKM '09: Proceeding of the 18th ACM conference on Information and knowledge
+                  management, ACM, New York, NY, USA (2009), pp. 621-630
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Fancy+a+Drink+in+Canary+Wharf?:+A+User+Study+on+Location-Based+Mobile+Search+Amin+Townsend+Ossenbruggen+Hardman">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://dx.doi.org/10.1007/978-3-642-03655-2_80">&nbsp;</a>
+                <p class="pub-title">
+                  Fancy a Drink in Canary Wharf?: A User Study on Location-Based Mobile Search
+                </p>
+                <p>
+                  Alia Amin, Sian Townsend, Jacco Ossenbruggen, Lynda Hardman
+                </p>
+                <p>
+                  INTERACT '09: Proceedings of the 12th IFIP TC 13 International Conference on
+                  Human-Computer Interaction, Springer-Verlag, Berlin, Heidelberg (2009), pp.
+                  736-749
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Going+Beyond+Gzipping+Gentilcore">
+                &nbsp;</a>
+                <p class="pub-title">
+                  Going Beyond Gzipping
+                </p>
+                <p>
+                  <a href="/pubs/TonyGentilcore.html">Tony Gentilcore</a>
+                </p>
+                <p>
+                  Even Faster Web Sites, O'Reilly Media, Inc., 1005 Gravenstein Highway North,
+                  Sebastopol, CA 95472 (2009), pp. 121-132
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Good+Abandonment+in+Mobile+and+PC+Internet+Search+Li+Huffman+Tokuda">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/35486.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub35486.html">&nbsp;</a>
+                <p class="pub-title">
+                  Good Abandonment in Mobile and PC Internet Search
+                </p>
+                <p>
+                  Jane Li, <a href="/pubs/author6921.html">Scott Huffman</a>, Akihito Tokuda
+                </p>
+                <p>
+                  32nd Annual International ACM SIGIR Conference on Research and Development in
+                  Information Retrieval, ACM (Association for Computing Machinery), 2 Penn Plaza,
+                  Suite 701, New York 10121-0701 (2009), pp. 43-50
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Harnessing+the+Deep+Web:+Present+and+Future+Madhavan+Afanasiev+Antova+Halevy">
+                &nbsp;</a>
+                <p class="pub-title">
+                  Harnessing the Deep Web: Present and Future
+                </p>
+                <p>
+                  <a href="/pubs/author6192.html">Jayant Madhavan</a>, Loredana Afanasiev, Lyublena
+                  Antova, Alon Halevy
+                </p>
+                <p>
+                  Proceedings of the Conference on Innovative Data system Research (CIDR) (2009)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Harvesting+Relational+Tables+from+Lists+on+the+Web+Elmeleegy+Madhavan+Halevy">
+                &nbsp;</a>
+                <p class="pub-title">
+                  Harvesting Relational Tables from Lists on the Web
+                </p>
+                <p>
+                  Hazem Elmeleegy, <a href="/pubs/author6192.html">Jayant Madhavan</a>, Alon Halevy
+                </p>
+                <p>
+                  Proceedings of the VLDB Endowment (PVLDB) (2009), pp. 1078-1089
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=High+precision+retrieval+using+relevance-flow+graph+Seo+Jeon">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://doi.acm.org/10.1145/1571941.1572082">&nbsp;</a>
+                <p class="pub-title">
+                  High precision retrieval using relevance-flow graph
+                </p>
+                <p>
+                  Jangwon Seo, <a href="/pubs/author38335.html">Jiwoon Jeon</a>
+                </p>
+                <p>
+                  SIGIR '09: Proceedings of the 32nd international ACM SIGIR conference on Research
+                  and development in information retrieval, ACM, New York, NY, USA (2009), pp.
+                  694-695
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=How+opinions+are+received+by+online+communities:+A+case+study+on+Amazon.com+helpfulness+votes+Danescu-Niculescu-Mizil+Kossinets+Kleinberg+Lee">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/35388.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub35388.html">&nbsp;</a>
+                <p class="pub-title">
+                  How opinions are received by online communities: A case study on Amazon.com
+                  helpfulness votes
+                </p>
+                <p>
+                  Cristian Danescu-Niculescu-Mizil, <a href="/pubs/author38367.html">Gueorgi
+                  Kossinets</a>, Jon Kleinberg, Lillian Lee
+                </p>
+                <p>
+                  Proceedings of the 18th International Conference on World Wide Web, WWW 2009,
+                  Madrid, Spain, April 20-24, 2009, pp. 141-150
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Incremental+Crawling+McCurley">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/34403.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Incremental Crawling
+                </p>
+                <p>
+                  <a href="/pubs/author89.html">Kevin S. McCurley</a>
+                </p>
+                <p>
+                  Encyclopedia of Database Systems, Springer, New York (2009), pp. 1417-1421
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Information+arbitrage+across+multi-lingual+Wikipedia+Adar+Skinner+Weld">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://doi.acm.org/10.1145/1498759.1498813">&nbsp;</a>
+                <p class="pub-title">
+                  Information arbitrage across multi-lingual Wikipedia
+                </p>
+                <p>
+                  Eytan Adar, Michael Skinner, Daniel S. Weld
+                </p>
+                <p>
+                  WSDM '09: Proceedings of the Second ACM International Conference on Web Search
+                  and Data Mining, ACM, New York, NY, USA (2009), pp. 94-103
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Information+extraction+meets+relation+databases+Rafiei+Broder+Chang+Pantel">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://doi.acm.org/10.1145/1645953.1646067">&nbsp;</a>
+                <p class="pub-title">
+                  Information extraction meets relation databases
+                </p>
+                <p>
+                  Davood Rafiei, <a href="/pubs/AndreiBroder.html">Andrei Broder</a>, Edward Chang,
+                  Patrick Pantel
+                </p>
+                <p>
+                  CIKM '09: Proceeding of the 18th ACM conference on Information and knowledge
+                  management, ACM, New York, NY, USA (2009), pp. 897-897
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Modeling+similarity+in+the+age+of+data+McCurley">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://maa.org/news/120309mccurley.html">&nbsp;</a><a class=
+                "abstract-icon tooltip" href="/pubs/pub36728.html">&nbsp;</a>
+                <p class="pub-title">
+                  Modeling similarity in the age of data
+                </p>
+                <p>
+                  <a href="/pubs/author89.html">Kevin S. McCurley</a>
+                </p>
+                <p>
+                  MAA (2009)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Reciprocal+rank+fusion+outperforms+condorcet+and+individual+rank+learning+methods+Cormack+Clarke+Buettcher">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://doi.acm.org/10.1145/1571941.1572114">&nbsp;</a>
+                <p class="pub-title">
+                  Reciprocal rank fusion outperforms condorcet and individual rank learning methods
+                </p>
+                <p>
+                  Gordon V. Cormack, Charles L A Clarke, Stefan Buettcher
+                </p>
+                <p>
+                  SIGIR '09: Proceedings of the 32nd international ACM SIGIR conference on Research
+                  and development in information retrieval, ACM, New York, NY, USA (2009), pp.
+                  758-759
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Search+Engines:+Information+Retrieval+in+Practice+Croft+Metzler+Strohman">
+                &nbsp;</a>
+                <p class="pub-title">
+                  Search Engines: Information Retrieval in Practice
+                </p>
+                <p>
+                  W. Bruce Croft, <a href="/pubs/DonaldMetzler.html">Donald Metzler</a>, <a href=
+                  "/pubs/TrevorStrohman.html">Trevor Strohman</a>
+                </p>
+                <p>
+                  Addison Wesley (2009)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=The+impact+of+result+abstracts+on+task+completion+time.+Khan+Mease+Patel">
+                &nbsp;</a>
+                <p class="pub-title">
+                  The impact of result abstracts on task completion time.
+                </p>
+                <p>
+                  <a href="/pubs/author38924.html">Rehan Khan</a>, <a href=
+                  "/pubs/DavidMease.html">David Mease</a>, <a href="/pubs/author37597.html">Rajan
+                  Patel</a>
+                </p>
+                <p>
+                  WWW 2009 Proceedings
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Topic+and+Trend+Detection+in+Text+Collections+Using+Latent+Dirichlet+Allocation+Bolelli+Ertekin+Giles">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://dx.doi.org/10.1007/978-3-642-00958-7_84">&nbsp;</a>
+                <p class="pub-title">
+                  Topic and Trend Detection in Text Collections Using Latent Dirichlet Allocation
+                </p>
+                <p>
+                  Levent Bolelli, Şeyda Ertekin, C. Lee Giles
+                </p>
+                <p>
+                  ECIR '09: Proceedings of the 31th European Conference on IR Research on Advances
+                  in Information Retrieval, Springer-Verlag, Berlin, Heidelberg (2009), pp. 776-780
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Using+web+information+for+author+name+disambiguation+Pereira+Ribeiro-Neto+Ziviani+Laender+Gon%26ccedil;alves+Ferreira">
+                &nbsp;</a>
+                <p class="pub-title">
+                  Using web information for author name disambiguation
+                </p>
+                <p>
+                  Denilson Alves Pereira, <a href="/pubs/author2723.html">Berthier A.
+                  Ribeiro-Neto</a>, Nivio Ziviani, Alberto H. F. Laender, Marcos André Gonçalves,
+                  Anderson A. Ferreira
+                </p>
+                <p>
+                  JCDL (2009), pp. 49-58
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Web+Derived+Pronunciations+for+Spoken+Term+Detection+Can+Cooper+Ghoshal+Jansche+Khudanpur+Ramabhadran+Riley+Sara%C3%A7lar+Sethy+Ulinski+White">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/35097.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub35097.html">&nbsp;</a>
+                <p class="pub-title">
+                  Web Derived Pronunciations for Spoken Term Detection
+                </p>
+                <p>
+                  Doğan Can, Erica Cooper, Arnab Ghoshal, <a href="/pubs/author35845.html">Martin
+                  Jansche</a>, Sanjeev Khudanpur, Bhuvana Ramabhadran, <a href=
+                  "/pubs/author125.html">Michael Riley</a>, Murat Saraçlar, Abhinav Sethy, Morgan
+                  Ulinski, Christopher White
+                </p>
+                <p>
+                  32nd Annual International ACM SIGIR Conference (2009), pp. 83-90
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=YouTube's+Collaborative+Annotations+Fink+Bar+Bazilai+Kerem+Elias+Frumar+Ho+Junee+Ratner+Schrock+Tavory">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/36735.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub36735.html">&nbsp;</a>
+                <p class="pub-title">
+                  YouTube's Collaborative Annotations
+                </p>
+                <p>
+                  <a href="/pubs/author26.html">Michael Fink</a>, Sigalit Bar, Aviad Bazilai, Nir
+                  Kerem, Isaac Elias, Julian Frumar, Herb Ho, Ryan Junee, Simon Ratner, Jasson
+                  Schrock, Ran Tavory
+                </p>
+                <p>
+                  Webcentives (2009), pp. 18-19
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Eye+Monitoring+in+Online+Search+Granka+Feusner+Lorigo">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/34378.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Eye Monitoring in Online Search
+                </p>
+                <p>
+                  <a href="/pubs/author3679.html">Laura A. Granka</a>, Matthew Feusner, Lori Lorigo
+                </p>
+                <p>
+                  Passive Eye Monitoring, Springer Verlag, 69121 Heidelberg, Germany (2008), pp.
+                  283-304
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Generating+Diverse+Katakana+Variants+Based+on+Phenomic+Mapping+Seki+Hattori+Uehara">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://doi.acm.org/10.1145/1390334.1390507">&nbsp;</a>
+                <p class="pub-title">
+                  Generating Diverse Katakana Variants Based on Phenomic Mapping
+                </p>
+                <p>
+                  Kazuhiro Seki, Hiroyuki Hattori, Kuniaki Uehara
+                </p>
+                <p>
+                  Proc. 31st Annual International ACM SIGIR Conference on Research and Development
+                  in Information Retrieval, ACM, Singapore (2008), pp. 793-794
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Generating+Links+by+Mining+Quotations+Kolak+Schilit">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://doi.acm.org/10.1145/1379092.1379117">&nbsp;</a>
+                <p class="pub-title">
+                  Generating Links by Mining Quotations
+                </p>
+                <p>
+                  <a href="/pubs/author2713.html">Okan Kolak</a>, <a href=
+                  "/pubs/author27501.html">Bill N. Schilit</a>
+                </p>
+                <p>
+                  Hypertext, Pittsburgh, Pennsylvania, USA (2008), pp. 117-126
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Google's+Deep-Web+Crawl+Madhavan+Ko+Kot+Ganapathy+Rasmussen+Halevy">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/34618.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Google's Deep-Web Crawl
+                </p>
+                <p>
+                  <a href="/pubs/author6192.html">Jayant Madhavan</a>, David Ko, Lucja Kot,
+                  <a href="/pubs/VigneshGanapathy.html">Vignesh Ganapathy</a>, Alex Rasmussen, Alon
+                  Halevy
+                </p>
+                <p>
+                  Proceedings of the International Conference on Very Large Databases (VLDB) (2008)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=How+evaluator+domain+expertise+affects+search+result+relevance+Kinney+Huffman+Zhai">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://doi.acm.org/10.1145/1458082.1458160">&nbsp;</a>
+                <p class="pub-title">
+                  How evaluator domain expertise affects search result relevance
+                </p>
+                <p>
+                  Kenneth A. Kinney, <a href="/pubs/author6921.html">Scott B. Huffman</a>, Juting
+                  Zhai
+                </p>
+                <p>
+                  Conference on Information and Knowledge Management (2008), pp. 591-598
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Income+Inequality+in+the+Attention+Economy+McCurley">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/33367.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Income Inequality in the Attention Economy
+                </p>
+                <p>
+                  <a href="/pubs/author89.html">Kevin S. McCurley</a>
+                </p>
+                <p>
+                  Google, Inc. (2008)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Learning+From+Labeled+Features+Using+Generalized+Expectation+Criteria+Druck+Mann+McCallum">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://doi.acm.org/10.1145/1390334.1390436">&nbsp;</a>
+                <p class="pub-title">
+                  Learning From Labeled Features Using Generalized Expectation Criteria
+                </p>
+                <p>
+                  Gregory Druck, Gideon Mann, Andrew McCallum
+                </p>
+                <p>
+                  Proc. 31st International ACM SIGIR Conference on Research and Development in
+                  Information Retrieval, ACM, Singapore (2008), pp. 595-602
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Local+Approximation+of+PageRank+and+Reverse+PageRank+Bar-Yossef+Mashiach">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/34455.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Local Approximation of PageRank and Reverse PageRank
+                </p>
+                <p>
+                  <a href="/pubs/author6593.html">Ziv Bar-Yossef</a>, Li-Tal Mashiach
+                </p>
+                <p>
+                  Proceedings of the 17th ACM Conference on Information and Knowledge Management
+                  (CIKM) (2008), pp. 279-288
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Microscale+Evolution+of+Web+Pages+O'Brien+Grimes">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/34427.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Microscale Evolution of Web Pages
+                </p>
+                <p>
+                  Sean O'Brien, <a href="/pubs/author31907.html">Carrie Grimes</a>
+                </p>
+                <p>
+                  WWW 2008
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Mining+Search+Engine+Query+Logs+via+Suggestion+Sampling+Bar-Yossef+Gurevich">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/34456.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Mining Search Engine Query Logs via Suggestion Sampling
+                </p>
+                <p>
+                  <a href="/pubs/author6593.html">Ziv Bar-Yossef</a>, <a href=
+                  "/pubs/MaximGurevich.html">Maxim Gurevich</a>
+                </p>
+                <p>
+                  Proceedings of the VLDB Endowment (2008), pp. 54-65
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Next-generation+Digital+Earth.+A+position+paper+from+the+Vespucci+Initiative+for+the+Advancement+of+Geographic+Information+Science+Craglia+Goodchild+Annoni+Camara+Gould+Kuhn+Mark+Masser+Maguire+Liang+Parsons">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://ijsdir.jrc.ec.europa.eu/index.php/ijsdir/article/viewFile/119/99">&nbsp;</a>
+                <p class="pub-title">
+                  Next-generation Digital Earth. A position paper from the Vespucci Initiative for
+                  the Advancement of Geographic Information Science
+                </p>
+                <p>
+                  M. Craglia, M.F. Goodchild, A. Annoni, G. Camara, M. Gould, W. Kuhn, D.M. Mark,
+                  I. Masser, D.J. Maguire, S. Liang, <a href="/pubs/EdParsons.html">E. Parsons</a>
+                </p>
+                <p>
+                  International Journal of Spatial Data Infrastructure Research, vol. 3 (2008), pp.
+                  146-167
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Random+sampling+from+a+search+engine's+index+Bar-Yossef+Gurevich">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/35211.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Random sampling from a search engine's index
+                </p>
+                <p>
+                  <a href="/pubs/author6593.html">Ziv Bar-Yossef</a>, <a href=
+                  "/pubs/MaximGurevich.html">Maxim Gurevich</a>
+                </p>
+                <p>
+                  Journal of the ACM, vol. 55 (2008)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Retrieval+models+for+question+and+answer+archives+Xue+Jeon+Croft">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://doi.acm.org/10.1145/1390334.1390416">&nbsp;</a>
+                <p class="pub-title">
+                  Retrieval models for question and answer archives
+                </p>
+                <p>
+                  Xiaobing Xue, <a href="/pubs/author38335.html">Jiwoon Jeon</a>, W. Bruce Croft
+                </p>
+                <p>
+                  SIGIR (2008), pp. 475-482
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Rich+Media+and+Web+2.0+Chang+Ong+Boll+Ma">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://doi.acm.org/10.1145/1367497.1367756">&nbsp;</a>
+                <p class="pub-title">
+                  Rich Media and Web 2.0
+                </p>
+                <p>
+                  Edward Chang, Ken Ong, Susanne Boll, Wei-Ying Ma
+                </p>
+                <p>
+                  Proc. 17th International Conference on World Wide Web, ACM, Beijing (2008), pp.
+                  1259-1259
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=The+Mobile+Web+is+Structurally+Different+Jindal+Crutchfied+Goel+Jain+Kolluri">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/34736.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  The Mobile Web is Structurally Different
+                </p>
+                <p>
+                  Apoorva Jindal, Chris Crutchfied, Samir Goel, <a href="/pubs/author139.html">Ravi
+                  Jain</a>, Ravi Kolluri
+                </p>
+                <p>
+                  11th IEEE Global Internet Symposium (2008)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Translating+Queries+into+Snippets+for+Improved+Query+Expansion+Riezler+Liu+Vasserman">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/34382.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub34382.html">&nbsp;</a>
+                <p class="pub-title">
+                  Translating Queries into Snippets for Improved Query Expansion
+                </p>
+                <p>
+                  Stefan Riezler, <a href="/pubs/author4723.html">Yi Liu</a>, Alexander Vasserman
+                </p>
+                <p>
+                  Proceedings of the 22nd International Conference on Computational Linguistics
+                  (COLING'08), Manchester, England (2008)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Using+Web+Information+for+Creating+Publication+Venue+Authority+Files+Pereira+Ribeiro-Neto+Ziviani+Laender">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://doi.acm.org/10.1145/1378889.1378940">&nbsp;</a>
+                <p class="pub-title">
+                  Using Web Information for Creating Publication Venue Authority Files
+                </p>
+                <p>
+                  Denilson Alves Pereira, <a href="/pubs/author2723.html">Berthier
+                  Ribeiro-Neto</a>, Nivio Ziviani, Alberto H. F. Laender
+                </p>
+                <p>
+                  Proc. ACM/IEEE Joint Conference on Digital Libraries, ACM, Pittsburgh (2008), pp.
+                  295-304
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=WCAG+2.0:+A+Web+Accessibility+Standard+for+the+Evolving+Web+Guarino+Reid+Snow-Weaver">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/34333.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  WCAG 2.0: A Web Accessibility Standard for the Evolving Web
+                </p>
+                <p>
+                  Loretta Guarino Reid, Andi Snow-Weaver
+                </p>
+                <p>
+                  Proceedings of the 2008 Internationl Cross-disciplinary Conference on Web
+                  Accessibility (W4A)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Web-scale+extraction+of+structured+data.+Cafarella+Madhavan+Halevy">
+                &nbsp;</a>
+                <p class="pub-title">
+                  Web-scale extraction of structured data.
+                </p>
+                <p>
+                  Michael Cafarella, <a href="/pubs/author6192.html">Jayant Madhavan</a>, Alon
+                  Halevy
+                </p>
+                <p>
+                  SIGMOD Record, vol. 37(4) (2008), pp. 55-61
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=A+Fact/Opinion+Classifier+for+News+Articles+Stepinksi+Mittal">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://doi.acm.org/10.1145/1277741.1277919">&nbsp;</a>
+                <p class="pub-title">
+                  A Fact/Opinion Classifier for News Articles
+                </p>
+                <p>
+                  Adam Stepinksi, Vibhu Mittal
+                </p>
+                <p>
+                  Proc. 30th SIGIR, ACM, Amsterdam (2007), pp. 807-808
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=ASAP:+An+Advertisement-based+Search+Algorithm+for+Unstructured+Peer-to-peer+Systems+Gu+Wang+Cai">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/33419.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  ASAP: An Advertisement-based Search Algorithm for Unstructured Peer-to-peer
+                  Systems
+                </p>
+                <p>
+                  Peng Gu, Jun Wang, <a href="/pubs/author36275.html">Hailong Cai</a>
+                </p>
+                <p>
+                  Proc. International Conference on Parallel Processing (ICPP), IEEE Computer
+                  Society (2007), pp. 8
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Analyzing+imbalance+among+homogeneous+index+servers+in+a+web+search+system+Badue+Baeza-Yates+Ribeiro-Neto+Ziviani+Ziviani">
+                &nbsp;</a>
+                <p class="pub-title">
+                  Analyzing imbalance among homogeneous index servers in a web search system
+                </p>
+                <p>
+                  Claudine Santos Badue, Ricardo A. Baeza-Yates, <a href=
+                  "/pubs/author2723.html">Berthier A. Ribeiro-Neto</a>, Artur Ziviani, Nivio
+                  Ziviani
+                </p>
+                <p>
+                  Inf. Process. Manage., vol. 43 (2007), pp. 592-608
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Automatic+and+Versatile+Publications+Ranking+for+Research+Institutions+and+Scholars+Ren+Taylor">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/33018.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Automatic and Versatile Publications Ranking for Research Institutions and
+                  Scholars
+                </p>
+                <p>
+                  <a href="/pubs/author9136.html">Jie Ren</a>, Richard N. Taylor
+                </p>
+                <p>
+                  Communications of the ACM, vol. 50, no. 6 (2007), pp. 81-85
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Corroborate+and+learn+facts+from+the+web+Zhao+Betz">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://doi.acm.org/10.1145/1281192.1281299">&nbsp;</a>
+                <p class="pub-title">
+                  Corroborate and learn facts from the web
+                </p>
+                <p>
+                  <a href="/pubs/author17490.html">Shubin Zhao</a>, Jonathan Betz
+                </p>
+                <p>
+                  Proceedings of the 13th ACM SIGKDD international conference on Knowledge
+                  discovery and data mining, ACM, San Jose (2007), pp. 995-1003
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Detecting+near-duplicates+for+web+crawling+Manku+Jain+Das+Sarma">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/33026.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Detecting near-duplicates for web crawling
+                </p>
+                <p>
+                  <a href="/pubs/author3591.html">Gurmeet Singh Manku</a>, <a href=
+                  "/pubs/author35943.html">Arvind Jain</a>, <a href="/pubs/author19995.html">Anish
+                  Das Sarma</a>
+                </p>
+                <p>
+                  WWW 2007 (16th International Conference on the World Wide Web), ACM, Banff, pp.
+                  141-150
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Do+Not+Crawl+in+the+DUST:+Different+URLs+with+Similar+Text+Bar-Yossef+Keidar+Schonfeld">
+                &nbsp;</a>
+                <p class="pub-title">
+                  Do Not Crawl in the DUST: Different URLs with Similar Text
+                </p>
+                <p>
+                  <a href="/pubs/author6593.html">Ziv Bar-Yossef</a>, Idit Keidar, Uri Schonfeld
+                </p>
+                <p>
+                  WWW (2007), pp. 111-120
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Efficient+Search+Engine+Measurements+Bar-Yossef+Gurevich">
+                &nbsp;</a>
+                <p class="pub-title">
+                  Efficient Search Engine Measurements
+                </p>
+                <p>
+                  <a href="/pubs/author6593.html">Ziv Bar-Yossef</a>, <a href=
+                  "/pubs/MaximGurevich.html">Maxim Gurevich</a>
+                </p>
+                <p>
+                  WWW (2007), pp. 401-410
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Efficient+Search+Ranking+in+Social+Networks+Vieira+Fonseca+Damazio+Golgher+Reis+Ribeiro-Neto">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://doi.acm.org/10.1145/1321440.1321520">&nbsp;</a>
+                <p class="pub-title">
+                  Efficient Search Ranking in Social Networks
+                </p>
+                <p>
+                  <a href="/pubs/author18650.html">Monique V. Vieira</a>, <a href=
+                  "/pubs/author11808.html">Bruno M. Fonseca</a>, <a href=
+                  "/pubs/author36256.html">Rodrigo Damazio</a>, <a href=
+                  "/pubs/author2732.html">Paulo B. Golgher</a>, <a href=
+                  "/pubs/author17772.html">Davi de Castro Reis</a>, <a href=
+                  "/pubs/author2723.html">Berthier Ribeiro-Neto</a>
+                </p>
+                <p>
+                  Proc. CIKM, ACM, Lisboa, Portugal (2007)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Google+News+Personalization:+Scalable+Online+Collaborative+Filtering+Das+Datar+Garg+Rajaram">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://doi.acm.org/10.1145/1242572.1242610">&nbsp;</a>
+                <p class="pub-title">
+                  Google News Personalization: Scalable Online Collaborative Filtering
+                </p>
+                <p>
+                  <a href="/pubs/author7822.html">Abhinandan Das</a>, Mayur Datar, Ashutosh Garg,
+                  Shyam Rajaram
+                </p>
+                <p>
+                  Proceedings of WWW 2007, pp. 271-280
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=How+well+does+result+relevance+predict+session+satisfaction?+Huffman+Hochster">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://doi.acm.org/10.1145/1277741.1277839">&nbsp;</a>
+                <p class="pub-title">
+                  How well does result relevance predict session satisfaction?
+                </p>
+                <p>
+                  <a href="/pubs/author6921.html">Scott B. Huffman</a>, Michael Hochster
+                </p>
+                <p>
+                  Proceedings of the 30th annual international ACM SIGIR, ACM, Amsterdam (2007),
+                  pp. 567-574
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Learning+people+annotation+from+the+web+via+consistency+learning+Yagnik+Islam">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://doi.acm.org/10.1145/1290082.1290121">&nbsp;</a>
+                <p class="pub-title">
+                  Learning people annotation from the web via consistency learning
+                </p>
+                <p>
+                  <a href="/pubs/author36197.html">Jay Yagnik</a>, Atig Islam
+                </p>
+                <p>
+                  Proc. international Workshop on Multimedia Information Retrieval, ACM, Augsberg,
+                  Germany (2007), pp. 285-290
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Multiple-Signal+Duplicate+Detection+for+Search+Evaluation+Huffman+Lehman+Stolboushkin+Wong-Toi+Yang+Roehrig">
+                &nbsp;</a>
+                <p class="pub-title">
+                  Multiple-Signal Duplicate Detection for Search Evaluation
+                </p>
+                <p>
+                  <a href="/pubs/author6921.html">Scott Huffman</a>, <a href=
+                  "/pubs/author6607.html">April Lehman</a>, Alexei Stolboushkin, Howard Wong-Toi,
+                  Fan Yang, Hein Roehrig
+                </p>
+                <p>
+                  Proceedings of 30th Annual International ACM SIGIR Conference, ACM (2007), pp.
+                  223-230
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Query+logs+alone+are+not+enough+Grimes+Tang+Russell">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/34431.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Query logs alone are not enough
+                </p>
+                <p>
+                  <a href="/pubs/author31907.html">Carrie Grimes</a>, <a href=
+                  "/pubs/author3770.html">Diane Tang</a>, <a href="/pubs/author173.html">Daniel
+                  Russell</a>
+                </p>
+                <p>
+                  WWW 2007 Workshop on Query Log Analysis: Social and Technological Changes
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Statistical+Machine+Translation+for+Query+Expansion+in+Answer+Retrieval+Riezler+Vasserman+Tsochantaridis+Mittal+Liu">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://www.stefanriezler.com/PAPERS/ACL07.pdf">&nbsp;</a><a class=
+                "abstract-icon tooltip" href="/pubs/pub32707.html">&nbsp;</a>
+                <p class="pub-title">
+                  Statistical Machine Translation for Query Expansion in Answer Retrieval
+                </p>
+                <p>
+                  Stefan Riezler, Alexander Vasserman, <a href="/pubs/author1929.html">Ioannis
+                  Tsochantaridis</a>, Vibhu Mittal, <a href="/pubs/author4723.html">Yi Liu</a>
+                </p>
+                <p>
+                  Proceedings of the 45th Annual Meeting of the Association for Computational
+                  Linguistics (ACL'07), Prague, Czech Republic (2007)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=A+Web-based+Kernel+Function+for+Measuring+the+Similarity+of+Short+Text+Snippets+Sahami+Heilman">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/32.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  A Web-based Kernel Function for Measuring the Similarity of Short Text Snippets
+                </p>
+                <p>
+                  Mehran Sahami, Tim Heilman
+                </p>
+                <p>
+                  Proceedings of the Fifteenth International World Wide Web Conference, Edinburgh,
+                  Scotland (2006), pp. 377-386
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=A+comparative+study+of+citations+and+links+in+document+classification+Couto+Cristo+Gon%22l;a+Cala+Ziviani+Moura+Ribeiro-Neto">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://doi.acm.org/10.1145/1141753.1141766">&nbsp;</a>
+                <p class="pub-title">
+                  A comparative study of citations and links in document classification
+                </p>
+                <p>
+                  Thierson Couto, Marco Cristo, Marcos Andr, P, Nivio Ziviani, Edleno Silva de
+                  Moura, <a href="/pubs/author2723.html">Berthier A. Ribeiro-Neto</a>
+                </p>
+                <p>
+                  JCDL (2006), pp. 75-84
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Browsing+on+Small+Screens:+Recasting+Web-Page+Segmentation+into+an+Efficient+Machine+Learning+Framework+Baluja">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/53.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Browsing on Small Screens: Recasting Web-Page Segmentation into an Efficient
+                  Machine Learning Framework
+                </p>
+                <p>
+                  <a href="/pubs/author35.html">Shumeet Baluja</a>
+                </p>
+                <p>
+                  Proceedings of the Fifteenth International World Wide Web Conference, Edinburgh,
+                  Scotland (2006)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Finding+Near-Duplicate+Web+Pages:+A+Large-Scale+Evaluation+of+Algorithms+Henzinger">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/32686.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Finding Near-Duplicate Web Pages: A Large-Scale Evaluation of Algorithms
+                </p>
+                <p>
+                  Monika Henzinger
+                </p>
+                <p>
+                  Proc. SIGIR, ACM (2006)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Identity+management+on+converged+networks:+a+reality+check+Sahuguet+Brands+Cameron+Conor+Pichelin+Foll+Neuenschwander">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://doi.acm.org/10.1145/1135777.1135887">&nbsp;</a>
+                <p class="pub-title">
+                  Identity management on converged networks: a reality check
+                </p>
+                <p>
+                  <a href="/pubs/author2704.html">Arnaud Sahuguet</a>, Stefan Brands, Kim Cameron,
+                  Cahill Conor, Aude Pichelin, Fulup Ar Foll, Mike Neuenschwander
+                </p>
+                <p>
+                  WWW (2006), pp. 747
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Indexing+Shared+Content+in+Information+Retrieval+Systems+Broder+Eiron+Fontoura+Herscovici+Lempel+McPherson+Qi+Shekita">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/13652.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Indexing Shared Content in Information Retrieval Systems
+                </p>
+                <p>
+                  <a href="/pubs/AndreiBroder.html">Andrei Z. Broder</a>, <a href=
+                  "/pubs/author1102.html">Nadav Eiron</a>, <a href="/pubs/author17919.html">Marcus
+                  Fontoura</a>, Michael Herscovici, Ronny Lempel, John McPherson, Runping Qi,
+                  Eugene J. Shekita
+                </p>
+                <p>
+                  EDBT (2006), pp. 313-330
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Introduction+to+the+special+issue+on+XML+retrieval+Baeza-Yates+Fuhr+Maarek">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/32712.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Introduction to the special issue on XML retrieval
+                </p>
+                <p>
+                  Ricardo Baeza-Yates, Norbert Fuhr, Yoelle Maarek
+                </p>
+                <p>
+                  ACM Transactions on Information Systems, vol. 24 (2006), pp. 405-406
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Learning+to+Advertise+Lacerda+Cristo+Gon%C3%A7alves+Fan+Ziviani+Ribeiro-Neto">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://doi.acm.org/10.1145/1148170.1148265">&nbsp;</a>
+                <p class="pub-title">
+                  Learning to Advertise
+                </p>
+                <p>
+                  Anísio Lacerda, Marco Cristo, Marcos André Gonçalves, Weiguo Fan, Nivio Ziviani,
+                  <a href="/pubs/author2723.html">Berthier Ribeiro-Neto</a>
+                </p>
+                <p>
+                  Proc. SIGIR, ACM Press, Seattle (2006), pp. 549-556
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Retroactive+Answering+of+Search+Queries+Yang+Jeh">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/32708.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Retroactive Answering of Search Queries
+                </p>
+                <p>
+                  <a href="/pubs/author83.html">Beverly Yang</a>, Glen Jeh
+                </p>
+                <p>
+                  Proc. International World Wide Web Conference, ACM, Edinburgh, Scotland (2006),
+                  pp. 457-466
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Semantic+Search+via+XML+Fragments:+A+High+Precision+Approach+to+%7BIR%7D+Chu-Carroll+Prager+Czuba+Ferrucci+Duboue">
+                &nbsp;</a>
+                <p class="pub-title">
+                  Semantic Search via XML Fragments: A High Precision Approach to IR
+                </p>
+                <p>
+                  Jennifer Chu-Carroll, John Prager, <a href="/pubs/author14749.html">Krzysztof
+                  Czuba</a>, David Ferrucci, Pablo Duboue
+                </p>
+                <p>
+                  Proc. 29th ACM SIGIR Conference on Research and Development in Information
+                  Retrieval, ACM, Seattle, WA (2006), pp. 445-452
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=The+Mobile+Web+in+Developing+Countries+Jain">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/34631.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub34631.html">&nbsp;</a>
+                <p class="pub-title">
+                  The Mobile Web in Developing Countries
+                </p>
+                <p>
+                  <a href="/pubs/author139.html">Ravi Jain</a>
+                </p>
+                <p>
+                  W3C Workshop on the Mobile Web in Developing Countries, W3C, W3C (2006)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Using+annotations+in+enterprise+search+Dmitriev+Eiron+Fontoura+Shekita">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/12241.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Using annotations in enterprise search
+                </p>
+                <p>
+                  Pavel A. Dmitriev, <a href="/pubs/author1102.html">Nadav Eiron</a>, <a href=
+                  "/pubs/author17919.html">Marcus Fontoura</a>, Eugene Shekita
+                </p>
+                <p>
+                  WWW (2006), pp. 811-817
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Web+mining+with+search+engines:+A+web-based+kernel+function+for+measuring+the+similarity+of+short+text+snippets+Sahami+Heilman">
+                &nbsp;</a>
+                <p class="pub-title">
+                  Web mining with search engines: A web-based kernel function for measuring the
+                  similarity of short text snippets
+                </p>
+                <p>
+                  Mehran Sahami, Timothy D. Heilman
+                </p>
+                <p>
+                  Proc. 15th International World Wide Web Conference, ACM, Edinburgh, Scotland
+                  (2006), pp. 377-386
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Challenges+in+running+a+commercial+search+engine+Singhal">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/21673.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Challenges in running a commercial search engine
+                </p>
+                <p>
+                  <a href="/pubs/author1461.html">Amit Singhal</a>
+                </p>
+                <p>
+                  SIGIR (2005), pp. 432
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Concept-based+interactive+query+expansion+Fonseca+Golgher+Possas+Ribeiro-Neto+Ziviani">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/13021.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Concept-based interactive query expansion
+                </p>
+                <p>
+                  <a href="/pubs/author11808.html">Bruno M. Fonseca</a>, <a href=
+                  "/pubs/author2732.html">Paulo Braz Golgher</a>, <a href=
+                  "/pubs/BrunoPossas.html">Bruno Possas</a>, <a href=
+                  "/pubs/author2723.html">Berthier A. Ribeiro-Neto</a>, Nivio Ziviani
+                </p>
+                <p>
+                  CIKM (2005), pp. 696-703
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Current+trends+in+the+integration+of+searching+and+browsing+Broder+Maarek+Bharat+Dumais+Papa+Pedersen+Raghavan">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/12195.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Current trends in the integration of searching and browsing
+                </p>
+                <p>
+                  <a href="/pubs/AndreiBroder.html">Andrei Z. Broder</a>, Yoelle S. Maarek, Krishna
+                  Bharat, Susan T. Dumais, Steve Papa, Jan O. Pedersen, <a href=
+                  "/pubs/PrabhakarRaghavan.html">Prabhakar Raghavan</a>
+                </p>
+                <p>
+                  WWW (Special interest tracks and posters) (2005), pp. 793
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Hyperlink+analysis+on+the+world+wide+web+Henzinger">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/9019.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Hyperlink analysis on the world wide web
+                </p>
+                <p>
+                  Monika Rauch Henzinger
+                </p>
+                <p>
+                  Hypertext (2005), pp. 1-3
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Information+Discovery--Needles+and+Haystacks+Lagoze+Singhal">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/7308.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Information Discovery-Needles and Haystacks
+                </p>
+                <p>
+                  Carl Lagoze, <a href="/pubs/author1461.html">Amit Singhal</a>
+                </p>
+                <p>
+                  IEEE Internet Computing, vol. 9 (2005), pp. 16-18
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Thresher:+automating+the+unwrapping+of+semantic+content+from+the+World+Wide+Web+Hogue+Karger">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/42.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Thresher: automating the unwrapping of semantic content from the World Wide Web
+                </p>
+                <p>
+                  Andrew Hogue, David Karger
+                </p>
+                <p>
+                  WWW '05: Proceedings of the 14th international conference on World Wide Web, ACM
+                  Press, New York, NY, USA (2005), pp. 86-95
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Algorithmic+Aspects+of+Web+Search+Engines+Henzinger">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/10580.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Algorithmic Aspects of Web Search Engines
+                </p>
+                <p>
+                  Monika Rauch Henzinger
+                </p>
+                <p>
+                  ESA (2004), pp. 3
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Internet+Searching+Norvig">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://www.norvig.com/InternetSearching.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Internet Searching
+                </p>
+                <p>
+                  <a href="/pubs/author205.html">Peter Norvig</a>
+                </p>
+                <p>
+                  Computer Science: Reflections on the Field, Reflections from the Field, Computer
+                  Science and Telecommunications Board of the National Academies (2004)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=The+Happy+Searcher:+Challenges+in+Web+Information+Retrieval+Sahami+Mittal+Baluja+Rowley">
+                &nbsp;</a>
+                <p class="pub-title">
+                  The Happy Searcher: Challenges in Web Information Retrieval
+                </p>
+                <p>
+                  Mehran Sahami, Vibhu Mittal, <a href="/pubs/author35.html">Shumeet Baluja</a>,
+                  <a href="/pubs/author37.html">Henry A. Rowley</a>
+                </p>
+                <p>
+                  The Eighth Pacific Rim International Conference on Artificial Intelligence
+                  (PRICAI-2004)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=The+Past,+Present+and+Future+of+Web+Information+Retrieval+Henzinger">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/17369.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  The Past, Present and Future of Web Information Retrieval
+                </p>
+                <p>
+                  Monika Rauch Henzinger
+                </p>
+                <p>
+                  PODS (2004), pp. 46
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=The+Past,+Present,+and+Future+of+Web+Search+Engines+Henzinger">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://springerlink.metapress.com/openurl.asp?genre=article&amp;issn=0302-9743&amp;volume=3142&amp;spage=3">&nbsp;</a>
+                <p class="pub-title">
+                  The Past, Present, and Future of Web Search Engines
+                </p>
+                <p>
+                  Monika Rauch Henzinger
+                </p>
+                <p>
+                  ICALP (2004), pp. 3
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Extracting+knowledge+from+the+World+Wide+Web+Henzinger+Lawrence">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/65.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Extracting knowledge from the World Wide Web
+                </p>
+                <p>
+                  Monika Henzinger, Steve Lawrence
+                </p>
+                <p>
+                  Mapping Knowledge Domains, National Academy of Sciences, USA, Irvine, CA (2003)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Patterns+on+the+Web+Bharat">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://www.springerlink.com/content/yd74vevxy48qapj2/">&nbsp;</a>
+                <p class="pub-title">
+                  Patterns on the Web
+                </p>
+                <p>
+                  Krishna Bharat
+                </p>
+                <p>
+                  SPIRE (2003), pp. 1-15
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Query-Free+News+Search+Henzinger+Chang+Milch+Brin">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/64.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Query-Free News Search
+                </p>
+                <p>
+                  Monika Henzinger, <a href="/pubs/author100.html">Bay-Wei Chang</a>, <a href=
+                  "/pubs/author101.html">Brian Milch</a>, <a href="/pubs/SergeyBrin.html">Sergey
+                  Brin</a>
+                </p>
+                <p>
+                  Proceedings of the 12th International World Wide Web Conference (WWW-2003),
+                  Budapest, Hungary
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=eBizSearch:+An+OAI-Compliant+Digital+Library+for+eBusiness+Petinot+Teregowda+Han+Giles+Lawrence+Rangaswamy+Pal">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://csdl.computer.org/comp/proceedings/jcdl/2003/1939/00/19390199abs.htm">&nbsp;</a>
+                <p class="pub-title">
+                  eBizSearch: An OAI-Compliant Digital Library for eBusiness
+                </p>
+                <p>
+                  Yves Petinot, Pradeep B. Teregowda, Hui Han, C. Lee Giles, Steve Lawrence, Arvind
+                  Rangaswamy, Nirmal Pal
+                </p>
+                <p>
+                  JCDL (2003), pp. 199-209
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=eBizSearch:+a+niche+search+engine+for+e-business+Giles+Petinot+Teregowda+Han+Lawrence+Rangaswamy+Pal">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://doi.acm.org/10.1145/860435.860527">&nbsp;</a>
+                <p class="pub-title">
+                  eBizSearch: a niche search engine for e-business
+                </p>
+                <p>
+                  C. Lee Giles, Yves Petinot, Pradeep B. Teregowda, Hui Han, Steve Lawrence, Arvind
+                  Rangaswamy, Nirmal Pal
+                </p>
+                <p>
+                  SIGIR (2003), pp. 413-414
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Modern+Information+Retrieval:+A+Brief+Overview+Singhal">
+                &nbsp;</a>
+                <p class="pub-title">
+                  Modern Information Retrieval: A Brief Overview
+                </p>
+                <p>
+                  <a href="/pubs/author1461.html">Amit Singhal</a>
+                </p>
+                <p>
+                  IEEE Data Eng. Bull., vol. 24 (2001), pp. 35-43
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Who+Links+to+Whom:+Mining+Linkage+between+Web+Sites+Bharat+Chang+Henzinger+Ruhl">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://research.google.com/archive/mininglinkage.html">&nbsp;</a>
+                <p class="pub-title">
+                  Who Links to Whom: Mining Linkage between Web Sites
+                </p>
+                <p>
+                  Krishna Bharat, <a href="/pubs/author100.html">Bay-Wei Chang</a>, Monika
+                  Henzinger, <a href="/pubs/author106.html">Matthias Ruhl</a>
+                </p>
+                <p>
+                  IEEE International Conference on Data Mining (ICDM '01), San Jose, CA (2001)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=A+Comparison+of+Techniques+to+Find+Mirrored+Hosts+on+the+WWW+Bharat+Broder+Dean+Henzinger">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://dx.doi.org/10.1002/1097-4571(2000)9999:9999%3C::AID-ASI1025%3E3.0.CO;2-0">&nbsp;</a>
+                <p class="pub-title">
+                  A Comparison of Techniques to Find Mirrored Hosts on the WWW
+                </p>
+                <p>
+                  Krishna Bharat, <a href="/pubs/AndreiBroder.html">Andrei Z. Broder</a>, <a href=
+                  "/pubs/jeff.html">Jeffrey Dean</a>, Monika Rauch Henzinger
+                </p>
+                <p>
+                  JASIS, vol. 51 (2000), pp. 1114-1122
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=The+Anatomy+of+a+Large-Scale+Hypertextual+Web+Search+Engine+Brin+Page">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/334.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  The Anatomy of a Large-Scale Hypertextual Web Search Engine
+                </p>
+                <p>
+                  <a href="/pubs/SergeyBrin.html">Sergey Brin</a>, <a href=
+                  "/pubs/LawrencePage.html">Lawrence Page</a>
+                </p>
+                <p>
+                  Computer Networks, vol. 30 (1998), pp. 107-117
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="maia-signature"></div>
+    <div class="maia-footer" id="maia-footer">
+      <div id="maia-footer-local">
+        <div class="maia-aux">
+          <ul class="expand no-marker" id="footer-local">
+            <li>
+              <a class="googleplus middle" href=
+              "//plus.google.com/117790530324740296539/posts">Google Plus</a>
+              <p>
+                Thoughts from Google's academic community
+              </p>
+            </li>
+            <li>
+              <a class="twitter middle" href="//twitter.com/googleresearch">Twitter</a>
+              <p>
+                Research at Google announcements
+              </p>
+            </li>
+            <li>
+              <a class="blogger middle" href="//googleresearch.blogspot.com/">Research Blog</a>
+              <p>
+                The latest news from Research at Google
+              </p>
+            </li>
+            <li>
+              <a class="scholar middle" href="//scholar.google.com/">Google Scholar</a>
+              <p>
+                Search for scholarly literature
+              </p>
+            </li>
+            <li>
+              <a class="youtube middle" href=
+              "//www.youtube.com/user/GoogleTechTalks/featured">YouTube Tech Talks</a>
+              <p>
+                Tech talks by leaders in the field
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div id="maia-footer-global">
+        <div class="maia-aux">
+          <ul>
+            <li>
+              <a href="//www.google.com/">Google</a>
+            </li>
+            <li>
+              <a href="//www.google.com/intl/en/about/">About Google</a>
+            </li>
+            <li>
+              <a href="//www.google.com/intl/en/policies/privacy/">Privacy</a>
+            </li>
+            <li>
+              <a href="//www.google.com/intl/en/policies/terms/">Terms</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <script src="//www.google.com/jsapi">
+    </script> 
+    <script src="/js/research.view.js">
+    </script> 
+    <script>
+    var videoUnit= new gweb.ui.LightBox('video-lightbox', 'Some tech-talks in Information Retrieval and the Web');
+  videoUnit.setAnimate(true);
+  videoUnit.setScaleImages(true);
+  videoUnit.setOutsideNav(true);
+  videoUnit.setCloseText('CLOSE');
+  videoUnit.setItemCount(true);
+  videoUnit.init();
+    </script> 
+    <script src="//www.google.com/js/maia.js">
+    </script>
+  </body>
+</html>

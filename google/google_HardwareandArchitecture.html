@@ -1,0 +1,1172 @@
+<!DOCTYPE html>
+<html class="google" lang="en">
+  <head>
+
+    <script>
+    (function(H){H.className=H.className.replace(/\bgoogle\b/,'google-js')})(document.documentElement)
+    </script>
+    <meta charset="utf-8">
+    <meta content="initial-scale=1, minimum-scale=1, width=device-width" name="viewport">
+    <title>
+      Hardware and Architecture - Research at Google
+    </title>
+    <script src="//www.google.com/js/google.js">
+    </script>
+    <script>
+    new gweb.analytics.AutoTrack({profile:"UA-5974346-1"});
+    </script>
+    <link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;lang=en" rel=
+    "stylesheet">
+    <link href="/css/research.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="maia-header" id="maia-header" role="banner">
+      <div class="maia-aux">
+        <h1>
+          <a href="/" id="logo"><img alt="Research at Google" src=
+          "/images/research_at_google.png"></a>
+        </h1><a class="maia-teleport" href="#content">Skip to content</a>
+        <div class="maia-util">
+          <form class="maia-search" id="search" name="search">
+            <input id="q" name="q" placeholder="Search this site" value=""> <input class=
+            "maia-button" type="submit" value="Search">
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="maia-nav maia-complex" id="maia-nav-x" role="navigation">
+      <div class="maia-aux">
+        <ul>
+          <li>
+            <a href="/index.html">Home</a>
+          </li>
+          <li class="active" id="ra">
+            <a href="/pubs/papers.html">Research Areas &amp; Publications</a> <span class=
+            "glyph">&nbsp;</span>
+            <div class="hidden">
+              <ul id="ramenu">
+                <li class="fill">
+                  <a href="/pubs/papers.html">Overview</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/AlgorithmsandTheory.html">Algorithms and Theory</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/DataManagement.html">Data Management</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/DataMiningandModeling.html">Data Mining and Modeling</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/DistributedSystemsandParallelComputing.html">Distributed Systems
+                  and Parallel Computing</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/EconomicsandElectronicCommerce.html">Economics and Electronic
+                  Commerce</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/EducationInnovation.html">Education Innovation</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/GeneralScience.html">General Science</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/HardwareandArchitecture.html">Hardware and Architecture</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/Human-ComputerInteractionandVisualization.html">Human-Computer
+                  Interaction and Visualization</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/InformationRetrievalandtheWeb.html">Information Retrieval and the
+                  Web</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/MachineIntelligence.html">Machine Intelligence</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/MachinePerception.html">Machine Perception</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/MachineTranslation.html">Machine Translation</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/MobileSystems.html">Mobile Systems</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/NaturalLanguageProcessing.html">Natural Language Processing</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/Networking.html">Networking</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/SecurityPrivacyandAbusePrevention.html">Security, Privacy and
+                  Abuse Prevention</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/SoftwareEngineering.html">Software Engineering</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/SoftwareSystems.html">Software Systems</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/SpeechProcessing.html">Speech Processing</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a href="/researchers.html">People</a>
+          </li>
+          <li>
+            <a href="/university/">Research Programs</a>
+          </li>
+          <li>
+            <a href="/workatgoogle.html">Work at Google</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div id="maia-main" role="main">
+      <div class="maia-teleport" id="content"></div>
+      <div id="cse">
+        &nbsp;
+      </div>
+      <h1>
+        Hardware and Architecture
+      </h1>
+      <div class="maia-cols">
+        <div class="maia-col-4">
+          <div>
+            <div class="sidebar">
+              <h2>
+                What We Do
+              </h2>
+              <p>
+                The machinery that powers many of our interactions today -- Web search, social
+                networking, email, video entertaining, shopping, game playing -- is made of the
+                tiniest and the most massive computers. The tiny part is your handheld device,
+                likely a smartphone that is over ten times faster than the 1970s’ iconic Cray-1
+                supercomputer, even if much less stylish. As powerful as it is, your handheld’s
+                main task is simply to interact with you and your environment, while the bulk of
+                your computing needs are implemented as Web services that run on building-sized
+                computing systems that we call Warehouse-scale computers (WSCs).
+              </p>
+              <p>
+                Google's WSCs best represent the meeting of Architecture and Computer Architecture.
+                For the last decade we have been pioneering new technologies in this emerging field
+                and putting it in practice by providing Google's software engineers with a unique
+                computing infrastructure in terms of scale, cost-efficiency, energy-efficiency and
+                speed. The tight collaboration among software, hardware, mechanical, electrical,
+                environmental, thermal and civil engineers result in some of the most impressive
+                and efficient computers in the world.
+              </p>
+              <h2>
+                Related videos
+              </h2><a class="video-small video-lightbox" data-lightbox-caption=
+              "Google container data center tour" data-lightbox-height="480" data-lightbox-width=
+              "853" href="//www.youtube.com/embed/zRwPSFpLX8I?autoplay=1"><img alt=
+              "Google container data center tour" src=
+              "https://i2.ytimg.com/vi/zRwPSFpLX8I/hqdefault.jpg"> <span>&nbsp;</span></a>
+              <p class="caption">
+                Google container data center tour
+              </p><a class="video-small video-lightbox" data-lightbox-caption=
+              "Google's newest data center in Hamina, Finland" data-lightbox-height="480"
+              data-lightbox-width="853" href=
+              "//www.youtube.com/embed/VChOEvKicQQ?autoplay=1"><img alt=
+              "Google's newest data center in Hamina, Finland" src=
+              "https://i2.ytimg.com/vi/VChOEvKicQQ/hqdefault.jpg"> <span>&nbsp;</span></a>
+              <p class="caption">
+                Google's newest data center in Hamina, Finland
+              </p>
+              <p class="fill">
+                <a href="http://www.youtube.com/user/GoogleTechTalks?feature=watch">Google's
+                tech-talk channel on YouTube</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="maia-col-8">
+          <h2>
+            53 Publications
+          </h2>
+          <div class="section">
+            <ul class="pub-list">
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Can+Traditional+Programming+Bridge+the+Ninja+Performance+Gap+for+Parallel+Computing+Applications?+Satish+Kim+Chhugani+Saito+Krishnaiyer+Smelyanskiy+Girkar+Dubey">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://dl.acm.org/citation.cfm?id=2766485.2742910&amp;coll=portal&amp;dl=ACM">&nbsp;</a>
+                <p class="pub-title">
+                  Can Traditional Programming Bridge the Ninja Performance Gap for Parallel
+                  Computing Applications?
+                </p>
+                <p>
+                  Nadathur Satish, <a href="/pubs/ChangkyuKim.html">Changkyu Kim</a>, Jatin
+                  Chhugani, Hideki Saito, Rakesh Krishnaiyer, Mikhail Smelyanskiy, Milind Girkar,
+                  Pradeep Dubey
+                </p>
+                <p>
+                  Communications of the ACM, vol. 58 (2015), pp. 77-86
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Full-Chip+Simulations,+Keys+to+Success+Steinberg">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://www.synopsys.com/news/pubs/snug/2015/silicon-valley/tb04_steinberg_paper.pdf">&nbsp;</a><a class="abstract-icon tooltip"
+                href="/pubs/pub43890.html">&nbsp;</a>
+                <p class="pub-title">
+                  Full-Chip Simulations, Keys to Success
+                </p>
+                <p>
+                  <a href="/pubs/DanSteinberg.html">Dan Steinberg</a>
+                </p>
+                <p>
+                  SNUG Silicon Valley 2015 Proceedings, Silicon Valley
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Heracles:+Improving+Resource+Efficiency+at+Scale+Lo+Cheng+Govindaraju+Ranganathan+Kozyrakis">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/43792.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Heracles: Improving Resource Efficiency at Scale
+                </p>
+                <p>
+                  David Lo, <a href="/pubs/LiqunCheng.html">Liqun Cheng</a>, Rama Govindaraju,
+                  <a href="/pubs/ParthasarathyRanganathan.html">Parthasarathy Ranganathan</a>,
+                  Christos Kozyrakis
+                </p>
+                <p>
+                  Proceedings of the 42th Annual International Symposium on Computer Architecture
+                  (2015)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Author+Retrospective+for+A+NUCA+Substrate+for+Flexible+CMP+Cache+Sharing+Huh+Kim+Shafi+Zhang+Burger+Keckler">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/43343.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Author Retrospective for A NUCA Substrate for Flexible CMP Cache Sharing
+                </p>
+                <p>
+                  Jaehyuk Huh, <a href="/pubs/ChangkyuKim.html">Changkyu Kim</a>, Hazim Shafi,
+                  Lixin Zhang, Doug Burger, Stephen W. Keckler
+                </p>
+                <p>
+                  ICS 25th Anniversary Volume, ACM SIGARCH (2014)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Author+Retrospective+for+Cooperative+Cache+Partitioning+for+Chip+Multiprocessors+Chang+Sohi">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/42476.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Author Retrospective for Cooperative Cache Partitioning for Chip Multiprocessors
+                </p>
+                <p>
+                  <a href="/pubs/JichuanChang.html">Jichuan Chang</a>, Gurindar S Sohi
+                </p>
+                <p>
+                  ICS 25th Anniversary Volume, 2014, ACM SIGARCH
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Dynamically+Detecting+and+Tolerating+IF-Condition+Data+Races+Qi+Muzahid+Ahn+Torrellas">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/42019.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Dynamically Detecting and Tolerating IF-Condition Data Races
+                </p>
+                <p>
+                  <a href="/pubs/ShanxiangQi.html">Shanxiang Qi</a>, Abdullah A. Muzahid, Wonsun
+                  Ahn, Josep Torrellas
+                </p>
+                <p>
+                  International Symposium on High Performance Computer Architecture (HPCA), IEEE
+                  (2014)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=HaPPy:+Hyperthread-aware+Power+Profiling+Dynamically+Zhai+Zhang+Eranian+Tang+Mars">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/42545.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  HaPPy: Hyperthread-aware Power Profiling Dynamically
+                </p>
+                <p>
+                  Yan Zhai, <a href="/pubs/XiaoZhang.html">Xiao Zhang</a>, Stephane Eranian,
+                  Lingjia Tang, Jason Mars
+                </p>
+                <p>
+                  USENIX Annual Technical Conference 2014
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Low-Overhead+Network-on-Chip+Support+for+Location-Oblivious+Task+Placement+Kim+M.M.-J.+Kim+Abts+Marty">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://ieeexplore.ieee.org/xpl/articleDetails.jsp?tp=&amp;arnumber=6319294&amp;queryText%3DLow-overhead+Network-on-chip+Support+for+Location">&nbsp;</a><a class="abstract-icon tooltip"
+                href="/pubs/pub42857.html">&nbsp;</a>
+                <p class="pub-title">
+                  Low-Overhead Network-on-Chip Support for Location-Oblivious Task Placement
+                </p>
+                <p>
+                  Gwangsun Kim, Lee, M.M.-J., John Kim, <a href="/pubs/author36240.html">Dennis
+                  Abts</a>, <a href="/pubs/author36386.html">Michael R. Marty</a>
+                </p>
+                <p>
+                  IEEE Transactions on Computers, vol. Volume 63, Issue 6 (2014), pp. 1487 - 1500
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Near-Data+Processing:+Insights+from+a+MICRO-46+Workshop+Balasubramonian+Chang+Manning+Moreno+Murphy+Nair+Swanson">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/42899.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub42899.html">&nbsp;</a>
+                <p class="pub-title">
+                  Near-Data Processing: Insights from a MICRO-46 Workshop
+                </p>
+                <p>
+                  Rajeev Balasubramonian, <a href="/pubs/JichuanChang.html">Jichuan Chang</a>, Troy
+                  Manning, Jaime H. Moreno, Richard Murphy, Ravi Nair, Steven Swanson
+                </p>
+                <p>
+                  IEEE Micro (Special Issue on Big Data), vol. 34 (2014), pp. 36-43
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Profiling+a+warehouse-scale+computer+Kanev+Darago+Hazelwood+Ranganathan+Moseley+Wei+Brooks">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/44271.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub44271.html">&nbsp;</a>
+                <p class="pub-title">
+                  Profiling a warehouse-scale computer
+                </p>
+                <p>
+                  Svilen Kanev, Juan Darago, Kim Hazelwood, <a href=
+                  "/pubs/ParthasarathyRanganathan.html">Parthasarathy Ranganathan</a>, <a href=
+                  "/pubs/author39194.html">Tipp Moseley</a>, Gu-Yeon Wei, David Brooks
+                </p>
+                <p>
+                  ISCA '15 Proceedings of the 42nd Annual International Symposium on Computer
+                  Architecture, ACM (2014), pp. 158-169
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Security+Vulnerability+in+Processor-Interconnect+Router+Design+Song+Kim+Lee+Abts">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/43448.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub43448.html">&nbsp;</a>
+                <p class="pub-title">
+                  Security Vulnerability in Processor-Interconnect Router Design
+                </p>
+                <p>
+                  WonJun Song, John Kim, Jae W. Lee, <a href="/pubs/author36240.html">Dennis
+                  Abts</a>
+                </p>
+                <p>
+                  Proceedings of the 2014 ACM SIGSAC Conference on Computer and Communications
+                  Security, ACM, New York, NY, pp. 358-368
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=The+Power+of+Smartphones+Want">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/42922.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub42922.html">&nbsp;</a>
+                <p class="pub-title">
+                  The Power of Smartphones
+                </p>
+                <p>
+                  <a href="/pubs/RoyWant.html">Roy Want</a>
+                </p>
+                <p>
+                  IEEE Pervasive Computing, vol. 13-03 (2014), pp. 76-79
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Towards+Energy+Proportionality+for+Large-Scale+Latency-Critical+Workloads+Lo+Cheng+Govindaraju+Barroso+Kozyrakis">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/42523.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub42523.html">&nbsp;</a>
+                <p class="pub-title">
+                  Towards Energy Proportionality for Large-Scale Latency-Critical Workloads
+                </p>
+                <p>
+                  David Lo, <a href="/pubs/LiqunCheng.html">Liqun Cheng</a>, Rama Govindaraju,
+                  <a href="/pubs/LuizBarroso.html">Luiz André Barroso</a>, Christos Kozyrakis
+                </p>
+                <p>
+                  Proceedings of the 41th Annual International Symposium on Computer Architecture,
+                  ACM (2014)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=A+Green+Display+for+the+Internet+Foo+Hamburgen+Zhuang">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/41605.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub41605.html">&nbsp;</a>
+                <p class="pub-title">
+                  A Green Display for the Internet
+                </p>
+                <p>
+                  Ken Foo, Bill Hamburgen, Jim Zhuang
+                </p>
+                <p>
+                  Renewable Energy and the Environment, Optical Society of America (2013)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Concurrency-aware+compiler+optimizations+for+hardware+description+languages+Somakumar">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/41415.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub41415.html">&nbsp;</a>
+                <p class="pub-title">
+                  Concurrency-aware compiler optimizations for hardware description languages
+                </p>
+                <p>
+                  Harikumar Somakumar
+                </p>
+                <p>
+                  ACM Transactions on Design Automation of Electronic Systems (TODAES), vol. Volume
+                  18, Issue 1 (2013), 10:1-10:16
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Optimizing+Google's+Warehouse+Scale+Computers:+The+NUMA+Experience+Tang+Mars+Zhang+Hagmann+Hundt+Tune">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/40691.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Optimizing Google's Warehouse Scale Computers: The NUMA Experience
+                </p>
+                <p>
+                  Lingjia Tang, Jason Mars, <a href="/pubs/XiaoZhang.html">Xiao Zhang</a>, Robert
+                  Hagmann, <a href="/pubs/author38135.html">Robert Hundt</a>, <a href=
+                  "/pubs/EricTune.html">Eric Tune</a>
+                </p>
+                <p>
+                  The 19th IEEE International Symposium on High Performance Computer Architecture
+                  (2013)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=The+Datacenter+as+a+Computer:+An+Introduction+to+the+Design+of+Warehouse-Scale+Machines,+Second+Edition+Barroso+Clidaras+Holzle">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://dx.doi.org/10.2200/S00516ED2V01Y201306CAC024">&nbsp;</a><a class=
+                "abstract-icon tooltip" href="/pubs/pub41606.html">&nbsp;</a>
+                <p class="pub-title">
+                  The Datacenter as a Computer: An Introduction to the Design of Warehouse-Scale
+                  Machines, Second Edition
+                </p>
+                <p>
+                  <a href="/pubs/LuizBarroso.html">Luiz André Barroso</a>, Jimmy Clidaras, <a href=
+                  "/pubs/author79.html">Urs Hölzle</a>
+                </p>
+                <p>
+                  Morgan &amp; Claypool Publishers (2013)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Whare-Map:+Heterogeneity+in+%E2%80%9CHomogeneous%E2%80%9D+Warehouse-Scale+Computers+Mars+Tang+Hundt">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/41187.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub41187.html">&nbsp;</a>
+                <p class="pub-title">
+                  Whare-Map: Heterogeneity in “Homogeneous” Warehouse-Scale Computers
+                </p>
+                <p>
+                  Jason Mars, Lingjia Tang, <a href="/pubs/author38135.html">Robert Hundt</a>
+                </p>
+                <p>
+                  Proceedings of the 2013 ACM/IEEE International Symposium on Computer Architecture
+                  (ISCA), IEEE (to appear)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=A+Fault+Detection+and+Protection+Scheme+for+Three-Level+DC%E2%80%93DC+Converters+Based+on+Monitoring+Flying+Capacitor+Voltage+Sheng+Wang+Tipton">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/39976.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub39976.html">&nbsp;</a>
+                <p class="pub-title">
+                  A Fault Detection and Protection Scheme for Three-Level DC–DC Converters Based on
+                  Monitoring Flying Capacitor Voltage
+                </p>
+                <p>
+                  <a href="/pubs/HonggangSheng.html">Honggang Sheng</a>, Fred Wang, C.W. Tipton
+                </p>
+                <p>
+                  IEEE Transactions on Power Electronics, vol. 27 (2012), pp. 685-697
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=ADEL:+An+automatic+detector+of+energy+leaks+for+smartphone+applications+Zhang+Gordon+Dick+Mao+Dinda+Yang">
+                &nbsp;</a>
+                <p class="pub-title">
+                  ADEL: An automatic detector of energy leaks for smartphone applications
+                </p>
+                <p>
+                  Lide Zhang, M. S. Gordon, Robert P. Dick, Z. Morley Mao, Peter Dinda, <a href=
+                  "/pubs/LeiYang.html">Lei Yang</a>
+                </p>
+                <p>
+                  Proceeding of International Conference on Hardware/Software Codesign and System
+                  Synthesis, (2012) (to appear)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Accelerator+Compiler+for+the+VENICE+Vector+Processor+Liu+Severance+Lemieux+Singh">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/37671.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub37671.html">&nbsp;</a>
+                <p class="pub-title">
+                  Accelerator Compiler for the VENICE Vector Processor
+                </p>
+                <p>
+                  Zhiduo Liu, Aaron Severance, Guy G.F. Lemieux, <a href=
+                  "/pubs/SatnamSingh.html">Satnam Singh</a>
+                </p>
+                <p>
+                  FPGA, ACM (2012)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Managing+Distributed+UPS+Energy+for+Effective+Power+Capping+in+Data+Centers+Kontorinis+Zhang+Aksanli+Sampson+Homayoun+Pettis+Tullsen+Rosing">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/39964.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub39964.html">&nbsp;</a>
+                <p class="pub-title">
+                  Managing Distributed UPS Energy for Effective Power Capping in Data Centers
+                </p>
+                <p>
+                  Vasileios Kontorinis, Liuyi Eric Zhang, Baris Aksanli, Jack Sampson, Houman
+                  Homayoun, <a href="/pubs/EddiePettis.html">Eddie Pettis</a>, Dean M. Tullsen,
+                  Tajana Simunic Rosing
+                </p>
+                <p>
+                  International Symposium on Computer Architecture (2012), pp. 488-499
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Resource-bounded+multicore+emulation+using+Beefarm+Arcas+Sonmez+Sayilar+Singh+Unsal+Cristal+Hur+Valero">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://www.sciencedirect.com/science/article/pii/S0141933112000920">&nbsp;</a><a class="abstract-icon tooltip"
+                href="/pubs/pub40366.html">&nbsp;</a>
+                <p class="pub-title">
+                  Resource-bounded multicore emulation using Beefarm
+                </p>
+                <p>
+                  Oriol Arcas, Nehir Sonmez, Gokhan Sayilar, <a href=
+                  "/pubs/SatnamSingh.html">Satnam Singh</a>, Osman S. Unsal, Adrian Cristal,
+                  Ibrahim Hur, Mateo Valero
+                </p>
+                <p>
+                  Microprocessors and Microsystems (2012)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Runtime+adaptation:+a+case+for+reactive+code+alignment+McDaniel+Hazelwood">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://doi.acm.org/10.1145/2185475.2185476">&nbsp;</a><a class=
+                "abstract-icon tooltip" href="/pubs/pub38226.html">&nbsp;</a>
+                <p class="pub-title">
+                  Runtime adaptation: a case for reactive code alignment
+                </p>
+                <p>
+                  Michelle McDaniel, Kim Hazelwood
+                </p>
+                <p>
+                  Proceedings of the 2nd International Workshop on Adaptive Self-Tuning Computing
+                  Systems for the Exaflop Era, ACM, New York, NY, USA (2012), pp. 1-11
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Bubble-Up:+Increasing+Utilization+In+Modern+Warehouse+Scale+Computers+Via+Sensible+Co-Locations+Mars+Tang+Hundt+Skadron+Souffa">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/37675.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub37675.html">&nbsp;</a>
+                <p class="pub-title">
+                  Bubble-Up: Increasing Utilization In Modern Warehouse Scale Computers Via
+                  Sensible Co-Locations
+                </p>
+                <p>
+                  Jason Mars, Linjia Tang, <a href="/pubs/author38135.html">Robert Hundt</a>, Kevin
+                  Skadron, Mary Lou Souffa
+                </p>
+                <p>
+                  Proceedings of the 44th Annual IEEE/ACM International Symposium on
+                  Microarchitecture, 2011, IEEE, New York, NY, USA
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Dynamic+cache+contention+detection+in+multi-threaded+applications+Zhao+Koh+Raza+Bruening+Wong">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/37659.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub37659.html">&nbsp;</a>
+                <p class="pub-title">
+                  Dynamic cache contention detection in multi-threaded applications
+                </p>
+                <p>
+                  Qin Zhao, David Koh, Syed Raza, <a href="/pubs/author58045.html">Derek
+                  Bruening</a>, Weng-Fai Wong
+                </p>
+                <p>
+                  VEE 2011; Proceedings of the 7th ACM SIGPLAN/SIGOPS International conference on
+                  virtual execution environments, ACM, New York, NY, pp. 27-37
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=FAWN:+a+fast+array+of+wimpy+nodes:+technical+perspective+Barroso">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/40495.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  FAWN: a fast array of wimpy nodes: technical perspective
+                </p>
+                <p>
+                  <a href="/pubs/LuizBarroso.html">Luiz André Barroso</a>
+                </p>
+                <p>
+                  Communications of the ACM, vol. 54 (2011), pp. 100-100
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Heterogeneity+in+%E2%80%9CHomogeneous%E2%80%9D+Warehouse-Scale+Computers:+A+Performance+Opportunity+Mars+Tang+Hundt">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://www.computer.org/csdl/letters/ca/2011/02/lca2011020029-abs.html">&nbsp;</a><a class="abstract-icon tooltip"
+                href="/pubs/pub37676.html">&nbsp;</a>
+                <p class="pub-title">
+                  Heterogeneity in “Homogeneous” Warehouse-Scale Computers: A Performance
+                  Opportunity
+                </p>
+                <p>
+                  Jason Mars, Lingjia Tang, <a href="/pubs/author38135.html">Robert Hundt</a>
+                </p>
+                <p>
+                  IEEE Computer Architecture Letters (CAL), vol. Vol. 10 No. 2 (2011), pp. 29-32
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=High+Performance+Datacenter+Networks:+Architectures,+Algorithms,+and+Opportunities+Abts+Kim">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/37069.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub37069.html">&nbsp;</a>
+                <p class="pub-title">
+                  High Performance Datacenter Networks: Architectures, Algorithms, and
+                  Opportunities
+                </p>
+                <p>
+                  <a href="/pubs/author36240.html">Dennis Abts</a>, John Kim
+                </p>
+                <p>
+                  Morgan &amp; Claypool, San Rafael, California (2011)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Power+Management+of+Online+Data-Intensive+Services+Meisner+Sadler+Barroso+Weber+Wenisch">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/37062.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub37062.html">&nbsp;</a>
+                <p class="pub-title">
+                  Power Management of Online Data-Intensive Services
+                </p>
+                <p>
+                  David Meisner, <a href="/pubs/ChrisSadler.html">Christopher M. Sadler</a>,
+                  <a href="/pubs/LuizBarroso.html">Luiz André Barroso</a>, <a href=
+                  "/pubs/author10649.html">Wolf-Dietrich Weber</a>, Thomas F. Wenisch
+                </p>
+                <p>
+                  Proceedings of the 38th ACM International Symposium on Computer Architecture
+                  (2011)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Simultaneous+Technology+Mapping+and+Placement+for+Delay+Minimization+Liu+Shelar+Hu">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/42859.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub42859.html">&nbsp;</a>
+                <p class="pub-title">
+                  Simultaneous Technology Mapping and Placement for Delay Minimization
+                </p>
+                <p>
+                  Yifang Liu, Rupesh S. Shelar, Jiang Hu
+                </p>
+                <p>
+                  IEEE TRANSACTIONS ON COMPUTER-AIDED DESIGN OF INTEGRATED CIRCUITS AND SYSTEMS,
+                  vol. 30 (2011), pp. 416-426
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=The+Cray+XT4+and+Seastar+3-D+Torus+Interconnect+Abts">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/36896.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub36896.html">&nbsp;</a>
+                <p class="pub-title">
+                  The Cray XT4 and Seastar 3-D Torus Interconnect
+                </p>
+                <p>
+                  <a href="/pubs/author36240.html">Dennis Abts</a>
+                </p>
+                <p>
+                  Encyclopedia of Parallel Computing, Springer (2011)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=The+Future+of+Computing+Performance:+Game+Over+or+Next+Level?+Fuller+Barroso+Colwell+Dally+Dobberpuhl+Dubey+Hill+Horowitz+Kirk+Lam+McKinley+Moore+Yelick">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://www.nap.edu/catalog.php?record_id=12980">&nbsp;</a><a class=
+                "abstract-icon tooltip" href="/pubs/pub40496.html">&nbsp;</a>
+                <p class="pub-title">
+                  The Future of Computing Performance: Game Over or Next Level?
+                </p>
+                <p>
+                  Samuel H. Fuller, <a href="/pubs/LuizBarroso.html">Luiz André Barroso</a>, Robert
+                  P. Colwell, William J. Dally, Dan Dobberpuhl, Pradeep Dubey, Mark D. Hill, Mark
+                  Horowitz, David Kirk, Monica Lam, Kathryn S. McKinley, Charles Moore, Katherine
+                  Yelick
+                </p>
+                <p>
+                  The National Academies Press (2011), pp. 200
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=The+Impact+of+Memory+Subsystem+Resource+Sharing+on+Datacenter+Applications+Tang+Mars+Vachharajani+Hundt+Souffa">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/37124.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub37124.html">&nbsp;</a>
+                <p class="pub-title">
+                  The Impact of Memory Subsystem Resource Sharing on Datacenter Applications
+                </p>
+                <p>
+                  Lingjia Tang, Jason Mars, Neil Vachharajani, <a href=
+                  "/pubs/author38135.html">Robert Hundt</a>, Mary-Lou Soffa
+                </p>
+                <p>
+                  ISCA, ACM (2011)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Accurate+Online+Power+Estimation+and+Automatic+Battery+Behavior+Based+Power+Model+Generation+for+Smartphones+Zhang+Tiwana+Qian+Wang+Dick+Mao+Yang">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/39990.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub39990.html">&nbsp;</a>
+                <p class="pub-title">
+                  Accurate Online Power Estimation and Automatic Battery Behavior Based Power Model
+                  Generation for Smartphones
+                </p>
+                <p>
+                  Lide Zhang, Birjodh Tiwana, Zhiyun Qian, Zhaoguang Wang, Robert P. Dick, Z.
+                  Morley Mao, <a href="/pubs/LeiYang.html">Lei Yang</a>
+                </p>
+                <p>
+                  Proceeding of Internation Conference on Hardware/Software Codesign and System
+                  Synthesis (2010), pp. 105-114
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Brawny+cores+still+beat+wimpy+cores,+most+of+the+time+Holzle">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/36448.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Brawny cores still beat wimpy cores, most of the time
+                </p>
+                <p>
+                  <a href="/pubs/author79.html">Urs Hölzle</a>
+                </p>
+                <p>
+                  IEEE MICRO (2010)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Efficient+Topologies+for+Large-Scale+Cluster+Networks+Kim+Dally+Abts">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/36740.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub36740.html">&nbsp;</a>
+                <p class="pub-title">
+                  Efficient Topologies for Large-Scale Cluster Networks
+                </p>
+                <p>
+                  John Kim, William J. Dally, <a href="/pubs/author36240.html">Dennis Abts</a>
+                </p>
+                <p>
+                  2010 Conference on OFC/NFOEC, IEEE, pp. 1-3
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Energy+Proportional+Datacenter+Networks+Abts+Marty+Wells+Klausler+Liu">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/36462.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub36462.html">&nbsp;</a>
+                <p class="pub-title">
+                  Energy Proportional Datacenter Networks
+                </p>
+                <p>
+                  <a href="/pubs/author36240.html">Dennis Abts</a>, <a href=
+                  "/pubs/author36386.html">Mike Marty</a>, <a href="/pubs/author38014.html">Philip
+                  Wells</a>, Peter Klausler, <a href="/pubs/author3723.html">Hong Liu</a>
+                </p>
+                <p>
+                  Proceedings of the International Symposium on Computer Architecture, ACM (2010),
+                  pp. 338-347
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Probabilistic+Distance-based+Arbitration:+Providing+Equality+of+Service+for+Many-core+CMPs+Lee+Kim+Abts+Marty+Lee">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/36897.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub36897.html">&nbsp;</a>
+                <p class="pub-title">
+                  Probabilistic Distance-based Arbitration: Providing Equality of Service for
+                  Many-core CMPs
+                </p>
+                <p>
+                  Michael M. Lee, John Kim, <a href="/pubs/author36240.html">Dennis Abts</a>,
+                  <a href="/pubs/author36386.html">Michael Marty</a>, Jae W. Lee
+                </p>
+                <p>
+                  MICRO43: Proceedings of the 43rd Annual International Symposium on
+                  Microarchitecture, IEEE/ACM (2010)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Scalable+Thread+Scheduling+and+Global+Power+Management+for+Heterogeneous+Many-Core+Architectures+Winter+Albonesi+Shoemaker">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/36755.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub36755.html">&nbsp;</a>
+                <p class="pub-title">
+                  Scalable Thread Scheduling and Global Power Management for Heterogeneous
+                  Many-Core Architectures
+                </p>
+                <p>
+                  Jonathan A. Winter, David H. Albonesi, Christine A. Shoemaker
+                </p>
+                <p>
+                  Proceedings of the Nineteenth International Conference on Parallel Architectures
+                  and Compilation Techniques (PACT), Association for Computing Machinery, 2 Penn
+                  Plaza, Suite 701, New York, NY, 10121-0701 (2010), pp. 29-39
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Warehouse+Scale+Computing+-+A+keynote+address+to+SIGMOD'10+Barroso">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://dl.acm.org/citation.cfm?id=1837133">&nbsp;</a>
+                <p class="pub-title">
+                  Warehouse Scale Computing - A keynote address to SIGMOD'10
+                </p>
+                <p>
+                  <a href="/pubs/LuizBarroso.html">Luiz André Barroso</a>
+                </p>
+                <p>
+                  Proceedings of the 2010 ACM SIGMOD International Conference on Management of data
+                  (2010)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Achieving+Predictable+Performance+through+Better+Memory+Controller+Placement+in+Many-Core+CMPs+Abts+Jerger+Kim+Gibson+Lipasti">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/35156.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub35156.html">&nbsp;</a>
+                <p class="pub-title">
+                  Achieving Predictable Performance through Better Memory Controller Placement in
+                  Many-Core CMPs
+                </p>
+                <p>
+                  <a href="/pubs/author36240.html">Dennis Abts</a>, Natalie Engright Jerger, John
+                  Kim, Dan Gibson, Mikko Lipasti
+                </p>
+                <p>
+                  Proceedings of the International Symposium on Computer Architecture, ACM (2009)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Dynamic+Heterogeneity+and+the+Need+for+Multicore+Virtualization+Wells+Chakraborty+Sohi">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://doi.acm.org/10.1145/1531793.1531797">&nbsp;</a>
+                <p class="pub-title">
+                  Dynamic Heterogeneity and the Need for Multicore Virtualization
+                </p>
+                <p>
+                  <a href="/pubs/author38014.html">Philip M Wells</a>, Koushik Chakraborty,
+                  Gurindar S Sohi
+                </p>
+                <p>
+                  ACM SIGOPS Operating Systems Review, vol. 43 (2009), pp. 5-14
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=The+Datacenter+as+a+Computer:+An+Introduction+to+the+Design+of+Warehouse-Scale+Machines+Barroso+Holzle">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://dx.doi.org/10.2200/S00193ED1V01Y200905CAC006">&nbsp;</a><a class=
+                "abstract-icon tooltip" href="/pubs/pub35290.html">&nbsp;</a>
+                <p class="pub-title">
+                  The Datacenter as a Computer: An Introduction to the Design of Warehouse-Scale
+                  Machines
+                </p>
+                <p>
+                  <a href="/pubs/LuizBarroso.html">Luiz André Barroso</a>, <a href=
+                  "/pubs/author79.html">Urs Hölzle</a>
+                </p>
+                <p>
+                  Morgan &amp; Claypool Publishers (2009)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Amdahl's+Law+in+the+Multicore+Era+Hill+Marty">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/34400.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub34400.html">&nbsp;</a>
+                <p class="pub-title">
+                  Amdahl's Law in the Multicore Era
+                </p>
+                <p>
+                  Mark D. Hill, <a href="/pubs/author36386.html">Michael R. Marty</a>
+                </p>
+                <p>
+                  IEEE Computer, vol. 41 (2008), pp. 33-38
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Incrementally+Parallelizing+Database+Transactions+with+Thread-Level+Speculation+Colohan+Ailamaki+Steffan+Mowry">
+                &nbsp;</a>
+                <p class="pub-title">
+                  Incrementally Parallelizing Database Transactions with Thread-Level Speculation
+                </p>
+                <p>
+                  <a href="/pubs/author90.html">Christopher B. Colohan</a>, Anastassia Ailamaki, J.
+                  Gregory Steffan, Todd C. Mowry
+                </p>
+                <p>
+                  ACM Transactions on Computer Systems (TOCS), vol. 26 (2008)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Technology-Driven,+Highly-Scalable+Dragonfly+Topology+Kim+Dally+Scott+Abts">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/34926.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub34926.html">&nbsp;</a>
+                <p class="pub-title">
+                  Technology-Driven, Highly-Scalable Dragonfly Topology
+                </p>
+                <p>
+                  John Kim, William J. Dally, Steve Scott, <a href="/pubs/author36240.html">Dennis
+                  Abts</a>
+                </p>
+                <p>
+                  Proceedings of the 35th International Symposium on Computer Architecture, IEEE
+                  Computer Society, Washington, DC USA (2008), pp. 77-88
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=All+Watts+Considered+Barroso">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/33340.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  All Watts Considered
+                </p>
+                <p>
+                  <a href="/pubs/LuizBarroso.html">Luiz Andre Barroso</a>
+                </p>
+                <p>
+                  Keynote address, International Symposium on Low Power Electronics and Design,
+                  ACM, Portland, OR (2007)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Power+Provisioning+for+a+Warehouse-sized+Computer+Fan+Weber+Barroso">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://research.google.com/archive/power_provisioning.pdf">&nbsp;</a><a class=
+                "abstract-icon tooltip" href="/pubs/pub32980.html">&nbsp;</a>
+                <p class="pub-title">
+                  Power Provisioning for a Warehouse-sized Computer
+                </p>
+                <p>
+                  <a href="/pubs/author18272.html">Xiaobo Fan</a>, <a href=
+                  "/pubs/author10649.html">Wolf-Dietrich Weber</a>, <a href=
+                  "/pubs/LuizBarroso.html">Luiz André Barroso</a>
+                </p>
+                <p>
+                  The 34th ACM International Symposium on Computer Architecture (2007)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=The+Case+for+Energy-Proportional+Computing+Barroso+Holzle">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/33387.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub33387.html">&nbsp;</a>
+                <p class="pub-title">
+                  The Case for Energy-Proportional Computing
+                </p>
+                <p>
+                  <a href="/pubs/LuizBarroso.html">Luiz André Barroso</a>, <a href=
+                  "/pubs/author79.html">Urs Hölzle</a>
+                </p>
+                <p>
+                  IEEE Computer, vol. 40 (2007)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=High-efficiency+power+supplies+for+home+computers+and+servers+Holzle+Weihl">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://services.google.com/blog_resources/PSU_white_paper.pdf">&nbsp;</a><a class=
+                "abstract-icon tooltip" href="/pubs/pub32467.html">&nbsp;</a>
+                <p class="pub-title">
+                  High-efficiency power supplies for home computers and servers
+                </p>
+                <p>
+                  <a href="/pubs/author79.html">Urs Hölzle</a>, Bill Weihl
+                </p>
+                <p>
+                  Google (2006), pp. 1-3
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=The+Price+of+Performance:+An+Economic+Case+for+Chip+Multiprocessing+Barroso">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/50.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  The Price of Performance: An Economic Case for Chip Multiprocessing
+                </p>
+                <p>
+                  <a href="/pubs/LuizBarroso.html">Luiz Andre Barroso</a>
+                </p>
+                <p>
+                  ACM Queue, vol. 3 (2005), pp. 48-53
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=A+Model+for+Battery+Lifetime+Analysis+for+Organizing+%09%09+Applications+on+a+Pocket+Computer+Rakhmatov+Vrudhula+Wallach">
+                &nbsp;</a>
+                <p class="pub-title">
+                  A Model for Battery Lifetime Analysis for Organizing Applications on a Pocket
+                  Computer
+                </p>
+                <p>
+                  Daler N. Rakhmatov, Sarma B. K. Vrudhula, Deborah A. Wallach
+                </p>
+                <p>
+                  IEEE Transactions on Very Large Scale Integration Systems, vol. 11 (2003), pp.
+                  1019-1030
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="maia-signature"></div>
+    <div class="maia-footer" id="maia-footer">
+      <div id="maia-footer-local">
+        <div class="maia-aux">
+          <ul class="expand no-marker" id="footer-local">
+            <li>
+              <a class="googleplus middle" href=
+              "//plus.google.com/117790530324740296539/posts">Google Plus</a>
+              <p>
+                Thoughts from Google's academic community
+              </p>
+            </li>
+            <li>
+              <a class="twitter middle" href="//twitter.com/googleresearch">Twitter</a>
+              <p>
+                Research at Google announcements
+              </p>
+            </li>
+            <li>
+              <a class="blogger middle" href="//googleresearch.blogspot.com/">Research Blog</a>
+              <p>
+                The latest news from Research at Google
+              </p>
+            </li>
+            <li>
+              <a class="scholar middle" href="//scholar.google.com/">Google Scholar</a>
+              <p>
+                Search for scholarly literature
+              </p>
+            </li>
+            <li>
+              <a class="youtube middle" href=
+              "//www.youtube.com/user/GoogleTechTalks/featured">YouTube Tech Talks</a>
+              <p>
+                Tech talks by leaders in the field
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div id="maia-footer-global">
+        <div class="maia-aux">
+          <ul>
+            <li>
+              <a href="//www.google.com/">Google</a>
+            </li>
+            <li>
+              <a href="//www.google.com/intl/en/about/">About Google</a>
+            </li>
+            <li>
+              <a href="//www.google.com/intl/en/policies/privacy/">Privacy</a>
+            </li>
+            <li>
+              <a href="//www.google.com/intl/en/policies/terms/">Terms</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <script src="//www.google.com/jsapi">
+    </script> 
+    <script src="/js/research.view.js">
+    </script> 
+    <script>
+    var videoUnit= new gweb.ui.LightBox('video-lightbox', 'Some tech-talks in Hardware and Architecture');
+  videoUnit.setAnimate(true);
+  videoUnit.setScaleImages(true);
+  videoUnit.setOutsideNav(true);
+  videoUnit.setCloseText('CLOSE');
+  videoUnit.setItemCount(true);
+  videoUnit.init();
+    </script> 
+    <script src="//www.google.com/js/maia.js">
+    </script>
+  </body>
+</html>

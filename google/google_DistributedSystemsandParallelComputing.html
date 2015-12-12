@@ -1,0 +1,2758 @@
+<!DOCTYPE html>
+<html class="google" lang="en">
+  <head>
+
+    <script>
+    (function(H){H.className=H.className.replace(/\bgoogle\b/,'google-js')})(document.documentElement)
+    </script>
+    <meta charset="utf-8">
+    <meta content="initial-scale=1, minimum-scale=1, width=device-width" name="viewport">
+    <title>
+      Distributed Systems and Parallel Computing - Research at Google
+    </title>
+    <script src="//www.google.com/js/google.js">
+    </script>
+    <script>
+    new gweb.analytics.AutoTrack({profile:"UA-5974346-1"});
+    </script>
+    <link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;lang=en" rel=
+    "stylesheet">
+    <link href="/css/research.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="maia-header" id="maia-header" role="banner">
+      <div class="maia-aux">
+        <h1>
+          <a href="/" id="logo"><img alt="Research at Google" src=
+          "/images/research_at_google.png"></a>
+        </h1><a class="maia-teleport" href="#content">Skip to content</a>
+        <div class="maia-util">
+          <form class="maia-search" id="search" name="search">
+            <input id="q" name="q" placeholder="Search this site" value=""> <input class=
+            "maia-button" type="submit" value="Search">
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="maia-nav maia-complex" id="maia-nav-x" role="navigation">
+      <div class="maia-aux">
+        <ul>
+          <li>
+            <a href="/index.html">Home</a>
+          </li>
+          <li class="active" id="ra">
+            <a href="/pubs/papers.html">Research Areas &amp; Publications</a> <span class=
+            "glyph">&nbsp;</span>
+            <div class="hidden">
+              <ul id="ramenu">
+                <li class="fill">
+                  <a href="/pubs/papers.html">Overview</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/AlgorithmsandTheory.html">Algorithms and Theory</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/DataManagement.html">Data Management</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/DataMiningandModeling.html">Data Mining and Modeling</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/DistributedSystemsandParallelComputing.html">Distributed Systems
+                  and Parallel Computing</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/EconomicsandElectronicCommerce.html">Economics and Electronic
+                  Commerce</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/EducationInnovation.html">Education Innovation</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/GeneralScience.html">General Science</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/HardwareandArchitecture.html">Hardware and Architecture</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/Human-ComputerInteractionandVisualization.html">Human-Computer
+                  Interaction and Visualization</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/InformationRetrievalandtheWeb.html">Information Retrieval and the
+                  Web</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/MachineIntelligence.html">Machine Intelligence</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/MachinePerception.html">Machine Perception</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/MachineTranslation.html">Machine Translation</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/MobileSystems.html">Mobile Systems</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/NaturalLanguageProcessing.html">Natural Language Processing</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/Networking.html">Networking</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/SecurityPrivacyandAbusePrevention.html">Security, Privacy and
+                  Abuse Prevention</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/SoftwareEngineering.html">Software Engineering</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/SoftwareSystems.html">Software Systems</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/SpeechProcessing.html">Speech Processing</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a href="/researchers.html">People</a>
+          </li>
+          <li>
+            <a href="/university/">Research Programs</a>
+          </li>
+          <li>
+            <a href="/workatgoogle.html">Work at Google</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div id="maia-main" role="main">
+      <div class="maia-teleport" id="content"></div>
+      <div id="cse">
+        &nbsp;
+      </div>
+      <h1>
+        Distributed Systems and Parallel Computing
+      </h1>
+      <div class="maia-cols">
+        <div class="maia-col-4">
+          <div>
+            <div class="sidebar">
+              <h2>
+                What We Do
+              </h2>
+              <p>
+                No matter how powerful individual computers become, there are still reasons to
+                harness the power of multiple computational units, often spread across large
+                geographic areas. Sometimes this is motivated by the need to collect data from
+                widely dispersed locations (e.g., web pages from servers, or sensors for weather or
+                traffic). Other times it is motivated by the need to perform enormous computations
+                that simply cannot be done by a single CPU. These are the primary motivations for
+                the fields of distributed systems and parallel computing, respectively, though the
+                two motivations often arise together. The study of distributed systems and parallel
+                computing gives rise to unusual problems in concurrency control, fault tolerance,
+                algorithmic efficiency, and communication. Some of the research involves answering
+                fundamental theoretical questions of the field, while other researchers are engaged
+                in the construction of systems to operate at the largest possible scale.
+              </p>
+              <p>
+                From its early days, Google has had to deal with such problems in the
+                implementation and operation of a search engine. In the era of “big data”, no
+                single machine can be expected to handle the volume of information and processing
+                required to fulfill Google’s mission “to organize the world’s information and make
+                it universally accessible and useful”.
+              </p>
+              <p class="fill">
+                <a href="http://www.youtube.com/user/GoogleTechTalks?feature=watch">Google's
+                tech-talk channel on YouTube</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="maia-col-8">
+          <h2>
+            148 Publications
+          </h2>
+          <div class="section">
+            <ul class="pub-list">
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Distributed+Balanced+Partitioning+via+Linear+Embedding+Aydin+Bateni+Mirrokni">
+                &nbsp;</a><a class="abstract-icon tooltip" href="/pubs/pub44315.html">&nbsp;</a>
+                <p class="pub-title">
+                  Distributed Balanced Partitioning via Linear Embedding
+                </p>
+                <p>
+                  Kevin Aydin, <a href="/pubs/bateni.html">Mohammadhossein Bateni</a>, <a href=
+                  "/pubs/mirrokni.html">Vahab Mirrokni</a>
+                </p>
+                <p>
+                  WSDM 2016: Ninth ACM International Conference on Web Search and Data Mining, ACM
+                  (to appear)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Can+Traditional+Programming+Bridge+the+Ninja+Performance+Gap+for+Parallel+Computing+Applications?+Satish+Kim+Chhugani+Saito+Krishnaiyer+Smelyanskiy+Girkar+Dubey">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://dl.acm.org/citation.cfm?id=2766485.2742910&amp;coll=portal&amp;dl=ACM">&nbsp;</a>
+                <p class="pub-title">
+                  Can Traditional Programming Bridge the Ninja Performance Gap for Parallel
+                  Computing Applications?
+                </p>
+                <p>
+                  Nadathur Satish, <a href="/pubs/ChangkyuKim.html">Changkyu Kim</a>, Jatin
+                  Chhugani, Hideki Saito, Rakesh Krishnaiyer, Mikhail Smelyanskiy, Milind Girkar,
+                  Pradeep Dubey
+                </p>
+                <p>
+                  Communications of the ACM, vol. 58 (2015), pp. 77-86
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Computing+weak+consistency+in+polynomial+time+Golab+Li+L%C3%B3pez-Ortiz+Nishimura">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://dl.acm.org/citation.cfm?id=2767407">&nbsp;</a><a class=
+                "abstract-icon tooltip" href="/pubs/pub43876.html">&nbsp;</a>
+                <p class="pub-title">
+                  Computing weak consistency in polynomial time
+                </p>
+                <p>
+                  Wojciech Golab, <a href="/pubs/XiaozhouLi.html">Xiaozhou (Steve) Li</a>,
+                  Alejandro López-Ortiz, Naomi Nishimura
+                </p>
+                <p>
+                  Proceedings of the 2015 ACM Symposium on Principles of Distributed Computing,
+                  ACM, New York, NY, USA, pp. 395-404
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Continuous+Pipelines+at+Google+Dennison">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/43790.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub43790.html">&nbsp;</a>
+                <p class="pub-title">
+                  Continuous Pipelines at Google
+                </p>
+                <p>
+                  <a href="/pubs/DanDennison.html">Dan Dennison</a>
+                </p>
+                <p>
+                  SRECon Europe 2015, USENIX, Dublin, Ireland, pp. 12
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Dynamic+iSCSI+at+Scale:+Remote+Paging+at+Google+Black">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/43886.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub43886.html">&nbsp;</a>
+                <p class="pub-title">
+                  Dynamic iSCSI at Scale: Remote Paging at Google
+                </p>
+                <p>
+                  <a href="/pubs/NickBlack.html">Nick Black</a>
+                </p>
+                <p>
+                  Linux Plumbers Conference 2015
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Federated+Optimization:+Distributed+Optimization+Beyond+the+Datacenter+Kone%C4%8Dn%C3%BD+McMahan+Ramage">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://arxiv.org/pdf/1511.03575v1.pdf">&nbsp;</a><a class="abstract-icon tooltip"
+                href="/pubs/pub44310.html">&nbsp;</a>
+                <p class="pub-title">
+                  Federated Optimization: Distributed Optimization Beyond the Datacenter
+                </p>
+                <p>
+                  Jakub Konečný, <a href="/pubs/author35837.html">H. Brendan McMahan</a>, Daniel
+                  Ramage
+                </p>
+                <p>
+                  NIPS Optimization for Machine Learning Workshop (2015), pp. 5
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Heracles:+Improving+Resource+Efficiency+at+Scale+Lo+Cheng+Govindaraju+Ranganathan+Kozyrakis">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/43792.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Heracles: Improving Resource Efficiency at Scale
+                </p>
+                <p>
+                  David Lo, <a href="/pubs/LiqunCheng.html">Liqun Cheng</a>, Rama Govindaraju,
+                  <a href="/pubs/ParthasarathyRanganathan.html">Parthasarathy Ranganathan</a>,
+                  Christos Kozyrakis
+                </p>
+                <p>
+                  Proceedings of the 42th Annual International Symposium on Computer Architecture
+                  (2015)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Kubernetes+-+Scheduling+the+Future+at+Cloud+Scale+Rensin">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://www.oreilly.com/webops-perf/free/kubernetes.csp">&nbsp;</a><a class=
+                "abstract-icon tooltip" href="/pubs/pub43826.html">&nbsp;</a>
+                <p class="pub-title">
+                  Kubernetes - Scheduling the Future at Cloud Scale
+                </p>
+                <p>
+                  <a href="/pubs/DavidRensin.html">David K. Rensin</a>
+                </p>
+                <p>
+                  O'Reilly and Associates, 1005 Gravenstein Highway North Sebastopol, CA 95472, All
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Large-scale+cluster+management+at+%7BGoogle%7D+with+%7BBorg%7D+Verma+Pedrosa+Korupolu+Oppenheimer+Tune+Wilkes">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/43438.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub43438.html">&nbsp;</a>
+                <p class="pub-title">
+                  Large-scale cluster management at Google with Borg
+                </p>
+                <p>
+                  Abhishek Verma, Luis Pedrosa, <a href="/pubs/MadhukarKorupolu.html">Madhukar R.
+                  Korupolu</a>, <a href="/pubs/DavidOppenheimer.html">David Oppenheimer</a>,
+                  <a href="/pubs/EricTune.html">Eric Tune</a>, <a href="/pubs/JohnWilkes.html">John
+                  Wilkes</a>
+                </p>
+                <p>
+                  Proceedings of the European Conference on Computer Systems (EuroSys), ACM,
+                  Bordeaux, France (2015)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Poster+Paper:+Automatic+Reconfiguration+of+Distributed+Storage+Sharov+Shraer+Merchant+Stokely">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/44001.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub44001.html">&nbsp;</a>
+                <p class="pub-title">
+                  Poster Paper: Automatic Reconfiguration of Distributed Storage
+                </p>
+                <p>
+                  Artyom Sharov, <a href="/pubs/AlexanderShraer.html">Alexander Shraer</a>,
+                  <a href="/pubs/author57990.html">Arif Merchant</a>, <a href=
+                  "/pubs/MurrayStokely.html">Murray Stokely</a>
+                </p>
+                <p>
+                  The 12th International Conference on Autonomic Computing, IEEE (2015), pp.
+                  133-134
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=RFC7535+-+AS112+Redirection+Using+DNAME+Kumari+Abley+Dickson+Michaelson">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/43822.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub43822.html">&nbsp;</a>
+                <p class="pub-title">
+                  RFC7535 - AS112 Redirection Using DNAME
+                </p>
+                <p>
+                  <a href="/pubs/WarrenKumari.html">Warren Kumari</a>, Joe Abley, Brian Dickson,
+                  George Michaelson
+                </p>
+                <p>
+                  IETF RFCs, Internet Engineering Task Force (2015), pp. 16
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=RFC7706+-+Decreasing+Access+Time+to+Root+Servers+by+Running+One+on+Loopback+Kumari+Hoffman">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/44314.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub44314.html">&nbsp;</a>
+                <p class="pub-title">
+                  RFC7706 - Decreasing Access Time to Root Servers by Running One on Loopback
+                </p>
+                <p>
+                  <a href="/pubs/WarrenKumari.html">Warren Kumari</a>, Paul Hoffman
+                </p>
+                <p>
+                  IETF RFCs, Internet Engineering Task Force (2015), pp. 12
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=RSSAC003+-+RSSAC+Report+on+Root+Zone+TTLs+Kumari">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/43974.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub43974.html">&nbsp;</a>
+                <p class="pub-title">
+                  RSSAC003 - RSSAC Report on Root Zone TTLs
+                </p>
+                <p>
+                  <a href="/pubs/WarrenKumari.html">Warren Kumari</a>
+                </p>
+                <p>
+                  ICANN Root Server System Advisory Committee ( RSSAC ) Reports and Advisories,
+                  Internet Corporation for Assigned Names and Numbers (ICANN) (2015), pp. 35
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Take+me+to+your+leader!+Online+Optimization+of+Distributed+Storage+Configurations+Sharov+Shraer+Merchant+Stokely">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/43999.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub43999.html">&nbsp;</a>
+                <p class="pub-title">
+                  Take me to your leader! Online Optimization of Distributed Storage Configurations
+                </p>
+                <p>
+                  Artyom Sharov, <a href="/pubs/AlexanderShraer.html">Alexander Shraer</a>,
+                  <a href="/pubs/author57990.html">Arif Merchant</a>, <a href=
+                  "/pubs/MurrayStokely.html">Murray Stokely</a>
+                </p>
+                <p>
+                  Proceedings of the 41st International Conference on Very Large Data Bases, VLDB
+                  Endowment (2015), pp. 1490-1501
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=The+Dataflow+Model:+A+Practical+Approach+to+Balancing+Correctness,+Latency,+and+Cost+in+Massive-Scale,+Unbounded,+Out-of-Order+Data+Processing+Akidau+Bradshaw+Chambers+Chernyak+Fern%C3%A1ndez-Moctezuma+Lax+McVeety+Mills+Perry+Schmidt+Whittle">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/43864.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub43864.html">&nbsp;</a>
+                <p class="pub-title">
+                  The Dataflow Model: A Practical Approach to Balancing Correctness, Latency, and
+                  Cost in Massive-Scale, Unbounded, Out-of-Order Data Processing
+                </p>
+                <p>
+                  <a href="/pubs/TylerAkidau.html">Tyler Akidau</a>, <a href=
+                  "/pubs/RobertBradshaw.html">Robert Bradshaw</a>, <a href=
+                  "/pubs/author4707.html">Craig Chambers</a>, <a href=
+                  "/pubs/SlavaChernyak.html">Slava Chernyak</a>, <a href=
+                  "/pubs/rfernand.html">Rafael J. Fernández-Moctezuma</a>, Reuven Lax, <a href=
+                  "/pubs/SamMcVeety.html">Sam McVeety</a>, Daniel Mills, Frances Perry, Eric
+                  Schmidt, <a href="/pubs/SamWhittle.html">Sam Whittle</a>
+                </p>
+                <p>
+                  Proceedings of the VLDB Endowment, vol. 8 (2015), pp. 1792-1803
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Timely+Dataflow:+A+Model+Abadi+Isard">
+                &nbsp;</a>
+                <p class="pub-title">
+                  Timely Dataflow: A Model
+                </p>
+                <p>
+                  <a href="/pubs/abadi.html">Martín Abadi</a>, Michael Isard
+                </p>
+                <p>
+                  FORTE (2015), pp. 131-145
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Author+Retrospective+for+A+NUCA+Substrate+for+Flexible+CMP+Cache+Sharing+Huh+Kim+Shafi+Zhang+Burger+Keckler">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/43343.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Author Retrospective for A NUCA Substrate for Flexible CMP Cache Sharing
+                </p>
+                <p>
+                  Jaehyuk Huh, <a href="/pubs/ChangkyuKim.html">Changkyu Kim</a>, Hazim Shafi,
+                  Lixin Zhang, Doug Burger, Stephen W. Keckler
+                </p>
+                <p>
+                  ICS 25th Anniversary Volume, ACM SIGARCH (2014)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Characterization+of+Impact+of+Transient+Faults+and+Detection+of+Data+Corruption+Errors+in+Large-Scale+N-Body+Programs+Using+Graphics+Processing+Units+Yim">
+                &nbsp;</a><a class="abstract-icon tooltip" href="/pubs/pub42510.html">&nbsp;</a>
+                <p class="pub-title">
+                  Characterization of Impact of Transient Faults and Detection of Data Corruption
+                  Errors in Large-Scale N-Body Programs Using Graphics Processing Units
+                </p>
+                <p>
+                  <a href="/pubs/KeunYim.html">Keun Soo Yim</a>
+                </p>
+                <p>
+                  IEEE International Parallel and Distributed Processing Symposium (IPDPS), IEEE
+                  International Parallel and Distributed Processing Symposium (IPDPS) (2014), pp.
+                  458-467
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Connected+Components+in+MapReduce+and+Beyond+Kiveris+Lattanzi+Mirrokni+Rastogi+Vassilvitskii">
+                &nbsp;</a>
+                <p class="pub-title">
+                  Connected Components in MapReduce and Beyond
+                </p>
+                <p>
+                  Raimondas Kiveris, <a href="/pubs/SilvioLattanzi.html">Silvio Lattanzi</a>,
+                  <a href="/pubs/mirrokni.html">Vahab Mirrokni</a>, Vibhor Rastogi, <a href=
+                  "/pubs/SergeiVassilvitskii.html">Sergei Vassilvitskii</a>
+                </p>
+                <p>
+                  SOCC 2014
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Coupled+and+k-Sided+Placements:+Generalizing+Generalized+Assignment+Korupolu+Meyerson+Rajaraman+Tagiku">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/42192.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Coupled and k-Sided Placements: Generalizing Generalized Assignment
+                </p>
+                <p>
+                  <a href="/pubs/MadhukarKorupolu.html">Madhukar Korupolu</a>, <a href=
+                  "/pubs/AdamMeyerson.html">Adam Meyerson</a>, Rajmohan Rajaraman, <a href=
+                  "/pubs/BrianTagiku.html">Brian Tagiku</a>
+                </p>
+                <p>
+                  Integer Programming and Combinatorial Optimization (IPCO) (2014)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Diff-Index:+Differentiated+Index+in+Distributed+Log-Structured+Data+Stores+Tan+Tata+Tang+Fong">
+                &nbsp;</a>
+                <p class="pub-title">
+                  Diff-Index: Differentiated Index in Distributed Log-Structured Data Stores
+                </p>
+                <p>
+                  Wei Tan, <a href="/pubs/SandeepTata.html">Sandeep Tata</a>, Yuzhe Tang, Liana
+                  Fong
+                </p>
+                <p>
+                  EDBT (2014) (to appear)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Distributed+Balanced+Clustering+via+Mapping+Coresets+Bateni+Bhaskara+Lattanzi+Mirrokni">
+                &nbsp;</a>
+                <p class="pub-title">
+                  Distributed Balanced Clustering via Mapping Coresets
+                </p>
+                <p>
+                  <a href="/pubs/bateni.html">Mohammadhossein Bateni</a>, <a href=
+                  "/pubs/AdityaBhaskara.html">Aditya Bhaskara</a>, <a href=
+                  "/pubs/SilvioLattanzi.html">Silvio Lattanzi</a>, <a href=
+                  "/pubs/mirrokni.html">Vahab Mirrokni</a>
+                </p>
+                <p>
+                  NIPS, Neural Information Processing Systems Foundation (2014)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Evaluating+job+packing+in+warehouse-scale+computing+Verma+Korupolu+Wilkes">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/43103.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub43103.html">&nbsp;</a>
+                <p class="pub-title">
+                  Evaluating job packing in warehouse-scale computing
+                </p>
+                <p>
+                  Abhishek Verma, <a href="/pubs/MadhukarKorupolu.html">Madhukar Korupolu</a>,
+                  <a href="/pubs/JohnWilkes.html">John Wilkes</a>
+                </p>
+                <p>
+                  IEEE Cluster, Madrid, Spain (2014)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Eventually+consistent:+Not+what+you+were+expecting?+Golab+Rahman+AuYoung+Keeton+Li">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://cacm.acm.org/magazines/2014/3/172505-eventually-consistent/fulltext">&nbsp;</a>
+                <p class="pub-title">
+                  Eventually consistent: Not what you were expecting?
+                </p>
+                <p>
+                  Wojciech Golab, Muntasir R. Rahman, Alvin AuYoung, Kimberly Keeton, <a href=
+                  "/pubs/XiaozhouLi.html">Xiaozhou (Steve) Li</a>
+                </p>
+                <p>
+                  Communications of the ACM, vol. 57, no. 3 (2014), pp. 38-44
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=From+Research+to+Practice:+Experiences+Engineering+a+Production+Metadata+Database+for+a+Scale+Out+File+System+Johnson+Keeton+III+Soules+Veitch+Bacon+Batuner+Condotta+Coutinho+Doyle+Eichelberger+Kiehl+Magalhaes+McEvoy+Nagarajan+Osborne+Souza+Sparkes+Spitzer+Tandel+Thomas+Zangaro">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "https://www.usenix.org/system/files/conference/fast14/fast14-paper_johnson.pdf">&nbsp;</a><a class="abstract-icon tooltip"
+                href="/pubs/pub42191.html">&nbsp;</a>
+                <p class="pub-title">
+                  From Research to Practice: Experiences Engineering a Production Metadata Database
+                  for a Scale Out File System
+                </p>
+                <p>
+                  Charles Johnson, Kimberly Keeton, Charles B. Morrey III, Craig A. N. Soules,
+                  <a href="/pubs/AlistairVeitch.html">Alistair Veitch</a>, Stephen Bacon, Oskar
+                  Batuner, Marcelo Condotta, Hamilton Coutinho, Patrick J. Doyle, Rafael
+                  Eichelberger, Hugo Kiehl, Guilherme Magalhaes, James McEvoy, Padmanabhan
+                  Nagarajan, Patrick Osborne, Joaquim Souza, Andy Sparkes, Mike Spitzer, Sebastien
+                  Tandel, Lincoln Thomas, Sebastian Zangaro
+                </p>
+                <p>
+                  Proceedings of the 12th USENIX Conference on File and Storage Technologies (FAST
+                  2014), USENIX
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Long-term+SLOs+for+reclaimed+cloud+computing+resources+Carvalho+Cirne+Brasileiro+Wilkes">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/43017.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub43017.html">&nbsp;</a>
+                <p class="pub-title">
+                  Long-term SLOs for reclaimed cloud computing resources
+                </p>
+                <p>
+                  Marcus Carvalho, <a href="/pubs/author8093.html">Walfredo Cirne</a>, Franciso
+                  Brasileiro, <a href="/pubs/JohnWilkes.html">John Wilkes</a>
+                </p>
+                <p>
+                  ACM Symposium on Cloud Computing (SoCC), ACM, Seattle, WA, USA (2014), 20:1-20:13
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Low-Overhead+Network-on-Chip+Support+for+Location-Oblivious+Task+Placement+Kim+M.M.-J.+Kim+Abts+Marty">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://ieeexplore.ieee.org/xpl/articleDetails.jsp?tp=&amp;arnumber=6319294&amp;queryText%3DLow-overhead+Network-on-chip+Support+for+Location">&nbsp;</a><a class="abstract-icon tooltip"
+                href="/pubs/pub42857.html">&nbsp;</a>
+                <p class="pub-title">
+                  Low-Overhead Network-on-Chip Support for Location-Oblivious Task Placement
+                </p>
+                <p>
+                  Gwangsun Kim, Lee, M.M.-J., John Kim, <a href="/pubs/author36240.html">Dennis
+                  Abts</a>, <a href="/pubs/author36386.html">Michael R. Marty</a>
+                </p>
+                <p>
+                  IEEE Transactions on Computers, vol. Volume 63, Issue 6 (2014), pp. 1487 - 1500
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Macaroons:+Cookies+with+Contextual+Caveats+for+Decentralized+Authorization+in+the+Cloud+Birgisson+Politz+Erlingsson+Taly+Vrable+Lentczner">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/41892.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub41892.html">&nbsp;</a>
+                <p class="pub-title">
+                  Macaroons: Cookies with Contextual Caveats for Decentralized Authorization in the
+                  Cloud
+                </p>
+                <p>
+                  <a href="/pubs/ArnarBirgisson.html">Arnar Birgisson</a>, Joe Gibbs Politz,
+                  <a href="/pubs/ulfar.html">Úlfar Erlingsson</a>, <a href=
+                  "/pubs/AnkurTaly.html">Ankur Taly</a>, <a href="/pubs/MichaelVrable.html">Michael
+                  Vrable</a>, <a href="/pubs/MarkLentczner.html">Mark Lentczner</a>
+                </p>
+                <p>
+                  Network and Distributed System Security Symposium, Internet Society (2014)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Mesa:+Geo-Replicated,+Near+Real-Time,+Scalable+Data+Warehousing+Gupta+Yang+Govig+Kirsch+Chan+Lai+Wu+Dhoot+Rajesh+Kumar+Agiwal+Bhansali+Hong+Cameron+Siddiqi+Jones+Shute+Gubarev+Venkataraman+Agrawal">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/42851.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub42851.html">&nbsp;</a>
+                <p class="pub-title">
+                  Mesa: Geo-Replicated, Near Real-Time, Scalable Data Warehousing
+                </p>
+                <p>
+                  <a href="/pubs/AshishGupta.html">Ashish Gupta</a>, Fan Yang, Jason Govig, Adam
+                  Kirsch, Kelvin Chan, Kevin Lai, Shuo Wu, Sandeep Dhoot, Abhilash Kumar, Ankur
+                  Agiwal, <a href="/pubs/SanjayBhansali.html">Sanjay Bhansali</a>, Mingsheng Hong,
+                  Jamie Cameron, Masood Siddiqi, David Jones, <a href="/pubs/JeffShute.html">Jeff
+                  Shute</a>, Andrey Gubarev, Shivakumar Venkataraman, Divyakant Agrawal
+                </p>
+                <p>
+                  VLDB (2014)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Near-Data+Processing:+Insights+from+a+MICRO-46+Workshop+Balasubramonian+Chang+Manning+Moreno+Murphy+Nair+Swanson">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/42899.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub42899.html">&nbsp;</a>
+                <p class="pub-title">
+                  Near-Data Processing: Insights from a MICRO-46 Workshop
+                </p>
+                <p>
+                  Rajeev Balasubramonian, <a href="/pubs/JichuanChang.html">Jichuan Chang</a>, Troy
+                  Manning, Jaime H. Moreno, Richard Murphy, Ravi Nair, Steven Swanson
+                </p>
+                <p>
+                  IEEE Micro (Special Issue on Big Data), vol. 34 (2014), pp. 36-43
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Software+Defined+Networking+at+Scale+Koley">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/42948.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub42948.html">&nbsp;</a>
+                <p class="pub-title">
+                  Software Defined Networking at Scale
+                </p>
+                <p>
+                  <a href="/pubs/author39228.html">Bikash Koley</a>
+                </p>
+                <p>
+                  Light Reading (2014), pp. 22
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=TRAM:+Optimizing+Fine-grained+Communication+with+Topological+Routing+and+Aggregation+of+Messages+Wesolowski+Venkataraman+Gupta+Yeom+Bisset+Sun+Jetley+Quinn+Kale">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://ppl.cs.illinois.edu/papers/14-18">&nbsp;</a><a class=
+                "abstract-icon tooltip" href="/pubs/pub43121.html">&nbsp;</a>
+                <p class="pub-title">
+                  TRAM: Optimizing Fine-grained Communication with Topological Routing and
+                  Aggregation of Messages
+                </p>
+                <p>
+                  Lukasz Wesolowski, <a href="/pubs/RamprasadVenkataraman.html">Ramprasad
+                  Venkataraman</a>, A Gupta, Jae-Seung Yeom, Keith Bisset, Yanhua Sun, Pritish
+                  Jetley, Thomas Quinn, Laxmikant Kale
+                </p>
+                <p>
+                  International Conference on Parallel Processing (2014)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=The+wisdom+of+clouds+Kohlhoff">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://www.rsc.org/chemistryworld/2014/05/wisdom-clouds-distributed-computing-science">&nbsp;</a>
+                <p class="pub-title">
+                  The wisdom of clouds
+                </p>
+                <p>
+                  <a href="/pubs/KaiKohlhoff.html">Kai Kohlhoff</a>
+                </p>
+                <p>
+                  Chemistry World, vol. 11 (2014), pp. 38
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=AGILE:+elastic+distributed+resource+scaling+for+Infrastructure-as-a-Service+Nguyen+Shen+Gu+Subbiah+Wilkes">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/41685.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub41685.html">&nbsp;</a>
+                <p class="pub-title">
+                  AGILE: elastic distributed resource scaling for Infrastructure-as-a-Service
+                </p>
+                <p>
+                  Hiep Nguyen, Zhiming Shen, Xiaohui Gu, Sethuraman Subbiah, <a href=
+                  "/pubs/JohnWilkes.html">John Wilkes</a>
+                </p>
+                <p>
+                  10th International Conference on Autonomic Computing (ICAC), USENIX, San Jose,
+                  CA, USA (2013), pp. 69-82
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Brief+Announcement:+Consistency+and+Complexity+Tradeoffs+for+Highly-Available+Multi-Cloud+Store+Chockler+Dobre+Shraer">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/41216.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub41216.html">&nbsp;</a>
+                <p class="pub-title">
+                  Brief Announcement: Consistency and Complexity Tradeoffs for Highly-Available
+                  Multi-Cloud Store
+                </p>
+                <p>
+                  Gregory Chockler, Dan Dobre, <a href="/pubs/AlexanderShraer.html">Alexander
+                  Shraer</a>
+                </p>
+                <p>
+                  The International Symposium on Distributed Computing (DISC) (2013)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=CPI2:+CPU+performance+isolation+for+shared+compute+clusters+Zhang+Tune+Hagmann+Jnagal+Gokhale+Wilkes">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/40737.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub40737.html">&nbsp;</a>
+                <p class="pub-title">
+                  CPI2: CPU performance isolation for shared compute clusters
+                </p>
+                <p>
+                  <a href="/pubs/XiaoZhang.html">Xiao Zhang</a>, <a href="/pubs/EricTune.html">Eric
+                  Tune</a>, Robert Hagmann, Rohit Jnagal, Vrigo Gokhale, <a href=
+                  "/pubs/JohnWilkes.html">John Wilkes</a>
+                </p>
+                <p>
+                  SIGOPS European Conference on Computer Systems (EuroSys), ACM, Prague, Czech
+                  Republic (2013), pp. 379-391
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Ensuring+Connectivity+via+Data+Plane+Mechanisms+Liu">
+                &nbsp;</a><a class="abstract-icon tooltip" href="/pubs/pub40812.html">&nbsp;</a>
+                <p class="pub-title">
+                  Ensuring Connectivity via Data Plane Mechanisms
+                </p>
+                <p>
+                  <a href="/pubs/JundaLiu.html">Junda Liu</a>
+                </p>
+                <p>
+                  10th USENIX Symposium on Networked Systems Design and Implementation (2013)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=EventWave:+Programming+Model+and+Runtime+Support+for++Tightly-Coupled+Elastic+Cloud+Applications+Chuang+Sang+Yoo+Gu+Killian+Kulkarni">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/41668.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub41668.html">&nbsp;</a>
+                <p class="pub-title">
+                  EventWave: Programming Model and Runtime Support for Tightly-Coupled Elastic
+                  Cloud Applications
+                </p>
+                <p>
+                  Wei-Chiu Chuang, Bo Sang, Sunghwan Yoo, Rui Gu, <a href=
+                  "/pubs/ChipKillian.html">Charles Killian</a>, Milind Kulkarni
+                </p>
+                <p>
+                  Proceedings of the 2013 ACM Symposium on Cloud Computing, ACM, Santa Clara, CA,
+                  USA
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=F1:+A+Distributed+SQL+Database+That+Scales+Shute+Vingralek+Samwel+Handy+Whipkey+Rollins+Oancea+Littlefield+Menestrina+Ellner+Cieslewicz+Rae+Stancescu+Apte">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/41344.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub41344.html">&nbsp;</a>
+                <p class="pub-title">
+                  F1: A Distributed SQL Database That Scales
+                </p>
+                <p>
+                  <a href="/pubs/JeffShute.html">Jeff Shute</a>, <a href=
+                  "/pubs/RadekVingralek.html">Radek Vingralek</a>, <a href=
+                  "/pubs/BartSamwel.html">Bart Samwel</a>, Ben Handy, Chad Whipkey, <a href=
+                  "/pubs/EricRollins.html">Eric Rollins</a>, Mircea Oancea, Kyle Littleﬁeld, David
+                  Menestrina, <a href="/pubs/author27288.html">Stephan Ellner</a>, <a href=
+                  "/pubs/JohnCieslewicz.html">John Cieslewicz</a>, Ian Rae, Traian Stancescu,
+                  Himani Apte
+                </p>
+                <p>
+                  VLDB (2013)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Fast+Data+Processing+with+Spark+Karau">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://www.packtpub.com/fastdata-processing-with-spark/book">&nbsp;</a><a class=
+                "abstract-icon tooltip" href="/pubs/pub41431.html">&nbsp;</a>
+                <p class="pub-title">
+                  Fast Data Processing with Spark
+                </p>
+                <p>
+                  <a href="/pubs/HoldenKarau.html">Holden Karau</a>
+                </p>
+                <p>
+                  Packt (2013)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=MillWheel:+Fault-Tolerant+Stream+Processing+at+Internet+Scale+Akidau+Balikov+Bekiroglu+Chernyak+Haberman+Lax+McVeety+Mills+Nordstrom+Whittle">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/41378.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub41378.html">&nbsp;</a>
+                <p class="pub-title">
+                  MillWheel: Fault-Tolerant Stream Processing at Internet Scale
+                </p>
+                <p>
+                  <a href="/pubs/TylerAkidau.html">Tyler Akidau</a>, Alex Balikov, Kaya Bekiroglu,
+                  <a href="/pubs/SlavaChernyak.html">Slava Chernyak</a>, Josh Haberman, Reuven Lax,
+                  <a href="/pubs/SamMcVeety.html">Sam McVeety</a>, Daniel Mills, <a href=
+                  "/pubs/PaulNordstrom.html">Paul Nordstrom</a>, <a href=
+                  "/pubs/SamWhittle.html">Sam Whittle</a>
+                </p>
+                <p>
+                  Very Large Data Bases (2013), pp. 734-746
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Minimizing+weighted+flowtime+on+capacitated+machines+Fox+Korupolu">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/40493.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub40493.html">&nbsp;</a>
+                <p class="pub-title">
+                  Minimizing weighted flowtime on capacitated machines
+                </p>
+                <p>
+                  Kyle Fox, <a href="/pubs/MadhukarKorupolu.html">Madhukar Korupolu</a>
+                </p>
+                <p>
+                  ACM-SIAM Symposium on Discrete Algorithms (SODA) (2013)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Omega:+flexible,+scalable+schedulers+for+large+compute+clusters+Schwarzkopf+Konwinski+Abd-El-Malek+Wilkes">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/41684.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub41684.html">&nbsp;</a>
+                <p class="pub-title">
+                  Omega: flexible, scalable schedulers for large compute clusters
+                </p>
+                <p>
+                  Malte Schwarzkopf, Andy Konwinski, <a href="/pubs/MichaelAbdElMalek.html">Michael
+                  Abd-El-Malek</a>, <a href="/pubs/JohnWilkes.html">John Wilkes</a>
+                </p>
+                <p>
+                  SIGOPS European Conference on Computer Systems (EuroSys), ACM, Prague, Czech
+                  Republic (2013), pp. 351-364
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=On+the+k-atomicity-verification+problem+Golab+Hurwitz+Li">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/41097.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub41097.html">&nbsp;</a>
+                <p class="pub-title">
+                  On the k-atomicity-verification problem
+                </p>
+                <p>
+                  Wojciech Golab, <a href="/pubs/JeremyHurwitz.html">Jeremy Hurwitz</a>, <a href=
+                  "/pubs/XiaozhouLi.html">Xiaozhou Li</a>
+                </p>
+                <p>
+                  The 33rd International Conference on Distributed Computing Systems, IEEE (2013)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Online,+Asynchronous+Schema+Change+in+F1+Rae+Rollins+Shute+Sodhi+Vingralek">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/41376.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub41376.html">&nbsp;</a>
+                <p class="pub-title">
+                  Online, Asynchronous Schema Change in F1
+                </p>
+                <p>
+                  Ian Rae, <a href="/pubs/EricRollins.html">Eric Rollins</a>, <a href=
+                  "/pubs/JeffShute.html">Jeff Shute</a>, Sukhdeep Sodhi, <a href=
+                  "/pubs/RadekVingralek.html">Radek Vingralek</a>
+                </p>
+                <p>
+                  VLDB (2013)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Photon:+Fault-tolerant+and+Scalable+Joining+of+Continuous+Data+Streams+Ananthanarayanan+Basker+Das+Gupta+Jiang+Qiu+Reznichenko+Ryabkov+Singh+Venkataraman">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/41318.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub41318.html">&nbsp;</a>
+                <p class="pub-title">
+                  Photon: Fault-tolerant and Scalable Joining of Continuous Data Streams
+                </p>
+                <p>
+                  <a href="/pubs/RajagopalAnanthanarayanan.html">Rajagopal Ananthanarayanan</a>,
+                  Venkatesh Basker, Sumit Das, <a href="/pubs/AshishGupta.html">Ashish Gupta</a>,
+                  Haifeng Jiang, Tianhao Qiu, Alexey Reznichenko, Deomid Ryabkov, Manpreet Singh,
+                  Shivakumar Venkataraman
+                </p>
+                <p>
+                  SIGMOD '13: Proceedings of the 2013 international conference on Management of
+                  data, ACM, New York, NY, USA, pp. 577-588
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=The+Datacenter+as+a+Computer:+An+Introduction+to+the+Design+of+Warehouse-Scale+Machines,+Second+Edition+Barroso+Clidaras+Holzle">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://dx.doi.org/10.2200/S00516ED2V01Y201306CAC024">&nbsp;</a><a class=
+                "abstract-icon tooltip" href="/pubs/pub41606.html">&nbsp;</a>
+                <p class="pub-title">
+                  The Datacenter as a Computer: An Introduction to the Design of Warehouse-Scale
+                  Machines, Second Edition
+                </p>
+                <p>
+                  <a href="/pubs/LuizBarroso.html">Luiz André Barroso</a>, Jimmy Clidaras, <a href=
+                  "/pubs/author79.html">Urs Hölzle</a>
+                </p>
+                <p>
+                  Morgan &amp; Claypool Publishers (2013)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=The+Tail+at+Scale+Dean+Barroso">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://cacm.acm.org/magazines/2013/2/160173-the-tail-at-scale/fulltext">&nbsp;</a><a class="abstract-icon tooltip"
+                href="/pubs/pub40801.html">&nbsp;</a>
+                <p class="pub-title">
+                  The Tail at Scale
+                </p>
+                <p>
+                  <a href="/pubs/jeff.html">Jeffrey Dean</a>, <a href="/pubs/LuizBarroso.html">Luiz
+                  André Barroso</a>
+                </p>
+                <p>
+                  Communications of the ACM, vol. 56 (2013), pp. 74-80
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Verifying+Cloud+Services:+Present+and+Future+Bouchenak+Chockler+Chockler+Gheorghe+Santos+Shraer">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/40816.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub40816.html">&nbsp;</a>
+                <p class="pub-title">
+                  Verifying Cloud Services: Present and Future
+                </p>
+                <p>
+                  Sara Bouchenak, Gregory Chockler, Hana Chockler, Gabriela Gheorghe, Nuno Santos,
+                  <a href="/pubs/AlexanderShraer.html">Alexander Shraer</a>
+                </p>
+                <p>
+                  Operating Systems Review (2013)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Web-Scale+Job+Scheduling+Cirne+Frachtenberg">
+                &nbsp;</a><a class="abstract-icon tooltip" href="/pubs/pub42551.html">&nbsp;</a>
+                <p class="pub-title">
+                  Web-Scale Job Scheduling
+                </p>
+                <p>
+                  <a href="/pubs/author8093.html">Walfredo Cirne</a>, Eitan Frachtenberg
+                </p>
+                <p>
+                  Lecture Notes in Computer Science, vol. 7698 (2013)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=A+Guided+Tour+of+Datacenter+Networking+Abts+Felderman">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/40404.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub40404.html">&nbsp;</a>
+                <p class="pub-title">
+                  A Guided Tour of Datacenter Networking
+                </p>
+                <p>
+                  <a href="/pubs/author36240.html">Dennis Abts</a>, <a href=
+                  "/pubs/BobFelderman.html">Bob Felderman</a>
+                </p>
+                <p>
+                  Communications of the ACM - ACM Queue, vol. 55, number 6 (2012), pp. 44-51
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=An+approach+to+Distributed+Virtual+Environment+performance+modeling:+Addressing+system+complexity+and+user+behavior+Singh+Gracanin">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://dx.doi.org/10.1109/VR.2012.6180887">&nbsp;</a>
+                <p class="pub-title">
+                  An approach to Distributed Virtual Environment performance modeling: Addressing
+                  system complexity and user behavior
+                </p>
+                <p>
+                  H. Lally Singh, Denis Gracanin
+                </p>
+                <p>
+                  Proceedings of the 2012 IEEE Virtual Reality, IEEE Computer Society, Washington,
+                  DC, USA, pp. 71-72
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Characterization+and+Comparison+of+Cloud+versus+Grid+Workloads+Di+Kondo+Cirne">
+                &nbsp;</a><a class="abstract-icon tooltip" href="/pubs/pub42552.html">&nbsp;</a>
+                <p class="pub-title">
+                  Characterization and Comparison of Cloud versus Grid Workloads
+                </p>
+                <p>
+                  Sheng Di, Derrick Kondo, <a href="/pubs/author8093.html">Walfredo Cirne</a>
+                </p>
+                <p>
+                  IEEE Cluster 2012
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=CloudRAMSort:+fast+and+efficient+large-scale+distributed+RAM+sort+on+shared-nothing+cluster+Kim+Park+Satish+Lee+Dubey+Chhugani">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://doi.acm.org/10.1145/2213836.2213965">&nbsp;</a>
+                <p class="pub-title">
+                  CloudRAMSort: fast and efficient large-scale distributed RAM sort on
+                  shared-nothing cluster
+                </p>
+                <p>
+                  <a href="/pubs/ChangkyuKim.html">Changkyu Kim</a>, Jongsoo Park, Nadathur Satish,
+                  <a href="/pubs/HongraeLee.html">Hongrae Lee</a>, Pradeep Dubey, Jatin Chhugani
+                </p>
+                <p>
+                  Proceedings of the 2012 ACM SIGMOD International Conference on Management of
+                  Data, ACM, New York, NY, USA, pp. 841-850
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=DIPLOMA:+Consistent+and+Coherent+Shared+Memory+over+Mobile+Phones+Agarwal">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/40367.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  DIPLOMA: Consistent and Coherent Shared Memory over Mobile Phones
+                </p>
+                <p>
+                  <a href="/pubs/NiketAgarwal.html">Niket Agarwal</a>
+                </p>
+                <p>
+                  30th IEEE International Conference on Computer Design (2012)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=F1+-+The+Fault-Tolerant+Distributed+RDBMS+Supporting+Google's+Ad++Business+Shute+Oancea+Ellner+Handy+Rollins+Samwel+Vingralek+Whipkey+Chen+Jegerlehner+Littlefield+Tong">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/38125.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub38125.html">&nbsp;</a>
+                <p class="pub-title">
+                  F1 - The Fault-Tolerant Distributed RDBMS Supporting Google's Ad Business
+                </p>
+                <p>
+                  <a href="/pubs/JeffShute.html">Jeff Shute</a>, Mircea Oancea, <a href=
+                  "/pubs/author27288.html">Stephan Ellner</a>, Ben Handy, <a href=
+                  "/pubs/EricRollins.html">Eric Rollins</a>, <a href="/pubs/BartSamwel.html">Bart
+                  Samwel</a>, <a href="/pubs/RadekVingralek.html">Radek Vingralek</a>, Chad
+                  Whipkey, Xin Chen, Beat Jegerlehner, Kyle Littleﬁeld, Phoenix Tong
+                </p>
+                <p>
+                  SIGMOD (2012)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Finding+Connected+Components+in+Map-reduce+in+Logarithmic+Rounds+Rastogi+Machanavajjhala+Chitnis+Das+Sarma">
+                &nbsp;</a>
+                <p class="pub-title">
+                  Finding Connected Components in Map-reduce in Logarithmic Rounds
+                </p>
+                <p>
+                  Vibhor Rastogi, Ashwin Machanavajjhala, Laukik Chitnis, <a href=
+                  "/pubs/author19995.html">Anish Das Sarma</a>
+                </p>
+                <p>
+                  ICDE, IEE (2012) (to appear)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Hostload+prediction+in+a+Google+compute+cloud+with+a+Bayesian+model+Di+Kondo+Cirne">
+                &nbsp;</a><a class="abstract-icon tooltip" href="/pubs/pub42553.html">&nbsp;</a>
+                <p class="pub-title">
+                  Hostload prediction in a Google compute cloud with a Bayesian model
+                </p>
+                <p>
+                  Sheng Di, Derrick Kondo, <a href="/pubs/author8093.html">Walfredo Cirne</a>
+                </p>
+                <p>
+                  Supercomputing 2012
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=JANUS:+exploiting+parallelism+via+hindsight+Tripp+Manevich+Field+Sagiv">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://doi.acm.org/10.1145/2254064.2254083">&nbsp;</a>
+                <p class="pub-title">
+                  JANUS: exploiting parallelism via hindsight
+                </p>
+                <p>
+                  Omer Tripp, Roman Manevich, <a href="/pubs/JohnField.html">John Field</a>, Mooly
+                  Sagiv
+                </p>
+                <p>
+                  Proceedings of the 33rd ACM SIGPLAN conference on Programming Language Design and
+                  Implementation, ACM, New York, NY, USA (2012), pp. 145-156
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Obfuscatory+obscanturism:+making+workload+traces+of+commercially-sensitive+systems+safe+to+release+Reiss+Wilkes+Hellerstein">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/41686.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub41686.html">&nbsp;</a>
+                <p class="pub-title">
+                  Obfuscatory obscanturism: making workload traces of commercially-sensitive
+                  systems safe to release
+                </p>
+                <p>
+                  Charles Reiss, <a href="/pubs/JohnWilkes.html">John Wilkes</a>, <a href=
+                  "/pubs/author37890.html">Joseph L. Hellerstein</a>
+                </p>
+                <p>
+                  CloudMAN, IEEE, Maui, HI, USA (2012)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Optimistic+Scheduling+with+Geographically+Replicated+Services+in+the+Cloud+Environment+(COLOR)+Zhu+Woodside">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/40340.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub40340.html">&nbsp;</a>
+                <p class="pub-title">
+                  Optimistic Scheduling with Geographically Replicated Services in the Cloud
+                  Environment (COLOR)
+                </p>
+                <p>
+                  <a href="/pubs/WenboZhu.html">Wenbo Zhu</a>, C. Murray Woodside
+                </p>
+                <p>
+                  Cluster, Cloud and Grid Computing (CCGrid), 2012 12th IEEE/ACM International
+                  Symposium on, IEEE CONFERENCE PUBLICATIONS, pp. 735-740
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Orchestrating+the+deployment+of+computations+in+the+cloud+with+conductor+Wieder+Bhatotia+Post+Rodrigues">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://dl.acm.org/citation.cfm?id=2228298.2228335">&nbsp;</a>
+                <p class="pub-title">
+                  Orchestrating the deployment of computations in the cloud with conductor
+                </p>
+                <p>
+                  Alexander Wieder, Pramod Bhatotia, <a href="/pubs/AnsleyPost.html">Ansley
+                  Post</a>, Rodrigo Rodrigues
+                </p>
+                <p>
+                  Proceedings of the 9th USENIX conference on Networked Systems Design and
+                  Implementation, USENIX Association, Berkeley, CA, USA (2012), pp. 27-27
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Overlapping+clusters+for+distributed+computation+Andersen+Gleich+Mirrokni">
+                &nbsp;</a>
+                <p class="pub-title">
+                  Overlapping clusters for distributed computation
+                </p>
+                <p>
+                  Reid Andersen, David Gleich, <a href="/pubs/mirrokni.html">Vahab Mirrokni</a>
+                </p>
+                <p>
+                  ACM Conference on Web Search and Data Mining (WSDM) (2012)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Processing+a+Trillion+Cells+per+Mouse+Click+Hall+Bachmann+Buessow+Ganceanu+Nunkesser">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://vldb.org/pvldb/vol5/p1436_alexanderhall_vldb2012.pdf">&nbsp;</a><a class=
+                "abstract-icon tooltip" href="/pubs/pub40465.html">&nbsp;</a>
+                <p class="pub-title">
+                  Processing a Trillion Cells per Mouse Click
+                </p>
+                <p>
+                  Alex Hall, Olaf Bachmann, Robert Buessow, Silviu-Ionut Ganceanu, <a href=
+                  "/pubs/MarcNunkesser.html">Marc Nunkesser</a>
+                </p>
+                <p>
+                  PVLDB, vol. 5 (2012), pp. 1436-1446
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Projecting+Disk+Usage+Based+on+Historical+Trends+in+a+Cloud+Environment+Stokely+Mehrabian+Albrecht+Labelle+Merchant">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/37747.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub37747.html">&nbsp;</a>
+                <p class="pub-title">
+                  Projecting Disk Usage Based on Historical Trends in a Cloud Environment
+                </p>
+                <p>
+                  <a href="/pubs/MurrayStokely.html">Murray Stokely</a>, Amaan Mehrabian, <a href=
+                  "/pubs/ChristophAlbrecht.html">Christoph Albrecht</a>, Francois Labelle, <a href=
+                  "/pubs/author57990.html">Arif Merchant</a>
+                </p>
+                <p>
+                  ScienceCloud 2012 Proceedings of the 3rd International Workshop on Scientific
+                  Cloud Computing, ACM, pp. 63-70
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Recursion+in+Scalable+Protocols+via+Distributed+Data+Flows+Ostrowski">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/37478.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub37478.html">&nbsp;</a>
+                <p class="pub-title">
+                  Recursion in Scalable Protocols via Distributed Data Flows
+                </p>
+                <p>
+                  <a href="/pubs/author58206.html">Krzysztof Ostrowski</a>
+                </p>
+                <p>
+                  Languages for Distributed Algorithms (2012) (to appear)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Resource-bounded+multicore+emulation+using+Beefarm+Arcas+Sonmez+Sayilar+Singh+Unsal+Cristal+Hur+Valero">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://www.sciencedirect.com/science/article/pii/S0141933112000920">&nbsp;</a><a class="abstract-icon tooltip"
+                href="/pubs/pub40366.html">&nbsp;</a>
+                <p class="pub-title">
+                  Resource-bounded multicore emulation using Beefarm
+                </p>
+                <p>
+                  Oriol Arcas, Nehir Sonmez, Gokhan Sayilar, <a href=
+                  "/pubs/SatnamSingh.html">Satnam Singh</a>, Osman S. Unsal, Adrian Cristal,
+                  Ibrahim Hur, Mateo Valero
+                </p>
+                <p>
+                  Microprocessors and Microsystems (2012)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Science+in+the+Cloud+Hellerstein+Kohlhoff+Konerding">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/37684.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub37684.html">&nbsp;</a>
+                <p class="pub-title">
+                  Science in the Cloud
+                </p>
+                <p>
+                  <a href="/pubs/author37890.html">Joseph L Hellerstein</a>, <a href=
+                  "/pubs/KaiKohlhoff.html">Kai Kohlhoff</a>, <a href=
+                  "/pubs/DavidKonerding.html">David E. Konerding</a>
+                </p>
+                <p>
+                  IEEE Internet Computing (2012)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Spanner:+Google's+Globally-Distributed+Database+Corbett+Dean+Epstein+Fikes+Frost+Furman+Ghemawat+Gubarev+Heiser+Hochschild+Hsieh+Kanthak+Kogan+Li+Lloyd+Melnik+Mwaura+Nagle+Quinlan+Rao+Rolig+Woodford+Saito+Taylor+Szymaniak+Wang">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/39966.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Spanner: Google's Globally-Distributed Database
+                </p>
+                <p>
+                  <a href="/pubs/author39619.html">James C. Corbett</a>, <a href=
+                  "/pubs/jeff.html">Jeffrey Dean</a>, Michael Epstein, Andrew Fikes, <a href=
+                  "/pubs/ChrisFrost.html">Christopher Frost</a>, JJ Furman, <a href=
+                  "/pubs/SanjayGhemawat.html">Sanjay Ghemawat</a>, Andrey Gubarev, Christopher
+                  Heiser, Peter Hochschild, <a href="/pubs/author1760.html">Wilson Hsieh</a>,
+                  Sebastian Kanthak, Eugene Kogan, Hongyi Li, Alexander Lloyd, Sergey Melnik, David
+                  Mwaura, David Nagle, <a href="/pubs/author97.html">Sean Quinlan</a>, Rajesh Rao,
+                  Lindsay Rolig, <a href="/pubs/DaleWoodford.html">Dale Woodford</a>, Yasushi
+                  Saito, Christopher Taylor, Michal Szymaniak, Ruth Wang
+                </p>
+                <p>
+                  OSDI (2012) (to appear)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Trickle:+Rate+Limiting+YouTube+Video+Streaming+Ghobadi+Cheng+Jain+Mathis">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/38103.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub38103.html">&nbsp;</a>
+                <p class="pub-title">
+                  Trickle: Rate Limiting YouTube Video Streaming
+                </p>
+                <p>
+                  Monia Ghobadi, <a href="/pubs/author27276.html">Yuchung Cheng</a>, Ankur Jain,
+                  <a href="/pubs/MattMathis.html">Matt Mathis</a>
+                </p>
+                <p>
+                  Proceedings of the USENIX Annual Technical Conference (2012), pp. 6
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Uncertainty+in+Aggregate+Estimates+from+Sampled+Distributed+Traces+Coehlo+Merchant+Stokely">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/40378.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub40378.html">&nbsp;</a>
+                <p class="pub-title">
+                  Uncertainty in Aggregate Estimates from Sampled Distributed Traces
+                </p>
+                <p>
+                  <a href="/pubs/NathanCoehlo.html">Nate Coehlo</a>, <a href=
+                  "/pubs/author57990.html">Arif Merchant</a>, <a href=
+                  "/pubs/MurrayStokely.html">Murray Stokely</a>
+                </p>
+                <p>
+                  2012 Workshop on Managing Systems Automatically and Dynamically, USENIX
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Upper+and+Lower+Bounds+on+the+Cost+of+a+Map-Reduce+Computation+Afrati+Das+Sarma+Salihoglu+Ullman">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://arxiv.org/abs/1206.4377">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub40413.html">&nbsp;</a>
+                <p class="pub-title">
+                  Upper and Lower Bounds on the Cost of a Map-Reduce Computation
+                </p>
+                <p>
+                  Foto Afrati, <a href="/pubs/author19995.html">Anish Das Sarma</a>, Semih
+                  Salihoglu, Jeffrey Ullman
+                </p>
+                <p>
+                  Arxiv (2012)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Vision+Paper:+Towards+an+Understanding+of+the+Limits+of+Map-Reduce+Computation+Afrati+Das+Sarma+Salihoglu+Ullman">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://arxiv.org/abs/1204.1754">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub40412.html">&nbsp;</a>
+                <p class="pub-title">
+                  Vision Paper: Towards an Understanding of the Limits of Map-Reduce Computation
+                </p>
+                <p>
+                  Foto Afrati, <a href="/pubs/author19995.html">Anish Das Sarma</a>, Semih
+                  Salihoglu, Jeffrey Ullman
+                </p>
+                <p>
+                  CloudFutures Workshop (2012)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=A+Tight+Unconditional+Lower+Bound+on+Distributed+Random+Walk+Computation+Nanongkai+Das+Sarma+Pandurangan">
+                &nbsp;</a>
+                <p class="pub-title">
+                  A Tight Unconditional Lower Bound on Distributed Random Walk Computation
+                </p>
+                <p>
+                  Danupon Nanongkai, Atish Das Sarma, Gopal Pandurangan
+                </p>
+                <p>
+                  ACM Symposium on Principles of Distributed Computing (PODC) (2011)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Characterizing+Task+Usage+Shapes+in+Google+Compute+Clusters+Zhang+Hellerstein+Boutaba">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/37201.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub37201.html">&nbsp;</a>
+                <p class="pub-title">
+                  Characterizing Task Usage Shapes in Google Compute Clusters
+                </p>
+                <p>
+                  Qi Zhang, <a href="/pubs/author37890.html">Joseph Hellerstein</a>, Raouf Boutaba
+                </p>
+                <p>
+                  Proceedings of the 5th International Workshop on Large Scale Distributed Systems
+                  and Middleware (2011)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=CloudScale:+elastic+resource+scaling+for+multi-tenant+cloud+systems+Shen+Subbiah+Gu+Wilkes">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/41687.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  CloudScale: elastic resource scaling for multi-tenant cloud systems
+                </p>
+                <p>
+                  Zhiming Shen, Sethuraman Subbiah, Xiaohui Gu, <a href=
+                  "/pubs/JohnWilkes.html">John Wilkes</a>
+                </p>
+                <p>
+                  Symposium on Cloud Computing (SoCC), ACM, Cascais, Portugal (2011)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Design+and+Implementation+of+FAITH,+an+Experimental+System+to+Intercept+and+Manipulate+Online+Social+Informatics+Lee+Nia+Hsu+Levitt+Rowe+Wu+Ye">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://www.computer.org/portal/web/csdl/doi/10.1109/ASONAM.2011.86">&nbsp;</a>
+                <p class="pub-title">
+                  Design and Implementation of FAITH, an Experimental System to Intercept and
+                  Manipulate Online Social Informatics
+                </p>
+                <p>
+                  Ruaylong Lee, Roozbeh Nia, Jason Hsu, Karl N. Levitt, Jeff Rowe, S. Felix Wu,
+                  <a href="/pubs/ShaozhiYe.html">Shaozhi Ye</a>
+                </p>
+                <p>
+                  International Conference on Advances in Social Networks Analysis and Mining, IEEE
+                  (2011), pp. 195-202
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Diagnosing+Latency+in+Multi-Tier+Black-Box+Services+Ostrowski+Mann+Sandler">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/37477.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub37477.html">&nbsp;</a>
+                <p class="pub-title">
+                  Diagnosing Latency in Multi-Tier Black-Box Services
+                </p>
+                <p>
+                  <a href="/pubs/author58206.html">Krzysztof Ostrowski</a>, Gideon Mann, <a href=
+                  "/pubs/author2357.html">Mark Sandler</a>
+                </p>
+                <p>
+                  5th Workshop on Large Scale Distributed Systems and Middleware (LADIS 2011) (to
+                  appear)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Exploiting+Service+Usage+Information+for+Optimizing+Server+Resource+Management+Totok+Karamcheti">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/37194.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub37194.html">&nbsp;</a>
+                <p class="pub-title">
+                  Exploiting Service Usage Information for Optimizing Server Resource Management
+                </p>
+                <p>
+                  <a href="/pubs/author13637.html">Alexander Totok</a>, Vijay Karamcheti
+                </p>
+                <p>
+                  ACM Transactions on Internet Technology (TOIT), vol. 11 (2011), pp. 1-26
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=FAWN:+a+fast+array+of+wimpy+nodes:+technical+perspective+Barroso">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/40495.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  FAWN: a fast array of wimpy nodes: technical perspective
+                </p>
+                <p>
+                  <a href="/pubs/LuizBarroso.html">Luiz André Barroso</a>
+                </p>
+                <p>
+                  Communications of the ACM, vol. 54 (2011), pp. 100-100
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=HTAF:+Hybrid+Testing+Automation+Framework+to+Leverage+Local+and+Global+Computing+Resources+Yim+Hreczany+Iyer">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/41143.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub41143.html">&nbsp;</a>
+                <p class="pub-title">
+                  HTAF: Hybrid Testing Automation Framework to Leverage Local and Global Computing
+                  Resources
+                </p>
+                <p>
+                  <a href="/pubs/KeunYim.html">Keun Soo Yim</a>, David Hreczany, Ravishankar K.
+                  Iyer
+                </p>
+                <p>
+                  Lecture Notes in Computer Science, vol. 6784 (2011), pp. 479-494
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Megastore:+Providing+Scalable,+Highly+Available+Storage+for+Interactive+Services+Baker+Bond+Corbett+Furman+Khorlin+Larson+Leon+Li+Lloyd+Yushprakh">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/36971.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub36971.html">&nbsp;</a>
+                <p class="pub-title">
+                  Megastore: Providing Scalable, Highly Available Storage for Interactive Services
+                </p>
+                <p>
+                  Jason Baker, <a href="/pubs/author26435.html">Chris Bond</a>, <a href=
+                  "/pubs/author39619.html">James C. Corbett</a>, JJ Furman, Andrey Khorlin,
+                  <a href="/pubs/author38117.html">James Larson</a>, Jean-Michel Leon, Yawei Li,
+                  Alexander Lloyd, Vadim Yushprakh
+                </p>
+                <p>
+                  Proceedings of the Conference on Innovative Data system Research (CIDR) (2011),
+                  pp. 223-234
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Modeling+and+Synthesizing+Task+Placement+Constraints+in+Google+Compute+Clusters+Chudnovsky+Rifaat+Hellerstein+Sharma+Das">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/36953.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub36953.html">&nbsp;</a>
+                <p class="pub-title">
+                  Modeling and Synthesizing Task Placement Constraints in Google Compute Clusters
+                </p>
+                <p>
+                  Victor Chudnovsky, Rasekh Rifaat, <a href="/pubs/author37890.html">Joseph
+                  Hellerstein</a>, Bikash Sharma, Chita Das
+                </p>
+                <p>
+                  Symposium on Cloud Computing, ACM (2011)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Modeling+the+Parallel+Execution+of+Black-Box+Services+Mann+Sandler+Krushevskaja+Guha+Even-Dar">
+                &nbsp;</a>
+                <p class="pub-title">
+                  Modeling the Parallel Execution of Black-Box Services
+                </p>
+                <p>
+                  Gideon Mann, <a href="/pubs/author2357.html">Mark Sandler</a>, Darja
+                  Krushevskaja, Sudipto Guha, Eyal Even-Dar
+                </p>
+                <p>
+                  HotCloud, Usenix (2011)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Perspectives+on+cloud+computing:+interviews+with+five+leading+scientists+from+the+cloud+community+Blair+Kon+Cirne+Milojicic+Ramakrishnan+Reed+Silva">
+                &nbsp;</a><a class="abstract-icon tooltip" href="/pubs/pub42554.html">&nbsp;</a>
+                <p class="pub-title">
+                  Perspectives on cloud computing: interviews with five leading scientists from the
+                  cloud community
+                </p>
+                <p>
+                  Gordon Blair, Fabio Kon, <a href="/pubs/author8093.html">Walfredo Cirne</a>,
+                  Dejan Milojicic, Raghu Ramakrishnan, Dan Reed, Dilma Silva
+                </p>
+                <p>
+                  Journal of Internet Services and Applications (2011)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=PowerNap:+An+Energy+Efficient+MAC+Layer+for+Random+Routing+in+Wireless+Sensor+Networks+Soysal+Ayyorgun+Demirbas">
+                &nbsp;</a><a class="abstract-icon tooltip" href="/pubs/pub37222.html">&nbsp;</a>
+                <p class="pub-title">
+                  PowerNap: An Energy Efficient MAC Layer for Random Routing in Wireless Sensor
+                  Networks
+                </p>
+                <p>
+                  Onur Soysal, Sami Ayyorgun, Murat Demirbas
+                </p>
+                <p>
+                  IEEE SECON 2011
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Tenzing++A+SQL+Implementation+On+The+MapReduce+Framework+Chattopadhyay+Lin+Liu+Mittal+Aragonda+Lychagina+Kwon+Wong">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/37200.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub37200.html">&nbsp;</a>
+                <p class="pub-title">
+                  Tenzing A SQL Implementation On The MapReduce Framework
+                </p>
+                <p>
+                  <a href="/pubs/BiswapeshChattopadhyay.html">Biswapesh Chattopadhyay</a>, Liang
+                  Lin, Weiran Liu, <a href="/pubs/author39858.html">Sagar Mittal</a>, Prathyusha
+                  Aragonda, Vera Lychagina, <a href="/pubs/YoungheeKwon.html">Younghee Kwon</a>,
+                  Michael Wong
+                </p>
+                <p>
+                  Proceedings of VLDB, VLDB Endowment (2011), pp. 1318-1327
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=The+Emerging+Optical+Data+Center+Vahdat+Liu+Zhao+Johnson">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/37047.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub37047.html">&nbsp;</a>
+                <p class="pub-title">
+                  The Emerging Optical Data Center
+                </p>
+                <p>
+                  <a href="/pubs/AminVahdat.html">Amin Vahdat</a>, <a href=
+                  "/pubs/author3723.html">Hong Liu</a>, <a href="/pubs/XiaoxueZhao.html">Xiaoxue
+                  Zhao</a>, Chris Johnson
+                </p>
+                <p>
+                  OFC 2011, OTuH2
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Thialfi:+A+Client+Notification+Service+for+Internet-Scale+Applications+Adya+Cooper+Myers+Piatek">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/37474.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub37474.html">&nbsp;</a>
+                <p class="pub-title">
+                  Thialfi: A Client Notification Service for Internet-Scale Applications
+                </p>
+                <p>
+                  Atul Adya, Gregory Cooper, <a href="/pubs/author54699.html">Daniel Myers</a>,
+                  <a href="/pubs/MichaelPiatek.html">Michael Piatek</a>
+                </p>
+                <p>
+                  Proc. 23rd ACM Symposium on Operating Systems Principles (SOSP) (2011), pp.
+                  129-142
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Warehouse-scale+Computing:+entering+the+teenage+decade+Barroso">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://dl.acm.org/citation.cfm?id=2019527">&nbsp;</a><a class=
+                "abstract-icon tooltip" href="/pubs/pub37206.html">&nbsp;</a>
+                <p class="pub-title">
+                  Warehouse-scale Computing: entering the teenage decade
+                </p>
+                <p>
+                  <a href="/pubs/LuizBarroso.html">Luiz André Barroso</a>
+                </p>
+                <p>
+                  Association for Computing Machinery (2011)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Analyzing+and+enhancing+the+parallel+sort+operation+on+multithreaded+architectures+Rashid+Hassanein+Hammad">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://dx.doi.org/10.1007/s11227-009-0294-5">&nbsp;</a>
+                <p class="pub-title">
+                  Analyzing and enhancing the parallel sort operation on multithreaded
+                  architectures
+                </p>
+                <p>
+                  Layali K. Rashid, Wessam Hassanein, <a href="/pubs/hammad.html">Moustafa A.
+                  Hammad</a>
+                </p>
+                <p>
+                  The Journal of Supercomputing, vol. 53 (2010), pp. 293-312
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Anti-Omega:+the+weakest+failure+detector+for+set+agreement+Zielinski">
+                &nbsp;</a>
+                <p class="pub-title">
+                  Anti-Omega: the weakest failure detector for set agreement
+                </p>
+                <p>
+                  <a href="/pubs/PiotrZielinski.html">Piotr Zielinski</a>
+                </p>
+                <p>
+                  Distributed Computing, vol. 22 (2010), pp. 335-348
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Availability+in+Globally+Distributed+Storage+Systems+Ford+Labelle+Popovici+Stokely+Truong+Barroso+Grimes+Quinlan">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/36737.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub36737.html">&nbsp;</a>
+                <p class="pub-title">
+                  Availability in Globally Distributed Storage Systems
+                </p>
+                <p>
+                  Daniel Ford, Francois Labelle, Florentina Popovici, <a href=
+                  "/pubs/MurrayStokely.html">Murray Stokely</a>, Van-Anh Truong, <a href=
+                  "/pubs/LuizBarroso.html">Luiz Barroso</a>, <a href=
+                  "/pubs/author31907.html">Carrie Grimes</a>, <a href="/pubs/author97.html">Sean
+                  Quinlan</a>
+                </p>
+                <p>
+                  Proceedings of the 9th USENIX Symposium on Operating Systems Design and
+                  Implementation, USENIX (2010)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Dapper,+a+Large-Scale+Distributed+Systems+Tracing+Infrastructure+Sigelman+Barroso+Burrows+Stephenson+Plakal+Beaver+Jaspan+Shanbhag">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/36356.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub36356.html">&nbsp;</a>
+                <p class="pub-title">
+                  Dapper, a Large-Scale Distributed Systems Tracing Infrastructure
+                </p>
+                <p>
+                  Benjamin H. Sigelman, <a href="/pubs/LuizBarroso.html">Luiz André Barroso</a>,
+                  <a href="/pubs/author24014.html">Mike Burrows</a>, <a href=
+                  "/pubs/author907.html">Pat Stephenson</a>, <a href="/pubs/author8115.html">Manoj
+                  Plakal</a>, Donald Beaver, Saul Jaspan, Chandan Shanbhag
+                </p>
+                <p>
+                  Google, Inc. (2010)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Datacenter-scale+Computing+Barroso+Ranganathan">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://www.computer.org/portal/web/csdl/doi/10.1109/MM.2010.63">&nbsp;</a><a class="abstract-icon tooltip"
+                href="/pubs/pub36626.html">&nbsp;</a>
+                <p class="pub-title">
+                  Datacenter-scale Computing
+                </p>
+                <p>
+                  <a href="/pubs/LuizBarroso.html">Luiz André Barroso</a>, <a href=
+                  "/pubs/ParthasarathyRanganathan.html">Parthasarathy Ranganathan</a>
+                </p>
+                <p>
+                  IEEE Micro, vol. 30 (2010), pp. 6-7
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Dremel:+Interactive+Analysis+of+Web-Scale+Datasets+Melnik+Gubarev+Long+Romer+Shivakumar+Tolton+Vassilakis">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/36632.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub36632.html">&nbsp;</a>
+                <p class="pub-title">
+                  Dremel: Interactive Analysis of Web-Scale Datasets
+                </p>
+                <p>
+                  Sergey Melnik, Andrey Gubarev, Jing Jing Long, Geoffrey Romer, Shiva Shivakumar,
+                  Matt Tolton, <a href="/pubs/author28247.html">Theo Vassilakis</a>
+                </p>
+                <p>
+                  Proc. of the 36th Int'l Conf on Very Large Data Bases (2010), pp. 330-339
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=FlumeJava:+Easy,+Efficient+Data-Parallel+Pipelines+Chambers+Raniwala+Perry+Adams+Henry+Bradshaw+Weizenbaum">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/35650.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub35650.html">&nbsp;</a>
+                <p class="pub-title">
+                  FlumeJava: Easy, Efficient Data-Parallel Pipelines
+                </p>
+                <p>
+                  <a href="/pubs/author4707.html">Craig Chambers</a>, <a href=
+                  "/pubs/author12700.html">Ashish Raniwala</a>, Frances Perry, Stephen Adams,
+                  Robert Henry, <a href="/pubs/RobertBradshaw.html">Robert Bradshaw</a>, Nathan
+                </p>
+                <p>
+                  ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI),
+                  ACM New York, NY 2010, 2 Penn Plaza, Suite 701 New York, NY 10121-0701 (2010),
+                  pp. 363-375
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Large-scale+Incremental+Processing+Using+Distributed+Transactions+and+Notifications+Peng+Dabek">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/36726.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub36726.html">&nbsp;</a>
+                <p class="pub-title">
+                  Large-scale Incremental Processing Using Distributed Transactions and
+                  Notifications
+                </p>
+                <p>
+                  <a href="/pubs/author39208.html">Daniel Peng</a>, <a href=
+                  "/pubs/author2377.html">Frank Dabek</a>
+                </p>
+                <p>
+                  Proceedings of the 9th USENIX Symposium on Operating Systems Design and
+                  Implementation, USENIX (2010)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Mahout+in+Action+Anil+Owen+Dunning+Friedman">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://manning.com/owen/">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub36682.html">&nbsp;</a>
+                <p class="pub-title">
+                  Mahout in Action
+                </p>
+                <p>
+                  <a href="/pubs/RobinAnil.html">Robin Anil</a>, Sean Owen, Ted Dunning, Ellen
+                  Friedman
+                </p>
+                <p>
+                  Manning, Manning Publications Co. Sound View Ct. #3B Greenwich, CT 06830 (2010),
+                  pp. 350
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=MapReduce:+a+flexible+data+processing+tool+Dean+Ghemawat">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://doi.acm.org/10.1145/1629175.1629198">&nbsp;</a>
+                <p class="pub-title">
+                  MapReduce: a flexible data processing tool
+                </p>
+                <p>
+                  <a href="/pubs/jeff.html">Jeffrey Dean</a>, <a href=
+                  "/pubs/SanjayGhemawat.html">Sanjay Ghemawat</a>
+                </p>
+                <p>
+                  Commun. ACM, vol. 53 (2010), pp. 72-77
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Optimizing+Utilization+of+Resource+Pools+in+Web+Application+Servers+Totok+Karamcheti">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/36941.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub36941.html">&nbsp;</a>
+                <p class="pub-title">
+                  Optimizing Utilization of Resource Pools in Web Application Servers
+                </p>
+                <p>
+                  <a href="/pubs/author13637.html">Alexander Totok</a>, Vijay Karamcheti
+                </p>
+                <p>
+                  Concurrency and Computation: Practice and Experience, vol. 22 (2010), pp.
+                  2421-2444
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=PRESS:+PRedictive+Elastic+ReSource+Scaling+for+cloud+systems+Gong+Gu+Wilkes">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/41688.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub41688.html">&nbsp;</a>
+                <p class="pub-title">
+                  PRESS: PRedictive Elastic ReSource Scaling for cloud systems
+                </p>
+                <p>
+                  Zhenhuan Gong, Xiaohui Gu, <a href="/pubs/JohnWilkes.html">John Wilkes</a>
+                </p>
+                <p>
+                  6th IEEE/IFIP International Conference on Network and Service Management (CNSM
+                  2010), Niagara Falls, Canada
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Warehouse+Scale+Computing+-+A+keynote+address+to+SIGMOD'10+Barroso">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://dl.acm.org/citation.cfm?id=1837133">&nbsp;</a>
+                <p class="pub-title">
+                  Warehouse Scale Computing - A keynote address to SIGMOD'10
+                </p>
+                <p>
+                  <a href="/pubs/LuizBarroso.html">Luiz André Barroso</a>
+                </p>
+                <p>
+                  Proceedings of the 2010 ACM SIGMOD International Conference on Management of data
+                  (2010)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=A+unified+format+for+traces+of+peer-to-peer+systems+Zhang+Iosup+Garbacki+Pouwelse">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://doi.acm.org/10.1145/1552272.1552279">&nbsp;</a><a class=
+                "abstract-icon tooltip" href="/pubs/pub36232.html">&nbsp;</a>
+                <p class="pub-title">
+                  A unified format for traces of peer-to-peer systems
+                </p>
+                <p>
+                  Boxun Zhang, Alexandru Iosup, Pawel Garbacki, Johan Pouwelse
+                </p>
+                <p>
+                  LSAP '09: Proceedings of the 1st ACM workshop on Large-Scale system and
+                  application performance, ACM, New York, NY, USA (2009), pp. 27-34
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Causeway:+a+message-oriented+distributed+debugger+Stanley+Close+Miller">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/35127.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub35127.html">&nbsp;</a>
+                <p class="pub-title">
+                  Causeway: a message-oriented distributed debugger
+                </p>
+                <p>
+                  Terry Stanley, Tyler Close, <a href="/pubs/author35958.html">Mark S. Miller</a>
+                </p>
+                <p>
+                  HP Labs (2009)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Machine+Learning-Based+Prefetch+Optimization+for+Data+Center+Applications+Liao+Hung+Nguyen+Chou+Tu+Zhou">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://doi.acm.org/10.1145/1654059.1654116">&nbsp;</a>
+                <p class="pub-title">
+                  Machine Learning-Based Prefetch Optimization for Data Center Applications
+                </p>
+                <p>
+                  <a href="/pubs/author2837.html">Shih-wei Liao</a>, Tzu-Han Hung, Donald Nguyen,
+                  Chinyen Chou, Chiaheng Tu, Hucheng Zhou
+                </p>
+                <p>
+                  Proceedings of Supercomputing (2009)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=MapReduce:+The+programming+model+and+practice+Zhao+Pje%C5%A1ivac%E2%80%93Grbovi%C4%87">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/36249.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub36249.html">&nbsp;</a>
+                <p class="pub-title">
+                  MapReduce: The programming model and practice
+                </p>
+                <p>
+                  Jerry Zhao, <a href="/pubs/author17181.html">Jelena Pjesivac-Grbovic</a>
+                </p>
+                <p>
+                  SIGMETRICS (2009)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Parallel+algorithms+for+mining+large-scale+rich-media+data+Chang+Bai+Zhu">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://doi.acm.org/10.1145/1631272.1631451">&nbsp;</a>
+                <p class="pub-title">
+                  Parallel algorithms for mining large-scale rich-media data
+                </p>
+                <p>
+                  Edward Y. Chang, <a href="/pubs/author29895.html">Hongjie Bai</a>, <a href=
+                  "/pubs/author23207.html">Kaihua Zhu</a>
+                </p>
+                <p>
+                  MM '09: Proceedings of the seventeen ACM international conference on Multimedia,
+                  ACM, New York, NY, USA (2009), pp. 917-918
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Prefetch+optimizations+on+large-scale+applications+via+parameter+value+prediction+Liao+Hung+Nguyen+Zhou+Chou+Chou">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://doi.acm.org/10.1145/1542275.1542359">&nbsp;</a>
+                <p class="pub-title">
+                  Prefetch optimizations on large-scale applications via parameter value prediction
+                </p>
+                <p>
+                  <a href="/pubs/author2837.html">Shih-wei Liao</a>, Tzu-Han Hung, Donald Nguyen,
+                  Hucheng Zhou, Chinyen Chou, Chiaheng Tu
+                </p>
+                <p>
+                  ICS (2009), pp. 519-520
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Pregel:+A+System+for+Large-Scale+Graph+Processing+Malewicz+Austern+Bik+Dehnert+Horn+Leiser+Czajkowski">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://doi.acm.org/10.1145/1582716.1582723">&nbsp;</a>
+                <p class="pub-title">
+                  Pregel: A System for Large-Scale Graph Processing
+                </p>
+                <p>
+                  Grzegorz Malewicz, Matthew H. Austern, <a href="/pubs/author38459.html">Aart J.C.
+                  Bik</a>, James C. Dehnert, <a href="/pubs/author38460.html">Ilan Horn</a>,
+                  <a href="/pubs/NatyLeiser.html">Naty Leiser</a>, Grzegorz Czajkowski
+                </p>
+                <p>
+                  28th ACM Symposium on Principles of Distributed Computing (2009), pp. 6-6
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=The+Best+of+CCGrid'2007:+A+Snapshot+of+an+'Adolescent'+Area+Cirne+Schulze">
+                &nbsp;</a>
+                <p class="pub-title">
+                  The Best of CCGrid'2007: A Snapshot of an 'Adolescent' Area
+                </p>
+                <p>
+                  <a href="/pubs/author8093.html">Walfredo Cirne</a>, Bruno Schulze
+                </p>
+                <p>
+                  Concurrency and Computation: Practice and Experience, vol. 21 (2009)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Using+a+Market+Economy+to+Provision+Compute+Resources+Across+Planet-wide++Clusters+Stokely+Winget+Keyes+Grimes+Yolken">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/35115.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub35115.html">&nbsp;</a>
+                <p class="pub-title">
+                  Using a Market Economy to Provision Compute Resources Across Planet-wide Clusters
+                </p>
+                <p>
+                  <a href="/pubs/MurrayStokely.html">Murray Stokely</a>, Jim Winget, Ed Keyes,
+                  <a href="/pubs/author31907.html">Carrie Grimes</a>, Benjamin Yolken
+                </p>
+                <p>
+                  Proceedings for the International Parallel and Distributed Processing Symposium
+                  2009, IEEE, pp. 1-8
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Why+Locally-Fair+Maximal+Flows+in+Client-Server+Networks+Perform+Well+Yoshikawa+Berman">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/42243.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub42243.html">&nbsp;</a>
+                <p class="pub-title">
+                  Why Locally-Fair Maximal Flows in Client-Server Networks Perform Well
+                </p>
+                <p>
+                  <a href="/pubs/author38400.html">Chad Yoshikawa</a>, Ken Berman
+                </p>
+                <p>
+                  Computing and Combinatorics, Springer Berlin Heidelberg, 12715 NE 81st PL (2009),
+                  pp. 368-377
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Anti-Omega:+the+weakest+failure+detector+for+set+agreement+Zielinski">
+                &nbsp;</a>
+                <p class="pub-title">
+                  Anti-Omega: the weakest failure detector for set agreement
+                </p>
+                <p>
+                  <a href="/pubs/PiotrZielinski.html">Piotr Zielinski</a>
+                </p>
+                <p>
+                  27th ACM Symposium on Principles of Distributed Computing (PODC 2008)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Enhancing+Community+Authorization+Services+Abhishek+Kapil">
+                &nbsp;</a>
+                <p class="pub-title">
+                  Enhancing Community Authorization Services
+                </p>
+                <p>
+                  Kumar Abhishek, Kumar Kapil
+                </p>
+                <p>
+                  16th Euromicro International Conference on Parallel, Distributed and
+                  network-based Processing, IEEE Computer Society (2008) (to appear)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Extending+IC-Scheduling+via+the+Sweep+Algorithm+Cordasco+Malewicz+Rosenberg">
+                &nbsp;</a>
+                <p class="pub-title">
+                  Extending IC-Scheduling via the Sweep Algorithm
+                </p>
+                <p>
+                  Gennaro Cordasco, Grzegorz Malewicz, Arnold L. Rosenberg
+                </p>
+                <p>
+                  16th Euromicro International Conference on Parallel, Distributed and
+                  Network-Based Processing (2008), pp. 366-373
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=MapReduce:+Simplified+Data+Processing+on+Large+Clusters+Dean+Ghemawat">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "https://research.google.com/archive/mapreduce-osdi04.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  MapReduce: Simplified Data Processing on Large Clusters
+                </p>
+                <p>
+                  <a href="/pubs/jeff.html">Jeffrey Dean</a>, <a href=
+                  "/pubs/SanjayGhemawat.html">Sanjay Ghemawat</a>
+                </p>
+                <p>
+                  Communications of the ACM, vol. 51, no. 1 (2008), pp. 107-113
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Parallel+Spectral+Clustering+Song+Chen+Bai+Lin+Chang">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/34703.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub34703.html">&nbsp;</a>
+                <p class="pub-title">
+                  Parallel Spectral Clustering
+                </p>
+                <p>
+                  Yangqiu Song, Wen-Yen Chen, <a href="/pubs/author29895.html">Hongjie Bai</a>,
+                  Chih-Jen Lin, Edward Chang
+                </p>
+                <p>
+                  European Conference on Machine Learning and Principles and Practice of Knowledge
+                  Discovery in Databases (ECML/PKDD), Springer (2008), pp. 374-389
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Physics+Aware+Programming+Paradigm:+Approach+and+Evaluation+Hariri+Jararweh+Zhang+Moukabary">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://doi.acm.org/10.1145/1383529.1383530">&nbsp;</a>
+                <p class="pub-title">
+                  Physics Aware Programming Paradigm: Approach and Evaluation
+                </p>
+                <p>
+                  Salim Hariri, Yaser Jararweh, Yeliang Zhang, Talal Moukabary
+                </p>
+                <p>
+                  Proc. 6th International Workshop on Challenges of Large Applications in
+                  Distributed Environments, ACM, Boston (2008), pp. 1-6
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=RaWMS+-+Random+Walk+based+Lightweight+Membership+Service+for+Wireless+Ad+Hoc+Networks+Bar-Yossef+Friedman+Kliot">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/34453.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  RaWMS - Random Walk based Lightweight Membership Service for Wireless Ad Hoc
+                  Networks
+                </p>
+                <p>
+                  <a href="/pubs/author6593.html">Ziv Bar-Yossef</a>, Roy Friedman, Gabi Kliot
+                </p>
+                <p>
+                  ACM Transactions on Computer Systems, vol. 26 (2008), pp. 1-66
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Age-based+Packet+Arbitration+in+Large+k-ary+n-cubes+Abts+Weisser">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/33386.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub33386.html">&nbsp;</a>
+                <p class="pub-title">
+                  Age-based Packet Arbitration in Large k-ary n-cubes
+                </p>
+                <p>
+                  <a href="/pubs/author36240.html">Dennis Abts</a>, <a href=
+                  "/pubs/author36192.html">Deborah Weisser</a>
+                </p>
+                <p>
+                  SC (2007)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Applying+IC-Scheduling+Theory+to+Familiar+Classes+of+Computations+Cordasco+Malewicz+Rosenberg">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://dx.doi.org/10.1109/IPDPS.2007.370673">&nbsp;</a>
+                <p class="pub-title">
+                  Applying IC-Scheduling Theory to Familiar Classes of Computations
+                </p>
+                <p>
+                  Gennaro Cordasco, Grzegorz Malewicz, Arnold L. Rosenberg
+                </p>
+                <p>
+                  Workshop on Large-Scale and Volatile Desktop Grids in conjunction with IPDPS'07
+                  (2007), pp. 1-8
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Architect's+dream+or+developer's+nightmare?+Hohpe">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://doi.acm.org/10.1145/1266894.1266931">&nbsp;</a>
+                <p class="pub-title">
+                  Architect's dream or developer's nightmare?
+                </p>
+                <p>
+                  Gregor Hohpe
+                </p>
+                <p>
+                  Proc. 2007 inaugural international conference on distributed event-based systems,
+                  ACM, Toronto, pp. 188-188
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Distributed+Programming+with+MapReduce+Dean+Ghemawat">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/33004.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Distributed Programming with MapReduce
+                </p>
+                <p>
+                  <a href="/pubs/jeff.html">Jeffrey Dean</a>, <a href=
+                  "/pubs/SanjayGhemawat.html">Sanjay Ghemawat</a>
+                </p>
+                <p>
+                  Beautiful Code, O'Reilly (2007), Chapter 23
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Engineering+Reliability+into+Web+Sites:+Google+SRE+Perry">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/32583.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub32583.html">&nbsp;</a>
+                <p class="pub-title">
+                  Engineering Reliability into Web Sites: Google SRE
+                </p>
+                <p>
+                  Alexander R. Perry
+                </p>
+                <p>
+                  Proceedings of LinuxWorld (2007)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Large+Language+Models+in+Machine+Translation+Brants+Popat+Xu+Och+Dean">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/33278.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Large Language Models in Machine Translation
+                </p>
+                <p>
+                  Thorsten Brants, Ashok C. Popat, <a href="/pubs/PengXu.html">Peng Xu</a>, Franz
+                  J. Och, <a href="/pubs/jeff.html">Jeffrey Dean</a>
+                </p>
+                <p>
+                  Proceedings of the 2007 Joint Conference on Empirical Methods in Natural Language
+                  Processing and Computational Natural Language Learning (EMNLP-CoNLL), pp. 858-867
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Let's+Have+a+Conversation+Hohpe">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/33308.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Let's Have a Conversation
+                </p>
+                <p>
+                  Gregor Hohpe
+                </p>
+                <p>
+                  IEEE Internet Computing, vol. 11, no. 3 (2007), pp. 78-81
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=MRPSO:+MapReduce+Particle+Swarm+Optimization+McNabb+Monson+Seppi">
+                &nbsp;</a><a class="abstract-icon tooltip" href="/pubs/pub37207.html">&nbsp;</a>
+                <p class="pub-title">
+                  MRPSO: MapReduce Particle Swarm Optimization
+                </p>
+                <p>
+                  Andrew W. McNabb, Christopher K. Monson, Kevin D. Seppi
+                </p>
+                <p>
+                  Proceedings of the Genetic and Evolutionary Computation Conference (GECCO 2007),
+                  IEEE
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Parallel+Approximate+Matrix+Factorization+for+Kernel+Methods+Zhu+Cui+Bai+Li+Qiu+Wang+Xu+Chang">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://ieeexplore.ieee.org/xpls/abs_all.jsp?tp=&amp;arnumber=4284890&amp;isnumber=4284553">&nbsp;</a>
+                <p class="pub-title">
+                  Parallel Approximate Matrix Factorization for Kernel Methods
+                </p>
+                <p>
+                  <a href="/pubs/author23207.html">Kaihua Zhu</a>, Hang Cui, <a href=
+                  "/pubs/author29895.html">Hongjie Bai</a>, Jian Li, Zhihuan Qiu, Hao Wang, Hui Xu,
+                  Edward Y. Chang
+                </p>
+                <p>
+                  IEEE International Conference on Multimedia and Expo(ICME) (2007)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Parallel+PSO+Using+MapReduce+McNabb+Monson+Seppi">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://www.bouncingchairs.net/mrpso-cec2007.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Parallel PSO Using MapReduce
+                </p>
+                <p>
+                  Andrew W. McNabb, Christopher K. Monson, Kevin D. Seppi
+                </p>
+                <p>
+                  Proceedings of the IEEE Congress on Evolutionary Computation, IEEE Press (2007),
+                  pp. 7-14
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Parallelizing+Support+Vector+Machines+on+Distributed+Computers+Chang+Zhu+Wang+Bai+Li+Qiu+Cui">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/34638.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub34638.html">&nbsp;</a>
+                <p class="pub-title">
+                  Parallelizing Support Vector Machines on Distributed Computers
+                </p>
+                <p>
+                  Edward Y. Chang, <a href="/pubs/author23207.html">Kaihua Zhu</a>, Hao Wang,
+                  <a href="/pubs/author29895.html">Hongjie Bai</a>, Jian Li, Zhihuan Qiu, Hang Cui
+                </p>
+                <p>
+                  Neural Information Processing Systems (NIPS) (2007)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Paxos+Made+Live+-+An+Engineering+Perspective+(2006+Invited+Talk)+Chandra+Griesemer+Redstone">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://dx.doi.org/10.1145/1281100.1281103">&nbsp;</a><a class=
+                "abstract-icon tooltip" href="/pubs/pub33002.html">&nbsp;</a>
+                <p class="pub-title">
+                  Paxos Made Live - An Engineering Perspective (2006 Invited Talk)
+                </p>
+                <p>
+                  <a href="/pubs/author3563.html">Tushar Deepak Chandra</a>, <a href=
+                  "/pubs/author96.html">Robert Griesemer</a>, Joshua Redstone
+                </p>
+                <p>
+                  Proceedings of the 26th Annual ACM Symposium on Principles of Distributed
+                  Computing, ACM press (2007)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=A+Tool+for+Prioritizing+DAGMan+Jobs+and+Its+Evaluation+Malewicz+Foster+Rosenberg+Wilde">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/98.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  A Tool for Prioritizing DAGMan Jobs and Its Evaluation
+                </p>
+                <p>
+                  Grzegorz Malewicz, Ian Foster, Arnold Rosenberg, Michael Wilde
+                </p>
+                <p>
+                  Proceedings of the IEEE International Symposium on High-Performance Distributed
+                  Computing (HPDC06), Paris, France (2006), pp. 156-167
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=An+Autonomic+Routing+Framework+for+Sensor+Networks+He+Raghavendra+Berson+Braden">
+                &nbsp;</a>
+                <p class="pub-title">
+                  An Autonomic Routing Framework for Sensor Networks
+                </p>
+                <p>
+                  <a href="/pubs/author64.html">Yu He</a>, Cauligi S. Raghavendra, Steven Berson,
+                  Robert Braden
+                </p>
+                <p>
+                  Cluster Computing, Special Issue on Autonomic Computing (Kluwer Academic
+                  Pulishers), vol. 9 (2006), pp. 191-200
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=An+Experimental+Study+of+the+Skype+Peer-to-Peer+VoIP+System+Guha+Daswani+Jain">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/95.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  An Experimental Study of the Skype Peer-to-Peer VoIP System
+                </p>
+                <p>
+                  Saikat Guha, Neil Daswani, <a href="/pubs/author139.html">Ravi Jain</a>
+                </p>
+                <p>
+                  Proceedings of The 5th International Workshop on Peer-to-Peer Systems (IPTPS
+                  '06), Santa Barbara, CA (2006)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Bigtable:+A+Distributed+Storage+System+for+Structured+Data+Chang+Dean+Ghemawat+Hsieh+Wallach+Burrows+Chandra+Fikes+Gruber">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://research.google.com/archive/bigtable-osdi06.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Bigtable: A Distributed Storage System for Structured Data
+                </p>
+                <p>
+                  <a href="/pubs/author19234.html">Fay Chang</a>, <a href="/pubs/jeff.html">Jeffrey
+                  Dean</a>, <a href="/pubs/SanjayGhemawat.html">Sanjay Ghemawat</a>, <a href=
+                  "/pubs/author1760.html">Wilson C. Hsieh</a>, Deborah A. Wallach, <a href=
+                  "/pubs/author24014.html">Mike Burrows</a>, <a href="/pubs/author3563.html">Tushar
+                  Chandra</a>, Andrew Fikes, <a href="/pubs/author32266.html">Robert E. Gruber</a>
+                </p>
+                <p>
+                  7th USENIX Symposium on Operating Systems Design and Implementation (OSDI),
+                  {USENIX} (2006), pp. 205-218
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Data+Management+for+Internet-Scale+Single-Sign-On+Perl+Seltzer">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/27820.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Data Management for Internet-Scale Single-Sign-On
+                </p>
+                <p>
+                  Sharon E. Perl, Margo Seltzer
+                </p>
+                <p>
+                  Proceedings of the 3rd Workshop on Real, Large Distributed Systems, Usenix (2006)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Experiences+with+MapReduce,+an+abstraction+for+large-scale+computation+Dean">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/32721.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Experiences with MapReduce, an abstraction for large-scale computation
+                </p>
+                <p>
+                  <a href="/pubs/jeff.html">Jeffrey Dean</a>
+                </p>
+                <p>
+                  Proc. 15th International Conference on Parallel Architectures and Compilation
+                  Techniques, ACM, Seattle, WA (2006), pp. 1
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Java+Concurrency+in+Practice+Goetz+Peierls+Bloch+Bowbeer+Holmes+Lea">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://www.javaconcurrencyinpractice.com">&nbsp;</a>
+                <p class="pub-title">
+                  Java Concurrency in Practice
+                </p>
+                <p>
+                  Brian Goetz, Tim Peierls, Joshua Bloch, Joseph Bowbeer, David Holmes, Doug Lea
+                </p>
+                <p>
+                  Addison-Wesley, Boston, MA (2006)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Minimizing+the+Stretch+when+Scheduling+Flows+of+Biological+Requests+Legrand+Su+Vivien">
+                &nbsp;</a>
+                <p class="pub-title">
+                  Minimizing the Stretch when Scheduling Flows of Biological Requests
+                </p>
+                <p>
+                  Arnaud Legrand, <a href="/pubs/author8080.html">Alan Su</a>, Frédéric Vivien
+                </p>
+                <p>
+                  Proceedings of the 18th ACM Symposium on Parallelism in Algorithms and
+                  Architectures (2006)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=On+Scheduling+Expansive+and+Reductive+Dags+for+Internet-Based+++++++++++++++Computing+Cordasco+Malewicz+Rosenberg">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://doi.ieeecomputersociety.org/10.1109/ICDCS.2006.58">&nbsp;</a>
+                <p class="pub-title">
+                  On Scheduling Expansive and Reductive Dags for Internet-Based Computing
+                </p>
+                <p>
+                  Gennaro Cordasco, Grzegorz Malewicz, Arnold L. Rosenberg
+                </p>
+                <p>
+                  26th IEEE International Conference on Distributed Computing Systems (2006), pp.
+                  29
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Simple+Efficient+Load-Balancing+Algorithms+for+Peer-to-Peer+Systems+Karger+Ruhl">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/33339.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Simple Efficient Load-Balancing Algorithms for Peer-to-Peer Systems
+                </p>
+                <p>
+                  David R. Karger, <a href="/pubs/author106.html">Matthias Ruhl</a>
+                </p>
+                <p>
+                  Theory of Computing Systems, vol. 39, no. 6 (2006), pp. 787-804
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=The+Chubby+lock+service+for+loosely-coupled+distributed+systems+Burrows">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://research.google.com/archive/chubby-osdi06.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  The Chubby lock service for loosely-coupled distributed systems
+                </p>
+                <p>
+                  <a href="/pubs/author24014.html">Mike Burrows</a>
+                </p>
+                <p>
+                  7th USENIX Symposium on Operating Systems Design and Implementation (OSDI),
+                  {USENIX} (2006)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Decentralized+algorithms+using+both+local+and+random+probes+for+P2P+load+balancing+Kenthapadi+Manku">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://doi.acm.org/10.1145/1073970.1073990">&nbsp;</a>
+                <p class="pub-title">
+                  Decentralized algorithms using both local and random probes for P2P load
+                  balancing
+                </p>
+                <p>
+                  Krishnaram Kenthapadi, <a href="/pubs/author3591.html">Gurmeet Singh Manku</a>
+                </p>
+                <p>
+                  SPAA 2005 (17th ACM Symposium on Parallelism in Algorithms an Architectures), pp.
+                  135-144
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Interpreting+the+Data:+Parallel+Analysis+with+Sawzall+Pike+Dorward+Griesemer+Quinlan">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/61.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub61.html">&nbsp;</a>
+                <p class="pub-title">
+                  Interpreting the Data: Parallel Analysis with Sawzall
+                </p>
+                <p>
+                  <a href="/pubs/r.html">Rob Pike</a>, <a href="/pubs/author95.html">Sean
+                  Dorward</a>, <a href="/pubs/author96.html">Robert Griesemer</a>, <a href=
+                  "/pubs/author97.html">Sean Quinlan</a>
+                </p>
+                <p>
+                  Scientific Programming Journal, vol. 13 (2005), pp. 277-298
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Papillon:+Greedy+Routing+in+Rings+Abraham+Malkhi+Manku">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/18700.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Papillon: Greedy Routing in Rings
+                </p>
+                <p>
+                  Ittai Abraham, Dahlia Malkhi, <a href="/pubs/author3591.html">Gurmeet Singh
+                  Manku</a>
+                </p>
+                <p>
+                  DISC (2005), pp. 514-515
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=MapReduce:+Simplified+Data+Processing+on+Large+Clusters+Dean+Ghemawat">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://research.google.com/archive/mapreduce.html">&nbsp;</a>
+                <p class="pub-title">
+                  MapReduce: Simplified Data Processing on Large Clusters
+                </p>
+                <p>
+                  <a href="/pubs/jeff.html">Jeffrey Dean</a>, <a href=
+                  "/pubs/SanjayGhemawat.html">Sanjay Ghemawat</a>
+                </p>
+                <p>
+                  OSDI'04: Sixth Symposium on Operating System Design and Implementation, San
+                  Francisco, CA (2004), pp. 137-150
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Web+Search+for+a+Planet:+The+Google+Cluster+Architecture+Barroso+Dean+Holzle">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://research.google.com/archive/googlecluster.html">&nbsp;</a><a class=
+                "abstract-icon tooltip" href="/pubs/pub49.html">&nbsp;</a>
+                <p class="pub-title">
+                  Web Search for a Planet: The Google Cluster Architecture
+                </p>
+                <p>
+                  <a href="/pubs/LuizBarroso.html">Luiz Andre Barroso</a>, <a href=
+                  "/pubs/jeff.html">Jeffrey Dean</a>, <a href="/pubs/author79.html">Urs Hölzle</a>
+                </p>
+                <p>
+                  IEEE Micro, vol. 23 (2003), pp. 22-28
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="maia-signature"></div>
+    <div class="maia-footer" id="maia-footer">
+      <div id="maia-footer-local">
+        <div class="maia-aux">
+          <ul class="expand no-marker" id="footer-local">
+            <li>
+              <a class="googleplus middle" href=
+              "//plus.google.com/117790530324740296539/posts">Google Plus</a>
+              <p>
+                Thoughts from Google's academic community
+              </p>
+            </li>
+            <li>
+              <a class="twitter middle" href="//twitter.com/googleresearch">Twitter</a>
+              <p>
+                Research at Google announcements
+              </p>
+            </li>
+            <li>
+              <a class="blogger middle" href="//googleresearch.blogspot.com/">Research Blog</a>
+              <p>
+                The latest news from Research at Google
+              </p>
+            </li>
+            <li>
+              <a class="scholar middle" href="//scholar.google.com/">Google Scholar</a>
+              <p>
+                Search for scholarly literature
+              </p>
+            </li>
+            <li>
+              <a class="youtube middle" href=
+              "//www.youtube.com/user/GoogleTechTalks/featured">YouTube Tech Talks</a>
+              <p>
+                Tech talks by leaders in the field
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div id="maia-footer-global">
+        <div class="maia-aux">
+          <ul>
+            <li>
+              <a href="//www.google.com/">Google</a>
+            </li>
+            <li>
+              <a href="//www.google.com/intl/en/about/">About Google</a>
+            </li>
+            <li>
+              <a href="//www.google.com/intl/en/policies/privacy/">Privacy</a>
+            </li>
+            <li>
+              <a href="//www.google.com/intl/en/policies/terms/">Terms</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <script src="//www.google.com/jsapi">
+    </script> 
+    <script src="/js/research.view.js">
+    </script> 
+    <script>
+    var videoUnit= new gweb.ui.LightBox('video-lightbox', 'Some tech-talks in Distributed Systems and Parallel Computing');
+  videoUnit.setAnimate(true);
+  videoUnit.setScaleImages(true);
+  videoUnit.setOutsideNav(true);
+  videoUnit.setCloseText('CLOSE');
+  videoUnit.setItemCount(true);
+  videoUnit.init();
+    </script> 
+    <script src="//www.google.com/js/maia.js">
+    </script>
+  </body>
+</html>

@@ -1,0 +1,2442 @@
+<!DOCTYPE html>
+<html class="google" lang="en">
+  <head>
+
+    <script>
+    (function(H){H.className=H.className.replace(/\bgoogle\b/,'google-js')})(document.documentElement)
+    </script>
+    <meta charset="utf-8">
+    <meta content="initial-scale=1, minimum-scale=1, width=device-width" name="viewport">
+    <title>
+      Networking - Research at Google
+    </title>
+    <script src="//www.google.com/js/google.js">
+    </script>
+    <script>
+    new gweb.analytics.AutoTrack({profile:"UA-5974346-1"});
+    </script>
+    <link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;lang=en" rel=
+    "stylesheet">
+    <link href="/css/research.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="maia-header" id="maia-header" role="banner">
+      <div class="maia-aux">
+        <h1>
+          <a href="/" id="logo"><img alt="Research at Google" src=
+          "/images/research_at_google.png"></a>
+        </h1><a class="maia-teleport" href="#content">Skip to content</a>
+        <div class="maia-util">
+          <form class="maia-search" id="search" name="search">
+            <input id="q" name="q" placeholder="Search this site" value=""> <input class=
+            "maia-button" type="submit" value="Search">
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="maia-nav maia-complex" id="maia-nav-x" role="navigation">
+      <div class="maia-aux">
+        <ul>
+          <li>
+            <a href="/index.html">Home</a>
+          </li>
+          <li class="active" id="ra">
+            <a href="/pubs/papers.html">Research Areas &amp; Publications</a> <span class=
+            "glyph">&nbsp;</span>
+            <div class="hidden">
+              <ul id="ramenu">
+                <li class="fill">
+                  <a href="/pubs/papers.html">Overview</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/AlgorithmsandTheory.html">Algorithms and Theory</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/DataManagement.html">Data Management</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/DataMiningandModeling.html">Data Mining and Modeling</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/DistributedSystemsandParallelComputing.html">Distributed Systems
+                  and Parallel Computing</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/EconomicsandElectronicCommerce.html">Economics and Electronic
+                  Commerce</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/EducationInnovation.html">Education Innovation</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/GeneralScience.html">General Science</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/HardwareandArchitecture.html">Hardware and Architecture</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/Human-ComputerInteractionandVisualization.html">Human-Computer
+                  Interaction and Visualization</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/InformationRetrievalandtheWeb.html">Information Retrieval and the
+                  Web</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/MachineIntelligence.html">Machine Intelligence</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/MachinePerception.html">Machine Perception</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/MachineTranslation.html">Machine Translation</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/MobileSystems.html">Mobile Systems</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/NaturalLanguageProcessing.html">Natural Language Processing</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/Networking.html">Networking</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/SecurityPrivacyandAbusePrevention.html">Security, Privacy and
+                  Abuse Prevention</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/SoftwareEngineering.html">Software Engineering</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/SoftwareSystems.html">Software Systems</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/SpeechProcessing.html">Speech Processing</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a href="/researchers.html">People</a>
+          </li>
+          <li>
+            <a href="/university/">Research Programs</a>
+          </li>
+          <li>
+            <a href="/workatgoogle.html">Work at Google</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div id="maia-main" role="main">
+      <div class="maia-teleport" id="content"></div>
+      <div id="cse">
+        &nbsp;
+      </div>
+      <h1>
+        Networking
+      </h1>
+      <div class="maia-cols">
+        <div class="maia-col-4">
+          <div>
+            <div class="sidebar">
+              <h2>
+                What We Do
+              </h2>
+              <p>
+                Internet research: Today's broadband networks are not like traditional networks
+                such as railroads, or even circuit-switched telephone networks. Their vast matrix
+                of interdependencies and shifting conditions make them fundamentally different, and
+                require fundamentally different and novel approaches to understand them. National
+                Regulatory Agencies and those tasked with understanding broadband network
+                performance must recognize these differences, and match the novelty of the task
+                they are now undertaking with new, scientific approaches to gathering information.
+                Google’s research efforts in this area focus on creating a platform for
+                Internet-scale measurement, driven by academic researchers, which produces data
+                that can be analyzed for the purpose of providing stable platforms for sound public
+                policy.
+              </p>
+              <p>
+                SDN research: Google has been a leader in Software Defined Networking, helping
+                drive innovation through novel approaches to building and operating networks.
+                Google’s research efforts in this space combine developing standards that provide a
+                foundation for a broad range of solutions to be explored with producing examples of
+                specific solutions that illustrate the practical value of the SDN approach to
+                networking.
+              </p>
+              <h2>
+                Related videos
+              </h2><a class="video-small video-lightbox" data-lightbox-caption="OpenFlow at Google"
+              data-lightbox-height="480" data-lightbox-width="853" href=
+              "//www.youtube.com/embed/VLHJUfgxEO4?autoplay=1"><img alt="OpenFlow at Google" src=
+              "https://i2.ytimg.com/vi/VLHJUfgxEO4/hqdefault.jpg"> <span>&nbsp;</span></a>
+              <p class="caption">
+                OpenFlow at Google
+              </p><a class="video-small video-lightbox" data-lightbox-caption=
+              "SDN Stack for Service Provider Networks" data-lightbox-height="480"
+              data-lightbox-width="853" href=
+              "//www.youtube.com/embed/56UASyV65zs?autoplay=1"><img alt=
+              "SDN Stack for Service Provider Networks" src=
+              "https://i2.ytimg.com/vi/56UASyV65zs/hqdefault.jpg"> <span>&nbsp;</span></a>
+              <p class="caption">
+                SDN Stack for Service Provider Networks
+              </p><a class="video-small video-lightbox" data-lightbox-caption=
+              "Urs Hoelzle at Velocity 2010" data-lightbox-height="480" data-lightbox-width="853"
+              href="//www.youtube.com/embed/MStKwEff_kY?autoplay=1"><img alt=
+              "Urs Hoelzle at Velocity 2010" src=
+              "https://i2.ytimg.com/vi/MStKwEff_kY/hqdefault.jpg"> <span>&nbsp;</span></a>
+              <p class="caption">
+                Urs Hoelzle at Velocity 2010
+              </p>
+              <p class="fill">
+                <a href="http://www.youtube.com/user/GoogleTechTalks?feature=watch">Google's
+                tech-talk channel on YouTube</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="maia-col-8">
+          <h2>
+            130 Publications
+          </h2>
+          <div class="section">
+            <ul class="pub-list">
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Temporospatial+SDN+for+Aerospace+Communications+Barritt+Eddy">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/43929.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub43929.html">&nbsp;</a>
+                <p class="pub-title">
+                  Temporospatial SDN for Aerospace Communications
+                </p>
+                <p>
+                  <a href="/pubs/BrianBarritt.html">Brian Barritt</a>, Wesley Eddy
+                </p>
+                <p>
+                  AIAA SPACE 2015 Conference and Exposition, American Institute of Aeronautics and
+                  Astronautics (2016) (to appear)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=BwE:+Flexible,+Hierarchical+Bandwidth+Allocation+for+WAN+Distributed+Computing+Kumar+Jain+Naik+Kasinadhuni+Cauich+Zermeno+Gunn+Ai+Carlin+Amarandei-Stavila+Robin+Siganporia+Stuart+Vahdat">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/43838.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub43838.html">&nbsp;</a>
+                <p class="pub-title">
+                  BwE: Flexible, Hierarchical Bandwidth Allocation for WAN Distributed Computing
+                </p>
+                <p>
+                  Alok Kumar, Sushant Jain, <a href="/pubs/author32197.html">Uday Naik</a>, Nikhil
+                  Kasinadhuni, Enrique Cauich Zermeno, C. Stephen Gunn, Jing Ai, Björn Carlin,
+                  Mihai Amarandei-Stavila, Mathieu Robin, <a href="/pubs/AspiSiganporia.html">Aspi
+                  Siganporia</a>, Stephen Stuart, <a href="/pubs/AminVahdat.html">Amin Vahdat</a>
+                </p>
+                <p>
+                  Sigcomm '15, Google Inc (2015)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=CQIC:+Revisiting+Cross-Layer+Congestion+Control+f+or+Cellular+Networks+Lu+Du+Jain+Voelker+Snoeren+Terzis">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/43311.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub43311.html">&nbsp;</a>
+                <p class="pub-title">
+                  CQIC: Revisiting Cross-Layer Congestion Control f or Cellular Networks
+                </p>
+                <p>
+                  <a href="/pubs/FengLu.html">Feng Lu</a>, Hao Du, Ankur Jain, Geoffrey M. Voelker,
+                  Alex C. Snoeren, <a href="/pubs/AndreasTerzis.html">Andreas Terzis</a>
+                </p>
+                <p>
+                  Proceedings of The 16th International Workshop on Mobile Computing Systems and
+                  Applications (HotMobile), ACM (2015), pp. 45-50
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Condor:+Better+Topologies+through+Declarative+Design+Schlinker+Niranjan+Mysore+Smith+Mogul+Vahdat+Yu+Katz-Bassett+Rubin">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/43839.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub43839.html">&nbsp;</a>
+                <p class="pub-title">
+                  Condor: Better Topologies through Declarative Design
+                </p>
+                <p>
+                  Brandon Schlinker, <a href="/pubs/RadhikaNiranjanMysore.html">Radhika Niranjan
+                  Mysore</a>, Sean Smith, <a href="/pubs/JeffreyMogul.html">Jeffrey C. Mogul</a>,
+                  <a href="/pubs/AminVahdat.html">Amin Vahdat</a>, Minlan Yu, Ethan Katz-Bassett,
+                  Michael Rubin
+                </p>
+                <p>
+                  Sigcomm '15, Google Inc (2015)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Efficient+Traffic+Splitting+on+Commodity+Switches+Kang+Ghobadi+Reumann+Shraer+Rexford">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/44273.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub44273.html">&nbsp;</a>
+                <p class="pub-title">
+                  Efficient Traffic Splitting on Commodity Switches
+                </p>
+                <p>
+                  Nanxi Kang, Monia Ghobadi, John Reumann, <a href=
+                  "/pubs/AlexanderShraer.html">Alexander Shraer</a>, Jennifer Rexford
+                </p>
+                <p>
+                  Proceedings of the 11th ACM International on Conference on emerging Networking
+                  Experiments and Technologies (CoNEXT), ACM (2015) (to appear)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Flywheel:+Google%E2%80%99s+Data+Compression+Proxy+for+the+Mobile+Web+Agababov+Buettner+Chudnovsky">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://www.michaelpiatek.com/papers/flywheel-nsdi15.pdf">&nbsp;</a><a class=
+                "abstract-icon tooltip" href="/pubs/pub43458.html">&nbsp;</a>
+                <p class="pub-title">
+                  Flywheel: Google’s Data Compression Proxy for the Mobile Web
+                </p>
+                <p>
+                  Victor Agababov, Michael Buettner, Victor Chudnovsky
+                </p>
+                <p>
+                  Proceedings of the 12th USENIX Symposium on Networked Systems Design and
+                  Implementation, NSDI 2015, USENIX, 2560 Ninth Street, Suite 215, Berkeley, CA,
+                  94710 USA
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Inferring+the+Network+Latency+Requirements+of+Cloud+Tenants%7D+Mogul+Kompella">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/43867.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub43867.html">&nbsp;</a>
+                <p class="pub-title">
+                  Inferring the Network Latency Requirements of Cloud Tenants
+                </p>
+                <p>
+                  <a href="/pubs/JeffreyMogul.html">Jeffrey C Mogul</a>, Ramana Rao Kompella
+                </p>
+                <p>
+                  15th Workshop on Hot Topics in Operating Systems (HotOS XV), USENIX Association
+                  (2015)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Jupiter+Rising:+A+Decade+of+Clos+Topologies+and+Centralized+Control+in+Google%E2%80%99s+Datacenter+Network+Singh+Ong+Agarwal+Anderson+Armistead+Bannon+Boving+Desai+Felderman+Germano+Kanagala+Provost+Simmons+Tanda+Wanderer+Holzle+Stuart+Vahdat">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/43837.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub43837.html">&nbsp;</a>
+                <p class="pub-title">
+                  Jupiter Rising: A Decade of Clos Topologies and Centralized Control in Google’s
+                  Datacenter Network
+                </p>
+                <p>
+                  Arjun Singh, Joon Ong, Amit Agarwal, Glen Anderson, Ashby Armistead, Roy Bannon,
+                  Seb Boving, Gaurav Desai, <a href="/pubs/BobFelderman.html">Bob Felderman</a>,
+                  Paulie Germano, <a href="/pubs/AnandKanagala.html">Anand Kanagala</a>, Jeff
+                  Provost, Jason Simmons, Eiichi Tanda, Jim Wanderer, <a href=
+                  "/pubs/author79.html">Urs Hölzle</a>, Stephen Stuart, <a href=
+                  "/pubs/AminVahdat.html">Amin Vahdat</a>
+                </p>
+                <p>
+                  Sigcomm '15, Google Inc (2015)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=RFC7535+-+AS112+Redirection+Using+DNAME+Kumari+Abley+Dickson+Michaelson">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/43822.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub43822.html">&nbsp;</a>
+                <p class="pub-title">
+                  RFC7535 - AS112 Redirection Using DNAME
+                </p>
+                <p>
+                  <a href="/pubs/WarrenKumari.html">Warren Kumari</a>, Joe Abley, Brian Dickson,
+                  George Michaelson
+                </p>
+                <p>
+                  IETF RFCs, Internet Engineering Task Force (2015), pp. 16
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=RFC7607+-+Codification+of+AS+0+Processing+Kumari+Bush+Schiller+Patel">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://www.rfc-editor.org/rfc/rfc7607.txt">&nbsp;</a><a class=
+                "abstract-icon tooltip" href="/pubs/pub43954.html">&nbsp;</a>
+                <p class="pub-title">
+                  RFC7607 - Codification of AS 0 Processing
+                </p>
+                <p>
+                  <a href="/pubs/WarrenKumari.html">Warren Kumari</a>, Randy Bush, Heather
+                  Schiller, Keyur Patel
+                </p>
+                <p>
+                  IETF RFCs, Internet Engineering Task Force (2015), pp. 5
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=TIMELY:+RTT-based+Congestion+Control+for+the++Datacenter+Mittal+Lam+Dukkipati+Blem+Wassel+Ghobadi+Vahdat+Wang+Wetherall+Zats">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/43840.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub43840.html">&nbsp;</a>
+                <p class="pub-title">
+                  TIMELY: RTT-based Congestion Control for the Datacenter
+                </p>
+                <p>
+                  Radhika Mittal, Terry Lam, <a href="/pubs/author39115.html">Nandita
+                  Dukkipati</a>, Emily Blem, <a href="/pubs/HassanWassel.html">Hassan Wassel</a>,
+                  Monia Ghobadi, <a href="/pubs/AminVahdat.html">Amin Vahdat</a>, Yaogong Wang,
+                  David Wetherall, David Zats
+                </p>
+                <p>
+                  Sigcomm '15, Google Inc (2015)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Advanced+DSP+for+400+Gb/s+and+Beyond+Optical+Networks+Zhou+Nelson">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/43831.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub43831.html">&nbsp;</a>
+                <p class="pub-title">
+                  Advanced DSP for 400 Gb/s and Beyond Optical Networks
+                </p>
+                <p>
+                  Xiang Zou, Lynn Nelson
+                </p>
+                <p>
+                  J. Lightwave Technology, vol. 32 (2014), pp. 2716-2725
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Advanced+DSP+for+400Gb/s+and+beyond+Optical+Networks+Zhou+Nelson">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/44204.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub44204.html">&nbsp;</a>
+                <p class="pub-title">
+                  Advanced DSP for 400Gb/s and beyond Optical Networks
+                </p>
+                <p>
+                  <a href="/pubs/XiangZhou.html">Xiang Zhou</a>, Lynn Nelson
+                </p>
+                <p>
+                  JOURNAL OF LIGHTWAVE TECHNOLOGY, vol. Vol. 32 (2014), pp. 2716-2725
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=An+Adaptable+Rule+Placement+for+Software+Defined+Networks+Zhang+Ivancic+Lumezanu+Yuan+Gupta+Malik">
+                &nbsp;</a>
+                <p class="pub-title">
+                  An Adaptable Rule Placement for Software Defined Networks
+                </p>
+                <p>
+                  Shuyuan Zhang, <a href="/pubs/FranjoIvancic.html">Franjo Ivancic</a>, Cristian
+                  Lumezanu, Yifei Yuan, Aarti Gupta, Sharad Malik
+                </p>
+                <p>
+                  DSN, IEEE (2014)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Cicada:+Predictive+Guarantees+for+Cloud+Network+Bandwidth+LaCurts+Mogul+Balakrishnan+Turner">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/42462.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub42462.html">&nbsp;</a>
+                <p class="pub-title">
+                  Cicada: Predictive Guarantees for Cloud Network Bandwidth
+                </p>
+                <p>
+                  Katrina LaCurts, Jeffrey C Mogul, Hari Balakrishnan, Yoshio Turner
+                </p>
+                <p>
+                  MIT (2014), MIT-CSAIL-TR-2014-004
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Cutting+the+Cord:+a+Robust+Wireless+Facilities+Network+for+Data+Centers+Zhu+Zhou+Zhang+Zhou+Vahdat+Zhao+Zheng">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/43860.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub43860.html">&nbsp;</a>
+                <p class="pub-title">
+                  Cutting the Cord: a Robust Wireless Facilities Network for Data Centers
+                </p>
+                <p>
+                  Yibo Zhu, Xia Zhou, Zengbin Zhang, Lin Zhou, <a href="/pubs/AminVahdat.html">Amin
+                  Vahdat</a>, Ben Y. Zhao, Haitao Zheng
+                </p>
+                <p>
+                  Proceedings of the ACM Conference on Mobile Computing and Networking (Mobicom)
+                  (2014)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=DREAM:+Dynamic+Resource+Allocation+for+Software-defined+Measurement+Moshref+Yu+Govindan+Vahdat">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/43861.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  DREAM: Dynamic Resource Allocation for Software-defined Measurement
+                </p>
+                <p>
+                  Masoud Moshref, Minlan Yu, Ramesh Govindan, <a href="/pubs/AminVahdat.html">Amin
+                  Vahdat</a>
+                </p>
+                <p>
+                  Proceedings of the ACM SIGCOMM Conference (2014)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Flexible+Network+Bandwidth+and+Latency+Provisioning+in+the+Datacenter+Jeyakumar+Kabbani+Mogul+Vahdat">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/43871.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub43871.html">&nbsp;</a>
+                <p class="pub-title">
+                  Flexible Network Bandwidth and Latency Provisioning in the Datacenter
+                </p>
+                <p>
+                  Vimalkumar Jeyakumar, Abdul Kabbani, <a href="/pubs/JeffreyMogul.html">Jeffrey C.
+                  Mogul</a>, <a href="/pubs/AminVahdat.html">Amin Vahdat</a>
+                </p>
+                <p>
+                  arxiv.org (2014)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Generating+Consistent+Updates+for+Software-Defined+Network+Configurations+Yuan+Ivancic+Lumezanu+Zhang+Gupta">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://dl.acm.org/citation.cfm?id=2620728.2620774">&nbsp;</a>
+                <p class="pub-title">
+                  Generating Consistent Updates for Software-Defined Network Configurations
+                </p>
+                <p>
+                  Yifei Yuan, <a href="/pubs/FranjoIvancic.html">Franjo Ivancic</a>, Cristian
+                  Lumezanu, Shuyuan Zhang, Aarti Gupta
+                </p>
+                <p>
+                  HotSDN, ACM (2014)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Gestalt:+Fast,+Uni%EF%AC%81ed+Fault+Localization+for+Networked+Systems+Niranjan+Mysore+Vahdat+Mahajan+Varghese">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/43857.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub43857.html">&nbsp;</a>
+                <p class="pub-title">
+                  Gestalt: Fast, Uniﬁed Fault Localization for Networked Systems
+                </p>
+                <p>
+                  <a href="/pubs/RadhikaNiranjanMysore.html">Radhika Niranjan Mysore</a>, <a href=
+                  "/pubs/AminVahdat.html">Amin Vahdat</a>, Ratul Mahajan, George Varghese
+                </p>
+                <p>
+                  Proceedings of the USENIX Annual Technical Conference (2014)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Libra:+Divide+and+Conquer+to+Verify+Forwarding+Tables+in+Huge+Networks+Vahdat+Ye+Zhang+Liu">
+                &nbsp;</a><a class="abstract-icon tooltip" href="/pubs/pub42805.html">&nbsp;</a>
+                <p class="pub-title">
+                  Libra: Divide and Conquer to Verify Forwarding Tables in Huge Networks
+                </p>
+                <p>
+                  <a href="/pubs/AminVahdat.html">Amin Vahdat</a>, Fei Ye, Shidong Zhang, <a href=
+                  "/pubs/JundaLiu.html">Junda Liu</a>
+                </p>
+                <p>
+                  11th USENIX Symposium on Networked Systems Design and Implementation (NSDI 14),
+                  USENIX Association (2014), pp. 87-99
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=RFC+7413+-+TCP+Fast+Open+Cheng+Chu+Radhakrishnan+Jain">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/43269.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub43269.html">&nbsp;</a>
+                <p class="pub-title">
+                  RFC 7413 - TCP Fast Open
+                </p>
+                <p>
+                  <a href="/pubs/author27276.html">Yuchung Cheng</a>, <a href=
+                  "/pubs/author39277.html">Jerry Chu</a>, Sivasankar Radhakrishnan, <a href=
+                  "/pubs/author35943.html">Arvind Jain</a>
+                </p>
+                <p>
+                  Internet Engineering Task Force (IETF) (2014)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=RFC7304+-+A+Method+for+Mitigating+Namespace+Collisions+Kumari">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://tools.ietf.org/pdf/rfc7304.pdf">&nbsp;</a><a class="abstract-icon tooltip"
+                href="/pubs/pub42897.html">&nbsp;</a>
+                <p class="pub-title">
+                  RFC7304 - A Method for Mitigating Namespace Collisions
+                </p>
+                <p>
+                  <a href="/pubs/WarrenKumari.html">Warren Kumari</a>
+                </p>
+                <p>
+                  IETF RFCs, Internet Engineering Task Force (2014)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=RFC7342+-+Practices+for+Scaling+ARP+and+Neighbor+Discovery+(ND)+in+Large+Data+Centers+Kumari">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://tools.ietf.org/html/rfc7342">&nbsp;</a><a class="abstract-icon tooltip"
+                href="/pubs/pub42919.html">&nbsp;</a>
+                <p class="pub-title">
+                  RFC7342 - Practices for Scaling ARP and Neighbor Discovery (ND) in Large Data
+                  Centers
+                </p>
+                <p>
+                  <a href="/pubs/WarrenKumari.html">Warren Kumari</a>
+                </p>
+                <p>
+                  IETF RFC, Internet Engineering Task Force (2014)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=RFC7344+-+Automating+DNSSEC+Delegation+Trust+Maintenance+Teitelman">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://www.rfc-editor.org/rfc/rfc7344.txt">&nbsp;</a><a class=
+                "abstract-icon tooltip" href="/pubs/pub42943.html">&nbsp;</a>
+                <p class="pub-title">
+                  RFC7344 - Automating DNSSEC Delegation Trust Maintenance
+                </p>
+                <p>
+                  Warren Kumari
+                </p>
+                <p>
+                  IETF RFCs, Internet Engineering Task Force (2014)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Security+Vulnerability+in+Processor-Interconnect+Router+Design+Song+Kim+Lee+Abts">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/43448.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub43448.html">&nbsp;</a>
+                <p class="pub-title">
+                  Security Vulnerability in Processor-Interconnect Router Design
+                </p>
+                <p>
+                  WonJun Song, John Kim, Jae W. Lee, <a href="/pubs/author36240.html">Dennis
+                  Abts</a>
+                </p>
+                <p>
+                  Proceedings of the 2014 ACM SIGSAC Conference on Computer and Communications
+                  Security, ACM, New York, NY, pp. 358-368
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Software+Defined+Networking+at+Scale+Koley">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/42948.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub42948.html">&nbsp;</a>
+                <p class="pub-title">
+                  Software Defined Networking at Scale
+                </p>
+                <p>
+                  <a href="/pubs/author39228.html">Bikash Koley</a>
+                </p>
+                <p>
+                  Light Reading (2014), pp. 22
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Sources+of+Traffic+Demand+Variability+and+Use+of+Monte+Carlo+for+Network+Capacity+Planning+Gilgur+Eck">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/42848.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub42848.html">&nbsp;</a>
+                <p class="pub-title">
+                  Sources of Traffic Demand Variability and Use of Monte Carlo for Network Capacity
+                  Planning
+                </p>
+                <p>
+                  <a href="/pubs/AlexGilgur.html">Alexander Gilgur</a>, Brian Eck
+                </p>
+                <p>
+                  Performance and Capacity 2014 by CMG Conference, Performance and Capacity 2014 by
+                  CMG Conference, Performance and Capacity 2014 by CMG Conference
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=TRAM:+Optimizing+Fine-grained+Communication+with+Topological+Routing+and+Aggregation+of+Messages+Wesolowski+Venkataraman+Gupta+Yeom+Bisset+Sun+Jetley+Quinn+Kale">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://ppl.cs.illinois.edu/papers/14-18">&nbsp;</a><a class=
+                "abstract-icon tooltip" href="/pubs/pub43121.html">&nbsp;</a>
+                <p class="pub-title">
+                  TRAM: Optimizing Fine-grained Communication with Topological Routing and
+                  Aggregation of Messages
+                </p>
+                <p>
+                  Lukasz Wesolowski, <a href="/pubs/RamprasadVenkataraman.html">Ramprasad
+                  Venkataraman</a>, A Gupta, Jae-Seung Yeom, Keith Bisset, Yanhua Sun, Pritish
+                  Jetley, Thomas Quinn, Laxmikant Kale
+                </p>
+                <p>
+                  International Conference on Parallel Processing (2014)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Troubleshooting+PON+networks+effectively+with+Carrier-grade+Ethernet+and+WDM-PON+Sanchez+Hernandez+Larrabeiti">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/42528.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub42528.html">&nbsp;</a>
+                <p class="pub-title">
+                  Troubleshooting PON networks effectively with Carrier-grade Ethernet and WDM-PON
+                </p>
+                <p>
+                  <a href="/pubs/RafaelSanchez.html">Rafael Sanchez</a>, Jose Alberto Hernandez,
+                  David Larrabeiti
+                </p>
+                <p>
+                  IEEE Communications Magazine, vol. 52 (2014), S7-S13
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=What+devices+do+data+centers+need+Lam+Urata+Liu">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/42180.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub42180.html">&nbsp;</a>
+                <p class="pub-title">
+                  What devices do data centers need
+                </p>
+                <p>
+                  <a href="/pubs/author38397.html">Cedric F. Lam</a>, <a href=
+                  "/pubs/RyoheiUrata.html">Ryohei Urata</a>, <a href="/pubs/author3723.html">Hong
+                  Liu</a>
+                </p>
+                <p>
+                  OFC 2014 Technical Digest, OSA
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=A+10+us+Hybrid+Optical-Circuit/Electrical-Packet+Network+for+Data+Centers+Farrington+Forencich+Sun+Fainman+Ford+Vahdat+Porter+Papen">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://cseweb.ucsd.edu/~gmporter/papers/mordia-ofc13.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  A 10 us Hybrid Optical-Circuit/Electrical-Packet Network for Data Centers
+                </p>
+                <p>
+                  Nathan Farrington, Alex Forencich, Pang-Chen Sun, Shaya Fainman, Joe Ford,
+                  <a href="/pubs/AminVahdat.html">Amin Vahdat</a>, George Porter, George C. Papen
+                </p>
+                <p>
+                  Proceedings of OFC/NFOEC, UC San Diego, 9500 Gilman Dr., La Jolla CA 92093 (2013)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Approximation+Algorithms+for+the+Directed+k-Tour+and+k-Stroll+Problems+Bateni+Chuzhoy">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/40757.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub40757.html">&nbsp;</a>
+                <p class="pub-title">
+                  Approximation Algorithms for the Directed k-Tour and k-Stroll Problems
+                </p>
+                <p>
+                  <a href="/pubs/bateni.html">Mohammadhossein Bateni</a>, Julia Chuzhoy
+                </p>
+                <p>
+                  Algorithmica, vol. 65 (2013), pp. 545-561
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=B4:+Experience+with+a+Globally+Deployed+Software+Defined+WAN+Jain+Kumar+Mandal+Ong+Poutievski+Singh+Venkata+Wanderer+Zhou+Zhu+Zolla+Holzle+Stuart+Vahdat">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/41761.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  B4: Experience with a Globally Deployed Software Defined WAN
+                </p>
+                <p>
+                  Sushant Jain, Alok Kumar, Subhasree Mandal, Joon Ong, <a href=
+                  "/pubs/LeonPoutievski.html">Leon Poutievski</a>, Arjun Singh, Subbaiah Venkata,
+                  Jim Wanderer, Junlan Zhou, Min Zhu, Jonathan Zolla, <a href=
+                  "/pubs/author79.html">Urs Hölzle</a>, Stephen Stuart, <a href=
+                  "/pubs/AminVahdat.html">Amin Vahdat</a>
+                </p>
+                <p>
+                  Proceedings of the ACM SIGCOMM Conference, Hong Kong, China (2013)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=CSRIC+III+WORKING+GROUP+4++Network+Security+Best+Practices++++FINAL+Report+%E2%80%93+BGP+Security+Best+Practice+Schiller+Joffe+Rasmussen+Adams+Bellovin+Bethea-Murphy+Buie+Cox+Crain+Currie+Drew+Garner+Gersch+Gonzalez+Graves+Joul+Haynes+Khaddam+Mathis+McPherson+Montgomery+Schiller+Tauber+Simpson+Roman+Reyes+Oppleman+Oberg+White+Vixie+Wright">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/41862.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub41862.html">&nbsp;</a>
+                <p class="pub-title">
+                  CSRIC III WORKING GROUP 4 Network Security Best Practices FINAL Report – BGP
+                  Security Best Practice
+                </p>
+                <p>
+                  <a href="/pubs/JasonSchiller.html">Jason Schiller</a>, Rodney Joffe, Rod
+                  Rasmussen, Mark Adams, Steve Bellovin, Donna Bethea-Murphy, Rodney Buie, Kevin
+                  Cox, John Crain, Michael Currie, Dale Drew, Chris Garner, Joseph Gersch, Jose A.
+                  Gonzalez, Kevin Graves, Chris Joul, Tom Haynes, Mazen Khaddam, Ron Mathis, Danny
+                  McPherson, Doug Montgomery, Heather Schiller, Tony Tauber, Marvin Simpson, Ron
+                  Roman, Elman Reyes, Victor Oppleman, Chris Oberg, Russ White, Paul Vixie, Bob
+                  Wright
+                </p>
+                <p>
+                  FCC (2013)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Capturing+Mobile+Experience+in+the+Wild:+A+Tale+of+Two+Apps+Patro+Rayanchu+Griepentrog">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/41590.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub41590.html">&nbsp;</a>
+                <p class="pub-title">
+                  Capturing Mobile Experience in the Wild: A Tale of Two Apps
+                </p>
+                <p>
+                  Ashish Patro, <a href="/pubs/ShravanRayanchu.html">Shravan Rayanchu</a>, Michael
+                  Griepentrog
+                </p>
+                <p>
+                  8th International Conference on emerging Networking EXperiments and Technologies
+                  (CoNEXT), ACM (Association for Computing Machinery) (2013), NA (to appear)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Comparative+study+of+classifiers+to+mitigate+intersymbol+interference+in+diffuse+indoor+optical+wireless+communication+links+Rajbhandari+Faith+Ghassemlooy">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://www.sciencedirect.com/science/article/pii/S0030402613000648">&nbsp;</a>
+                <p class="pub-title">
+                  Comparative study of classifiers to mitigate intersymbol interference in diffuse
+                  indoor optical wireless communication links
+                </p>
+                <p>
+                  Sujan Rajbhandari, <a href="/pubs/JoeFaith.html">Joe Faith</a>, Zabih Ghassemlooy
+                </p>
+                <p>
+                  Optik - International Journal for Light and Electron Optics (2013)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Cross+Platform+Network+Access+Control+Watson">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://rvasec.com/speakers/#PaulWatson">&nbsp;</a><a class="abstract-icon tooltip"
+                href="/pubs/pub41404.html">&nbsp;</a>
+                <p class="pub-title">
+                  Cross Platform Network Access Control
+                </p>
+                <p>
+                  <a href="/pubs/PaulWatson.html">Paul (Tony) Watson</a>
+                </p>
+                <p>
+                  RVASec 2013, RVASec 2013, RIchmond, VA
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Demonstration+of+WDM+OSNR+performance+monitoring+and+operating+guidelines+for+pol-muxed+200Gbit/s+16-QAM+and+100Gbit/s+QPSK+data+channels+Chitgarha+Khaleghi+Daab+Ziyadi+Mohajerin-Ariaei+D.Rogawski+Tur+Vusirikala+Zhao+Willner">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://ieeexplore.ieee.org/application/enterprise/entconfirmation.jsp?arnumber=6532885&amp;icp=false">&nbsp;</a>
+                <p class="pub-title">
+                  Demonstration of WDM OSNR performance monitoring and operating guidelines for
+                  pol-muxed 200Gbit/s 16-QAM and 100Gbit/s QPSK data channels
+                </p>
+                <p>
+                  M. Chitgarha, S. Khaleghi, W. Daab, M. Ziyadi, A. Mohajerin-Ariaei, D.Rogawski,
+                  M. Tur, <a href="/pubs/VijayVusirikala.html">Vijay Vusirikala</a>, <a href=
+                  "/pubs/XiaoxueZhao.html">Xiaoxue Zhao</a>, Alan Willner
+                </p>
+                <p>
+                  Optical Fiber Communication Conference (2013), OTh3B.6
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Drilling+Network+Stacks+with+packetdrill+Cardwell+Raghavan">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/41848.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub41848.html">&nbsp;</a>
+                <p class="pub-title">
+                  Drilling Network Stacks with packetdrill
+                </p>
+                <p>
+                  <a href="/pubs/NealCardwell.html">Neal Cardwell</a>, Barath Raghavan
+                </p>
+                <p>
+                  USENIX ;login:, vol. 38 (2013), pp. 48-52
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Ensuring+Connectivity+via+Data+Plane+Mechanisms+Liu">
+                &nbsp;</a><a class="abstract-icon tooltip" href="/pubs/pub40812.html">&nbsp;</a>
+                <p class="pub-title">
+                  Ensuring Connectivity via Data Plane Mechanisms
+                </p>
+                <p>
+                  <a href="/pubs/JundaLiu.html">Junda Liu</a>
+                </p>
+                <p>
+                  10th USENIX Symposium on Networked Systems Design and Implementation (2013)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Handling+Packet+Loss+in+WebRTC+Holmer+Shemer+Paniconi">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/41611.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub41611.html">&nbsp;</a>
+                <p class="pub-title">
+                  Handling Packet Loss in WebRTC
+                </p>
+                <p>
+                  <a href="/pubs/StefanHolmer.html">Stefan Holmer</a>, Mikhal Shemer, Marco
+                  Paniconi
+                </p>
+                <p>
+                  International Conference on Image Processing (ICIP 2013), IEEE, pp. 1860-1864
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Improved+Approximation+Algorithms+for+(Budgeted)+Node-weighted+Steiner+Problems+Bateni+Hajiaghayi+Liaghat">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/41135.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub41135.html">&nbsp;</a>
+                <p class="pub-title">
+                  Improved Approximation Algorithms for (Budgeted) Node-weighted Steiner Problems
+                </p>
+                <p>
+                  <a href="/pubs/bateni.html">Mohammadhossein Bateni</a>, MohammadTaghi Hajiaghayi,
+                  Vahid Liaghat
+                </p>
+                <p>
+                  ICALP, Springer (2013)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Network+Utilization:+The+Flow+View+Hassidim+Raz+Segalov+Shaqed+(Scolnicov)">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/41315.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub41315.html">&nbsp;</a>
+                <p class="pub-title">
+                  Network Utilization: The Flow View
+                </p>
+                <p>
+                  Avinatan Hassidim, Danny Raz, <a href="/pubs/MichalSegalov.html">Michal
+                  Segalov</a>, Ariel Shaqed (Scolnicov)
+                </p>
+                <p>
+                  IEEE INFOCOM 2013, IEEE, Turin, Italy
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=RFC+6937+-+Proportional+Rate+Reduction+for+TCP+Mathis+Dukkipati+Cheng">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/41429.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub41429.html">&nbsp;</a>
+                <p class="pub-title">
+                  RFC 6937 - Proportional Rate Reduction for TCP
+                </p>
+                <p>
+                  <a href="/pubs/MattMathis.html">Matt Mathis</a>, <a href=
+                  "/pubs/author39115.html">Nandita Dukkipati</a>, <a href=
+                  "/pubs/author27276.html">Yuchung Cheng</a>
+                </p>
+                <p>
+                  Internet Engineering Task Force (IETF) (2013)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=RFC6928+-+Increasing+TCP's+Initial+Window+Chu+Dukkipati+Cheng+Mathis">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/41330.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub41330.html">&nbsp;</a>
+                <p class="pub-title">
+                  RFC6928 - Increasing TCP's Initial Window
+                </p>
+                <p>
+                  <a href="/pubs/author39277.html">H.K. Jerry Chu</a>, <a href=
+                  "/pubs/author39115.html">Nandita Dukkipati</a>, <a href=
+                  "/pubs/author27276.html">Yuchung Cheng</a>, <a href="/pubs/MattMathis.html">Matt
+                  Mathis</a>
+                </p>
+                <p>
+                  Internet Engineering Task Force (IETF) (2013)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Real-time+communications+for+the+web+Jenngins+Hardie+Westerlund">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://ieeexplore.ieee.org/application/enterprise/entconfirmation.jsp?arnumber=6495756&amp;icp=false">&nbsp;</a><a class="abstract-icon tooltip"
+                href="/pubs/pub41400.html">&nbsp;</a>
+                <p class="pub-title">
+                  Real-time communications for the web
+                </p>
+                <p>
+                  Cullen Jenngins, <a href="/pubs/TedHardie.html">Ted Hardie</a>, Magnus Westerlund
+                </p>
+                <p>
+                  Communications Magazine, IEEE, vol. 51 (2013), pp. 20-26
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Reducing+Web+Latency:+the+Virtue+of+Gentle+Aggression+Flach+Dukkipati+Terzis+Raghavan+Cardwell+Cheng+Jain+Hao+Katz-Bassett+Govindan">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/41217.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub41217.html">&nbsp;</a>
+                <p class="pub-title">
+                  Reducing Web Latency: the Virtue of Gentle Aggression
+                </p>
+                <p>
+                  Tobias Flach, <a href="/pubs/author39115.html">Nandita Dukkipati</a>, <a href=
+                  "/pubs/AndreasTerzis.html">Andreas Terzis</a>, Barath Raghavan, <a href=
+                  "/pubs/NealCardwell.html">Neal Cardwell</a>, <a href=
+                  "/pubs/author27276.html">Yuchung Cheng</a>, Ankur Jain, Shuai Hao, Ethan
+                  Katz-Bassett, Ramesh Govindan
+                </p>
+                <p>
+                  Proceedings of the ACM Conference of the Special Interest Group on Data
+                  Communication (SIGCOMM '13), ACM (2013)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Rogue+Femtocell+Owners:+How+Mallory+Can+Monitor+My+Devices+Malone+Kavanagh+Murphy">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/41331.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub41331.html">&nbsp;</a>
+                <p class="pub-title">
+                  Rogue Femtocell Owners: How Mallory Can Monitor My Devices
+                </p>
+                <p>
+                  David Malone, Darren F Kavanagh, <a href="/pubs/NiallMurphy.html">Niall Richard
+                  Murphy</a>
+                </p>
+                <p>
+                  2013 Proceedings IEEE INFOCOM, IEEE, New Jersey, USA, pp. 3553-3558
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Scalability+vs.+Fault+Tolerance+in+Aspen+Trees+Walraed-Sullivan+Marzullo+Vahdat">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://research.microsoft.com/pubs/183910/Aspen.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Scalability vs. Fault Tolerance in Aspen Trees
+                </p>
+                <p>
+                  Meg Walraed-Sullivan, Keith Marzullo, <a href="/pubs/AminVahdat.html">Amin
+                  Vahdat</a>
+                </p>
+                <p>
+                  Microsoft Research technical report (2013)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Shortest+paths+avoiding+forbidden+subpaths+Ahmed+Lubiw">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://dx.doi.org/10.1002/net.21490">&nbsp;</a>
+                <p class="pub-title">
+                  Shortest paths avoiding forbidden subpaths
+                </p>
+                <p>
+                  <a href="/pubs/author39357.html">Mustaq Ahmed</a>, Anna Lubiw
+                </p>
+                <p>
+                  Networks, vol. 61 (2013), pp. 322-334
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=The+Prospect+of+Inter-Data-Center+Optical+Networks+Zhao+Vusirikala+Koley+Kamalov+Hofmeister">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/41414.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub41414.html">&nbsp;</a>
+                <p class="pub-title">
+                  The Prospect of Inter-Data-Center Optical Networks
+                </p>
+                <p>
+                  <a href="/pubs/XiaoxueZhao.html">Xiaoxue Zhao</a>, <a href=
+                  "/pubs/VijayVusirikala.html">Vijay Vusirikala</a>, <a href=
+                  "/pubs/author39228.html">Bikash Koley</a>, <a href=
+                  "/pubs/ValeyKamalov.html">Valey Kamalov</a>, Tad Hofmeister
+                </p>
+                <p>
+                  IEEE Communication Magazine, vol. 51 (2013), pp. 32-38
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Using+transparent+WDM+metro+rings+to+provide+an+out-of-band+control+network+for+OpenFlow+in+MAN+Sanchez+Hernandez+Larrabeiti">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/42530.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub42530.html">&nbsp;</a>
+                <p class="pub-title">
+                  Using transparent WDM metro rings to provide an out-of-band control network for
+                  OpenFlow in MAN
+                </p>
+                <p>
+                  <a href="/pubs/RafaelSanchez.html">Rafael Sanchez</a>, Jose Alberto Hernandez,
+                  David Larrabeiti
+                </p>
+                <p>
+                  ICTON 2013, 15th International Conference on Tranparent Optical Networks
+                  (ICTON'13),
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=packetdrill:+Scriptable+Network+Stack+Testing,+from+Sockets+to+Packets+Cardwell+Cheng+Brakmo+Mathis+Raghavan+Dukkipati+Chu+Terzis+Herbert">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/41316.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub41316.html">&nbsp;</a>
+                <p class="pub-title">
+                  packetdrill: Scriptable Network Stack Testing, from Sockets to Packets
+                </p>
+                <p>
+                  <a href="/pubs/NealCardwell.html">Neal Cardwell</a>, <a href=
+                  "/pubs/author27276.html">Yuchung Cheng</a>, <a href=
+                  "/pubs/author2372.html">Lawrence Brakmo</a>, <a href="/pubs/MattMathis.html">Matt
+                  Mathis</a>, Barath Raghavan, <a href="/pubs/author39115.html">Nandita
+                  Dukkipati</a>, <a href="/pubs/author39277.html">Hsiao-keng Jerry Chu</a>,
+                  <a href="/pubs/AndreasTerzis.html">Andreas Terzis</a>, Tom Herbert
+                </p>
+                <p>
+                  Proceedings of the USENIX Annual Technical Conference (USENIX ATC 2013), USENIX,
+                  2560 Ninth Street, Suite 215, Berkeley, CA, 94710 USA, pp. 213-218
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=A+Guided+Tour+of+Datacenter+Networking+Abts+Felderman">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/40404.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub40404.html">&nbsp;</a>
+                <p class="pub-title">
+                  A Guided Tour of Datacenter Networking
+                </p>
+                <p>
+                  <a href="/pubs/author36240.html">Dennis Abts</a>, <a href=
+                  "/pubs/BobFelderman.html">Bob Felderman</a>
+                </p>
+                <p>
+                  Communications of the ACM - ACM Queue, vol. 55, number 6 (2012), pp. 44-51
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Bridging+communications+and+the+physical+world+Boyaci+Martinez+Schulzrinne">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://www.computer.org/portal/web/csdl/doi/10.1109/MIC.2012.18">&nbsp;</a><a class="abstract-icon tooltip"
+                href="/pubs/pub39962.html">&nbsp;</a>
+                <p class="pub-title">
+                  Bridging communications and the physical world
+                </p>
+                <p>
+                  <a href="/pubs/OmerBoyaci.html">Omer Boyaci</a>, Victoria Beltran Martinez,
+                  Henning Schulzrinne
+                </p>
+                <p>
+                  IEEE Internet Computing, vol. 16 (2012), pp. 35-43
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Comparing+In-Browser+Methods+of+Measuring+Resource+Load+Times+Gavaletz+Hamon+Kaur">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/40592.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub40592.html">&nbsp;</a>
+                <p class="pub-title">
+                  Comparing In-Browser Methods of Measuring Resource Load Times
+                </p>
+                <p>
+                  Eric Gavaletz, <a href="/pubs/DominicHamon.html">Dominic Hamon</a>, Jasleen Kaur
+                </p>
+                <p>
+                  W3C Workshop on Web Performance 8, W3C, W3C/MIT 32 Vassar Street Room 32-G515
+                  Cambridge, MA 02139 USA (2012)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Deadline-Aware+Datacenter+TCP+(D%3Csup%3E2%3C/sup%3ETCP)+Vamanan+Hasan+Vijaykumar">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/37678.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub37678.html">&nbsp;</a>
+                <p class="pub-title">
+                  Deadline-Aware Datacenter TCP (D2TCP)
+                </p>
+                <p>
+                  Balajee Vamanan, <a href="/pubs/JahangirHasan.html">Jahangir Hasan</a>, T. N.
+                  Vijaykumar
+                </p>
+                <p>
+                  Proceedings of the ACM SIGCOMM (2012)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Edge-preserving+self-healing:+keeping+network+backbones+densely+connected+Das+Sarma+Trehan">
+                &nbsp;</a>
+                <p class="pub-title">
+                  Edge-preserving self-healing: keeping network backbones densely connected
+                </p>
+                <p>
+                  Atish Das Sarma, Amitabh Trehan
+                </p>
+                <p>
+                  NetSciCom (2012) (to appear)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Efficient+Computation+of+Distance+Sketches+in+Distributed+Networks+Das+Sarma+Dinitz+Pandurangan">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://arxiv.org/abs/1112.1210">&nbsp;</a>
+                <p class="pub-title">
+                  Efficient Computation of Distance Sketches in Distributed Networks
+                </p>
+                <p>
+                  Atish Das Sarma, Michael Dinitz, Gopal Pandurangan
+                </p>
+                <p>
+                  arXiv (2012)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=End-to-end+Verification+of+QoS+Policies+El-Atawy+Samak">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/37516.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub37516.html">&nbsp;</a>
+                <p class="pub-title">
+                  End-to-end Verification of QoS Policies
+                </p>
+                <p>
+                  <a href="/pubs/author57994.html">Adel El-Atawy</a>, Taghrid Samak
+                </p>
+                <p>
+                  The 13th IEEE/IFIP Network Operations and Management Symposium (NOMS 2012)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=High+Performance,+Low+Cost,+Colorless+ONU+for+WDM-PON+Urata+Lam+Liu+Johnson">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/37746.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub37746.html">&nbsp;</a>
+                <p class="pub-title">
+                  High Performance, Low Cost, Colorless ONU for WDM-PON
+                </p>
+                <p>
+                  <a href="/pubs/RyoheiUrata.html">Ryohei Urata</a>, <a href=
+                  "/pubs/author38397.html">Cedric Lam</a>, <a href="/pubs/author3723.html">Hong
+                  Liu</a>, Chris Johnson
+                </p>
+                <p>
+                  Optical Fiber Communication (OFC) Conference 2012, OSA, Washington DC
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=How+to+Split+a+Flow+Hartman+Hassidim+Kaplan+Raz+Segalov">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/37652.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  How to Split a Flow
+                </p>
+                <p>
+                  Tzvika Hartman, Avinatan Hassidim, Haim Kaplan, Danny Raz, <a href=
+                  "/pubs/MichalSegalov.html">Michal Segalov</a>
+                </p>
+                <p>
+                  INFOCOM (2012)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=LatLong:+Diagnosing+Wide-Area+Latency+Changes+for+CDNs+Zhu+Helsley+Rexford+Siganporia+Srinivasan">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/38239.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub38239.html">&nbsp;</a>
+                <p class="pub-title">
+                  LatLong: Diagnosing Wide-Area Latency Changes for CDNs
+                </p>
+                <p>
+                  Yaping Zhu, Benjamin Helsley, Jennifer Rexford, <a href=
+                  "/pubs/AspiSiganporia.html">Aspi Siganporia</a>, <a href=
+                  "/pubs/SridharSrinivasan.html">Sridhar Srinivasan</a>
+                </p>
+                <p>
+                  IEEE Transactions on Network and Service Management, vol. 9 (2012) (to appear)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Less+is+more:+trading+a+little+bandwidth+for+ultra-low+latency+in+the+data+center+Alizadeh+Kabbani+Edsall+Prabhakar+Vahdat+Yasuda">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://dl.acm.org/citation.cfm?id=2228298.2228324">&nbsp;</a>
+                <p class="pub-title">
+                  Less is more: trading a little bandwidth for ultra-low latency in the data center
+                </p>
+                <p>
+                  Mohammad Alizadeh, Abdul Kabbani, Tom Edsall, Balaji Prabhakar, <a href=
+                  "/pubs/AminVahdat.html">Amin Vahdat</a>, Masato Yasuda
+                </p>
+                <p>
+                  Proceedings of the 9th USENIX conference on Networked Systems Design and
+                  Implementation, USENIX Association, Berkeley, CA, USA (2012), pp. 19-19
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Near-Optimal+Random+Walk+Sampling+in+Distributed+Networks+Das+Sarma+Rahman+Pandurangan">
+                &nbsp;</a>
+                <p class="pub-title">
+                  Near-Optimal Random Walk Sampling in Distributed Networks
+                </p>
+                <p>
+                  Atish Das Sarma, Anisur Molla Rahman, Gopal Pandurangan
+                </p>
+                <p>
+                  INFOCOM (2012) (to appear)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Portable+and+Performant+Userspace+SCTP+Stack+Penoff+Wagner+Tuexen+Ruengeler">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/40282.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub40282.html">&nbsp;</a>
+                <p class="pub-title">
+                  Portable and Performant Userspace SCTP Stack
+                </p>
+                <p>
+                  <a href="/pubs/BradPenoff.html">Brad Penoff</a>, Alan Wagner, Michael Tuexen,
+                  Irene Ruengeler
+                </p>
+                <p>
+                  Computer Communications and Networks (ICCCN), 2012 21st International Conference
+                  on, IEEE
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=RFC6583+-+Operational+Neighbor+Discovery+Problems+Kumari+Yahoo!+Zynga">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/38101.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub38101.html">&nbsp;</a>
+                <p class="pub-title">
+                  RFC6583 - Operational Neighbor Discovery Problems
+                </p>
+                <p>
+                  <a href="/pubs/WarrenKumari.html">Warren Kumari</a>, Igor Gashinsky, Yahoo!, Joel
+                  Jaeggli, Zynga
+                </p>
+                <p>
+                  IETF RFCs, Internet Engineering Task Force (2012)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=SPI-SNOOPER:+a+hardware-software+approach+for+transparent+network+monitoring+in+wireless+sensor+networks+Hossain+Lee+Raghunathan">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/41526.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub41526.html">&nbsp;</a>
+                <p class="pub-title">
+                  SPI-SNOOPER: a hardware-software approach for transparent network monitoring in
+                  wireless sensor networks
+                </p>
+                <p>
+                  <a href="/pubs/MohammadHossain.html">Mohammad Sajjad Hossain</a>, Woo Suk Lee,
+                  Vijay Raghunathan
+                </p>
+                <p>
+                  Proceedings of the eighth IEEE/ACM/IFIP international conference on
+                  Hardware/software codesign and system synthesis, ACM, New York, NY, USA (2012),
+                  pp. 53-62
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Silicon+Photonics+for+Optical+Access+Networks+Urata+Liu+Lam+Dashti+Johnson">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/39960.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub39960.html">&nbsp;</a>
+                <p class="pub-title">
+                  Silicon Photonics for Optical Access Networks
+                </p>
+                <p>
+                  <a href="/pubs/RyoheiUrata.html">Ryohei Urata</a>, <a href=
+                  "/pubs/author3723.html">Hong Liu</a>, <a href="/pubs/author38397.html">Cedric
+                  Lam</a>, Pedram Dashti, Chris Johnson
+                </p>
+                <p>
+                  Group IV Photonics, IEEE, Washington DC (2012), pp. 3
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Towards+A+Unified+Modeling+and+Verification+of+Network+and+System+Security+Configuration+Alsaleh+Al-Shaer+El-Atawy">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/40606.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub40606.html">&nbsp;</a>
+                <p class="pub-title">
+                  Towards A Unified Modeling and Verification of Network and System Security
+                  Configuration
+                </p>
+                <p>
+                  Mohammed Noraden Alsaleh, Ehab Al-Shaer, <a href="/pubs/author57994.html">Adel
+                  El-Atawy</a>
+                </p>
+                <p>
+                  5th Symposium on Configuration Analytics and Automation (SafeConfig 2012)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Traffic+Anomaly+Detection+Based+on+the+IP+Size+Distribution+Soldo+Metwally">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/37739.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub37739.html">&nbsp;</a>
+                <p class="pub-title">
+                  Traffic Anomaly Detection Based on the IP Size Distribution
+                </p>
+                <p>
+                  Fabio Soldo, <a href="/pubs/AhmedMetwally.html">Ahmed Metwally</a>
+                </p>
+                <p>
+                  INFOCOM International Conference on Computer Communications, Joint Conference of
+                  the IEEE Computer and Communications Societies, IEEE (2012), pp. 2005-2013
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Trickle:+Rate+Limiting+YouTube+Video+Streaming+Ghobadi+Cheng+Jain+Mathis">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/38103.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub38103.html">&nbsp;</a>
+                <p class="pub-title">
+                  Trickle: Rate Limiting YouTube Video Streaming
+                </p>
+                <p>
+                  Monia Ghobadi, <a href="/pubs/author27276.html">Yuchung Cheng</a>, Ankur Jain,
+                  <a href="/pubs/MattMathis.html">Matt Mathis</a>
+                </p>
+                <p>
+                  Proceedings of the USENIX Annual Technical Conference (2012), pp. 6
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Upward+Max+Min+Fairness+Danna+Hassidim+Kaplan+Kumar+Mansour+Raz+Segalov">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/37651.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Upward Max Min Fairness
+                </p>
+                <p>
+                  Emilie Danna, Avinatan Hassidim, Haim Kaplan, Alok Kumar, Yishay Mansour, Danny
+                  Raz, <a href="/pubs/MichalSegalov.html">Michal Segalov</a>
+                </p>
+                <p>
+                  INFOCOM (2012)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=100GbE+and+beyond+for+warehouse+scale+computing+interconnects+Koley+Vusirikala">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/37587.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  100GbE and beyond for warehouse scale computing interconnects
+                </p>
+                <p>
+                  <a href="/pubs/author39228.html">Bikash Koley</a>, <a href=
+                  "/pubs/VijayVusirikala.html">Vijay Vusirikala</a>
+                </p>
+                <p>
+                  Optical Fiber Technology, vol. 17 (2011), pp. 363-367
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Computing+TCP's+Retransmission+Timer+Paxson+Allman+Chu+Sargent">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://www.rfc-editor.org/rfc/rfc6298.txt">&nbsp;</a><a class=
+                "abstract-icon tooltip" href="/pubs/pub37177.html">&nbsp;</a>
+                <p class="pub-title">
+                  Computing TCP's Retransmission Timer
+                </p>
+                <p>
+                  Vern Paxson, Mark Allman, <a href="/pubs/author39277.html">H.K. Jerry Chu</a>,
+                  Matt Sargent
+                </p>
+                <p>
+                  IETF (2011)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=DDoS+Protections+for+SMTP+Servers+Still+McCreath">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://www.cscjournals.org/csc/manuscriptinfo.php?ManuscriptCode=68.69.62.78.78.40.46.51.47.103&amp;JCode=IJCSS&amp;EJCode=69.70.63.79.79.102&amp;Volume=46.104&amp;Issue=51.101">&nbsp;</a><a class="abstract-icon tooltip"
+                href="/pubs/pub37363.html">&nbsp;</a>
+                <p class="pub-title">
+                  DDoS Protections for SMTP Servers
+                </p>
+                <p>
+                  Michael Still, Eric McCreath
+                </p>
+                <p>
+                  International Journal of Computer Science and Security (IJCSS), vol. 4 (2011),
+                  pp. 497-610
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Data-driven+network+connectivity+Liu">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/39984.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub39984.html">&nbsp;</a>
+                <p class="pub-title">
+                  Data-driven network connectivity
+                </p>
+                <p>
+                  <a href="/pubs/JundaLiu.html">Junda Liu</a>
+                </p>
+                <p>
+                  Proceedings of the 10th ACM Workshop on Hot Topics in Networks (2011)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Diagnosing+performance+changes+by+comparing+request+%EF%AC%82ows+Sambasivan+Zheng+De+Rosa+Krevat+Whitman+Stroucken+Wang+Xu+Ganger">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/36986.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub36986.html">&nbsp;</a>
+                <p class="pub-title">
+                  Diagnosing performance changes by comparing request ﬂows
+                </p>
+                <p>
+                  Raja R. Sambasivan, Alice X. Zheng, <a href="/pubs/MichaelDeRosa.html">Michael De
+                  Rosa</a>, Elie Krevat, Spencer Whitman, Michael Stroucken, William Wang,
+                  Lianghong Xu, Gregory R. Ganger
+                </p>
+                <p>
+                  8th USENIX Symposium on Networked Systems Design and Implementation (NSDI) (2011)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Drivers+and+applications+of+optical+technologies+for+Internet+Data+Center+networks+Lam+Schultz+Koley">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/37208.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub37208.html">&nbsp;</a>
+                <p class="pub-title">
+                  Drivers and applications of optical technologies for Internet Data Center
+                  networks
+                </p>
+                <p>
+                  <a href="/pubs/author38397.html">Cedric F. Lam</a>, Paul Schultz, <a href=
+                  "/pubs/author39228.html">Bikash Koley</a>
+                </p>
+                <p>
+                  Optical Fiber Communication Conference and Exposition (OFC/NFOEC), 2011 and the
+                  National Fiber Optic Engineers Conference, pp. 1-3
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Energy-Ef%EF%AC%81cient+Protocol+for+Cooperative+Networks+Elhawary+Haas">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/36951.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub36951.html">&nbsp;</a>
+                <p class="pub-title">
+                  Energy-Efﬁcient Protocol for Cooperative Networks
+                </p>
+                <p>
+                  <a href="/pubs/author39411.html">Mohamed Elhawary</a>, Zygmunt J. Haas
+                </p>
+                <p>
+                  IEEE/ACM TRANSACTIONS ON NETWORKING, vol. 19 (2011), pp. 561-574
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Evolutionary+Models+and+Cyber-replicas+of+Large+Small+Worlds.+Lattanzi+Panconesi+Sivakumar">
+                &nbsp;</a>
+                <p class="pub-title">
+                  Evolutionary Models and Cyber-replicas of Large Small Worlds.
+                </p>
+                <p>
+                  <a href="/pubs/SilvioLattanzi.html">Silvio Lattanzi</a>, Alessandro Panconesi,
+                  <a href="/pubs/DSivakumar.html">D. Sivakumar</a>
+                </p>
+                <p>
+                  WIN2011
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Joint+consideration+of+energy-efficiency+and+coverage-preservation+in+microsensor+networks+Amini+Vahdatpour+Dabiri+Noshadi+Sarrafzadeh">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://dl.acm.org/citation.cfm?id=2000685">&nbsp;</a><a class=
+                "abstract-icon tooltip" href="/pubs/pub41349.html">&nbsp;</a>
+                <p class="pub-title">
+                  Joint consideration of energy-efficiency and coverage-preservation in microsensor
+                  networks
+                </p>
+                <p>
+                  Navid Amini, Alireza Vahdatpour, <a href="/pubs/FoadDabiri.html">Foad Dabiri</a>,
+                  <a href="/pubs/HydukeNoshadi.html">Hyduke Noshadi</a>, Majid Sarrafzadeh
+                </p>
+                <p>
+                  Wireless Communications &amp; Mobile Computing, vol. 11 (2011), pp. 707-722
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Proportional+Rate+Reduction+for+TCP+Dukkipati+Mathis+Cheng+Ghobadi">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/37486.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub37486.html">&nbsp;</a>
+                <p class="pub-title">
+                  Proportional Rate Reduction for TCP
+                </p>
+                <p>
+                  <a href="/pubs/author39115.html">Nandita Dukkipati</a>, <a href=
+                  "/pubs/MattMathis.html">Matt Mathis</a>, <a href="/pubs/author27276.html">Yuchung
+                  Cheng</a>, Monia Ghobadi
+                </p>
+                <p>
+                  Proceedings of the 11th ACM SIGCOMM Conference on Internet Measurement 2011,
+                  Berlin, Germany - November 2-4, 2011
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=QoS+Policy+Verification+for+DiffServ+Networks+Samak+El-Atawy">
+                &nbsp;</a>
+                <p class="pub-title">
+                  QoS Policy Verification for DiffServ Networks
+                </p>
+                <p>
+                  Taghrid Samak, <a href="/pubs/author57994.html">Adel El-Atawy</a>
+                </p>
+                <p>
+                  19th International Workshop on Quality of Service, IWQoS'11 (2011), pp. 1-3
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=RFC6472+-+Recommendation+for+Not+Using+AS_SET+and+AS_CONFED_SET+in+BGP+Kumari+Sriram">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/37645.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub37645.html">&nbsp;</a>
+                <p class="pub-title">
+                  RFC6472 - Recommendation for Not Using AS_SET and AS_CONFED_SET in BGP
+                </p>
+                <p>
+                  <a href="/pubs/WarrenKumari.html">Warren Kumari</a>, Kotikalapudi Sriram
+                </p>
+                <p>
+                  IETF (2011)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=TCP+Fast+Open+Radhakrishnan+Cheng+Chu+Jain+Raghavan">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/37517.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub37517.html">&nbsp;</a>
+                <p class="pub-title">
+                  TCP Fast Open
+                </p>
+                <p>
+                  Sivasankar Radhakrishnan, <a href="/pubs/author27276.html">Yuchung Cheng</a>,
+                  <a href="/pubs/author39277.html">Jerry Chu</a>, <a href=
+                  "/pubs/author35943.html">Arvind Jain</a>, Barath Raghavan
+                </p>
+                <p>
+                  Proceedings of the 7th International Conference on emerging Networking
+                  EXperiments and Technologies (CoNEXT), ACM (2011)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Topology+Discovery+of+Sparse+Random+Graphs+With+Few+Participants+Anandkumar+Hassidim+Kelner">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/37121.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub37121.html">&nbsp;</a>
+                <p class="pub-title">
+                  Topology Discovery of Sparse Random Graphs With Few Participants
+                </p>
+                <p>
+                  Animashree Anandkumar, Avinatan Hassidim, Jonathan Kelner
+                </p>
+                <p>
+                  ACM International Conference on Measurement and Modeling of Computer Systems
+                  SIGMETRICS (2011), Best Paper Award
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Universal+Gigabit+Optical+Access+Kelly">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/37010.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub37010.html">&nbsp;</a>
+                <p class="pub-title">
+                  Universal Gigabit Optical Access
+                </p>
+                <p>
+                  <a href="/pubs/author39667.html">James F.Kelly</a>
+                </p>
+                <p>
+                  OFC/NFOEC 2011 Technical Digest, Optical Society of America, 2010 Massachusetts
+                  Ave, NW Washington, DC 20036 USA
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=100GbE+and+Beyond+for+Warehouse+Scale+Computing+Koley+Vusirikala+Lam+Gill">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/36863.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub36863.html">&nbsp;</a>
+                <p class="pub-title">
+                  100GbE and Beyond for Warehouse Scale Computing
+                </p>
+                <p>
+                  <a href="/pubs/author39228.html">Bikash Koley</a>, <a href=
+                  "/pubs/VijayVusirikala.html">Vijay Vusirikala</a>, <a href=
+                  "/pubs/author38397.html">Cedric Lam</a>, Vijay Gill
+                </p>
+                <p>
+                  OptoeElectronics and Communications Conference (OECC) Technical Digest (2010),
+                  pp. 106-107
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Access+and+Analyze+Broadband+Measurements+Collected+using+M-Lab+Refice">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/36910.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub36910.html">&nbsp;</a>
+                <p class="pub-title">
+                  Access and Analyze Broadband Measurements Collected using M-Lab
+                </p>
+                <p>
+                  <a href="/pubs/author38914.html">Tiziana Refice</a>
+                </p>
+                <p>
+                  Summer 2010 ESCC/Internet2 Joint Techs
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=An+Argument+for+Increasing+TCP's+Initial+Congestion+Window+Dukkipati+Refice+Cheng+Chu+Herbert+Agarwal+Jain+Sutin">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/36640.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub36640.html">&nbsp;</a>
+                <p class="pub-title">
+                  An Argument for Increasing TCP's Initial Congestion Window
+                </p>
+                <p>
+                  <a href="/pubs/author39115.html">Nandita Dukkipati</a>, <a href=
+                  "/pubs/author38914.html">Tiziana Refice</a>, <a href=
+                  "/pubs/author27276.html">Yuchung Cheng</a>, <a href=
+                  "/pubs/author39277.html">Jerry Chu</a>, Tom Herbert, Amit Agarwal, <a href=
+                  "/pubs/author35943.html">Arvind Jain</a>, Natalia Sutin
+                </p>
+                <p>
+                  ACM SIGCOMM Computer Communications Review, vol. 40 (2010), pp. 27-33
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Evaluating+IPv6+adoption+in+the+Internet+Colitti+Gunderson+Kline+Refice">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/36240.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub36240.html">&nbsp;</a>
+                <p class="pub-title">
+                  Evaluating IPv6 adoption in the Internet
+                </p>
+                <p>
+                  <a href="/pubs/author35869.html">Lorenzo Colitti</a>, Steinar H. Gunderson,
+                  <a href="/pubs/ErikKline.html">Erik Kline</a>, <a href=
+                  "/pubs/author38914.html">Tiziana Refice</a>
+                </p>
+                <p>
+                  PAM 2010, Springer
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=FTTH+look+ahead+%E2%80%94+technologies+%26+architectures+Lam">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/36936.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub36936.html">&nbsp;</a>
+                <p class="pub-title">
+                  FTTH look ahead — technologies &amp; architectures
+                </p>
+                <p>
+                  <a href="/pubs/author38397.html">Cedric F. Lam</a>
+                </p>
+                <p>
+                  ECOC 2010, Turin, Italy
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Fiber+Optic+Communication+Technologies:+What%E2%80%99s+Needed+for+Datacenter+Network+Operations+Lam+Liu+Koley+Zhao+Kamalov+Gill">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/36603.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub36603.html">&nbsp;</a>
+                <p class="pub-title">
+                  Fiber Optic Communication Technologies: What’s Needed for Datacenter Network
+                  Operations
+                </p>
+                <p>
+                  <a href="/pubs/author38397.html">Cedric F. Lam</a>, <a href=
+                  "/pubs/author3723.html">Hong Liu</a>, <a href="/pubs/author39228.html">Bikash
+                  Koley</a>, <a href="/pubs/XiaoxueZhao.html">Xiaoxue Zhao</a>, <a href=
+                  "/pubs/ValeyKamalov.html">Valey Kamalov</a>, Vijay Gill
+                </p>
+                <p>
+                  IEEE Communications Magazine, vol. Vol.48 No.7 (2010)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Field+verification+of+40G+DPSK+upgrade+in+a+legacy+10G+network+Kamalov+Koley+Zhao+Lam">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=5465232">&nbsp;</a><a class=
+                "abstract-icon tooltip" href="/pubs/pub36935.html">&nbsp;</a>
+                <p class="pub-title">
+                  Field verification of 40G DPSK upgrade in a legacy 10G network
+                </p>
+                <p>
+                  <a href="/pubs/ValeyKamalov.html">Valey Kamalov</a>, <a href=
+                  "/pubs/author39228.html">Bikash Koley</a>, <a href=
+                  "/pubs/XiaoxueZhao.html">Xiaoxue Zhao</a>, <a href=
+                  "/pubs/author38397.html">Cedric F. Lam</a>
+                </p>
+                <p>
+                  Optical Fiber Communication, IEEE (2010), NTuC2
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Hardware+Requirements+for+Optical+Circuit+Switched+Data+Center+Networks+Farrington+Fainman+Liu+Papen+Vahdat">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/36840.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub36840.html">&nbsp;</a>
+                <p class="pub-title">
+                  Hardware Requirements for Optical Circuit Switched Data Center Networks
+                </p>
+                <p>
+                  Nathan Farrington, Yeshaiahu Fainman, <a href="/pubs/author3723.html">Hong
+                  Liu</a>, George Papen, <a href="/pubs/AminVahdat.html">Amin Vahdat</a>
+                </p>
+                <p>
+                  IEEE Communication Society, IEEE Photonic Society, Optical Society of America,
+                  OFC/NFOEC 2011, Los Angeles (2010), OTuH3
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Optimizing+the+update+packet+stream+for+web+applications+Muthusrinivasan+Manimaran">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/35159.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub35159.html">&nbsp;</a>
+                <p class="pub-title">
+                  Optimizing the update packet stream for web applications
+                </p>
+                <p>
+                  <a href="/pubs/author35944.html">Muthuprasanna Muthusrinivasan</a>, Manimaran
+                  Govindarasu
+                </p>
+                <p>
+                  ICST International Conference on Broadband Communications, Networks, and Systems
+                  (BROADNETS) (2010)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Scaling+Optical+Interconnects+in+Datacenter+Networks+Opportunities+and+Challenges+for+WDM+Liu+Lam+Johnson">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/36670.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub36670.html">&nbsp;</a>
+                <p class="pub-title">
+                  Scaling Optical Interconnects in Datacenter Networks Opportunities and Challenges
+                  for WDM
+                </p>
+                <p>
+                  <a href="/pubs/author3723.html">Hong Liu</a>, <a href=
+                  "/pubs/author38397.html">Cedric F. Lam</a>, Chris Johnson
+                </p>
+                <p>
+                  2010 18th IEEE Symposium on High Performance Interconnects, IEEE, pp. 113-116
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=TCP+Option+to+Denote+Packet+Mood+Hay+Turkal">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/36604.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub36604.html">&nbsp;</a>
+                <p class="pub-title">
+                  TCP Option to Denote Packet Mood
+                </p>
+                <p>
+                  <a href="/pubs/author39232.html">Richard Hay</a>, Warren Turkal
+                </p>
+                <p>
+                  Internet Engineering Task Force, http://ietf.org (2010), pp. 8
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Usage+Patterns+in+an+Urban+WiFi+Network+Afanasyev+Chen">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/39965.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub39965.html">&nbsp;</a>
+                <p class="pub-title">
+                  Usage Patterns in an Urban WiFi Network
+                </p>
+                <p>
+                  Mikhail Afanasyev, <a href="/pubs/TsuweiChen.html">Tsuwei Chen</a>
+                </p>
+                <p>
+                  IEEE/ACM Transactions on Networking, vol. 18 , Issue: 5 (2010), 1359 - 1372
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Characterizing+End-to-End+Packet+Reordering+with+UDP+Traffic+Tinta+Mohr+Wong">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/35247.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub35247.html">&nbsp;</a>
+                <p class="pub-title">
+                  Characterizing End-to-End Packet Reordering with UDP Traffic
+                </p>
+                <p>
+                  Sandra Tinta, <a href="/pubs/author37505.html">Alexander Mohr</a>, Jennifer Wong
+                </p>
+                <p>
+                  IEEE Symposium on Computers and Communications (ISCC) (2009), pp. 321-324
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Competitive+Routing+over+Time+Hoefer+Mirrokni+R%C3%B6glin+Teng">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://dx.doi.org/10.1007/978-3-642-10841-9_4">&nbsp;</a>
+                <p class="pub-title">
+                  Competitive Routing over Time
+                </p>
+                <p>
+                  Martin Hoefer, <a href="/pubs/mirrokni.html">Vahab S. Mirrokni</a>, Heiko Röglin,
+                  Shang-Hua Teng
+                </p>
+                <p>
+                  Workshop of Internet Economics (WINE) (2009), pp. 18-29
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Cost-efficient+Dragonfly+Topology+for+Large-scale+Systems+Kim+Dally+Scott+Abts">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/35154.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub35154.html">&nbsp;</a>
+                <p class="pub-title">
+                  Cost-efficient Dragonfly Topology for Large-scale Systems
+                </p>
+                <p>
+                  John Kim, William J. Dally, Steve Scott, <a href="/pubs/author36240.html">Dennis
+                  Abts</a>
+                </p>
+                <p>
+                  Optical Fiber Communication Conference (OFC 2009)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Moving+Beyond+End-to-End+Path+Information+to+Optimize+CDN+Performance+Krishnan+Madhyastha+Jain+Srinivasan+Krishnamurthy+Anderson+Gao">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/35590.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub35590.html">&nbsp;</a>
+                <p class="pub-title">
+                  Moving Beyond End-to-End Path Information to Optimize CDN Performance
+                </p>
+                <p>
+                  <a href="/pubs/RupaKrishnan.html">Rupa Krishnan</a>, Harsha V. Madhyastha,
+                  Sushant Jain, <a href="/pubs/SridharSrinivasan.html">Sridhar Srinivasan</a>,
+                  Arvind Krishnamurthy, Thomas Anderson, Jie Gao
+                </p>
+                <p>
+                  Internet Measurement Conference (IMC), ACM, Chicago, IL (2009), pp. 190-201
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Passive+aggressive+measurement+with+MGRP+Papageorge+McCann+Hicks">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/36161.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Passive aggressive measurement with MGRP
+                </p>
+                <p>
+                  Pavlos Papageorge, Justin McCann, Michael Hicks
+                </p>
+                <p>
+                  SIGCOMM '09: Proceedings of the ACM SIGCOMM 2009 conference on Data
+                  communication, ACM, New York, NY, USA, pp. 279-290
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=RACNet:+a+high-fidelity+data+center+sensing+network+Liang+Liu+Luo+Terzis+Zhao">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://doi.acm.org/10.1145/1644038.1644041">&nbsp;</a>
+                <p class="pub-title">
+                  RACNet: a high-fidelity data center sensing network
+                </p>
+                <p>
+                  Chieh-Jan Mike Liang, Jie Liu, Liqian Luo, <a href=
+                  "/pubs/AndreasTerzis.html">Andreas Terzis</a>, Feng Zhao
+                </p>
+                <p>
+                  SenSys '09: Proceedings of the 7th ACM Conference on Embedded Networked Sensor
+                  Systems, ACM, New York, NY, USA (2009), pp. 15-28
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=RFC5635+-+Remote+Triggered+Black+Hole+filtering+with+uRPF+Kumari">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/35216.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub35216.html">&nbsp;</a>
+                <p class="pub-title">
+                  RFC5635 - Remote Triggered Black Hole filtering with uRPF
+                </p>
+                <p>
+                  <a href="/pubs/WarrenKumari.html">Warren Kumari</a>
+                </p>
+                <p>
+                  IETF, IETF (2009)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Wireless+Techniques+in+Optical+Transport+Lam">
+                &nbsp;</a><a class="abstract-icon tooltip" href="/pubs/pub35476.html">&nbsp;</a>
+                <p class="pub-title">
+                  Wireless Techniques in Optical Transport
+                </p>
+                <p>
+                  <a href="/pubs/author38397.html">Cedric F. Lam</a>
+                </p>
+                <p>
+                  Proceedings of the 14th Optoelectronics and Communications Conference (2009)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Analysis+of+a+Mixed-Use+Urban+WiFi+Network:+When+Metropolitan+becomes+Neapolitan+Afanasyev+Chen+Voelker+Snoeren">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/34430.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub34430.html">&nbsp;</a>
+                <p class="pub-title">
+                  Analysis of a Mixed-Use Urban WiFi Network: When Metropolitan becomes Neapolitan
+                </p>
+                <p>
+                  Mikhail Afanasyev, <a href="/pubs/TsuweiChen.html">Tsuwei Chen</a>, Geoffrey M.
+                  Voelker, Alex C. Snoeren
+                </p>
+                <p>
+                  IMC '08 Proceedings of the 8th ACM SIGCOMM conference on Internet measurement,
+                  ACM, New York, NY, USA (2008), pp. 85-98
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Answering+What-If+Deployment+and+Configuration+Questions+with+WISE+Tariq+Zeitoun+Valancius+Feamster+Ammar">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://dx.doi.org/10.1145/1402946.1402971">&nbsp;</a>
+                <p class="pub-title">
+                  Answering What-If Deployment and Configuration Questions with WISE
+                </p>
+                <p>
+                  Mukarram Tariq, Amgad Zeitoun, Vytautas Valancius, Nick Feamster, Mostafa Ammar
+                </p>
+                <p>
+                  ACM SIGCOMM'08 (2008)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Performance+Optimization+of+TCP/IP+over+10+Gigabit+Ethernet+by+Precise+Instrumentation+Yoshino+Sugawara+Inagami+Tamatsukuri+Inaba+Hiraki">
+                &nbsp;</a>
+                <p class="pub-title">
+                  Performance Optimization of TCP/IP over 10 Gigabit Ethernet by Precise
+                  Instrumentation
+                </p>
+                <p>
+                  Takeshi Yoshino, Yutaka Sugawara, Katsushi Inagami, Junji Tamatsukuri, Mary
+                  Inaba, Kei Hiraki
+                </p>
+                <p>
+                  Proceedings of the 2008 ACM/IEEE conference on Supercomputing (SC08)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Practical+Large-Scale+Latency+Estimation+Szymaniak+Presotto+Pierre+Steen">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/36959.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub36959.html">&nbsp;</a>
+                <p class="pub-title">
+                  Practical Large-Scale Latency Estimation
+                </p>
+                <p>
+                  Michal Szymaniak, <a href="/pubs/author4927.html">David L. Presotto</a>,
+                  Guillaume Pierre, Maarten van Steen
+                </p>
+                <p>
+                  Computer Networks, vol. 52 (2008), pp. 1343-1364
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Remote+Medical+Monitoring+Through+Vehicular+Ad+Hoc+Network+Noshadi+Giordano+Hagopian+Pau+Gerla+Sarrafzadeh">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=4657288">&nbsp;</a><a class=
+                "abstract-icon tooltip" href="/pubs/pub41370.html">&nbsp;</a>
+                <p class="pub-title">
+                  Remote Medical Monitoring Through Vehicular Ad Hoc Network
+                </p>
+                <p>
+                  <a href="/pubs/HydukeNoshadi.html">Hyduke Noshadi</a>, Eugenio Giordano, Hagop
+                  Hagopian, Giovanni Pau, Mario Gerla, Majid Sarrafzadeh
+                </p>
+                <p>
+                  IEEE 68th Vehicular Technology Conference (VTC), 2008., IEEE, pp. 1-5
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=The+End+of+Eternity+Murphy+Wilson">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://www.cisco.com/web/about/ac123/ac147/archived_issues/ipj_11-4/114_eternity.html">&nbsp;</a>
+                <p class="pub-title">
+                  The End of Eternity
+                </p>
+                <p>
+                  <a href="/pubs/NiallMurphy.html">Niall Murphy</a>, David Wilson
+                </p>
+                <p>
+                  Cisco Internet Protocol Journal (IPJ), vol. 11 (2008)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=An+Active+Approach+to+Measuring+Routing+Dynamics+Induced+by+Autonomous+Systems+Lo+Chang+Colitti">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/32887.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub32887.html">&nbsp;</a>
+                <p class="pub-title">
+                  An Active Approach to Measuring Routing Dynamics Induced by Autonomous Systems
+                </p>
+                <p>
+                  Samantha Lo, Rocky K. C. Chang, <a href="/pubs/author35869.html">Lorenzo
+                  Colitti</a>
+                </p>
+                <p>
+                  Workshop of Experimental Computer Science (ExpCS), ACM (2007)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Investigating+prefix+propagation+through+active+BGP+probing+Colitti+Battista+Patrignani+Pizzonia+Rimondini">
+                &nbsp;</a><a class="abstract-icon tooltip" href="/pubs/pub32974.html">&nbsp;</a>
+                <p class="pub-title">
+                  Investigating prefix propagation through active BGP probing
+                </p>
+                <p>
+                  <a href="/pubs/author35869.html">Lorenzo Colitti</a>, Giuseppe Di Battista,
+                  Maurizio Patrignani, Maurizio Pizzonia, Massimo Rimondini
+                </p>
+                <p>
+                  Microprocessors and Microsystems, vol. 31, no. 7 (2007), pp. 460-474
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=On+the+Accuracy+of+Multi-hop+Relative+Location+Estimation+in+Wireless+Sensor+Networks+Youssef+Younis+Youssef+Agrawala">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/33304.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  On the Accuracy of Multi-hop Relative Location Estimation in Wireless Sensor
+                  Networks
+                </p>
+                <p>
+                  Adel Youssef, Mohamed Younis, Moustafa Youssef, Ashok Agrawala
+                </p>
+                <p>
+                  Proc. 2007 International Conference on Wireless Communications and Mobile
+                  Computing, ACM, Honolulu, pp. 481-486
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=The+Complete+April+Fools+RFCs+Limoncelli+Salus">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://www.rfc-humor.com/">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub32806.html">&nbsp;</a>
+                <p class="pub-title">
+                  The Complete April Fools RFCs
+                </p>
+                <p>
+                  Thomas A. Limoncelli, Peter H. Salus
+                </p>
+                <p>
+                  Peer-to-Peer Communications LLC, PO Box 6970, Charlottesville, VA, US 22906-6970
+                  (2007)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Fast+and+memory-efficient+regular+expression+matching+for+deep+packet+inspection+Yu+Chen+Diao+Lakshman+Katz">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/32714.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Fast and memory-efficient regular expression matching for deep packet inspection
+                </p>
+                <p>
+                  Fang Yu, <a href="/pubs/author8126.html">Zhifeng Chen</a>, Yanlei Diao, T. V.
+                  Lakshman, Randy H. Katz
+                </p>
+                <p>
+                  Proc. 2006 ACM/IEEE Symposium on Architecture for networking and communication
+                  systems, ACM, San Jose, CA, pp. 93-102
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Growth+Codes:+Maximizing+Sensor+Network+Data+Persistence+Kamra+Misra+Feldman+Rubenstein">
+                &nbsp;</a>
+                <p class="pub-title">
+                  Growth Codes: Maximizing Sensor Network Data Persistence
+                </p>
+                <p>
+                  Abhinav Kamra, Vishal Misra, <a href="/pubs/jonfeld.html">Jon Feldman</a>, Dan
+                  Rubenstein
+                </p>
+                <p>
+                  Proceedings of the 2006 conference on Applications, technologies, architectures,
+                  and protocols for computer communications, ACM, Pisa, Italy, pp. 255-266
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Optimal+Multicasting+of+Multiple+Light-Trees+of+Different+Bandwidth+Granularities+in+a+%7BWDM%7D+Mesh+Network+With+Sparse+Splitting+Capabilities+Singhal+Sahasrabuddhe+Mukherjee">
+                &nbsp;</a>
+                <p class="pub-title">
+                  Optimal Multicasting of Multiple Light-Trees of Different Bandwidth Granularities
+                  in a WDM Mesh Network With Sparse Splitting Capabilities
+                </p>
+                <p>
+                  Narendra K. Singhal, Laxman H. Sahasrabuddhe, Biswanath Mukherjee
+                </p>
+                <p>
+                  IEEE/ACM Transactions on Networking, vol. 14 (2006), pp. 1104-1117
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=The+Effects+of+Faults+on+Network+Expansion+Bagchi+Bhargava+Chaudhary+Eppstein+Scheideler">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://dx.doi.org/10.1007/s00224-006-1349-0">&nbsp;</a>
+                <p class="pub-title">
+                  The Effects of Faults on Network Expansion
+                </p>
+                <p>
+                  Amithaba Bagchi, <a href="/pubs/author6218.html">Ankur Bhargava</a>, Amitabh
+                  Chaudhary, David Eppstein, Christian Scheideler
+                </p>
+                <p>
+                  Theory of Computing Systems, vol. 39, no. 6 (2006), pp. 903-928
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Data+Reduction+for+the+Scalable+Automated+Analysis+of+Distributed+Darknet+Traffic+Bailey+Cooke+Jahanian+Provos+Rosaen+Watson">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/2.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Data Reduction for the Scalable Automated Analysis of Distributed Darknet Traffic
+                </p>
+                <p>
+                  Michael Bailey, Evan Cooke, Farnam Jahanian, <a href="/pubs/author1.html">Niels
+                  Provos</a>, Karl Rosaen, David Watson
+                </p>
+                <p>
+                  Proceedings of the 2005 Internet Measurement Conference
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Trickle:+A+Userland+Bandwidth+Shaper+for+Unix-like+Systems+Eriksen">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/76.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Trickle: A Userland Bandwidth Shaper for Unix-like Systems
+                </p>
+                <p>
+                  Marius Eriksen
+                </p>
+                <p>
+                  USENIX Annual Technical Conference, FREENIX Track (2005), pp. 61-70
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Monkey+See,+Monkey+Do:+A+Tool+for+TCP+Tracing+and+Replaying+Cheng+Holzle+Cardwell+Savage+Voelker">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/24165.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Monkey See, Monkey Do: A Tool for TCP Tracing and Replaying
+                </p>
+                <p>
+                  <a href="/pubs/author27276.html">Yu-Chung Cheng</a>, <a href=
+                  "/pubs/author79.html">Urs Hölzle</a>, <a href="/pubs/NealCardwell.html">Neal
+                  Cardwell</a>, Stefan Savage, Geoffrey M. Voelker
+                </p>
+                <p>
+                  USENIX Annual Technical Conference, General Track (2004)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Topology+discovery+in+heterogeneous+IP+networks:+the+Breitbart+Garofalakis+Jai+Martin+Rastogi+Silberschatz">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://portal.acm.org/citation.cfm?id=1008463.1008464">&nbsp;</a>
+                <p class="pub-title">
+                  Topology discovery in heterogeneous IP networks: the
+                </p>
+                <p>
+                  Yuri Breitbart, Minos N. Garofalakis, Ben Jai, Cliff Martin, Rajeev Rastogi, Avi
+                  Silberschatz
+                </p>
+                <p>
+                  IEEE/ACM Trans. Netw., vol. 12 (2004), pp. 401-414
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="maia-signature"></div>
+    <div class="maia-footer" id="maia-footer">
+      <div id="maia-footer-local">
+        <div class="maia-aux">
+          <ul class="expand no-marker" id="footer-local">
+            <li>
+              <a class="googleplus middle" href=
+              "//plus.google.com/117790530324740296539/posts">Google Plus</a>
+              <p>
+                Thoughts from Google's academic community
+              </p>
+            </li>
+            <li>
+              <a class="twitter middle" href="//twitter.com/googleresearch">Twitter</a>
+              <p>
+                Research at Google announcements
+              </p>
+            </li>
+            <li>
+              <a class="blogger middle" href="//googleresearch.blogspot.com/">Research Blog</a>
+              <p>
+                The latest news from Research at Google
+              </p>
+            </li>
+            <li>
+              <a class="scholar middle" href="//scholar.google.com/">Google Scholar</a>
+              <p>
+                Search for scholarly literature
+              </p>
+            </li>
+            <li>
+              <a class="youtube middle" href=
+              "//www.youtube.com/user/GoogleTechTalks/featured">YouTube Tech Talks</a>
+              <p>
+                Tech talks by leaders in the field
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div id="maia-footer-global">
+        <div class="maia-aux">
+          <ul>
+            <li>
+              <a href="//www.google.com/">Google</a>
+            </li>
+            <li>
+              <a href="//www.google.com/intl/en/about/">About Google</a>
+            </li>
+            <li>
+              <a href="//www.google.com/intl/en/policies/privacy/">Privacy</a>
+            </li>
+            <li>
+              <a href="//www.google.com/intl/en/policies/terms/">Terms</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <script src="//www.google.com/jsapi">
+    </script> 
+    <script src="/js/research.view.js">
+    </script> 
+    <script>
+    var videoUnit= new gweb.ui.LightBox('video-lightbox', 'Some tech-talks in Networking');
+  videoUnit.setAnimate(true);
+  videoUnit.setScaleImages(true);
+  videoUnit.setOutsideNav(true);
+  videoUnit.setCloseText('CLOSE');
+  videoUnit.setItemCount(true);
+  videoUnit.init();
+    </script> 
+    <script src="//www.google.com/js/maia.js">
+    </script>
+  </body>
+</html>

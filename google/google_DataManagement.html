@@ -1,0 +1,1937 @@
+<!DOCTYPE html>
+<html class="google" lang="en">
+  <head>
+
+    <script>
+    (function(H){H.className=H.className.replace(/\bgoogle\b/,'google-js')})(document.documentElement)
+    </script>
+    <meta charset="utf-8">
+    <meta content="initial-scale=1, minimum-scale=1, width=device-width" name="viewport">
+    <title>
+      Data Management - Research at Google
+    </title>
+    <script src="//www.google.com/js/google.js">
+    </script>
+    <script>
+    new gweb.analytics.AutoTrack({profile:"UA-5974346-1"});
+    </script>
+    <link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;lang=en" rel=
+    "stylesheet">
+    <link href="/css/research.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="maia-header" id="maia-header" role="banner">
+      <div class="maia-aux">
+        <h1>
+          <a href="/" id="logo"><img alt="Research at Google" src=
+          "/images/research_at_google.png"></a>
+        </h1><a class="maia-teleport" href="#content">Skip to content</a>
+        <div class="maia-util">
+          <form class="maia-search" id="search" name="search">
+            <input id="q" name="q" placeholder="Search this site" value=""> <input class=
+            "maia-button" type="submit" value="Search">
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="maia-nav maia-complex" id="maia-nav-x" role="navigation">
+      <div class="maia-aux">
+        <ul>
+          <li>
+            <a href="/index.html">Home</a>
+          </li>
+          <li class="active" id="ra">
+            <a href="/pubs/papers.html">Research Areas &amp; Publications</a> <span class=
+            "glyph">&nbsp;</span>
+            <div class="hidden">
+              <ul id="ramenu">
+                <li class="fill">
+                  <a href="/pubs/papers.html">Overview</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/AlgorithmsandTheory.html">Algorithms and Theory</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/DataManagement.html">Data Management</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/DataMiningandModeling.html">Data Mining and Modeling</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/DistributedSystemsandParallelComputing.html">Distributed Systems
+                  and Parallel Computing</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/EconomicsandElectronicCommerce.html">Economics and Electronic
+                  Commerce</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/EducationInnovation.html">Education Innovation</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/GeneralScience.html">General Science</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/HardwareandArchitecture.html">Hardware and Architecture</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/Human-ComputerInteractionandVisualization.html">Human-Computer
+                  Interaction and Visualization</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/InformationRetrievalandtheWeb.html">Information Retrieval and the
+                  Web</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/MachineIntelligence.html">Machine Intelligence</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/MachinePerception.html">Machine Perception</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/MachineTranslation.html">Machine Translation</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/MobileSystems.html">Mobile Systems</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/NaturalLanguageProcessing.html">Natural Language Processing</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/Networking.html">Networking</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/SecurityPrivacyandAbusePrevention.html">Security, Privacy and
+                  Abuse Prevention</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/SoftwareEngineering.html">Software Engineering</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/SoftwareSystems.html">Software Systems</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/SpeechProcessing.html">Speech Processing</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a href="/researchers.html">People</a>
+          </li>
+          <li>
+            <a href="/university/">Research Programs</a>
+          </li>
+          <li>
+            <a href="/workatgoogle.html">Work at Google</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div id="maia-main" role="main">
+      <div class="maia-teleport" id="content"></div>
+      <div id="cse">
+        &nbsp;
+      </div>
+      <h1>
+        Data Management
+      </h1>
+      <div class="maia-cols">
+        <div class="maia-col-4">
+          <div>
+            <div class="sidebar">
+              <h2>
+                What We Do
+              </h2>
+              <p>
+                The overarching goal of structured-data research at Google is to build tools that
+                enable a rich ecosystem of structured data on the Web. To fuel such an ecosystem we
+                need to build tools for discovery, extraction, annotation, sharing, querying,
+                integration, visualization and publishing of structured data sets.
+              </p>
+              <p>
+                <a href="https://research.google.com/tables">Google Fusion Tables</a> lies at the
+                center of these efforts, offering a tool for data owners to easily upload, query
+                and share data sets. Once the data is uploaded to Fusion Tables, the user can query
+                the data, find related data sets that other users have made public and combine
+                multiple data sets. Users can also create compelling visualizations easily and
+                publish them on the Web. Fusion Tables has been used by a wide variety of users
+                (see our&nbsp;<a href=
+                "https://sites.google.com/site/fusiontablestalks/stories">gallery</a>), most
+                notably by journalists and in crisis response.
+              </p>
+              <p>
+                In our efforts to enable discovery of structured data sets on the Web we developed
+                the WebTables System that extracts the HTML tables that contain valuable data. We
+                extracted a corpus of over 150 million high-quality tables and have developed
+                methods for searching tables in response to queries. In a previous line of work we
+                developed techniques for tapping the content stored in databases behind forms,
+                known as the deep web (or the invisible web). Our research has produced methods for
+                automatically analyzing web forms and submitting meaningful queries to them, to
+                obtain HTML pages that can be inserted into the Google index.
+              </p>
+              <form action="https://research.google.com/tables?source=rdms" class="maia-search"
+              method="get">
+                <input id="dm-textbox" maxlength="2048" name="q" placeholder=
+                "Search public data tables" tabindex="1" type="text"> <button class="maia-button"
+                tabindex="2"><span class="maia-search-icon">Search</span></button> <input name=
+                "source" type="hidden" value="rdms">
+              </form>
+              <h2>
+                Related videos
+              </h2><a class="video-small video-lightbox" data-lightbox-caption=
+              "Near-Optimal Parallel Join Processing in MapReduce" data-lightbox-height="480"
+              data-lightbox-width="853" href=
+              "//www.youtube.com/embed/kiuUGXWRzPA?autoplay=1"><img alt=
+              "Near-Optimal Parallel Join Processing in MapReduce" src=
+              "https://i2.ytimg.com/vi/kiuUGXWRzPA/hqdefault.jpg"> <span>&nbsp;</span></a>
+              <p class="caption">
+                Near-Optimal Parallel Join Processing in MapReduce
+              </p><a class="video-small video-lightbox" data-lightbox-caption=
+              "Structured Data Lightning Talk" data-lightbox-height="480" data-lightbox-width="853"
+              href="//www.youtube.com/embed/FySjBA7Sro8?autoplay=1"><img alt=
+              "Structured Data Lightning Talk" src=
+              "https://i2.ytimg.com/vi/FySjBA7Sro8/hqdefault.jpg"> <span>&nbsp;</span></a>
+              <p class="caption">
+                Structured Data Lightning Talk
+              </p>
+              <p class="fill">
+                <a href="http://www.youtube.com/user/GoogleTechTalks?feature=watch">Google's
+                tech-talk channel on YouTube</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="maia-col-8">
+          <h2>
+            102 Publications
+          </h2>
+          <div class="section">
+            <ul class="pub-list">
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Active+Learning+in+Keyword+Search-based+Data+Integration+Yan+Zheng+Ives+Talukdar+Yu">
+                &nbsp;</a>
+                <p class="pub-title">
+                  Active Learning in Keyword Search-based Data Integration
+                </p>
+                <p>
+                  Zhepeng Yan, Nan Zheng, Zachary G. Ives, Partha Pratim Talukdar, <a href=
+                  "/pubs/CongYu.html">Cong Yu</a>
+                </p>
+                <p>
+                  The VLDB Journal, vol. 24 (2015), pp. 611-631
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Disaster+Monitoring+with+Wikipedia+and+Online+Social+Networking+Sites:+Structured+Data+and+Linked+Data+Fragments+to+the+Rescue?+Steiner+Verborgh">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/44015.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Disaster Monitoring with Wikipedia and Online Social Networking Sites: Structured
+                  Data and Linked Data Fragments to the Rescue?
+                </p>
+                <p>
+                  <a href="/pubs/author39477.html">Thomas Steiner</a>, Ruben Verborgh
+                </p>
+                <p>
+                  2015 AAAI Spring Symposium Series
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Discovering+Subsumption+Relationships+for+Web-Based+Ontologies+Movshovitz-Attias+Whang+Noy+Halevy">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/43471.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Discovering Subsumption Relationships for Web-Based Ontologies
+                </p>
+                <p>
+                  Dana Movshovitz-Attias, <a href="/pubs/StevenWhang.html">Steven Euijong
+                  Whang</a>, <a href="/pubs/NatalyaNoy.html">Natalya Noy</a>, Alon Halevy
+                </p>
+                <p>
+                  Proc. 18th International Workshop on the Web and Databases (WebDB) (2015)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Efficient+Evaluation+of+Object-Centric+Exploration+Queries+for+Visualization+Wu+Harb+Yang+Yu">
+                &nbsp;</a>
+                <p class="pub-title">
+                  Efficient Evaluation of Object-Centric Exploration Queries for Visualization
+                </p>
+                <p>
+                  You Wu, <a href="/pubs/BoulosHarb.html">Boulos Harb</a>, Jun Yang, <a href=
+                  "/pubs/CongYu.html">Cong Yu</a>
+                </p>
+                <p>
+                  PVLDB (2015), pp. 1752-1763
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Inferencing+in+Information+Extraction:+Techniques+and+Applications+Barbosa+Wang+Yu">
+                &nbsp;</a>
+                <p class="pub-title">
+                  Inferencing in Information Extraction: Techniques and Applications
+                </p>
+                <p>
+                  Denilson Barbosa, Haixun Wang, <a href="/pubs/CongYu.html">Cong Yu</a>
+                </p>
+                <p>
+                  ICDE (2015)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=SQLGraph:+An+Efficient+Relational-Based+Property+Graph+Store+Sun+Srinivas+Fokoue+Kementsietsidis+Hu+Xie">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/43287.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  SQLGraph: An Efficient Relational-Based Property Graph Store
+                </p>
+                <p>
+                  Wen Sun, Kavitha Srinivas, Achille Fokoue, <a href=
+                  "/pubs/AnastasiosKementsietsidis.html">Anastasios Kementsietsidis</a>, Gang Hu,
+                  GuoTong Xie
+                </p>
+                <p>
+                  SIGMOD, ACM (2015)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Yedalog:+Exploring+Knowledge+at+Scale+Chin+von+Dincklage+Ercegovac+Hawkins+Miller+Och+Olston+Pereira">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/43462.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub43462.html">&nbsp;</a>
+                <p class="pub-title">
+                  Yedalog: Exploring Knowledge at Scale
+                </p>
+                <p>
+                  Brian Chin, <a href="/pubs/author36313.html">Daniel von Dincklage</a>, Vuk
+                  Ercegovac, Peter Hawkins, <a href="/pubs/author35958.html">Mark S. Miller</a>,
+                  Franz Och, Chris Olston, <a href="/pubs/author1092.html">Fernando Pereira</a>
+                </p>
+                <p>
+                  1st Summit on Advances in Programming Languages (SNAPL 2015), Schloss
+                  Dagstuhl--Leibniz-Zentrum fuer Informatik, Dagstuhl, Germany, pp. 63-78
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Biperpedia:+An+Ontology+for+Search+Applications+Gupta+Halevy+Wang+Whang+Wu">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/41894.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub41894.html">&nbsp;</a>
+                <p class="pub-title">
+                  Biperpedia: An Ontology for Search Applications
+                </p>
+                <p>
+                  <a href="/pubs/RahulGupta.html">Rahul Gupta</a>, Alon Halevy, Xuezhi Wang,
+                  <a href="/pubs/StevenWhang.html">Steven Whang</a>, <a href="/pubs/FeiWu.html">Fei
+                  Wu</a>
+                </p>
+                <p>
+                  Proc. 40th Int'l Conf. on Very Large Data Bases (PVLDB) (2014)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Diff-Index:+Differentiated+Index+in+Distributed+Log-Structured+Data+Stores+Tan+Tata+Tang+Fong">
+                &nbsp;</a>
+                <p class="pub-title">
+                  Diff-Index: Differentiated Index in Distributed Log-Structured Data Stores
+                </p>
+                <p>
+                  Wei Tan, <a href="/pubs/SandeepTata.html">Sandeep Tata</a>, Yuzhe Tang, Liana
+                  Fong
+                </p>
+                <p>
+                  EDBT (2014) (to appear)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Exploiting+Group+Recommendation+Functions+for+Flexible+Preferences+Basu-Roy+Thirumuruganathan+Das+Amer-Yahia+Yu">
+                &nbsp;</a>
+                <p class="pub-title">
+                  Exploiting Group Recommendation Functions for Flexible Preferences
+                </p>
+                <p>
+                  Senjuti Basu-Roy, Saravanan Thirumuruganathan, Gautam Das, Sihem Amer-Yahia,
+                  <a href="/pubs/CongYu.html">Cong Yu</a>
+                </p>
+                <p>
+                  ICDE (2014)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=From+Research+to+Practice:+Experiences+Engineering+a+Production+Metadata+Database+for+a+Scale+Out+File+System+Johnson+Keeton+III+Soules+Veitch+Bacon+Batuner+Condotta+Coutinho+Doyle+Eichelberger+Kiehl+Magalhaes+McEvoy+Nagarajan+Osborne+Souza+Sparkes+Spitzer+Tandel+Thomas+Zangaro">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "https://www.usenix.org/system/files/conference/fast14/fast14-paper_johnson.pdf">&nbsp;</a><a class="abstract-icon tooltip"
+                href="/pubs/pub42191.html">&nbsp;</a>
+                <p class="pub-title">
+                  From Research to Practice: Experiences Engineering a Production Metadata Database
+                  for a Scale Out File System
+                </p>
+                <p>
+                  Charles Johnson, Kimberly Keeton, Charles B. Morrey III, Craig A. N. Soules,
+                  <a href="/pubs/AlistairVeitch.html">Alistair Veitch</a>, Stephen Bacon, Oskar
+                  Batuner, Marcelo Condotta, Hamilton Coutinho, Patrick J. Doyle, Rafael
+                  Eichelberger, Hugo Kiehl, Guilherme Magalhaes, James McEvoy, Padmanabhan
+                  Nagarajan, Patrick Osborne, Joaquim Souza, Andy Sparkes, Mike Spitzer, Sebastien
+                  Tandel, Lincoln Thomas, Sebastian Zangaro
+                </p>
+                <p>
+                  Proceedings of the 12th USENIX Conference on File and Storage Technologies (FAST
+                  2014), USENIX
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=In-Memory+Performance+for+Big+Data+Graefe+Volos+Kimura+Kuno+Tucek+Lillibridge+Veitch">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/43985.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub43985.html">&nbsp;</a>
+                <p class="pub-title">
+                  In-Memory Performance for Big Data
+                </p>
+                <p>
+                  Goetz Graefe, Haris Volos, Hideaki Kimura, Harumi Kuno, Joseph Tucek, Mark
+                  Lillibridge, <a href="/pubs/AlistairVeitch.html">Alistair Veitch</a>
+                </p>
+                <p>
+                  Proceedings of the VLDB Endowment, vol. 8 (2014), pp. 37-48
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Incremental+Discovery+of+Prominent+Situational+Facts+Sultana+Hassan+Li+Yang+Yu">
+                &nbsp;</a>
+                <p class="pub-title">
+                  Incremental Discovery of Prominent Situational Facts
+                </p>
+                <p>
+                  Afroza Sultana, Naeemul Hassan, Chengkai Li, Jun Yang, <a href=
+                  "/pubs/CongYu.html">Cong Yu</a>
+                </p>
+                <p>
+                  ICDE (2014)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=On+Social+Event+Organization+Li+Lu+Bhagat+Lakshmanan+Yu">
+                &nbsp;</a>
+                <p class="pub-title">
+                  On Social Event Organization
+                </p>
+                <p>
+                  Keqian Li, Wei Lu, Smriti Bhagat, Laks V. S. Lakshmanan, <a href=
+                  "/pubs/CongYu.html">Cong Yu</a>
+                </p>
+                <p>
+                  KDD (2014), pp. 1206-1215
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=ReNoun:+Fact+Extraction+for+Nominal+Attributes+Yahya+Whang+Gupta+Halevy">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/42849.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  ReNoun: Fact Extraction for Nominal Attributes
+                </p>
+                <p>
+                  Mohamed Yahya, <a href="/pubs/StevenWhang.html">Steven Whang</a>, <a href=
+                  "/pubs/RahulGupta.html">Rahul Gupta</a>, Alon Halevy
+                </p>
+                <p>
+                  Proc. 2014 Conf. on Empirical Methods in Natural Language Processing (EMNLP)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Storing+and+Querying+Tree-Structured+Records+in+Dremel+Afrati+Delorey+Pasumansky+Ullman">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/43119.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub43119.html">&nbsp;</a>
+                <p class="pub-title">
+                  Storing and Querying Tree-Structured Records in Dremel
+                </p>
+                <p>
+                  Foto N Afrati, <a href="/pubs/DanielDelorey.html">Dan Delorey</a>, <a href=
+                  "/pubs/MoshaPasumansky.html">Mosha Pasumansky</a>, Jeffrey D. Ullman
+                </p>
+                <p>
+                  Proceedings of the VLDB Endowment, vol. 7 (2014), pp. 1131-1142
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Toward+Computational+Fact-Checking+Wu+Agarwal+Li+Yang+Yu">
+                &nbsp;</a>
+                <p class="pub-title">
+                  Toward Computational Fact-Checking
+                </p>
+                <p>
+                  You Wu, Pankaj Agarwal, Chengkai Li, Jun Yang, <a href="/pubs/CongYu.html">Cong
+                  Yu</a>
+                </p>
+                <p>
+                  PVLDB, vol. 7 (2014)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Wikidata:+A+Free+Collaborative+Knowledge+Base+Vrande%C4%8Di%C4%87+Kr%C3%B6tzsch">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/42240.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub42240.html">&nbsp;</a>
+                <p class="pub-title">
+                  Wikidata: A Free Collaborative Knowledge Base
+                </p>
+                <p>
+                  <a href="/pubs/vrandecic.html">Denny Vrandečić</a>, Markus Krötzsch
+                </p>
+                <p>
+                  Communications of the ACM, vol. 57 (2014), pp. 78-85
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Actively+Soliciting+Feedback+for+Query+Answers+in+Keyword+Search-Based+Data+Integration+Yan+Zheng+Ives+Talukdar+Yu">
+                &nbsp;</a>
+                <p class="pub-title">
+                  Actively Soliciting Feedback for Query Answers in Keyword Search-Based Data
+                  Integration
+                </p>
+                <p>
+                  Zhepeng Yan, Nan Zheng, Zachary Ives, Partha Talukdar, <a href=
+                  "/pubs/CongYu.html">Cong Yu</a>
+                </p>
+                <p>
+                  PVLDB, vol. 6 (2013)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=F1:+A+Distributed+SQL+Database+That+Scales+Shute+Vingralek+Samwel+Handy+Whipkey+Rollins+Oancea+Littlefield+Menestrina+Ellner+Cieslewicz+Rae+Stancescu+Apte">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/41344.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub41344.html">&nbsp;</a>
+                <p class="pub-title">
+                  F1: A Distributed SQL Database That Scales
+                </p>
+                <p>
+                  <a href="/pubs/JeffShute.html">Jeff Shute</a>, <a href=
+                  "/pubs/RadekVingralek.html">Radek Vingralek</a>, <a href=
+                  "/pubs/BartSamwel.html">Bart Samwel</a>, Ben Handy, Chad Whipkey, <a href=
+                  "/pubs/EricRollins.html">Eric Rollins</a>, Mircea Oancea, Kyle Littleﬁeld, David
+                  Menestrina, <a href="/pubs/author27288.html">Stephan Ellner</a>, <a href=
+                  "/pubs/JohnCieslewicz.html">John Cieslewicz</a>, Ian Rae, Traian Stancescu,
+                  Himani Apte
+                </p>
+                <p>
+                  VLDB (2013)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=HyperLogLog+in+Practice:+Algorithmic+Engineering+of+a+State+of+The+Art+Cardinality+Estimation+Algorithm+Heule+Nunkesser+Hall">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/40671.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub40671.html">&nbsp;</a>
+                <p class="pub-title">
+                  HyperLogLog in Practice: Algorithmic Engineering of a State of The Art
+                  Cardinality Estimation Algorithm
+                </p>
+                <p>
+                  Stefan Heule, <a href="/pubs/MarcNunkesser.html">Marc Nunkesser</a>, Alex Hall
+                </p>
+                <p>
+                  Proceedings of the EDBT 2013 Conference, ACM, Genoa, Italy (to appear)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Online,+Asynchronous+Schema+Change+in+F1+Rae+Rollins+Shute+Sodhi+Vingralek">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/41376.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub41376.html">&nbsp;</a>
+                <p class="pub-title">
+                  Online, Asynchronous Schema Change in F1
+                </p>
+                <p>
+                  Ian Rae, <a href="/pubs/EricRollins.html">Eric Rollins</a>, <a href=
+                  "/pubs/JeffShute.html">Jeff Shute</a>, Sukhdeep Sodhi, <a href=
+                  "/pubs/RadekVingralek.html">Radek Vingralek</a>
+                </p>
+                <p>
+                  VLDB (2013)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Photon:+Fault-tolerant+and+Scalable+Joining+of+Continuous+Data+Streams+Ananthanarayanan+Basker+Das+Gupta+Jiang+Qiu+Reznichenko+Ryabkov+Singh+Venkataraman">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/41318.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub41318.html">&nbsp;</a>
+                <p class="pub-title">
+                  Photon: Fault-tolerant and Scalable Joining of Continuous Data Streams
+                </p>
+                <p>
+                  <a href="/pubs/RajagopalAnanthanarayanan.html">Rajagopal Ananthanarayanan</a>,
+                  Venkatesh Basker, Sumit Das, <a href="/pubs/AshishGupta.html">Ashish Gupta</a>,
+                  Haifeng Jiang, Tianhao Qiu, Alexey Reznichenko, Deomid Ryabkov, Manpreet Singh,
+                  Shivakumar Venkataraman
+                </p>
+                <p>
+                  SIGMOD '13: Proceedings of the 2013 international conference on Management of
+                  data, ACM, New York, NY, USA, pp. 577-588
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Recent+Progress+Towards+an+Ecosystem+of+Structured+Data+on+the+Web+Gupta+Halevy+Harb+Lam+Lee+Madhavan+Wu+Yu">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/42032.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Recent Progress Towards an Ecosystem of Structured Data on the Web
+                </p>
+                <p>
+                  Nitin Gupta, Alon Y. Halevy, <a href="/pubs/BoulosHarb.html">Boulos Harb</a>,
+                  <a href="/pubs/author14918.html">Heidi Lam</a>, <a href=
+                  "/pubs/HongraeLee.html">Hongrae Lee</a>, <a href="/pubs/author6192.html">Jayant
+                  Madhavan</a>, <a href="/pubs/FeiWu.html">Fei Wu</a>, <a href=
+                  "/pubs/CongYu.html">Cong Yu</a>
+                </p>
+                <p>
+                  ICDE (2013), pp. 5-8
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Rolling+Up+Random+Variables+in+Data+Cubes+Yelland">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/41652.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub41652.html">&nbsp;</a>
+                <p class="pub-title">
+                  Rolling Up Random Variables in Data Cubes
+                </p>
+                <p>
+                  Phillip M. Yelland
+                </p>
+                <p>
+                  Joint Statistical Meetings, American Statistical Association, 732 North
+                  Washington Street, Alexandria, VA 22314-1943 (2013) (to appear)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Scalable+Column+Concept+Determination+for+Web+Tables+Using+Large+Knowledge+Bases+Deng+Jiang+Li+Li+Yu">
+                &nbsp;</a>
+                <p class="pub-title">
+                  Scalable Column Concept Determination for Web Tables Using Large Knowledge Bases
+                </p>
+                <p>
+                  Dong Deng, Yu Jiang, Guoliang Li, Jian Li, <a href="/pubs/CongYu.html">Cong
+                  Yu</a>
+                </p>
+                <p>
+                  PVLDB, vol. 6 (2013)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Shallow+Information+Extraction+for+the+Knowledge+Web+Barbosa+Wang+Yu">
+                &nbsp;</a>
+                <p class="pub-title">
+                  Shallow Information Extraction for the Knowledge Web
+                </p>
+                <p>
+                  Denilson Barbosa, Haixun Wang, <a href="/pubs/CongYu.html">Cong Yu</a>
+                </p>
+                <p>
+                  ICDE (2013)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Synthesizing+Union+Tables+from+the+Web+Ling+Halevy+Wu+Yu">
+                &nbsp;</a>
+                <p class="pub-title">
+                  Synthesizing Union Tables from the Web
+                </p>
+                <p>
+                  Xiao Ling, Alon Halevy, <a href="/pubs/FeiWu.html">Fei Wu</a>, <a href=
+                  "/pubs/CongYu.html">Cong Yu</a>
+                </p>
+                <p>
+                  IJCAI (2013)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=An+Automatic+Blocking+Mechanism+for+Large-Scale+De-duplication+Tasks+Das+Sarma+Jain+Machanavajjhala+Bohannon">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://arxiv.org/abs/1111.3689">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub40415.html">&nbsp;</a>
+                <p class="pub-title">
+                  An Automatic Blocking Mechanism for Large-Scale De-duplication Tasks
+                </p>
+                <p>
+                  <a href="/pubs/author19995.html">Anish Das Sarma</a>, Ankur Jain, Ashwin
+                  Machanavajjhala, Philip Bohannon
+                </p>
+                <p>
+                  CIKM (2012)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Big+Data+Storytelling+Through+Interactive+Maps+Madhavan+Balakrishnan+Hurley+Gonzalez+Gupta+Halevy+Jacqmin-Adams+Lam+Langen+Lee+McChesney+Shapley+Shen">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/39959.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Big Data Storytelling Through Interactive Maps
+                </p>
+                <p>
+                  <a href="/pubs/author6192.html">Jayant Madhavan</a>, Sreeram Balakrishnan,
+                  Kathryn Hurley, Hector Gonzalez, <a href="/pubs/nigupta.html">Nitin Gupta</a>,
+                  Alon Halevy, Karen Jacqmin-Adams, <a href="/pubs/author14918.html">Heidi Lam</a>,
+                  Anno Langen, <a href="/pubs/HongraeLee.html">Hongrae Lee</a>, Rod McChesney,
+                  Rebecca Shapley, <a href="/pubs/author18116.html">Warren Shen</a>
+                </p>
+                <p>
+                  IEEE Data Engineering Bulletin, vol. 35 (2012), pp. 46-54
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Clydesdale:+structured+data+processing+on+MapReduce+Kaldewey+Shekita+Tata">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://doi.acm.org/10.1145/2247596.2247600">&nbsp;</a>
+                <p class="pub-title">
+                  Clydesdale: structured data processing on MapReduce
+                </p>
+                <p>
+                  Tim Kaldewey, Eugene J. Shekita, <a href="/pubs/SandeepTata.html">Sandeep
+                  Tata</a>
+                </p>
+                <p>
+                  Proceedings of the 15th International Conference on Extending Database
+                  Technology, ACM, New York, NY, USA (2012), pp. 15-25
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Efficient+Spatial+Sampling+of+Large+Geographical+Tables+Das+Sarma+Lee+Gonzalez+Madhavan+Halevy">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/38123.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub38123.html">&nbsp;</a>
+                <p class="pub-title">
+                  Efficient Spatial Sampling of Large Geographical Tables
+                </p>
+                <p>
+                  <a href="/pubs/author19995.html">Anish Das Sarma</a>, <a href=
+                  "/pubs/HongraeLee.html">Hongrae Lee</a>, Hector Gonzalez, <a href=
+                  "/pubs/author6192.html">Jayant Madhavan</a>, Alon Y. Halevy
+                </p>
+                <p>
+                  SIGMOD (2012)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Efficient+spatial+sampling+of+large+geographical+tables+Das+Sarma+Lee+Gonzalez+Madhavan+Halevy">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://dx.doi.org/10.1145/2213836.2213859">&nbsp;</a>
+                <p class="pub-title">
+                  Efficient spatial sampling of large geographical tables
+                </p>
+                <p>
+                  <a href="/pubs/author19995.html">Anish Das Sarma</a>, <a href=
+                  "/pubs/HongraeLee.html">Hongrae Lee</a>, Hector Gonzalez, <a href=
+                  "/pubs/author6192.html">Jayant Madhavan</a>, Alon Halevy
+                </p>
+                <p>
+                  Proceedings of the 2012 ACM SIGMOD International Conference on Management of
+                  Data, ACM, New York, NY, USA, pp. 193-204
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=F1+-+The+Fault-Tolerant+Distributed+RDBMS+Supporting+Google's+Ad++Business+Shute+Oancea+Ellner+Handy+Rollins+Samwel+Vingralek+Whipkey+Chen+Jegerlehner+Littlefield+Tong">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/38125.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub38125.html">&nbsp;</a>
+                <p class="pub-title">
+                  F1 - The Fault-Tolerant Distributed RDBMS Supporting Google's Ad Business
+                </p>
+                <p>
+                  <a href="/pubs/JeffShute.html">Jeff Shute</a>, Mircea Oancea, <a href=
+                  "/pubs/author27288.html">Stephan Ellner</a>, Ben Handy, <a href=
+                  "/pubs/EricRollins.html">Eric Rollins</a>, <a href="/pubs/BartSamwel.html">Bart
+                  Samwel</a>, <a href="/pubs/RadekVingralek.html">Radek Vingralek</a>, Chad
+                  Whipkey, Xin Chen, Beat Jegerlehner, Kyle Littleﬁeld, Phoenix Tong
+                </p>
+                <p>
+                  SIGMOD (2012)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Finding+Related+Tables+Das+Sarma+Fang+Gupta+Halevy+Lee+Wu+Xin+Yu">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/38124.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub38124.html">&nbsp;</a>
+                <p class="pub-title">
+                  Finding Related Tables
+                </p>
+                <p>
+                  <a href="/pubs/author19995.html">Anish Das Sarma</a>, Lujun Fang, <a href=
+                  "/pubs/nigupta.html">Nitin Gupta</a>, Alon Y. Halevy, <a href=
+                  "/pubs/HongraeLee.html">Hongrae Lee</a>, <a href="/pubs/FeiWu.html">Fei Wu</a>,
+                  Reynold Xin, <a href="/pubs/CongYu.html">Cong Yu</a>
+                </p>
+                <p>
+                  SIGMOD (2012)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Fuzzy+Joins+Using+MapReduce+Afrati+Das+Sarma+Menestrina+Parameswaran+Ullman">
+                &nbsp;</a>
+                <p class="pub-title">
+                  Fuzzy Joins Using MapReduce
+                </p>
+                <p>
+                  Foto N. Afrati, <a href="/pubs/author19995.html">Anish Das Sarma</a>, David
+                  Menestrina, Aditya Parameswaran, Jeffrey Ullman
+                </p>
+                <p>
+                  ICDE (2012) (to appear)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Hathi:+durable+transactions+for+memory+using+flash+Saxena+Shah+Harizopoulos+Swift+Merchant">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://doi.acm.org/10.1145/2236584.2236589">&nbsp;</a>
+                <p class="pub-title">
+                  Hathi: durable transactions for memory using flash
+                </p>
+                <p>
+                  Mohit Saxena, Mehul A. Shah, Stavros Harizopoulos, Michael M. Swift, <a href=
+                  "/pubs/author57990.html">Arif Merchant</a>
+                </p>
+                <p>
+                  Proceedings of the Eighth International Workshop on Data Management on New
+                  Hardware, ACM, New York, NY, USA (2012), pp. 33-38
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Interactive+Regret+Minimization+Nanongkai+Lall+Das+Sarma+Makino">
+                &nbsp;</a>
+                <p class="pub-title">
+                  Interactive Regret Minimization
+                </p>
+                <p>
+                  Danupon Nanongkai, Ashwin Lall, Atish Das Sarma, Kazuhisa Makino
+                </p>
+                <p>
+                  SIGMOD (2012) (to appear)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Interactive+regret+minimization+Nanongkai+Lall+Das+Sarma+Makino">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://dx.doi.org/10.1145/2213836.2213850">&nbsp;</a>
+                <p class="pub-title">
+                  Interactive regret minimization
+                </p>
+                <p>
+                  Danupon Nanongkai, Ashwin Lall, Atish Das Sarma, Kazuhisa Makino
+                </p>
+                <p>
+                  Proceedings of the 2012 ACM SIGMOD International Conference on Management of
+                  Data, ACM, New York, NY, USA, pp. 109-120
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=On+One+of+the+Few+Objects+Wu+Agarwal+Li+Yang+Yu">
+                &nbsp;</a>
+                <p class="pub-title">
+                  On One of the Few Objects
+                </p>
+                <p>
+                  You Wu, Pankaj Agarwal, Chengkai Li, Jun Yang, <a href="/pubs/CongYu.html">Cong
+                  Yu</a>
+                </p>
+                <p>
+                  SIGKDD (2012)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Processing+a+Trillion+Cells+per+Mouse+Click+Hall+Bachmann+Buessow+Ganceanu+Nunkesser">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://vldb.org/pvldb/vol5/p1436_alexanderhall_vldb2012.pdf">&nbsp;</a><a class=
+                "abstract-icon tooltip" href="/pubs/pub40465.html">&nbsp;</a>
+                <p class="pub-title">
+                  Processing a Trillion Cells per Mouse Click
+                </p>
+                <p>
+                  Alex Hall, Olaf Bachmann, Robert Buessow, Silviu-Ionut Ganceanu, <a href=
+                  "/pubs/MarcNunkesser.html">Marc Nunkesser</a>
+                </p>
+                <p>
+                  PVLDB, vol. 5 (2012), pp. 1436-1446
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Spanner:+Google's+Globally-Distributed+Database+Corbett+Dean+Epstein+Fikes+Frost+Furman+Ghemawat+Gubarev+Heiser+Hochschild+Hsieh+Kanthak+Kogan+Li+Lloyd+Melnik+Mwaura+Nagle+Quinlan+Rao+Rolig+Woodford+Saito+Taylor+Szymaniak+Wang">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/39966.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Spanner: Google's Globally-Distributed Database
+                </p>
+                <p>
+                  <a href="/pubs/author39619.html">James C. Corbett</a>, <a href=
+                  "/pubs/jeff.html">Jeffrey Dean</a>, Michael Epstein, Andrew Fikes, <a href=
+                  "/pubs/ChrisFrost.html">Christopher Frost</a>, JJ Furman, <a href=
+                  "/pubs/SanjayGhemawat.html">Sanjay Ghemawat</a>, Andrey Gubarev, Christopher
+                  Heiser, Peter Hochschild, <a href="/pubs/author1760.html">Wilson Hsieh</a>,
+                  Sebastian Kanthak, Eugene Kogan, Hongyi Li, Alexander Lloyd, Sergey Melnik, David
+                  Mwaura, David Nagle, <a href="/pubs/author97.html">Sean Quinlan</a>, Rajesh Rao,
+                  Lindsay Rolig, <a href="/pubs/DaleWoodford.html">Dale Woodford</a>, Yasushi
+                  Saito, Christopher Taylor, Michal Szymaniak, Ruth Wang
+                </p>
+                <p>
+                  OSDI (2012) (to appear)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Symbiosis+in+scale+out+networking+and+data+management+Vahdat">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://doi.acm.org/10.1145/2213836.2213903">&nbsp;</a>
+                <p class="pub-title">
+                  Symbiosis in scale out networking and data management
+                </p>
+                <p>
+                  <a href="/pubs/AminVahdat.html">Amin Vahdat</a>
+                </p>
+                <p>
+                  Proceedings of the 2012 ACM SIGMOD International Conference on Management of
+                  Data, ACM, New York, NY, USA, pp. 579-580
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Towards+an+ecosystem+of+structured+data+on+the+web+Halevy">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://dx.doi.org/10.1145/2247596.2247597">&nbsp;</a>
+                <p class="pub-title">
+                  Towards an ecosystem of structured data on the web
+                </p>
+                <p>
+                  Alon Y. Halevy
+                </p>
+                <p>
+                  Proceedings of the 15th International Conference on Extending Database
+                  Technology, ACM, New York, NY, USA (2012), pp. 1-2
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Who+Tags+What?+An+Analysis+Framework+Das+Thirumuruganathan+Amer-Yahia+Das+Yu">
+                &nbsp;</a>
+                <p class="pub-title">
+                  Who Tags What? An Analysis Framework
+                </p>
+                <p>
+                  Mahashweta Das, Saravanan Thirumuruganathan, Sihem Amer-Yahia, Gautam Das,
+                  <a href="/pubs/CongYu.html">Cong Yu</a>
+                </p>
+                <p>
+                  PVLDB, vol. 5 (2012)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Computational+Journalism:+A+Call+to+Arms+to+Database+Researchers+Cohen+Li+Yang+Yu">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/37381.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Computational Journalism: A Call to Arms to Database Researchers
+                </p>
+                <p>
+                  Sarah Cohen, Chengkai Li, Jun Yang, <a href="/pubs/CongYu.html">Cong Yu</a>
+                </p>
+                <p>
+                  CIDR (2011)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Data+Integration+with+Dependent+Sources+Das+Sarma+Dong+Halevy">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://ilpubs.stanford.edu:8090/894/">&nbsp;</a>
+                <p class="pub-title">
+                  Data Integration with Dependent Sources
+                </p>
+                <p>
+                  <a href="/pubs/author19995.html">Anish Das Sarma</a>, Luna Dong, Alon Halevy
+                </p>
+                <p>
+                  EDBT (2011)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Dremel:+Interactive+Analysis+of+Web-Scale+Datasets+Melnik+Gubarev+Long+Romer+Shivakumar+Tolton+Vassilakis">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/37217.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub37217.html">&nbsp;</a>
+                <p class="pub-title">
+                  Dremel: Interactive Analysis of Web-Scale Datasets
+                </p>
+                <p>
+                  Sergey Melnik, Andrey Gubarev, Jing Jing Long, Geoffrey Romer, Shiva Shivakumar,
+                  Matt Tolton, <a href="/pubs/author28247.html">Theodore Vassilakis</a>
+                </p>
+                <p>
+                  Communications of the ACM, vol. 54 (2011), pp. 114-123
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Efficiently+Encoding+Term+Co-occurrences+in+Inverted+Indexes+Fontoura+Gurevich+Josifovski+Vassilvitskii">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/37367.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Efficiently Encoding Term Co-occurrences in Inverted Indexes
+                </p>
+                <p>
+                  <a href="/pubs/author17919.html">Marcus Fontoura</a>, <a href=
+                  "/pubs/MaximGurevich.html">Maxim Gurevich</a>, Vanja Josifovski, <a href=
+                  "/pubs/SergeiVassilvitskii.html">Sergei Vassilvitskii</a>
+                </p>
+                <p>
+                  20th ACM Conference on Information and Knowledge Management (CIKM 2011) (to
+                  appear)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Efficiently+Evaluating+Graph+Constraints+in+Content-Based+Publish/Subscribe+Broder+Das+Fontoura+Ghosh+Josifovski+Shanmugasundaram+Vassilvitskii">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/37366.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Efficiently Evaluating Graph Constraints in Content-Based Publish/Subscribe
+                </p>
+                <p>
+                  <a href="/pubs/AndreiBroder.html">Andrei Broder</a>, Shirshanka Das, <a href=
+                  "/pubs/author17919.html">Marcus Fontoura</a>, Bhaskar Ghosh, Vanja Josifovski,
+                  Jayavel Shanmugasundaram, <a href="/pubs/SergeiVassilvitskii.html">Sergei
+                  Vassilvitskii</a>
+                </p>
+                <p>
+                  The 20th International World Wide Web Confererence (WWW 2011)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Entity-Relationship+Queries+over+Wikipedia+Li+Li+Yu">
+                &nbsp;</a>
+                <p class="pub-title">
+                  Entity-Relationship Queries over Wikipedia
+                </p>
+                <p>
+                  Xiaonan Li, Chengkai Li, <a href="/pubs/CongYu.html">Cong Yu</a>
+                </p>
+                <p>
+                  ACM Transactions on Intelligent Systems and Technology, vol. 3 (2011)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Evaluation+Strategies+for+Top-k+Queries+over+Memory-Resident+Inverted+Indexes+Fontoura+Josifovski+Liu+Venkatesan+Zhu+Zien">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/37365.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Evaluation Strategies for Top-k Queries over Memory-Resident Inverted Indexes
+                </p>
+                <p>
+                  <a href="/pubs/author17919.html">Marcus Fontoura</a>, Vanja Josifovski, Jinhui
+                  Liu, Srihari Venkatesan, Xiangfei Zhu, Jason Zien
+                </p>
+                <p>
+                  The 37th International Conference on Very Large Databases (VLDB 2011) (to appear)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Factorization-based+Lossless+Compression+of+Inverted+Indices+Beskales+Fontoura+Gurevich+Josifovski+Vassilvitskii">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/37368.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Factorization-based Lossless Compression of Inverted Indices
+                </p>
+                <p>
+                  George Beskales, <a href="/pubs/author17919.html">Marcus Fontoura</a>, <a href=
+                  "/pubs/MaximGurevich.html">Maxim Gurevich</a>, Vanja Josifovski, <a href=
+                  "/pubs/SergeiVassilvitskii.html">Sergei Vassilvitskii</a>
+                </p>
+                <p>
+                  20th ACM Conference on Information and Knowledge Management (CIKM 2011) (to
+                  appear)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Graph+cube:+on+warehousing+and+OLAP+multidimensional+networks+Zhao+Li+Xin+Han">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/37657.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub37657.html">&nbsp;</a>
+                <p class="pub-title">
+                  Graph cube: on warehousing and OLAP multidimensional networks
+                </p>
+                <p>
+                  Peixiang Zhao, Xialolei Li, <a href="/pubs/DongXin.html">Dong Xin</a>, Jiawei Han
+                </p>
+                <p>
+                  SIGMOD - Proceedings of the 2011 International Conference on Management of Data,
+                  ACM, New York, NY
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Hyper-local,+directions-based+ranking+of+places+Venetis+Gonzalez+Halevy+Jensen">
+                &nbsp;</a>
+                <p class="pub-title">
+                  Hyper-local, directions-based ranking of places
+                </p>
+                <p>
+                  Petros Venetis, Hector Gonzalez, Alon Y. Halevy, Christian S. Jensen
+                </p>
+                <p>
+                  Proceedings of VLDB (2011), pp. 290-30
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Maestro:+Quality-of-Service+in+Large+Disk+Arrays+Merchant+Uysal+Padala+Zhu+Singhal+Shin">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://kabru.eecs.umich.edu//papers/publications/2011/icac11.pdf">&nbsp;</a><a class="abstract-icon tooltip"
+                href="/pubs/pub37233.html">&nbsp;</a>
+                <p class="pub-title">
+                  Maestro: Quality-of-Service in Large Disk Arrays
+                </p>
+                <p>
+                  <a href="/pubs/author57990.html">Arif Merchant</a>, Mustafa Uysal, Pradeep
+                  Padala, Xiaoyun Zhu, Sharad Singhal, Kang Shin
+                </p>
+                <p>
+                  Proceedings of the 8th ACM international conference on Autonomic computing
+                  (ICAC), ACM, New York, NY, USA (2011), pp. 245-254
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Representative+Skylines+using+Threshold-based+Preference+Distributions+Das+Sarma+Lall+Nanongkai+Lipton+Xu">
+                &nbsp;</a><a class="abstract-icon tooltip" href="/pubs/pub36988.html">&nbsp;</a>
+                <p class="pub-title">
+                  Representative Skylines using Threshold-based Preference Distributions
+                </p>
+                <p>
+                  Atish Das Sarma, Ashwin Lall, Danupon Nanongkai, Richard J. Lipton, Jim Xu
+                </p>
+                <p>
+                  International Conference on Data Engineering (ICDE) (2011)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Still+All+On+One+Server:+Perforce+at+Scale+Bloch">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/39983.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub39983.html">&nbsp;</a>
+                <p class="pub-title">
+                  Still All On One Server: Perforce at Scale
+                </p>
+                <p>
+                  Dan Bloch
+                </p>
+                <p>
+                  2011 Perforce User Conference
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Adaptive+query+processing+in+data+stream+management+systems+under+limited+memory+resources.+Farag+Hammad+Alhajj">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://doi.acm.org/10.1145/1871902.1871905">&nbsp;</a>
+                <p class="pub-title">
+                  Adaptive query processing in data stream management systems under limited memory
+                  resources.
+                </p>
+                <p>
+                  Fatima Farag, <a href="/pubs/hammad.html">Moustafa A. Hammad</a>, Reda Alhajj
+                </p>
+                <p>
+                  Proceedings of the 3rd workshop on Ph.D. students in information and knowledge
+                  management. PIKM 2010, Toronto, Ontario, Canada, October 30, 2010., ACM 2010,
+                  Toronto, Ontario, Canada, pp. 9-16
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Automatically+incorporating+new+sources+in+keyword+search-based+data+integration+Talukdar+Ives+Pereira">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/36412.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Automatically incorporating new sources in keyword search-based data integration
+                </p>
+                <p>
+                  Partha Pratim Talukdar, Zachary G. Ives, <a href="/pubs/author1092.html">Fernando
+                  Pereira</a>
+                </p>
+                <p>
+                  SIGMOD Conference, ACM Press (2010), pp. 387-398
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Collaborative+Environmental+In+Situ+Data+Collection:+Experiences+and+Opportunities+for+Ambient+Data+Integration+Thau">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "https://springerlink3.metapress.com/content/n45w70220848559m/resource-secured/?target=fulltext.pdf&amp;sid=vombe52ypocvnlldog5b4ntt&amp;sh=www.springerlink.com">&nbsp;</a><a class="abstract-icon tooltip"
+                href="/pubs/pub37355.html">&nbsp;</a>
+                <p class="pub-title">
+                  Collaborative Environmental In Situ Data Collection: Experiences and
+                  Opportunities for Ambient Data Integration
+                </p>
+                <p>
+                  <a href="/pubs/author58089.html">David Thau</a>
+                </p>
+                <p>
+                  On the Move to Meaningful Internet Systems: OTM 2010 Workshops, Lecture Notes in
+                  Computer Science, pp. 119
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Evolution+and+future+directions+of+large-scale+storage+and+computation+systems+at+Google+Dean">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://doi.acm.org/10.1145/1807128.1807130">&nbsp;</a>
+                <p class="pub-title">
+                  Evolution and future directions of large-scale storage and computation systems at
+                  Google
+                </p>
+                <p>
+                  <a href="/pubs/jeff.html">Jeffrey Dean</a>
+                </p>
+                <p>
+                  SoCC '10: Proceedings of the 1st ACM symposium on Cloud computing, ACM, New York,
+                  NY, USA (2010), pp. 1-1
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Google+Fusion+Tables:+Data+Management,+Integration,+and+Collaboration+in+the+Cloud+Gonzalez+Halevy+Jensen+Langen+Madhavan+Shapley+Shen">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://www.cs.washington.edu/homes/alon/files/socc10.pdf">&nbsp;</a><a class=
+                "abstract-icon tooltip" href="/pubs/pub36256.html">&nbsp;</a>
+                <p class="pub-title">
+                  Google Fusion Tables: Data Management, Integration, and Collaboration in the
+                  Cloud
+                </p>
+                <p>
+                  Hector Gonzalez, Alon Halevy, Christian Jensen, Anno Langen, <a href=
+                  "/pubs/author6192.html">Jayant Madhavan</a>, Rebecca Shapley, <a href=
+                  "/pubs/author18116.html">Warren Shen</a>
+                </p>
+                <p>
+                  Proceedings of the ACM Symposium on Cloud Computing (SOCC) (2010)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Google+Fusion+Tables:+Web-Centered+Data+Management+and+Collaboration+Gonzalez+Halevy+Jensen+Langen+Madhavan+Shapley+Shen+Goldberg-Kidon">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://www.cs.washington.edu/homes/alon/files/sigmod10.pdf">&nbsp;</a><a class=
+                "abstract-icon tooltip" href="/pubs/pub36257.html">&nbsp;</a>
+                <p class="pub-title">
+                  Google Fusion Tables: Web-Centered Data Management and Collaboration
+                </p>
+                <p>
+                  Hector Gonzalez, Alon Halevy, Christian Jensen, Anno Langen, <a href=
+                  "/pubs/author6192.html">Jayant Madhavan</a>, Rebecca Shapley, <a href=
+                  "/pubs/author18116.html">Warren Shen</a>, Jonathan Goldberg-Kidon
+                </p>
+                <p>
+                  Proceedings of the ACM SIGMOD conference, ACM (2010)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Pregel:+a+system+for+large-scale+graph+processing+Malewicz+Austern+Bik+Dehnert+Horn+Leiser+Czajkowski">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://doi.acm.org/10.1145/1807167.1807184">&nbsp;</a>
+                <p class="pub-title">
+                  Pregel: a system for large-scale graph processing
+                </p>
+                <p>
+                  Grzegorz Malewicz, Matthew H. Austern, <a href="/pubs/author38459.html">Aart J.C
+                  Bik</a>, James C. Dehnert, <a href="/pubs/author38460.html">Ilan Horn</a>,
+                  <a href="/pubs/NatyLeiser.html">Naty Leiser</a>, Grzegorz Czajkowski
+                </p>
+                <p>
+                  Proceedings of the 2010 international conference on Management of data, ACM, New
+                  York, NY, USA, pp. 135-146
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=The+Case+Against+Data+Lock-in+Fitzpatrick+Lueck">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://queue.acm.org/detail.cfm?id=1868432">&nbsp;</a><a class=
+                "abstract-icon tooltip" href="/pubs/pub37230.html">&nbsp;</a>
+                <p class="pub-title">
+                  The Case Against Data Lock-in
+                </p>
+                <p>
+                  <a href="/pubs/author35663.html">Brian W. Fitzpatrick</a>, <a href=
+                  "/pubs/JJLueck.html">JJ Lueck</a>
+                </p>
+                <p>
+                  Communications of the ACM, vol. 53 No.11 (2010), pp. 42-46
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Threshold+query+optimization+for+uncertain+data+Qi+Jain+Singh+Prabhakar">
+                &nbsp;</a>
+                <p class="pub-title">
+                  Threshold query optimization for uncertain data
+                </p>
+                <p>
+                  Yinian Qi, Rohit Jain, <a href="/pubs/author39110.html">Sarvjeet Singh</a>, Sunil
+                  Prabhakar
+                </p>
+                <p>
+                  Special Interest Group on Management of Data (SIGMOD) (2010)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=VoR-Tree:+R-trees+with+Voronoi+Diagrams+for+Efficient+Processing+of+Spatial+Nearest+Neighbor+Queries+Sharifzadeh+Shahabi">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/36592.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  VoR-Tree: R-trees with Voronoi Diagrams for Efficient Processing of Spatial
+                  Nearest Neighbor Queries
+                </p>
+                <p>
+                  <a href="/pubs/author17367.html">Mehdi Sharifzadeh</a>, Cyrus Shahabi
+                </p>
+                <p>
+                  Proceedings of VLDB (2010)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=DRAM+Errors+in+the+Wild:+A+Large-Scale+Field+Study+Schroeder+Pinheiro+Weber">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/35162.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub35162.html">&nbsp;</a>
+                <p class="pub-title">
+                  DRAM Errors in the Wild: A Large-Scale Field Study
+                </p>
+                <p>
+                  Bianca Schroeder, <a href="/pubs/author1777.html">Eduardo Pinheiro</a>, <a href=
+                  "/pubs/author10649.html">Wolf-Dietrich Weber</a>
+                </p>
+                <p>
+                  SIGMETRICS (2009)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Data+Integration+with+Uncertainty+Dong+Halevy+Yu">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/36206.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Data Integration with Uncertainty
+                </p>
+                <p>
+                  Xin Luna Dong, Alon Halevy, <a href="/pubs/CongYu.html">Cong Yu</a>
+                </p>
+                <p>
+                  The VLDB Journal, vol. 18 (2009), pp. 469-500
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Data+Modeling+in+Dataspace+Support+Platforms+Das+Sarma+Dong+Halevy">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://dx.doi.org/10.1007/978-3-642-02463-4_8">&nbsp;</a>
+                <p class="pub-title">
+                  Data Modeling in Dataspace Support Platforms
+                </p>
+                <p>
+                  <a href="/pubs/author19995.html">Anish Das Sarma</a>, Xin (Luna) Dong, Alon Y.
+                  Halevy
+                </p>
+                <p>
+                  Conceptual Modeling: Foundations and Applications, Springer-Verlag, Berlin,
+                  Heidelberg (2009), pp. 122-138
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Engineering+autonomic+systems+Hellerstein">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://doi.acm.org/10.1145/1555228.1555254">&nbsp;</a>
+                <p class="pub-title">
+                  Engineering autonomic systems
+                </p>
+                <p>
+                  <a href="/pubs/author37890.html">Joseph L. Hellerstein</a>
+                </p>
+                <p>
+                  ICAC '09: Proceedings of the 6th international conference on Autonomic computing,
+                  ACM, New York, NY, USA (2009), pp. 75-76
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Exploring+Schema+Repositories+with+Schemr+Chen+Madhavan+Halevy">
+                &nbsp;</a>
+                <p class="pub-title">
+                  Exploring Schema Repositories with Schemr
+                </p>
+                <p>
+                  Kuang Chen, <a href="/pubs/author6192.html">Jayant Madhavan</a>, Alon Halevy
+                </p>
+                <p>
+                  Proceedings of the ACM SIGMOD conference (2009), pp. 1095-1098
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Representing+uncertain+data:+models,+properties,+and+algorithms+Das+Sarma+Benjelloun+Halevy+Nabar+Widom">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://dx.doi.org/10.1007/s00778-009-0147-0">&nbsp;</a>
+                <p class="pub-title">
+                  Representing uncertain data: models, properties, and algorithms
+                </p>
+                <p>
+                  <a href="/pubs/author19995.html">Anish Das Sarma</a>, Omar Benjelloun, Alon
+                  Halevy, Shubha Nabar, Jennifer Widom
+                </p>
+                <p>
+                  The VLDB Journal, vol. 18 (2009), pp. 989-1019
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=The+Claremont+report+on+database+research+Agrawal+Ailamaki+Bernstein+Brewer+Carey+Chaudhuri+Doan+Florescu+Franklin+Garcia-Molina+Gehrke+Gruenwald+Haas+Halevy+Hellerstein+Ioannidis+Korth+Kossmann+Madden+Magoulas+Ooi+O'Reilly+Ramakrishnan+Sarawagi+Stonebraker+Szalay+Weikum">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://doi.acm.org/10.1145/1516046.1516062">&nbsp;</a>
+                <p class="pub-title">
+                  The Claremont report on database research
+                </p>
+                <p>
+                  Rakesh Agrawal, Anastasia Ailamaki, Philip A. Bernstein, Eric A. Brewer, Michael
+                  J. Carey, Surajit Chaudhuri, Anhai Doan, Daniela Florescu, Michael J. Franklin,
+                  Hector Garcia-Molina, Johannes Gehrke, Le Gruenwald, Laura M. Haas, Alon Y.
+                  Halevy, <a href="/pubs/author37890.html">Joseph M. Hellerstein</a>, Yannis E.
+                  Ioannidis, Hank F. Korth, Donald Kossmann, Samuel Madden, Roger Magoulas, Beng
+                  Chin Ooi, Tim O'Reilly, Raghu Ramakrishnan, Sunita Sarawagi, Michael Stonebraker,
+                  Alexander S. Szalay, Gerhard Weikum
+                </p>
+                <p>
+                  Commun. ACM, vol. 52 (2009), pp. 56-65
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Using+Hoarding+to+Increase+Availability+in+Shared+File+Systems+Hollmann+Stenstr%C3%B6m">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://dx.doi.org/10.1109/ICIS.2009.164">&nbsp;</a><a class=
+                "abstract-icon tooltip" href="/pubs/pub37674.html">&nbsp;</a>
+                <p class="pub-title">
+                  Using Hoarding to Increase Availability in Shared File Systems
+                </p>
+                <p>
+                  Jochen Hollmann, Per Stenström
+                </p>
+                <p>
+                  Computer and Information Science, 2009. ICIS 2009. Eighth IEEE/ACIS International
+                  Conference on, IEEE, pp. 422 - 429
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Weighted+Proximity+Best-Joins+for+Information+Retrieval+Thonangi+He+Doan+Wang+Yang">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/35483.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Weighted Proximity Best-Joins for Information Retrieval
+                </p>
+                <p>
+                  Risi Thonangi, Hao He, Anhai Doan, Haixun Wang, Jun Yang
+                </p>
+                <p>
+                  ICDE '09: Proceedings of the 2009 IEEE International Conference on Data
+                  Engineering, IEEE Computer Society, Washington, DC, USA, pp. 234-245
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Bootstrapping+Pay-as-you-go+Data+Integration+Systems+Das+Sarma+Dong+Halevy">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://doi.acm.org/10.1145/1376616.1376702">&nbsp;</a>
+                <p class="pub-title">
+                  Bootstrapping Pay-as-you-go Data Integration Systems
+                </p>
+                <p>
+                  <a href="/pubs/author19995.html">Anish Das Sarma</a>, Xin Dong, Alon Halevy
+                </p>
+                <p>
+                  Proc. ACM SIGMOD International Conference on Management of Data, ACM, Vancouver
+                  (2008), pp. 861-874
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Pay-as-you-go+User+Feedback+for+Dataspace+Systems+Jeffery+Franklin+Halevy">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://doi.acm.org/10.1145/1376616.1376701">&nbsp;</a>
+                <p class="pub-title">
+                  Pay-as-you-go User Feedback for Dataspace Systems
+                </p>
+                <p>
+                  Shawn R. Jeffery, Michael J. Franklin, Alon Y. Halevy
+                </p>
+                <p>
+                  Proc. ACM SIGMOD International Conference on Management of Data, ACM, Vancouver
+                  (2008), pp. 847-860
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=The+Space+Complexity+of+Processing+XML+Twig+Queries+over+Indexed+Documents+Shalem+Bar-Yossef">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/33524.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  The Space Complexity of Processing XML Twig Queries over Indexed Documents
+                </p>
+                <p>
+                  Mirit Shalem, <a href="/pubs/author6593.html">Ziv Bar-Yossef</a>
+                </p>
+                <p>
+                  Proceedings of the 24th International Conference on Data Engineering (ICDE)
+                  (2008), pp. 824-832
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Ad+Hoc+Distributed+Simulations+Fujimoto+Hunter+Sirichoke+Palekar+Kim+Suh">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://dx.doi.org/10.1109/PADS.2007.10">&nbsp;</a>
+                <p class="pub-title">
+                  Ad Hoc Distributed Simulations
+                </p>
+                <p>
+                  Richard Fujimoto, Michael Hunter, Jason Sirichoke, <a href=
+                  "/pubs/author19677.html">Mahesh Palekar</a>, Hoe Kim, Wonhu Suh
+                </p>
+                <p>
+                  21st International Workshop on Principles of Advanced and Distributed Simulation
+                  (PADS'07), IEEE Computer Society (2007), pp. 15-24
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=An+Information+Avalanche+Cerf">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/33312.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  An Information Avalanche
+                </p>
+                <p>
+                  <a href="/pubs/author32412.html">Vint Cerf</a>
+                </p>
+                <p>
+                  IEEE Computer, vol. 40, no. 1 (2007), pp. 104-105
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Building+MEMS-Based+Storage+Systems+for+Streaming+Media+Rangaswami+Dimitrijevi%C4%87+Chang+Schauser">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/33006.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Building MEMS-Based Storage Systems for Streaming Media
+                </p>
+                <p>
+                  Raju Rangaswami, <a href="/pubs/author1794.html">Zoran Dimitrijević</a>, Edward
+                  Chang, Klaus Schauser
+                </p>
+                <p>
+                  ACM Transactions on Storage, vol. 9 (2007)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Estimating+Statistical+Aggregates+on+Probabilistic+Data+Streams+Jayram+McGregor+Muthukrishnan+Vee">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://doi.acm.org/10.1145/1265530.1265565">&nbsp;</a>
+                <p class="pub-title">
+                  Estimating Statistical Aggregates on Probabilistic Data Streams
+                </p>
+                <p>
+                  T. S. Jayram, Andrew McGregor, S. Muthukrishan, Erik Vee
+                </p>
+                <p>
+                  Principles of Database Systems (PODS) 2007, ACM, Beijing, China, pp. 243-252
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Failure+Trends+in+a+Large+Disk+Drive+Population+Pinheiro+Weber+Barroso">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://research.google.com/archive/disk_failures.pdf">&nbsp;</a><a class=
+                "abstract-icon tooltip" href="/pubs/pub32774.html">&nbsp;</a>
+                <p class="pub-title">
+                  Failure Trends in a Large Disk Drive Population
+                </p>
+                <p>
+                  <a href="/pubs/author1777.html">Eduardo Pinheiro</a>, <a href=
+                  "/pubs/author10649.html">Wolf-Dietrich Weber</a>, <a href=
+                  "/pubs/LuizBarroso.html">Luiz André Barroso</a>
+                </p>
+                <p>
+                  5th USENIX Conference on File and Storage Technologies (FAST 2007), pp. 17-29
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Indexing+Dataspaces+Dong+Halevy">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/32836.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Indexing Dataspaces
+                </p>
+                <p>
+                  Xin Dong, Alon Halevy
+                </p>
+                <p>
+                  Proc. ACM SIGMOD, ACM, Beijing (2007)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Life+on+the+Edge:+Monitoring+and+Running+a+Very+Large+Perforce+Installation.+Bloch">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/34459.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Life on the Edge: Monitoring and Running a Very Large Perforce Installation.
+                </p>
+                <p>
+                  Dan Bloch
+                </p>
+                <p>
+                  Perforce User Conference 2007
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Optimal+Traversal+Planning+in+Road+Networks+with+Navigational+Constraints+Kazemi+Shahabi+Sharifzadeh+Vincent">
+                &nbsp;</a><a class="abstract-icon tooltip" href="/pubs/pub35206.html">&nbsp;</a>
+                <p class="pub-title">
+                  Optimal Traversal Planning in Road Networks with Navigational Constraints
+                </p>
+                <p>
+                  Leyla Kazemi, Cyrus Shahabi, <a href="/pubs/author17367.html">Mehdi
+                  Sharifzadeh</a>, <a href="/pubs/author1415.html">Luc Vincent</a>
+                </p>
+                <p>
+                  ACM GIS, ACM (2007)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Query+Suspend+and+Resume+Chandramouli+Bond+Babu+Yang">
+                &nbsp;</a>
+                <p class="pub-title">
+                  Query Suspend and Resume
+                </p>
+                <p>
+                  Badrish Chandramouli, <a href="/pubs/author26435.html">Chris Bond</a>, Shivnath
+                  Babu, Jun Yang
+                </p>
+                <p>
+                  Proc. ACM SIGMOD, ACM, Beijing (2007)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Web-scale+Data+Integration:+You+can+only+afford+to+Pay+As+You+Go+Madhavan+Jeffery+Cohen+Dong+Ko+Yu+Halevy">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/32784.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub32784.html">&nbsp;</a>
+                <p class="pub-title">
+                  Web-scale Data Integration: You can only afford to Pay As You Go
+                </p>
+                <p>
+                  <a href="/pubs/author6192.html">Jayant Madhavan</a>, Shawn R. Jeffery, Shirley
+                  Cohen, Xin (Luna) Dong, David Ko, <a href="/pubs/CongYu.html">Cong Yu</a>, Alon
+                  Halevy
+                </p>
+                <p>
+                  CIDR (2007)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Achieving+completion+time+guarantees+in+an+opportunistic+data+migration+scheme+Zhang+Sarkar+Sivasubramaniam">
+                &nbsp;</a>
+                <p class="pub-title">
+                  Achieving completion time guarantees in an opportunistic data migration scheme
+                </p>
+                <p>
+                  <a href="/pubs/author21127.html">Jianyong Zhang</a>, Prasenjit Sarkar, Anand
+                  Sivasubramaniam
+                </p>
+                <p>
+                  ACM SIGMETRICS Performance Evaluation Review, vol. 33 (2006), pp. 11-16
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Data+integration:+the+teenage+years+Halevy+Rajaraman+Ordille">
+                &nbsp;</a>
+                <p class="pub-title">
+                  Data integration: the teenage years
+                </p>
+                <p>
+                  Alon Halevy, Anand Rajaraman, Joann Ordille
+                </p>
+                <p>
+                  Proc. 32nd International Conference on Very Large Databases, VLDB, Seoul, Korea
+                  (2006), pp. 9-16
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Data+management+projects+at+Google+Hsieh+Madhavan+Pike">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://doi.acm.org/10.1145/1142473.1142566">&nbsp;</a>
+                <p class="pub-title">
+                  Data management projects at Google
+                </p>
+                <p>
+                  <a href="/pubs/author1760.html">Wilson Hsieh</a>, <a href=
+                  "/pubs/author6192.html">Jayant Madhavan</a>, <a href="/pubs/r.html">Rob Pike</a>
+                </p>
+                <p>
+                  SIGMOD Conference (2006), pp. 725-726
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=On-the-fly+Sharing+for+Streamed+Aggregation+Krishnamurthy+Wu+Franklin">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/24037.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  On-the-fly Sharing for Streamed Aggregation
+                </p>
+                <p>
+                  Sailesh Krishnamurthy, Chung Wu, Michael J. Franklin
+                </p>
+                <p>
+                  SIGMOD Conference (2006), pp. 623-634
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Principles+of+dataspace+systems+Halevy+Franklin+Maier">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/17376.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Principles of dataspace systems
+                </p>
+                <p>
+                  Alon Y. Halevy, Michael J. Franklin, David Maier
+                </p>
+                <p>
+                  PODS (2006), pp. 1-9
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Semantically-smart+disk+systems:+past,+present,+and+future+Arpaci-Dusseau+Arpaci-Dusseau+Bairavasundaram+Denehy+Popovici+Prabhakaran+Sivathanu">
+                &nbsp;</a><a class="pdf-icon tooltip" href="/pubs/archive/32726.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Semantically-smart disk systems: past, present, and future
+                </p>
+                <p>
+                  Andrea C. Arpaci-Dusseau, Remzi H. Arpaci-Dusseau, Lakshmi N. Bairavasundaram,
+                  Timothy E. Denehy, Florentina I. Popovici, Vijayan Prabhakaran, <a href=
+                  "/pubs/author12741.html">Muthuian Sivathanu</a>
+                </p>
+                <p>
+                  ACM SIGMETRICS Performance Evaluation Review, vol. 33 (2006), pp. 29-35
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Sender+Reputation+in+a+Large+Webmail+Service+Taylor">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://www.ceas.cc/2006/19.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Sender Reputation in a Large Webmail Service
+                </p>
+                <p>
+                  <a href="/pubs/author70.html">Bradley Taylor</a>
+                </p>
+                <p>
+                  Third Conference on Email and Anti-Spam (CEAS 2006)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Structured+Data+Meets+the+Web:+A+Few+Observations+Madhavan+Halevy+Cohen+Dong+Jeffery+Ko+Yu">
+                &nbsp;</a><a class="pdf-icon tooltip" href=
+                "/pubs/archive/32593.pdf">&nbsp;</a><a class="abstract-icon tooltip" href=
+                "/pubs/pub32593.html">&nbsp;</a>
+                <p class="pub-title">
+                  Structured Data Meets the Web: A Few Observations
+                </p>
+                <p>
+                  <a href="/pubs/author6192.html">Jayant Madhavan</a>, Alon Halevy, Shirley Cohen,
+                  Xin (Luna) Dong, Shawn R. Jeffery, David Ko, <a href="/pubs/CongYu.html">Cong
+                  Yu</a>
+                </p>
+                <p>
+                  Data Engineering Bulletin (2006)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=ULDBs:+databases+with+uncertainty+and+lineage+Benjelloun+Das+Sarma+Halevy+Widom">
+                &nbsp;</a>
+                <p class="pub-title">
+                  ULDBs: databases with uncertainty and lineage
+                </p>
+                <p>
+                  Omar Benjelloun, <a href="/pubs/author19995.html">Anish Das Sarma</a>, Alon
+                  Halevy, Jennifer Widom
+                </p>
+                <p>
+                  Proc. 32nd International Conference on Very Large Databases, VLDB, Seoul, Korea
+                  (2006), pp. 953-964
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=%7BPADX:+Querying+large-scale+ad+hoc+data+with+XQuery%7D+Fernandez+Fisher+Gruber+Mandelbaum">
+                &nbsp;</a>
+                <p class="pub-title">
+                  PADX: Querying large-scale ad hoc data with XQuery
+                </p>
+                <p>
+                  Mary Fernandez, Kathleen Fisher, <a href="/pubs/author32266.html">Robert
+                  Gruber</a>, Yitzhak Mandelbaum
+                </p>
+                <p>
+                  Proceedings of PLAN-X 2006: Workshop on Programming Language technologies for XML
+                  (2006)
+                </p>
+              </li>
+              <li>
+                <a class="search-icon tooltip" href=
+                "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=Networking+proposal+for+TR2+Wesp">
+                &nbsp;</a><a class="site-icon tooltip" href=
+                "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2005/n1925.pdf">&nbsp;</a>
+                <p class="pub-title">
+                  Networking proposal for TR2
+                </p>
+                <p>
+                  Gerhard Wesp
+                </p>
+                <p>
+                  ISO (2005)
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="maia-signature"></div>
+    <div class="maia-footer" id="maia-footer">
+      <div id="maia-footer-local">
+        <div class="maia-aux">
+          <ul class="expand no-marker" id="footer-local">
+            <li>
+              <a class="googleplus middle" href=
+              "//plus.google.com/117790530324740296539/posts">Google Plus</a>
+              <p>
+                Thoughts from Google's academic community
+              </p>
+            </li>
+            <li>
+              <a class="twitter middle" href="//twitter.com/googleresearch">Twitter</a>
+              <p>
+                Research at Google announcements
+              </p>
+            </li>
+            <li>
+              <a class="blogger middle" href="//googleresearch.blogspot.com/">Research Blog</a>
+              <p>
+                The latest news from Research at Google
+              </p>
+            </li>
+            <li>
+              <a class="scholar middle" href="//scholar.google.com/">Google Scholar</a>
+              <p>
+                Search for scholarly literature
+              </p>
+            </li>
+            <li>
+              <a class="youtube middle" href=
+              "//www.youtube.com/user/GoogleTechTalks/featured">YouTube Tech Talks</a>
+              <p>
+                Tech talks by leaders in the field
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div id="maia-footer-global">
+        <div class="maia-aux">
+          <ul>
+            <li>
+              <a href="//www.google.com/">Google</a>
+            </li>
+            <li>
+              <a href="//www.google.com/intl/en/about/">About Google</a>
+            </li>
+            <li>
+              <a href="//www.google.com/intl/en/policies/privacy/">Privacy</a>
+            </li>
+            <li>
+              <a href="//www.google.com/intl/en/policies/terms/">Terms</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <script src="//www.google.com/jsapi">
+    </script> 
+    <script src="/js/research.view.js">
+    </script> 
+    <script>
+    var videoUnit= new gweb.ui.LightBox('video-lightbox', 'Some tech-talks in Data Management');
+  videoUnit.setAnimate(true);
+  videoUnit.setScaleImages(true);
+  videoUnit.setOutsideNav(true);
+  videoUnit.setCloseText('CLOSE');
+  videoUnit.setItemCount(true);
+  videoUnit.init();
+    </script> 
+    <script src="//www.google.com/js/maia.js">
+    </script>
+  </body>
+</html>

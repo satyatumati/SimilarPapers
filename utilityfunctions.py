@@ -32,11 +32,14 @@ def removeline(s):
 def remove_non_ascii(text):
     return ''.join(i for i in text if ord(i)<128)
 def getsoup(url,site):
+	print url
 	code=getcode(url,site)
 	fil=site+"/"+code+".html"
 	if(os.path.isfile(fil)):
-		page=fil.read()
+		print "found"
+		page=open(fil,'r').read()
 	else:
+		print "notfound"
 		page=getsource(url)
 		f=open(fil,'w+')
 		f.write(page)

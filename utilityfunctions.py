@@ -4,7 +4,7 @@ import logging
 import linecache
 import sys
 import os.path
-
+import re
 logging.basicConfig(level=logging.INFO)
 def getcode(url,site):
 	x=url.split("/")[-1]
@@ -17,7 +17,7 @@ def installproxy():
 	opener = urllib2.build_opener(proxy_support)
 	urllib2.install_opener(opener)
 def getsource(url):
-	print url
+	#print url
 	r = urllib2.urlopen(url)
 	return r.read()
 def getcrudetags(soup,site):
@@ -46,7 +46,9 @@ def getsoup(url,site):
 
 	#print page
 	page=remove_non_ascii(page)
-	
+	page=re.sub('</?em>','',page)
+	page=re.sub('</?br /?>','',page)
+	page=re.sub('</?br/?>','',page)
 	#print "**************"
 	#print page
 	return BeautifulSoup(page,'html.parser')

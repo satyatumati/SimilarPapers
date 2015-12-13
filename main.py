@@ -45,30 +45,47 @@ def processGoogle():
 			
 
 def processYahoo():
+	c=0
 	site="yahoo"
 	if not os.path.exists(site):
 		os.mkdir(site)
-	url="https://labs.yahoo.com/publications?field_publications_research_area_tid=All&field_publications_date_value[value][year]=&page="
+	aurl="https://labs.yahoo.com/publications?field_publications_research_area_tid=All&field_publications_date_value[value][year]=&page="
 	mainurl="https://labs.yahoo.com"
 	for i in range(100):
-		print "page "+str(i)
-		url=url+str(i)
-		soup=getsoup(url)
+		printli("page "+str(i))
+		url=aurl+str(i)
+		soup=getsoup(url,site)
 		c_tags=getcrudetags(soup,site)
 		for tg in c_tags:
-			container=tg.find_all('div',attrs={"class":"f-c07_main"})[0]
-			link=container.h3.a
+			#print tg.prettify
+			container=tg.find_all('div',attrs={"class":"f-c07_main"})
+			if not container:
+				continue
+			#print container
+			link=container[0].h3.a
 			if(link):
 				print " LINK "
 				url=mainurl+link['href']
-				soup=getsoup(url)
+				soup=getsoup(url,site)
 				name=soup.find_all('h1',attrs={"class":"f-c09_headline"})[0].string
 				abstag=soup.find_all('div',attrs={"class":"f-c09_main"})[0]
-				abstract=abstag.div.p.string
+				abstract_=abstag.descendants
+				abstract="Not FOUND"
+				for abspt in abstract_:
+					if type(abspt).__name__=='NavigableString':
+						if(len(abstract)>20):
+							abstract=removeline(abspt)
+							break
+					else:
+						try:
+							print abspt.prettify()
+						except Exception:
+							PrintException()
+							pass
 				venue=soup.find_all('li',attrs={"class":"f-c05_list-item"})[0].h6.string
 				venue=removeline(venue)
-				artag=soup.find_all('p',attrs={"class":"small breadcrumbs"})
-				ar_a=artag.find_all('a'))
+				artag=soup.find_all('p',attrs={"class":"small breadcrumbs"})[0]
+				ar_a=artag.find_all('a')
 				if len(ar_a)>1:
 					area=ar_a[1].string
 				else:
@@ -84,23 +101,28 @@ def processYahoo():
 			else:
 				print "IN PAGE"
 				area="Undefined"
-				name=container.h3.string
-				authtgs=soup.find_all('ul',attrs={"class":"f-c05_list"})
+				#print container[0].prettify
+				name=container[0].h3.string
+				authtgs=tg.find_all('ul',attrs={"class":"f-c05_list"})[0]
 				for atg in authtgs.find_all('li'):
 					if(atg.a):
 						authors.append(removeline(atg.a.string))
 					else:
-						authors.append(removeline(atd.string))
-				vtag=tg.find_all('div',attrs={"class":"f-c07_metadata"})
+						#print atg.prettify()
+						authors.append(removeline(atg.string))
+				vtag=tg.find_all('div',attrs={"class":"f-c07_metadata"})[0]
 				venue=vtag.h7.string
 				abstract="Not found                              "
 				#find in the page itself
+			print "*********************"
 			print name
 			print venue
 			print authors
 			print area
-			print abstract[20]
-
+			print abstract
+			print "^^^^^^^^^^^^^^^^^^^^"
+			c+=1
+			printli(c)
 
 	return
 def processXerox():

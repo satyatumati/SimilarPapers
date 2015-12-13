@@ -1,5 +1,6 @@
 import urllib2
 from bs4 import BeautifulSoup
+from pyPdf import PdfFileWriter, PdfFileReader
 import logging
 import linecache
 import sys
@@ -72,4 +73,14 @@ def PrintException():
     line = linecache.getline(filename, lineno, f.f_globals)
     print 'EXCEPTION IN ({}, LINE {} "{}"): {}'.format(filename, lineno, line.strip(), exc_obj)
 
-
+def getPDFContent(url,site):
+	webFile = urllib.urlopen(url,site)
+	path=site+"/"+getcode(url)+".pdf"
+	if not os.path.exists(path):
+		pdfFile = open(path,'w')
+		pdfFile.write(webFile.read())
+		webFile.close()
+		pdfFile.close()
+	pdfFile=open(path,'r')
+	inp = PdfFileReader(file(pdfFile, "rb"))
+	return inp

@@ -1,11 +1,13 @@
 import urllib2
-from utilityfunctions import *
+from utilityfunctions import * 
 import os
 from bs4 import BeautifulSoup
 installproxy()
 def processGoogle():
 	site="google"
 	googleData={}
+	apage=0
+	apdf=0
 	c=0
 	if not os.path.exists(site):
 		os.mkdir(site)
@@ -21,6 +23,8 @@ def processGoogle():
 		url=mainurl+tailurl
 		soup=getsoup(url,site)
 		par=soup.find_all('ul',attrs={"class":"pub-list"})[0]
+		apage+=len(soup.find_all('a',attrs={"class":"abstract-icon tooltip"}))
+		apdf+=len(soup.find_all('a',attrs={"class":"pdf-icon tooltip"}))
 		
 		for ch in par.find_all('li'):
 			try:
@@ -51,6 +55,9 @@ def processGoogle():
 					tg=soup_.find_all('div',attrs={"class":"maia-col-8"})[0]
 					abstract= tg.div.text
 				else:
+					abstag=ch.find_all('a',attrs={"class":"pdf-icon tooltip"})
+					if abstag:
+						outpdf= PdfFileWriter()
 					nnn=1
 				print "========================="
 				print removeline(name)
@@ -70,6 +77,8 @@ def processGoogle():
 				printli(c)
 			except Exception:
 				pass
+		printli(apage)
+		printli(apdf)
 			
 			
 
@@ -156,8 +165,44 @@ def processYahoo():
 
 	return
 def processXerox():
+	site="xerox"
+	if not os.path.exists(site):
+		os.mkdir(site)
+	url1="http://www.xrci.xerox.com//XRCI_publications?page="
+	url2="&qt-publications_static=0#qt-publications_static"
+	page=0
+	while True:
+		url=url1+str(page)+url2
+		printli(" Page "+str(page))
+		page+=1
+		soup=getsoup(url,site)
+		if not soup.find_all('div',attrs={"class":"views-field views-field-title"}):
+			break
+		container=soup.find_all('div',attrs={"id":"quicktabs-container-publications_static"})[0]
+		for seg in container.find_all('div',attrs={"class":"quicktabs-tabpage quicktabs-hide"}):
+			print seg.prettify()
+			lst=seg.find_all('div',attrs={"class":"view-content"})
+			if lst:
+				printli("papers found")
+				for l in lst[0].children:
+					try:
+						#print l.prettify()
+						nl=l.find_all('div',attrs={"class":"views-field views-field-title"})
+						#print nl
+						name=nl[0].span.string
+						authlst=l.find_all('div',attrs={"class":"views-field views-field-field-authors"})[0].div.string
+						venue=l.find_all('div',attrs={"class":"views-field views-field-field-location"})[0].div.string
+						print name
+						print authlst
+						print venue
+						print "--------------------"
+					except Exception:
+						#PrintException()
+						pass
+			else:
+				printli("No papers")
 	return
-processGoogle()
+processXerox()
 #processYahoo()
 
 

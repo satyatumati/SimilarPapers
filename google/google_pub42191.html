@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html class="google" lang="en">
+  <head>
+
+    <script>
+    (function(H){H.className=H.className.replace(/\bgoogle\b/,'google-js')})(document.documentElement)
+    </script>
+    <meta charset="utf-8">
+    <meta content="initial-scale=1, minimum-scale=1, width=device-width" name="viewport">
+    <title>
+      From Research to Practice: Experiences Engineering a Production Metadata Database for a Scale
+      Out File System
+    </title>
+    <script src="//www.google.com/js/google.js">
+    </script>
+    <script>
+    new gweb.analytics.AutoTrack({profile:"UA-5974346-1"});
+    </script>
+    <link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;lang=en" rel=
+    "stylesheet">
+    <link href="/css/research.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="maia-header" id="maia-header" role="banner">
+      <div class="maia-aux">
+        <h1>
+          <a href="/" id="logo"><img alt="Research at Google" src=
+          "/images/research_at_google.png"></a>
+        </h1><a class="maia-teleport" href="#content">Skip to content</a>
+        <div class="maia-util">
+          <form class="maia-search" id="search" name="search">
+            <input id="q" name="q" placeholder="Search this site" value=""> <input class=
+            "maia-button" type="submit" value="Search">
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="maia-nav maia-complex" id="maia-nav-x" role="navigation">
+      <div class="maia-aux">
+        <ul>
+          <li>
+            <a href="/index.html">Home</a>
+          </li>
+          <li class="active" id="ra">
+            <a href="/pubs/papers.html">Research Areas &amp; Publications</a> <span class=
+            "glyph">&nbsp;</span>
+            <div class="hidden">
+              <ul id="ramenu">
+                <li class="fill">
+                  <a href="/pubs/papers.html">Overview</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/AlgorithmsandTheory.html">Algorithms and Theory</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/DataManagement.html">Data Management</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/DataMiningandModeling.html">Data Mining and Modeling</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/DistributedSystemsandParallelComputing.html">Distributed Systems
+                  and Parallel Computing</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/EconomicsandElectronicCommerce.html">Economics and Electronic
+                  Commerce</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/EducationInnovation.html">Education Innovation</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/GeneralScience.html">General Science</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/HardwareandArchitecture.html">Hardware and Architecture</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/Human-ComputerInteractionandVisualization.html">Human-Computer
+                  Interaction and Visualization</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/InformationRetrievalandtheWeb.html">Information Retrieval and the
+                  Web</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/MachineIntelligence.html">Machine Intelligence</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/MachinePerception.html">Machine Perception</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/MachineTranslation.html">Machine Translation</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/MobileSystems.html">Mobile Systems</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/NaturalLanguageProcessing.html">Natural Language Processing</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/Networking.html">Networking</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/SecurityPrivacyandAbusePrevention.html">Security, Privacy and
+                  Abuse Prevention</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/SoftwareEngineering.html">Software Engineering</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/SoftwareSystems.html">Software Systems</a>
+                </li>
+                <li class="expand fill">
+                  <a href="/pubs/SpeechProcessing.html">Speech Processing</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a href="/researchers.html">People</a>
+          </li>
+          <li>
+            <a href="/university/">Research Programs</a>
+          </li>
+          <li>
+            <a href="/workatgoogle.html">Work at Google</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div id="maia-main" role="main">
+      <div class="maia-teleport" id="content"></div>
+      <div id="cse">
+        &nbsp;
+      </div>
+      <h1>
+        Publication Data
+      </h1>
+      <div class="maia-cols">
+        <div class="maia-col-4">
+          <div>
+            <div class="sidebar">
+              <h3>
+                Venue
+              </h3>
+              <p>
+                <span class="booktitle">Proceedings of the 12th USENIX Conference on File and
+                Storage Technologies (FAST 2014)</span>, USENIX
+              </p>
+              <h3>
+                Publication Year
+              </h3>
+              <p>
+                2014
+              </p>
+              <h3>
+                Authors
+              </h3>
+              <p>
+                Charles Johnson, Kimberly Keeton, Charles B. Morrey III, Craig A. N. Soules,
+                <a href="/pubs/AlistairVeitch.html" rel="author">Alistair Veitch</a>, Stephen
+                Bacon, Oskar Batuner, Marcelo Condotta, Hamilton Coutinho, Patrick J. Doyle, Rafael
+                Eichelberger, Hugo Kiehl, Guilherme Magalhaes, James McEvoy, Padmanabhan Nagarajan,
+                Patrick Osborne, Joaquim Souza, Andy Sparkes, Mike Spitzer, Sebastien Tandel,
+                Lincoln Thomas, Sebastian Zangaro
+              </p>
+              <h3>
+                BibTeX
+              </h3>
+              <textarea cols="38" rows="15">
+@inproceedings{42191,
+title = {From Research to Practice: Experiences Engineering a Production Metadata Database for a Scale Out File System},
+author  = {Charles Johnson and Kimberly Keeton and Charles B. Morrey III and Craig A. N. Soules and Alistair Veitch and Stephen Bacon and Oskar Batuner and Marcelo Condotta and Hamilton Coutinho and Patrick J. Doyle and Rafael Eichelberger and Hugo Kiehl and Guilherme Magalhaes and James McEvoy and Padmanabhan Nagarajan and Patrick Osborne and Joaquim Souza and Andy Sparkes and Mike Spitzer and Sebastien Tandel and Lincoln Thomas and Sebastian Zangaro},
+year  = 2014,
+URL = {https://www.usenix.org/system/files/conference/fast14/fast14-paper_johnson.pdf},
+booktitle = {Proceedings of the 12th USENIX Conference on File and Storage Technologies (FAST 2014)}
+}
+
+</textarea>
+            </div>
+          </div>
+        </div>
+        <div class="maia-col-8">
+          <h2 class="abstract-heading">
+            <a class="search-icon tooltip" href=
+            "http://www.google.com/search?lr&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=From+Research+to+Practice:+Experiences+Engineering+a+Production+Metadata+Database+for+a+Scale+Out+File+System+Johnson+Keeton+III+Soules+Veitch+Bacon+Batuner+Condotta+Coutinho+Doyle+Eichelberger+Kiehl+Magalhaes+McEvoy+Nagarajan+Osborne+Souza+Sparkes+Spitzer+Tandel+Thomas+Zangaro">
+            &nbsp;</a><a class="site-icon tooltip" href=
+            "https://www.usenix.org/system/files/conference/fast14/fast14-paper_johnson.pdf">&nbsp;</a>
+            From Research to Practice: Experiences Engineering a Production Metadata Database for a
+            Scale Out File System
+          </h2>
+          <div>
+            <strong>Abstract:</strong> HP’s StoreAll with Express Query is a scalable commercial
+            file archiving product that offers sophisticated file metadata management and search
+            capabilities. A new REST API enables fast, efficient searching to find all files that
+            meet a given set of metadata criteria and the ability to tag files with custom metadata
+            fields. The product brings together two significant systems: a scale out file system
+            and a metadata database based on LazyBase. In designing and building the combined
+            product, we identified several real-world issues in using a pipelined database system
+            in a distributed environment, and overcame several interesting design challenges that
+            were not contemplated by the original research prototype. This paper highlights our
+            experiences.
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="maia-signature"></div>
+    <div class="maia-footer" id="maia-footer">
+      <div id="maia-footer-local">
+        <div class="maia-aux">
+          <ul class="expand no-marker" id="footer-local">
+            <li>
+              <a class="googleplus middle" href=
+              "//plus.google.com/117790530324740296539/posts">Google Plus</a>
+              <p>
+                Thoughts from Google's academic community
+              </p>
+            </li>
+            <li>
+              <a class="twitter middle" href="//twitter.com/googleresearch">Twitter</a>
+              <p>
+                Research at Google announcements
+              </p>
+            </li>
+            <li>
+              <a class="blogger middle" href="//googleresearch.blogspot.com/">Research Blog</a>
+              <p>
+                The latest news from Research at Google
+              </p>
+            </li>
+            <li>
+              <a class="scholar middle" href="//scholar.google.com/">Google Scholar</a>
+              <p>
+                Search for scholarly literature
+              </p>
+            </li>
+            <li>
+              <a class="youtube middle" href=
+              "//www.youtube.com/user/GoogleTechTalks/featured">YouTube Tech Talks</a>
+              <p>
+                Tech talks by leaders in the field
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div id="maia-footer-global">
+        <div class="maia-aux">
+          <ul>
+            <li>
+              <a href="//www.google.com/">Google</a>
+            </li>
+            <li>
+              <a href="//www.google.com/intl/en/about/">About Google</a>
+            </li>
+            <li>
+              <a href="//www.google.com/intl/en/policies/privacy/">Privacy</a>
+            </li>
+            <li>
+              <a href="//www.google.com/intl/en/policies/terms/">Terms</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <script src="//www.google.com/jsapi">
+    </script> 
+    <script src="/js/research.view.js">
+    </script> 
+    <script src="//www.google.com/js/maia.js">
+    </script>
+  </body>
+</html>

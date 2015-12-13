@@ -23,46 +23,54 @@ def processGoogle():
 		par=soup.find_all('ul',attrs={"class":"pub-list"})[0]
 		
 		for ch in par.find_all('li'):
-			paperdata={}
-			name=ch.find_all('p',attrs={"class":"pub-title"})[0].string
-			venue=ch.find_all('p')[-1].string
-			authors=[]
-			atag=ch.find_all('p')[1]
-			#authors.append(atag.string)
-			for at in atag.children:
-				if (type(at).__name__=='NavigableString'):
-					#print removeline(at)
-					#print removeline(at).split(",")
-					for x in removeline(at).split(","):
-						if(len(x)>1):
-							authors.append(removeline(x))
+			try:
+				paperdata={}
+				name=ch.find_all('p',attrs={"class":"pub-title"})[0].string
+				venue=ch.find_all('p')[-1].string
+				authors=[]
+				atag=ch.find_all('p')[1]
+				printli(area)
+				#authors.append(atag.string)
+				for at in atag.children:
+					if (type(at).__name__=='NavigableString'):
+						#print removeline(at)
+						#print removeline(at).split(",")
+						for x in removeline(at).split(","):
+							if(len(x)>1):
+								authors.append(removeline(x))
+					else:
+						t=removeline(at.string)
+						if len(t)>1:
+							authors.append(t)
+				abstag=ch.find_all('a',attrs={"class":"abstract-icon tooltip"})
+				abstract="Not found"
+				if (abstag):
+					abstag=abstag[0]
+					absurl=mainurl+abstag['href']
+					soup_=getsoup(absurl,site)
+					tg=soup_.find_all('div',attrs={"class":"maia-col-8"})[0]
+					abstract= tg.div.text
 				else:
-					t=removeline(at.string)
-					if len(t)>1:
-						authors.append(t)
-			abstag=ch.find_all('a',attrs={"class":"abstract-icon tooltip"})
-			abstract="Not found"
-			if (abstag):
-				abstag=abstag[0]
-				absurl=mainurl+abstag['href']
-				soup_=getsoup(absurl,site)
-				tg=soup_.find_all('div',attrs={"class":"maia-col-8"})
-
-			else:
-				nnn=1
-
-			print removeline(name)
-			print removeline(venue)
-			print authors
-			print area
-			paperdata['name']=removeline(name)
-			paperdata['area']=removeline(area)
-			paperdata['authors']=authors
-			paperdata['venue']=removeline(venue)
-			googleData[area].append(paperdata)
-			c+=1
-			printli(c)
-			print "----"
+					nnn=1
+				print "========================="
+				print removeline(name)
+				print removeline(venue)
+				print authors
+				print area
+				print removeline(abstract)
+				if (abstract=="Not found"):
+					printli(url)
+				print "^^^^^^^^^^^^^^^^^^^^^^^^"
+				paperdata['name']=removeline(name)
+				paperdata['area']=removeline(area)
+				paperdata['authors']=authors
+				paperdata['venue']=removeline(venue)
+				googleData[area].append(paperdata)
+				c+=1
+				printli(c)
+			except Exception:
+				pass
+			
 			
 
 def processYahoo():
@@ -149,7 +157,8 @@ def processYahoo():
 	return
 def processXerox():
 	return
-processYahoo()
+processGoogle()
+#processYahoo()
 
 
 

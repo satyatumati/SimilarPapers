@@ -12,9 +12,13 @@ def processGoogle():
 	soup=getsoup(url,site)
 	c_tags=getcrudetags(soup,site)
 	for tg in c_tags:
-		url=mainurl+tg.a['href']
+		tailurl=tg.a['href']
+		area=tailurl.split("/")[-1]
+		area=area.split(".")[0]
+		url=mainurl+tailurl
 		soup=getsoup(url,site)
 		par=soup.find_all('ul',attrs={"class":"pub-list"})[0]
+		
 		for ch in par.find_all('li'):
 			paperdata={}
 			name=ch.find_all('p',attrs={"class":"pub-title"})[0].string
@@ -33,6 +37,7 @@ def processGoogle():
 					t=removeline(at.string)
 					if len(t)>1:
 						authors.append(t)
+
 			print removeline(name)
 			print removeline(venue)
 			print authors
@@ -43,8 +48,55 @@ def processYahoo():
 	site="yahoo"
 	if not os.path.exists(site):
 		os.mkdir(site)
-	url=""
+	url="https://labs.yahoo.com/publications?field_publications_research_area_tid=All&field_publications_date_value[value][year]=&page="
+	mainurl="https://labs.yahoo.com"
+	for i in range(100):
+		url=url+str(i)
+		soup=getsoup(url)
+		c_tags=getcrudetags(soup,site)
+		for tg in c_tags:
+			container=tg.find_all('div',attrs={"class":"f-c07_main"})
+			link=container.h3.a
+			if(link):
+				url=mainurl+link['href']
+				soup=getsoup(url)
+				name=soup.find_all('h1',attrs={"class":"f-c09_headline"})[0].string
+				abstag=soup.find_all('div',attrs={"class":"f-c09_main"})[0]
+				abstract=abstag.div.p.string
+				venue=soup.find_all('li',attrs={"class":"f-c05_list-item"})[0].h6.string
+				venue=removeline(venue)
+				artag=soup.find_all('p',attrs={"class":"small breadcrumbs"})
+				ar_a=artag.find_all('a'))
+				if len(ar_a)>1:
+					area=ar_a[1].string
+				else:
+					are="Undefined"
+				authtags=soup.find_all('li',attrs={"class":"f-c05_list-item link-wrap"})
+				authors=[]
+				for atg in authtags:
+					if atg.h6.a:
+						authors.append(removeline(atg.h6.a.string))
+					else:
+						authors.append(removeline(atg.h6.string))
+				#go to link
+			else:
+				name=container.h3.string
+				authtgs=soup.find_all('ul',attrs={"class":"f-c05_list"})
+				for atg in authtgs.find_all('li'):
+					if(atg.a):
+						authors.append(removeline(atg.a.string))
+					else:
+						authors.append(removeline(atd.string))
+				#find in the page itself
+
+
+
 	return
 def processXerox():
 	return
 processGoogle()
+
+
+
+
+

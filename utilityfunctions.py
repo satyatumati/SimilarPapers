@@ -24,7 +24,7 @@ def getcrudetags(soup,site):
 	if(site=="google"):
 		return soup.find_all("li",attrs={"class":"research-area"})
 	elif(site=="yahoo"):
-		return soup.find_all(attrs={"class":"f-c07_main"})
+		return soup.find_all(attrs={"class":"f-c07_inner"})
 def removeline(s):
 	s=s.strip()
 	s=" ".join(s.split())

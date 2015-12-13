@@ -51,13 +51,15 @@ def processYahoo():
 	url="https://labs.yahoo.com/publications?field_publications_research_area_tid=All&field_publications_date_value[value][year]=&page="
 	mainurl="https://labs.yahoo.com"
 	for i in range(100):
+		print "page "+str(i)
 		url=url+str(i)
 		soup=getsoup(url)
 		c_tags=getcrudetags(soup,site)
 		for tg in c_tags:
-			container=tg.find_all('div',attrs={"class":"f-c07_main"})
+			container=tg.find_all('div',attrs={"class":"f-c07_main"})[0]
 			link=container.h3.a
 			if(link):
+				print " LINK "
 				url=mainurl+link['href']
 				soup=getsoup(url)
 				name=soup.find_all('h1',attrs={"class":"f-c09_headline"})[0].string
@@ -70,7 +72,7 @@ def processYahoo():
 				if len(ar_a)>1:
 					area=ar_a[1].string
 				else:
-					are="Undefined"
+					area="Undefined"
 				authtags=soup.find_all('li',attrs={"class":"f-c05_list-item link-wrap"})
 				authors=[]
 				for atg in authtags:
@@ -80,6 +82,8 @@ def processYahoo():
 						authors.append(removeline(atg.h6.string))
 				#go to link
 			else:
+				print "IN PAGE"
+				area="Undefined"
 				name=container.h3.string
 				authtgs=soup.find_all('ul',attrs={"class":"f-c05_list"})
 				for atg in authtgs.find_all('li'):
@@ -87,14 +91,21 @@ def processYahoo():
 						authors.append(removeline(atg.a.string))
 					else:
 						authors.append(removeline(atd.string))
+				vtag=tg.find_all('div',attrs={"class":"f-c07_metadata"})
+				venue=vtag.h7.string
+				abstract="Not found                              "
 				#find in the page itself
-
+			print name
+			print venue
+			print authors
+			print area
+			print abstract[20]
 
 
 	return
 def processXerox():
 	return
-processGoogle()
+processYahoo()
 
 
 

@@ -40,6 +40,16 @@ def processGoogle():
 					t=removeline(at.string)
 					if len(t)>1:
 						authors.append(t)
+			abstag=ch.find_all('a',attrs={"class":"abstract-icon tooltip"})
+			abstract="Not found"
+			if (abstag):
+				abstag=abstag[0]
+				absurl=mainurl+abstag['href']
+				soup_=getsoup(absurl,site)
+				tg=soup_.find_all('div',attrs={"class":"maia-col-8"})
+
+			else:
+				nnn=1
 
 			print removeline(name)
 			print removeline(venue)
@@ -62,7 +72,7 @@ def processYahoo():
 		os.mkdir(site)
 	aurl="https://labs.yahoo.com/publications?field_publications_research_area_tid=All&field_publications_date_value[value][year]=&page="
 	mainurl="https://labs.yahoo.com"
-	for i in range(100):
+	for i in range(1):
 		printli("page "+str(i))
 		url=aurl+str(i)
 		soup=getsoup(url,site)
@@ -81,18 +91,19 @@ def processYahoo():
 				name=soup.find_all('h1',attrs={"class":"f-c09_headline"})[0].string
 				abstag=soup.find_all('div',attrs={"class":"f-c09_main"})[0]
 				abstract_=abstag.descendants
+				#print abstag.prettify()
 				abstract="Not FOUND"
 				for abspt in abstract_:
+					#print abspt.prettify()
 					if type(abspt).__name__=='NavigableString':
-						if(len(abstract)>20):
+						if(len(abspt)>20):
 							abstract=removeline(abspt)
 							break
 					else:
-						try:
-							print abspt.prettify()
-						except Exception:
-							PrintException()
-							pass
+						 nnnn=0
+						# except Exception:
+						# 	#PrintException()
+						# 	pass
 				venue=soup.find_all('li',attrs={"class":"f-c05_list-item"})[0].h6.string
 				venue=removeline(venue)
 				artag=soup.find_all('p',attrs={"class":"small breadcrumbs"})[0]

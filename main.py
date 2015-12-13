@@ -5,6 +5,8 @@ from bs4 import BeautifulSoup
 installproxy()
 def processGoogle():
 	site="google"
+	googleData={}
+	c=0
 	if not os.path.exists(site):
 		os.mkdir(site)
 	url="http://research.google.com/pubs/papers.html"
@@ -15,6 +17,7 @@ def processGoogle():
 		tailurl=tg.a['href']
 		area=tailurl.split("/")[-1]
 		area=area.split(".")[0]
+		googleData[area]=[]
 		url=mainurl+tailurl
 		soup=getsoup(url,site)
 		par=soup.find_all('ul',attrs={"class":"pub-list"})[0]
@@ -41,6 +44,14 @@ def processGoogle():
 			print removeline(name)
 			print removeline(venue)
 			print authors
+			print area
+			paperdata['name']=removeline(name)
+			paperdata['area']=removeline(area)
+			paperdata['authors']=authors
+			paperdata['venue']=removeline(venue)
+			googleData[area].append(paperdata)
+			c+=1
+			printli(c)
 			print "----"
 			
 
